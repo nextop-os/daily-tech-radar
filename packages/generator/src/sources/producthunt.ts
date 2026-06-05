@@ -35,25 +35,6 @@ query DailyPosts($first: Int!, $postedAfter: DateTime!, $postedBefore: DateTime!
           url
           videoUrl
         }
-        media {
-          type
-          url
-          videoUrl
-        }
-        makers {
-          id
-          name
-          username
-        }
-        topics {
-          edges {
-            node {
-              id
-              name
-              slug
-            }
-          }
-        }
       }
     }
   }
@@ -76,7 +57,7 @@ export async function fetchProductHuntPosts(options: {
     body: JSON.stringify({
       query: PRODUCT_HUNT_QUERY,
       variables: {
-        first: Math.max(limit, 50),
+        first: limit,
         postedAfter,
         postedBefore
       }
@@ -214,4 +195,3 @@ export function buildProductHuntFeeds(options: {
     }
   };
 }
-
