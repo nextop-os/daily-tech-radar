@@ -85,7 +85,10 @@ export async function localizeProductHuntPosts(options: {
   }
 
   const parsed = parseJsonObject(content);
-  const items = Array.isArray(parsed) ? parsed : (parsed as { items?: unknown[] }).items;
+  const items = Array.isArray(parsed)
+    ? parsed
+    : ((parsed as { items?: unknown[]; posts?: unknown[] }).items ??
+      (parsed as { items?: unknown[]; posts?: unknown[] }).posts);
   if (!Array.isArray(items)) {
     throw new Error("Agnes localization JSON must be an array or an object with items");
   }
@@ -106,4 +109,3 @@ export async function localizeProductHuntPosts(options: {
     };
   });
 }
-

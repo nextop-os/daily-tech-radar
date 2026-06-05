@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { lastCompletedProductHuntDate, productHuntDayWindow } from "../src/date.js";
-import { fallbackLocalizations, parseJsonObject } from "../src/llm/agnes.js";
+import { fallbackLocalizations, localizeProductHuntPosts, parseJsonObject } from "../src/llm/agnes.js";
 import { buildProductHuntFeeds } from "../src/sources/producthunt.js";
 import { dailyTrendFeedSchema } from "../src/schemas.js";
 import fixture from "./fixtures/producthunt-posts.json" assert { type: "json" };
@@ -42,5 +42,47 @@ describe("Product Hunt generation", () => {
   it("parses Agnes JSON wrapped in markdown fences", () => {
     expect(parseJsonObject("```json\n{\"items\":[]}\n```")).toEqual({ items: [] });
   });
-});
 
+  it("accepts Agnes localizations wrapped in a posts array", async () => {
+    const posts = fixture.slice(0, 1);
+    const fetchImpl = async () =>
+      new Response(
+        JSON.stringify({
+          choices: [
+            {
+              message: {
+                content: JSON.stringify({
+                  posts: [
+                    {
+                      id: "1",
+                      taglineZh: "面向产品会议的 AI 笔记",
+                      descriptionZh: "把产品会议转成清晰的笔记和任务。",
+                      keywordsEn: ["AI notes", "meetings"],
+                      keywordsZh: ["AI 笔记", "会议"]
+                    }
+                  ]
+                })
+              }
+            }
+          ]
+        }),
+        { status: 200 }
+      );
+
+    await expect(
+      localizeProductHuntPosts({
+        posts,
+        apiKey: "test-key",
+        fetchImpl: fetchImpl as typeof fetch
+      })
+    ).resolves.toEqual([
+      {
+        id: "1",
+        taglineZh: "面向产品会议的 AI 笔记",
+        descriptionZh: "把产品会议转成清晰的笔记和任务。",
+        keywordsEn: ["AI notes", "meetings"],
+        keywordsZh: ["AI 笔记", "会议"]
+      }
+    ]);
+  });
+});
