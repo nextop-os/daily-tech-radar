@@ -1,0 +1,1190 @@
+{
+  "schemaVersion": "trendreader.daily.v1",
+  "packageId": "github-daily-All-2026-06-05",
+  "locale": "zh-CN",
+  "generatedAt": "2026-06-05T17:32:27.474Z",
+  "expiresAt": "2026-06-06T17:32:27.474Z",
+  "sourceWindow": {
+    "since": "daily",
+    "language": "All",
+    "spokenLanguageCode": null
+  },
+  "sources": [
+    {
+      "id": "github_trending_html",
+      "role": "candidate",
+      "status": "ok",
+      "itemCount": 16
+    }
+  ],
+  "taxonomy": {
+    "version": "2026-06-05",
+    "generatedAt": "2026-06-05T17:32:27.474Z",
+    "categories": [
+      {
+        "id": "ai",
+        "label": "AI",
+        "labelEn": "AI",
+        "icon": "bot",
+        "order": 20
+      },
+      {
+        "id": "tools",
+        "label": "工具",
+        "labelEn": "Tools",
+        "icon": "wrench",
+        "order": 100
+      },
+      {
+        "id": "frontend",
+        "label": "前端",
+        "labelEn": "Frontend",
+        "icon": "layout",
+        "order": 140
+      },
+      {
+        "id": "backend",
+        "label": "后端",
+        "labelEn": "Backend",
+        "icon": "server",
+        "order": 110
+      },
+      {
+        "id": "unclassified",
+        "label": "Needs Review",
+        "labelEn": "Needs Review",
+        "icon": "circle-help",
+        "order": 999
+      }
+    ]
+  },
+  "repos": [
+    {
+      "id": "nousresearch-hermes-agent",
+      "owner": "NousResearch",
+      "name": "hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "avatarUrl": "https://github.com/NousResearch.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 1,
+        "starsGained": 1821
+      },
+      "metadata": {
+        "description": "The agent that grows with you",
+        "language": "Python",
+        "topics": [],
+        "stars": 182613,
+        "forks": 31309,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Python"
+        ]
+      },
+      "readmeRef": {
+        "status": "unknown",
+        "path": null,
+        "sha": null,
+        "rawUrl": null
+      },
+      "readmeSignals": {
+        "title": "hermes-agent",
+        "summary": "The agent that grows with you",
+        "headings": [],
+        "commands": [],
+        "keywords": [
+          "agent"
+        ],
+        "score": 70
+      },
+      "visual": {
+        "kind": "repository_avatar",
+        "url": "https://github.com/NousResearch.png",
+        "thumbUrl": "https://github.com/NousResearch.png",
+        "alt": "NousResearch/hermes-agent",
+        "sourceUrl": "https://github.com/NousResearch/hermes-agent",
+        "promptHash": "sha256:cf2cce4a9ff3"
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched agent"
+        ],
+        "signals": [
+          "agent"
+        ]
+      },
+      "rank": {
+        "globalRank": 1,
+        "categoryRank": 1,
+        "score": 118
+      }
+    },
+    {
+      "id": "chopratejas-headroom",
+      "owner": "chopratejas",
+      "name": "headroom",
+      "url": "https://github.com/chopratejas/headroom",
+      "avatarUrl": "https://github.com/chopratejas.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 2,
+        "starsGained": 2503
+      },
+      "metadata": {
+        "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.",
+        "language": "Python",
+        "topics": [],
+        "stars": 14256,
+        "forks": 900,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Python"
+        ]
+      },
+      "readmeRef": {
+        "status": "unknown",
+        "path": null,
+        "sha": null,
+        "rawUrl": null
+      },
+      "readmeSignals": {
+        "title": "headroom",
+        "summary": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.",
+        "headings": [],
+        "commands": [],
+        "keywords": [
+          "llm",
+          "mcp"
+        ],
+        "score": 80
+      },
+      "visual": {
+        "kind": "repository_avatar",
+        "url": "https://github.com/chopratejas.png",
+        "thumbUrl": "https://github.com/chopratejas.png",
+        "alt": "chopratejas/headroom",
+        "sourceUrl": "https://github.com/chopratejas/headroom",
+        "promptHash": "sha256:4c29eeefde92"
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.8,
+        "method": "rules",
+        "reasons": [
+          "Matched llm",
+          "Matched mcp"
+        ],
+        "signals": [
+          "llm",
+          "mcp"
+        ]
+      },
+      "rank": {
+        "globalRank": 2,
+        "categoryRank": 2,
+        "score": 116
+      }
+    },
+    {
+      "id": "copilotkit-copilotkit",
+      "owner": "CopilotKit",
+      "name": "CopilotKit",
+      "url": "https://github.com/CopilotKit/CopilotKit",
+      "avatarUrl": "https://github.com/CopilotKit.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 3,
+        "starsGained": 350
+      },
+      "metadata": {
+        "description": "The Frontend Stack for Agents & Generative UI. React + Angular. Makers of the AG-UI Protocol",
+        "language": "TypeScript",
+        "topics": [],
+        "stars": 32505,
+        "forks": 4181,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "TypeScript"
+        ]
+      },
+      "readmeRef": {
+        "status": "unknown",
+        "path": null,
+        "sha": null,
+        "rawUrl": null
+      },
+      "readmeSignals": {
+        "title": "CopilotKit",
+        "summary": "The Frontend Stack for Agents & Generative UI. React + Angular. Makers of the AG-UI Protocol",
+        "headings": [],
+        "commands": [],
+        "keywords": [
+          "agent"
+        ],
+        "score": 70
+      },
+      "visual": {
+        "kind": "repository_avatar",
+        "url": "https://github.com/CopilotKit.png",
+        "thumbUrl": "https://github.com/CopilotKit.png",
+        "alt": "CopilotKit/CopilotKit",
+        "sourceUrl": "https://github.com/CopilotKit/CopilotKit",
+        "promptHash": "sha256:fa783c554eb7"
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched agent"
+        ],
+        "signals": [
+          "agent"
+        ]
+      },
+      "rank": {
+        "globalRank": 3,
+        "categoryRank": 3,
+        "score": 114
+      }
+    },
+    {
+      "id": "lfnovo-open-notebook",
+      "owner": "lfnovo",
+      "name": "open-notebook",
+      "url": "https://github.com/lfnovo/open-notebook",
+      "avatarUrl": "https://github.com/lfnovo.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 4,
+        "starsGained": 1142
+      },
+      "metadata": {
+        "description": "An Open Source implementation of Notebook LM with more flexibility and features",
+        "language": "TypeScript",
+        "topics": [],
+        "stars": 25787,
+        "forks": 2970,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "TypeScript"
+        ]
+      },
+      "readmeRef": {
+        "status": "unknown",
+        "path": null,
+        "sha": null,
+        "rawUrl": null
+      },
+      "readmeSignals": {
+        "title": "open-notebook",
+        "summary": "An Open Source implementation of Notebook LM with more flexibility and features",
+        "headings": [],
+        "commands": [],
+        "keywords": [],
+        "score": 40
+      },
+      "visual": {
+        "kind": "repository_avatar",
+        "url": "https://github.com/lfnovo.png",
+        "thumbUrl": "https://github.com/lfnovo.png",
+        "alt": "lfnovo/open-notebook",
+        "sourceUrl": "https://github.com/lfnovo/open-notebook",
+        "promptHash": "sha256:5a43bc84925a"
+      },
+      "classification": {
+        "primaryCategoryId": "unclassified",
+        "secondaryCategoryIds": [],
+        "confidence": 0.4,
+        "method": "rules",
+        "reasons": [
+          "No taxonomy rule matched with enough confidence"
+        ],
+        "signals": []
+      },
+      "rank": {
+        "globalRank": 4,
+        "categoryRank": 4,
+        "score": 112
+      }
+    },
+    {
+      "id": "affaan-m-ecc",
+      "owner": "affaan-m",
+      "name": "ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "avatarUrl": "https://github.com/affaan-m.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 5,
+        "starsGained": 1368
+      },
+      "metadata": {
+        "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+        "language": "JavaScript",
+        "topics": [],
+        "stars": 208138,
+        "forks": 31936,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "JavaScript"
+        ]
+      },
+      "readmeRef": {
+        "status": "unknown",
+        "path": null,
+        "sha": null,
+        "rawUrl": null
+      },
+      "readmeSignals": {
+        "title": "ECC",
+        "summary": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+        "headings": [],
+        "commands": [],
+        "keywords": [
+          "agent"
+        ],
+        "score": 70
+      },
+      "visual": {
+        "kind": "repository_avatar",
+        "url": "https://github.com/affaan-m.png",
+        "thumbUrl": "https://github.com/affaan-m.png",
+        "alt": "affaan-m/ECC",
+        "sourceUrl": "https://github.com/affaan-m/ECC",
+        "promptHash": "sha256:e9377f45d1ff"
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched agent"
+        ],
+        "signals": [
+          "agent"
+        ]
+      },
+      "rank": {
+        "globalRank": 5,
+        "categoryRank": 5,
+        "score": 110
+      }
+    },
+    {
+      "id": "panniantong-agent-reach",
+      "owner": "Panniantong",
+      "name": "Agent-Reach",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "avatarUrl": "https://github.com/Panniantong.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 6,
+        "starsGained": 127
+      },
+      "metadata": {
+        "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+        "language": "Python",
+        "topics": [],
+        "stars": 21429,
+        "forks": 1852,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Python"
+        ]
+      },
+      "readmeRef": {
+        "status": "unknown",
+        "path": null,
+        "sha": null,
+        "rawUrl": null
+      },
+      "readmeSignals": {
+        "title": "Agent-Reach",
+        "summary": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+        "headings": [],
+        "commands": [],
+        "keywords": [
+          "ai",
+          "agent"
+        ],
+        "score": 80
+      },
+      "visual": {
+        "kind": "repository_avatar",
+        "url": "https://github.com/Panniantong.png",
+        "thumbUrl": "https://github.com/Panniantong.png",
+        "alt": "Panniantong/Agent-Reach",
+        "sourceUrl": "https://github.com/Panniantong/Agent-Reach",
+        "promptHash": "sha256:f893e229bc13"
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.8,
+        "method": "rules",
+        "reasons": [
+          "Matched ai",
+          "Matched agent"
+        ],
+        "signals": [
+          "ai",
+          "agent"
+        ]
+      },
+      "rank": {
+        "globalRank": 6,
+        "categoryRank": 6,
+        "score": 100.7
+      }
+    },
+    {
+      "id": "nvidia-cosmos",
+      "owner": "NVIDIA",
+      "name": "cosmos",
+      "url": "https://github.com/NVIDIA/cosmos",
+      "avatarUrl": "https://github.com/NVIDIA.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 7,
+        "starsGained": 494
+      },
+      "metadata": {
+        "description": "NVIDIA Cosmos is an open platform of world models, datasets, and tools that enables developers to build Physical AI for robots, autonomous vehicles, smart infrastructure, and more.",
+        "language": "Jupyter Notebook",
+        "topics": [],
+        "stars": 9340,
+        "forks": 595,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Jupyter Notebook"
+        ]
+      },
+      "readmeRef": {
+        "status": "unknown",
+        "path": null,
+        "sha": null,
+        "rawUrl": null
+      },
+      "readmeSignals": {
+        "title": "cosmos",
+        "summary": "NVIDIA Cosmos is an open platform of world models, datasets, and tools that enables developers to build Physical AI for robots, autonomous vehicles, smart infrastructure, and more.",
+        "headings": [],
+        "commands": [],
+        "keywords": [
+          "ai",
+          "model"
+        ],
+        "score": 80
+      },
+      "visual": {
+        "kind": "repository_avatar",
+        "url": "https://github.com/NVIDIA.png",
+        "thumbUrl": "https://github.com/NVIDIA.png",
+        "alt": "NVIDIA/cosmos",
+        "sourceUrl": "https://github.com/NVIDIA/cosmos",
+        "promptHash": "sha256:eeaee5a8dacf"
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.8,
+        "method": "rules",
+        "reasons": [
+          "Matched ai",
+          "Matched model"
+        ],
+        "signals": [
+          "ai",
+          "model"
+        ]
+      },
+      "rank": {
+        "globalRank": 7,
+        "categoryRank": 7,
+        "score": 106
+      }
+    },
+    {
+      "id": "666ghj-mirofish",
+      "owner": "666ghj",
+      "name": "MiroFish",
+      "url": "https://github.com/666ghj/MiroFish",
+      "avatarUrl": "https://github.com/666ghj.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 8,
+        "starsGained": 324
+      },
+      "metadata": {
+        "description": "A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物",
+        "language": "Python",
+        "topics": [],
+        "stars": 64584,
+        "forks": 10076,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Python"
+        ]
+      },
+      "readmeRef": {
+        "status": "unknown",
+        "path": null,
+        "sha": null,
+        "rawUrl": null
+      },
+      "readmeSignals": {
+        "title": "MiroFish",
+        "summary": "A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物",
+        "headings": [],
+        "commands": [],
+        "keywords": [],
+        "score": 40
+      },
+      "visual": {
+        "kind": "repository_avatar",
+        "url": "https://github.com/666ghj.png",
+        "thumbUrl": "https://github.com/666ghj.png",
+        "alt": "666ghj/MiroFish",
+        "sourceUrl": "https://github.com/666ghj/MiroFish",
+        "promptHash": "sha256:0f67c68be212"
+      },
+      "classification": {
+        "primaryCategoryId": "unclassified",
+        "secondaryCategoryIds": [],
+        "confidence": 0.4,
+        "method": "rules",
+        "reasons": [
+          "No taxonomy rule matched with enough confidence"
+        ],
+        "signals": []
+      },
+      "rank": {
+        "globalRank": 8,
+        "categoryRank": 8,
+        "score": 104
+      }
+    },
+    {
+      "id": "mvanhorn-last30days-skill",
+      "owner": "mvanhorn",
+      "name": "last30days-skill",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "avatarUrl": "https://github.com/mvanhorn.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 9,
+        "starsGained": 738
+      },
+      "metadata": {
+        "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+        "language": "Python",
+        "topics": [],
+        "stars": 28105,
+        "forks": 2388,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Python"
+        ]
+      },
+      "readmeRef": {
+        "status": "unknown",
+        "path": null,
+        "sha": null,
+        "rawUrl": null
+      },
+      "readmeSignals": {
+        "title": "last30days-skill",
+        "summary": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+        "headings": [],
+        "commands": [],
+        "keywords": [
+          "ai",
+          "agent"
+        ],
+        "score": 80
+      },
+      "visual": {
+        "kind": "repository_avatar",
+        "url": "https://github.com/mvanhorn.png",
+        "thumbUrl": "https://github.com/mvanhorn.png",
+        "alt": "mvanhorn/last30days-skill",
+        "sourceUrl": "https://github.com/mvanhorn/last30days-skill",
+        "promptHash": "sha256:c1fba947ac05"
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.8,
+        "method": "rules",
+        "reasons": [
+          "Matched ai",
+          "Matched agent"
+        ],
+        "signals": [
+          "ai",
+          "agent"
+        ]
+      },
+      "rank": {
+        "globalRank": 9,
+        "categoryRank": 9,
+        "score": 102
+      }
+    },
+    {
+      "id": "paddlepaddle-paddleocr",
+      "owner": "PaddlePaddle",
+      "name": "PaddleOCR",
+      "url": "https://github.com/PaddlePaddle/PaddleOCR",
+      "avatarUrl": "https://github.com/PaddlePaddle.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 10,
+        "starsGained": 755
+      },
+      "metadata": {
+        "description": "Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the gap between images/PDFs and LLMs. Supports 100+ languages.",
+        "language": "Python",
+        "topics": [],
+        "stars": 80434,
+        "forks": 10626,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Python"
+        ]
+      },
+      "readmeRef": {
+        "status": "unknown",
+        "path": null,
+        "sha": null,
+        "rawUrl": null
+      },
+      "readmeSignals": {
+        "title": "PaddleOCR",
+        "summary": "Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the gap between images/PDFs and LLMs. Supports 100+ languages.",
+        "headings": [],
+        "commands": [],
+        "keywords": [
+          "ai",
+          "llm"
+        ],
+        "score": 80
+      },
+      "visual": {
+        "kind": "repository_avatar",
+        "url": "https://github.com/PaddlePaddle.png",
+        "thumbUrl": "https://github.com/PaddlePaddle.png",
+        "alt": "PaddlePaddle/PaddleOCR",
+        "sourceUrl": "https://github.com/PaddlePaddle/PaddleOCR",
+        "promptHash": "sha256:08d54e96dd52"
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.8,
+        "method": "rules",
+        "reasons": [
+          "Matched ai",
+          "Matched llm"
+        ],
+        "signals": [
+          "ai",
+          "llm"
+        ]
+      },
+      "rank": {
+        "globalRank": 10,
+        "categoryRank": 10,
+        "score": 100
+      }
+    },
+    {
+      "id": "openai-plugins",
+      "owner": "openai",
+      "name": "plugins",
+      "url": "https://github.com/openai/plugins",
+      "avatarUrl": "https://github.com/openai.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 11,
+        "starsGained": 82
+      },
+      "metadata": {
+        "description": "OpenAI Plugins",
+        "language": "JavaScript",
+        "topics": [],
+        "stars": 1475,
+        "forks": 235,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "JavaScript"
+        ]
+      },
+      "readmeRef": {
+        "status": "unknown",
+        "path": null,
+        "sha": null,
+        "rawUrl": null
+      },
+      "readmeSignals": {
+        "title": "plugins",
+        "summary": "OpenAI Plugins",
+        "headings": [],
+        "commands": [],
+        "keywords": [
+          "ai"
+        ],
+        "score": 70
+      },
+      "visual": {
+        "kind": "repository_avatar",
+        "url": "https://github.com/openai.png",
+        "thumbUrl": "https://github.com/openai.png",
+        "alt": "openai/plugins",
+        "sourceUrl": "https://github.com/openai/plugins",
+        "promptHash": "sha256:c027108304fb"
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched ai"
+        ],
+        "signals": [
+          "ai"
+        ]
+      },
+      "rank": {
+        "globalRank": 11,
+        "categoryRank": 11,
+        "score": 86.2
+      }
+    },
+    {
+      "id": "mempalace-mempalace",
+      "owner": "MemPalace",
+      "name": "mempalace",
+      "url": "https://github.com/MemPalace/mempalace",
+      "avatarUrl": "https://github.com/MemPalace.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 12,
+        "starsGained": 228
+      },
+      "metadata": {
+        "description": "The best-benchmarked open-source AI memory system. And it's free.",
+        "language": "Python",
+        "topics": [],
+        "stars": 53755,
+        "forks": 7075,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Python"
+        ]
+      },
+      "readmeRef": {
+        "status": "unknown",
+        "path": null,
+        "sha": null,
+        "rawUrl": null
+      },
+      "readmeSignals": {
+        "title": "mempalace",
+        "summary": "The best-benchmarked open-source AI memory system. And it's free.",
+        "headings": [],
+        "commands": [],
+        "keywords": [
+          "ai"
+        ],
+        "score": 70
+      },
+      "visual": {
+        "kind": "repository_avatar",
+        "url": "https://github.com/MemPalace.png",
+        "thumbUrl": "https://github.com/MemPalace.png",
+        "alt": "MemPalace/mempalace",
+        "sourceUrl": "https://github.com/MemPalace/mempalace",
+        "promptHash": "sha256:5fd828d66f65"
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched ai"
+        ],
+        "signals": [
+          "ai"
+        ]
+      },
+      "rank": {
+        "globalRank": 12,
+        "categoryRank": 12,
+        "score": 96
+      }
+    },
+    {
+      "id": "openclaw-openclaw-windows-node",
+      "owner": "openclaw",
+      "name": "openclaw-windows-node",
+      "url": "https://github.com/openclaw/openclaw-windows-node",
+      "avatarUrl": "https://github.com/openclaw.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 13,
+        "starsGained": 329
+      },
+      "metadata": {
+        "description": "Windows companion suite for OpenClaw - System Tray app, Shared library, Node, and PowerToys Command Palette extension",
+        "language": "C#",
+        "topics": [],
+        "stars": 1545,
+        "forks": 178,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "C#"
+        ]
+      },
+      "readmeRef": {
+        "status": "unknown",
+        "path": null,
+        "sha": null,
+        "rawUrl": null
+      },
+      "readmeSignals": {
+        "title": "openclaw-windows-node",
+        "summary": "Windows companion suite for OpenClaw - System Tray app, Shared library, Node, and PowerToys Command Palette extension",
+        "headings": [],
+        "commands": [],
+        "keywords": [
+          "ui"
+        ],
+        "score": 70
+      },
+      "visual": {
+        "kind": "repository_avatar",
+        "url": "https://github.com/openclaw.png",
+        "thumbUrl": "https://github.com/openclaw.png",
+        "alt": "openclaw/openclaw-windows-node",
+        "sourceUrl": "https://github.com/openclaw/openclaw-windows-node",
+        "promptHash": "sha256:fe437809d4c1"
+      },
+      "classification": {
+        "primaryCategoryId": "frontend",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched ui"
+        ],
+        "signals": [
+          "ui"
+        ]
+      },
+      "rank": {
+        "globalRank": 13,
+        "categoryRank": 13,
+        "score": 94
+      }
+    },
+    {
+      "id": "aquasecurity-trivy",
+      "owner": "aquasecurity",
+      "name": "trivy",
+      "url": "https://github.com/aquasecurity/trivy",
+      "avatarUrl": "https://github.com/aquasecurity.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 14,
+        "starsGained": 208
+      },
+      "metadata": {
+        "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
+        "language": "Go",
+        "topics": [],
+        "stars": 35803,
+        "forks": 440,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Go"
+        ]
+      },
+      "readmeRef": {
+        "status": "unknown",
+        "path": null,
+        "sha": null,
+        "rawUrl": null
+      },
+      "readmeSignals": {
+        "title": "trivy",
+        "summary": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
+        "headings": [],
+        "commands": [],
+        "keywords": [
+          "ai"
+        ],
+        "score": 70
+      },
+      "visual": {
+        "kind": "repository_avatar",
+        "url": "https://github.com/aquasecurity.png",
+        "thumbUrl": "https://github.com/aquasecurity.png",
+        "alt": "aquasecurity/trivy",
+        "sourceUrl": "https://github.com/aquasecurity/trivy",
+        "promptHash": "sha256:6d23a995845e"
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched ai"
+        ],
+        "signals": [
+          "ai"
+        ]
+      },
+      "rank": {
+        "globalRank": 14,
+        "categoryRank": 14,
+        "score": 92
+      }
+    },
+    {
+      "id": "jwasham-coding-interview-university",
+      "owner": "jwasham",
+      "name": "coding-interview-university",
+      "url": "https://github.com/jwasham/coding-interview-university",
+      "avatarUrl": "https://github.com/jwasham.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 15,
+        "starsGained": 757
+      },
+      "metadata": {
+        "description": "A complete computer science study plan to become a software engineer.",
+        "language": "",
+        "topics": [],
+        "stars": 350280,
+        "forks": 83286,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": []
+      },
+      "readmeRef": {
+        "status": "unknown",
+        "path": null,
+        "sha": null,
+        "rawUrl": null
+      },
+      "readmeSignals": {
+        "title": "coding-interview-university",
+        "summary": "A complete computer science study plan to become a software engineer.",
+        "headings": [],
+        "commands": [],
+        "keywords": [],
+        "score": 40
+      },
+      "visual": {
+        "kind": "repository_avatar",
+        "url": "https://github.com/jwasham.png",
+        "thumbUrl": "https://github.com/jwasham.png",
+        "alt": "jwasham/coding-interview-university",
+        "sourceUrl": "https://github.com/jwasham/coding-interview-university",
+        "promptHash": "sha256:a21860ffab8a"
+      },
+      "classification": {
+        "primaryCategoryId": "unclassified",
+        "secondaryCategoryIds": [],
+        "confidence": 0.4,
+        "method": "rules",
+        "reasons": [
+          "No taxonomy rule matched with enough confidence"
+        ],
+        "signals": []
+      },
+      "rank": {
+        "globalRank": 15,
+        "categoryRank": 15,
+        "score": 90
+      }
+    },
+    {
+      "id": "github-copilot-sdk",
+      "owner": "github",
+      "name": "copilot-sdk",
+      "url": "https://github.com/github/copilot-sdk",
+      "avatarUrl": "https://github.com/github.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 16,
+        "starsGained": 310
+      },
+      "metadata": {
+        "description": "Multi-platform SDK for integrating GitHub Copilot Agent into apps and services",
+        "language": "Java",
+        "topics": [],
+        "stars": 9175,
+        "forks": 1219,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Java"
+        ]
+      },
+      "readmeRef": {
+        "status": "unknown",
+        "path": null,
+        "sha": null,
+        "rawUrl": null
+      },
+      "readmeSignals": {
+        "title": "copilot-sdk",
+        "summary": "Multi-platform SDK for integrating GitHub Copilot Agent into apps and services",
+        "headings": [],
+        "commands": [],
+        "keywords": [
+          "agent"
+        ],
+        "score": 70
+      },
+      "visual": {
+        "kind": "repository_avatar",
+        "url": "https://github.com/github.png",
+        "thumbUrl": "https://github.com/github.png",
+        "alt": "github/copilot-sdk",
+        "sourceUrl": "https://github.com/github/copilot-sdk",
+        "promptHash": "sha256:e65fee332d7a"
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched agent"
+        ],
+        "signals": [
+          "agent"
+        ]
+      },
+      "rank": {
+        "globalRank": 16,
+        "categoryRank": 16,
+        "score": 88
+      }
+    }
+  ],
+  "views": [
+    {
+      "id": "ai",
+      "type": "category",
+      "label": "AI",
+      "categoryId": "ai",
+      "repoIds": [
+        "nousresearch-hermes-agent",
+        "chopratejas-headroom",
+        "copilotkit-copilotkit",
+        "affaan-m-ecc",
+        "nvidia-cosmos",
+        "mvanhorn-last30days-skill",
+        "panniantong-agent-reach",
+        "paddlepaddle-paddleocr",
+        "mempalace-mempalace",
+        "aquasecurity-trivy",
+        "github-copilot-sdk",
+        "openai-plugins"
+      ],
+      "sort": "score"
+    },
+    {
+      "id": "frontend",
+      "type": "category",
+      "label": "前端",
+      "categoryId": "frontend",
+      "repoIds": [
+        "openclaw-openclaw-windows-node"
+      ],
+      "sort": "score"
+    },
+    {
+      "id": "unclassified",
+      "type": "review",
+      "label": "Needs Review",
+      "categoryId": "unclassified",
+      "repoIds": [
+        "lfnovo-open-notebook",
+        "666ghj-mirofish",
+        "jwasham-coding-interview-university"
+      ],
+      "sort": "score"
+    }
+  ],
+  "health": {
+    "status": "ok",
+    "candidateCount": 16,
+    "enrichedRepoCount": 0,
+    "unclassifiedRepoCount": 3,
+    "warnings": [
+      "Phase 2 fixture package: REST enrichment and Agnes visual generation are not enabled in this run"
+    ]
+  }
+}
