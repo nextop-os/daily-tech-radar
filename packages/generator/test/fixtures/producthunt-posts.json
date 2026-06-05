@@ -1,0 +1,63 @@
+[
+  {
+    "id": "1",
+    "slug": "alpha-ai",
+    "name": "Alpha AI",
+    "tagline": "AI notes for product meetings",
+    "description": "Turn product meetings into clean notes and tasks.",
+    "votesCount": 420,
+    "commentsCount": 42,
+    "createdAt": "2026-06-05T08:00:00Z",
+    "featuredAt": "2026-06-05T09:00:00Z",
+    "website": "https://example.com/alpha",
+    "url": "https://www.producthunt.com/posts/alpha-ai",
+    "thumbnail": {
+      "url": "https://example.com/alpha.png"
+    },
+    "media": [],
+    "makers": [
+      {
+        "id": "maker-1",
+        "name": "Ada",
+        "username": "ada"
+      }
+    ],
+    "topics": {
+      "edges": [
+        {
+          "node": {
+            "id": "topic-1",
+            "name": "Artificial Intelligence",
+            "slug": "artificial-intelligence"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "2",
+    "slug": "beta-pages",
+    "name": "Beta Pages",
+    "tagline": "Ship launch pages faster",
+    "description": "A small tool for making launch pages from a brief.",
+    "votesCount": 120,
+    "commentsCount": 12,
+    "createdAt": "2026-06-05T10:00:00Z",
+    "featuredAt": "2026-06-05T11:00:00Z",
+    "website": "https://example.com/beta",
+    "url": "https://www.producthunt.com/posts/beta-pages",
+    "thumbnail": null,
+    "media": [
+      {
+        "type": "image",
+        "url": "https://example.com/beta-hero.png",
+        "videoUrl": null
+      }
+    ],
+    "makers": [],
+    "topics": {
+      "edges": []
+    }
+  }
+]
+

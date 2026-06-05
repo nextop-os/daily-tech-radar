@@ -1,0 +1,106 @@
+name: Generate Daily Trend Data
+
+on:
+  workflow_dispatch:
+    inputs:
+      source:
+        description: Source to generate.
+        required: false
+        default: producthunt
+        type: choice
+        options:
+          - producthunt
+          - github
+      date:
+        description: Optional YYYY-MM-DD source date.
+        required: false
+        type: string
+  schedule:
+    - cron: "20 8 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  producthunt:
+    if: github.event_name == 'schedule' || inputs.source == 'producthunt'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10.33.0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Test
+        run: pnpm test
+
+      - name: Generate Product Hunt data
+        env:
+          PRODUCTHUNT_DEVELOPER_TOKEN: ${{ secrets.PRODUCTHUNT_DEVELOPER_TOKEN }}
+          AGNES_API_KEY: ${{ secrets.AGNES_API_KEY }}
+        run: |
+          args=(--source producthunt)
+          if [ -n "${{ inputs.date || '' }}" ]; then
+            args+=(--date "${{ inputs.date }}")
+          fi
+          pnpm generate -- "${args[@]}"
+
+      - name: Commit generated data
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore(data): update Product Hunt daily data"
+          file_pattern: data/**/*.json
+
+  github:
+    if: github.event_name == 'schedule' || inputs.source == 'github'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10.33.0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Test
+        run: pnpm test
+
+      - name: Generate GitHub data
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          AGNES_API_KEY: ${{ secrets.AGNES_API_KEY }}
+        run: |
+          args=(--source github)
+          if [ -n "${{ inputs.date || '' }}" ]; then
+            args+=(--date "${{ inputs.date }}")
+          fi
+          pnpm generate -- "${args[@]}"
+
+      - name: Commit generated data
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore(data): update GitHub daily data"
+          file_pattern: data/**/*.json
+
