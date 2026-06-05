@@ -1,0 +1,588 @@
+{
+  "schemaVersion": "daily-tech-radar.v1",
+  "source": "producthunt",
+  "locale": "zh-CN",
+  "date": "2026-06-05",
+  "sourceTimezone": "America/Los_Angeles",
+  "generatedAt": "2026-06-05T17:38:52.918Z",
+  "items": [
+    {
+      "rank": 1,
+      "id": "1163341",
+      "name": "Leni",
+      "tagline": "全球最精准的投资AI",
+      "description": "Leni 是为严肃投资工作打造的最高精度且可验证的 AI。基于 21,000 多个决策痕迹构建，每日处理超过 1 亿行数据，通过来源链接、时间戳和基准比较提供具有财务级输出和完整审计能力。Leni 在准确性、建模和估值方面的独立基准测试中优于 GPT、Claude 和 Manus，为团队在涉及巨额资金时提供所需的信任。Leni 是 Google Startups 的一部分，是投资者的得力助手。",
+      "keywords": [
+        "人工智能",
+        "投资",
+        "金融",
+        "准确性",
+        "审计"
+      ],
+      "metrics": {
+        "votes": 381,
+        "comments": 52
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/FFWCFWSDY3ELXY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/leni?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/b65a533c-d4cf-4bf3-8528-e57802c16a9e.webp?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/b65a533c-d4cf-4bf3-8528-e57802c16a9e.webp?auto=format",
+        "media": []
+      },
+      "raw": {
+        "slug": "leni-2",
+        "featuredAt": "2026-06-05T07:01:00Z",
+        "createdAt": "2026-06-05T07:01:00Z",
+        "makers": [],
+        "topics": []
+      }
+    },
+    {
+      "rank": 2,
+      "id": "1155751",
+      "name": "SellerClaw",
+      "tagline": "运行跨渠道商店的 AI 代理团队",
+      "description": "运营一家在线商店就是一份全职工作。SellerClaw 是一个 AI 代理团队，为你自动运行：包括产品采购、商店管理和广告的专业代理，由你指导的主管协调。告诉它卖什么——代理会构建列表、管理广告和定价，并处理 Shopify、eBay 等平台的履约和支持。你保持控制权：每个动作都可见且可批准，你可以设置自动运行的程度。免费开始使用。",
+      "keywords": [
+        "电子商务",
+        "自动化",
+        "AI代理",
+        "Shopify",
+        "商店管理"
+      ],
+      "metrics": {
+        "votes": 349,
+        "comments": 121
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/7EVPIJ3T3Q6YW2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/sellerclaw?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/055a93ee-c4e1-4862-99e9-0984eff96f82.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/055a93ee-c4e1-4862-99e9-0984eff96f82.png?auto=format",
+        "media": []
+      },
+      "raw": {
+        "slug": "sellerclaw",
+        "featuredAt": "2026-06-05T07:01:00Z",
+        "createdAt": "2026-06-05T07:01:00Z",
+        "makers": [],
+        "topics": []
+      }
+    },
+    {
+      "rank": 3,
+      "id": "1163169",
+      "name": "Minimi",
+      "tagline": "Claude 的环境记忆助手",
+      "description": "每个优秀的 Claude 回复都始于上下文。Minimi 在 Mac 上监听文档、通话、消息和标签页，为 Claude 提供完整画面。无需提示。所有处理均在本地完成，保护隐私。",
+      "keywords": [
+        "Claude",
+        "上下文",
+        "隐私",
+        "Mac",
+        "效率"
+      ],
+      "metrics": {
+        "votes": 309,
+        "comments": 50
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/SIMPLUAHCBBLII?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/shram?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/263c1485-e028-41c9-a635-559fbc18e830.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/263c1485-e028-41c9-a635-559fbc18e830.png?auto=format",
+        "media": []
+      },
+      "raw": {
+        "slug": "minimi-2",
+        "featuredAt": "2026-06-05T07:01:00Z",
+        "createdAt": "2026-06-05T07:01:00Z",
+        "makers": [],
+        "topics": []
+      }
+    },
+    {
+      "rank": 4,
+      "id": "1152327",
+      "name": "Veltrix AI",
+      "tagline": "现金流、利润和增长的 AI 财务副驾驶",
+      "description": "Veltrix AI 为创始人和财务团队提供对现金流、盈利能力、燃烧率和业务表现的即时清晰度。连接 QuickBooks、Xero、Shopify、Square 和 HubSpot，然后用自然语言询问财务问题，获取有来源支持的答案、异常情况和推荐下一步行动。用实时财务智能取代电子表格混乱和静态仪表板，帮助你做出更快、更明智的业务决策。",
+      "keywords": [
+        "财务",
+        "现金流",
+        "分析",
+        "QuickBooks",
+        "商业智能"
+      ],
+      "metrics": {
+        "votes": 232,
+        "comments": 43
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/E7KCWCLG4TE4Y5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/veltrix-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/00754c3c-732d-4226-ad58-1196546bb224.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/00754c3c-732d-4226-ad58-1196546bb224.png?auto=format",
+        "media": []
+      },
+      "raw": {
+        "slug": "veltrix-ai-2",
+        "featuredAt": "2026-06-05T07:01:00Z",
+        "createdAt": "2026-06-05T07:01:00Z",
+        "makers": [],
+        "topics": []
+      }
+    },
+    {
+      "rank": 5,
+      "id": "1162949",
+      "name": "Ideogram 4.0",
+      "tagline": "生成设计就绪图像，支持开放权重和布局控制",
+      "description": "Ideogram 4.0 是一个从头训练的开放权重文本到图像模型，具有边界框布局控制、多语言文本渲染和原生 2K 输出。专为在视觉 AI 上构建的开发者和企业设计。",
+      "keywords": [
+        "图像生成",
+        "开源",
+        "设计",
+        "文本转图像",
+        "AI模型"
+      ],
+      "metrics": {
+        "votes": 168,
+        "comments": 8
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/OJNQHSZUNTKVUF?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/ideogram-4-0?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/8919eccb-7bb6-4bce-ab61-8a213b393199.jpeg?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/8919eccb-7bb6-4bce-ab61-8a213b393199.jpeg?auto=format",
+        "media": []
+      },
+      "raw": {
+        "slug": "ideogram-4-0",
+        "featuredAt": "2026-06-05T07:01:00Z",
+        "createdAt": "2026-06-05T07:01:00Z",
+        "makers": [],
+        "topics": []
+      }
+    },
+    {
+      "rank": 6,
+      "id": "1163741",
+      "name": "Nemotron 3 Ultra by NVIDIA",
+      "tagline": "为长运行代理提供更高效推理",
+      "description": "NVIDIA 的 Nemotron 3 Ultra 是一个 550B MoE 前沿智能开放模型，专为长运行代理构建。它提供 5 倍更快的推理速度，并将复杂代理任务的成本降低高达 30%。Nemotron 在编码和深度研究等复杂任务中表现出色。长运行代理花费时间规划、使用工具、从失败中恢复并决定下一步行动。",
+      "keywords": [
+        "英伟达",
+        "大语言模型",
+        "代理",
+        "推理",
+        "开放模型"
+      ],
+      "metrics": {
+        "votes": 138,
+        "comments": 3
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/FRQKMP7ZDQB4RR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/nvidia?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/cf242a56-5926-4b9d-99eb-cde2d4694b79.jpeg?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/cf242a56-5926-4b9d-99eb-cde2d4694b79.jpeg?auto=format",
+        "media": []
+      },
+      "raw": {
+        "slug": "nemotron-3-ultra-by-nvidia",
+        "featuredAt": "2026-06-05T07:01:00Z",
+        "createdAt": "2026-06-05T07:01:00Z",
+        "makers": [],
+        "topics": []
+      }
+    },
+    {
+      "rank": 7,
+      "id": "1160919",
+      "name": "Agent Mode on Arena",
+      "tagline": "使用自主 AI 代理完成现实世界任务",
+      "description": "大多数 AI 基准测试在受控环境中测试模型。Agent Mode 在复杂任务上测试它们以完成更多工作。运行自主代理，浏览、研究、编码、使用文件，并从单个提示完成多步工作流。然后观看每个工作流的逐步展开。每次运行都有助于 Agent Arena 排行榜，根据现实世界的代理性能对前沿模型进行排名。",
+      "keywords": [
+        "AI代理",
+        "基准测试",
+        "自动化",
+        "研究",
+        "编码"
+      ],
+      "metrics": {
+        "votes": 135,
+        "comments": 19
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/DMA3X24N4FESP7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/arena-5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/21871a9a-84c9-4f14-baf9-ef1802a9bb10.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/21871a9a-84c9-4f14-baf9-ef1802a9bb10.png?auto=format",
+        "media": []
+      },
+      "raw": {
+        "slug": "agent-mode-on-arena",
+        "featuredAt": "2026-06-05T07:01:00Z",
+        "createdAt": "2026-06-05T07:01:00Z",
+        "makers": [],
+        "topics": []
+      }
+    },
+    {
+      "rank": 8,
+      "id": "1164006",
+      "name": "LocalClicky",
+      "tagline": "用语音本地控制你的 Mac",
+      "description": "LocalClicky 是一个 Mac 菜单栏应用，让你与电脑进行真正的对话——完全离线。说“Computer”开始会话。它保持监听。你可以连续发出命令。说“goodbye”结束。所有内容都在你的机器上运行：语音转录、LLM 多模型、VAD、macOS 语音。无需 API 密钥。无需订阅。数据不离开你的 Mac。MIT 许可。",
+      "keywords": [
+        "语音控制",
+        "Mac",
+        "离线",
+        "隐私",
+        "效率"
+      ],
+      "metrics": {
+        "votes": 108,
+        "comments": 6
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/UREOXFHYYUMZVN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/localclicky?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/54681e23-9fcd-45b8-8f99-35db6382ca12.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/54681e23-9fcd-45b8-8f99-35db6382ca12.png?auto=format",
+        "media": []
+      },
+      "raw": {
+        "slug": "localclicky",
+        "featuredAt": "2026-06-05T07:01:00Z",
+        "createdAt": "2026-06-05T07:01:00Z",
+        "makers": [],
+        "topics": []
+      }
+    },
+    {
+      "rank": 9,
+      "id": "1100116",
+      "name": "Moodloom",
+      "tagline": "无广告 Pinterest 替代品，带 AI 内容过滤",
+      "description": "Moodloom 是一个无广告的视觉发现平台，适合受够了 Pinterest 的人。保存和探索时尚、装饰和艺术——没有噪音。不同之处：干净的信息流——无广告，无赞助帖子；AI 内容过滤器——隐藏或显示 AI 生成的图像。为希望 Pinterest 更好的时尚爱好者、装饰者和数字艺术家打造。我们还开发了 Save to Moodloom 扩展，可以导入所有 Pinterest 图钉/画板到 Moodloom。",
+      "keywords": [
+        "Pinterest替代品",
+        "视觉发现",
+        "无广告",
+        "AI过滤",
+        "时尚"
+      ],
+      "metrics": {
+        "votes": 101,
+        "comments": 4
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/KABC3NRR6GO7HB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/moodloom?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/a8ab0a03-78c1-4073-b9af-816922753c26.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/a8ab0a03-78c1-4073-b9af-816922753c26.png?auto=format",
+        "media": []
+      },
+      "raw": {
+        "slug": "moodloom",
+        "featuredAt": "2026-06-05T07:01:00Z",
+        "createdAt": "2026-06-05T07:01:00Z",
+        "makers": [],
+        "topics": []
+      }
+    },
+    {
+      "rank": 10,
+      "id": "1162995",
+      "name": "FloatPic",
+      "tagline": "超极简、无边框 macOS 原生图像查看器",
+      "description": "FloatPic 是超极简的 macOS 原生图像查看器。无边框浮动窗口，原生手势，极速加载，支持 30 多种图像格式。让软件消失，让图像漂浮。",
+      "keywords": [
+        "macOS",
+        "图像查看器",
+        "极简主义",
+        "原生应用",
+        "效率"
+      ],
+      "metrics": {
+        "votes": 100,
+        "comments": 7
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/ZQLUO2KBKHPFI4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/floatpic?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/9bb82948-9f6f-4869-9512-b5bd13a920bf.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/9bb82948-9f6f-4869-9512-b5bd13a920bf.png?auto=format",
+        "media": []
+      },
+      "raw": {
+        "slug": "floatpic",
+        "featuredAt": "2026-06-05T07:01:00Z",
+        "createdAt": "2026-06-05T07:01:00Z",
+        "makers": [],
+        "topics": []
+      }
+    },
+    {
+      "rank": 11,
+      "id": "1163767",
+      "name": "Agent Browser Shield",
+      "tagline": "阻止提示注入并降低 AI 浏览器代理的令牌成本",
+      "description": "在网络上浏览的 AI 代理有一个问题：它们阅读所有内容——Cookie 横幅、隐藏指令、黑暗模式——无法区分真实内容和陷阱。Agent Browser Shield 位于代理和网络之间，剥离提示注入、屏蔽个人身份信息、移除黑暗模式并过滤消耗令牌的页面噪音。免费，源代码可用，适用于 browser-use 和 Browserbase。",
+      "keywords": [
+        "安全",
+        "AI代理",
+        "浏览器",
+        "提示注入",
+        "降低成本"
+      ],
+      "metrics": {
+        "votes": 94,
+        "comments": 11
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/F6KGMHVJXZBD7X?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/agent-browser-shield?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/7f30dd03-6e09-4e88-869d-8a1cb240e35f.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/7f30dd03-6e09-4e88-869d-8a1cb240e35f.png?auto=format",
+        "media": []
+      },
+      "raw": {
+        "slug": "agent-browser-shield",
+        "featuredAt": "2026-06-05T07:01:00Z",
+        "createdAt": "2026-06-05T07:01:00Z",
+        "makers": [],
+        "topics": []
+      }
+    },
+    {
+      "rank": 12,
+      "id": "1132349",
+      "name": "Lumo Studios",
+      "tagline": "构建自我表达的演示文稿",
+      "description": "伟大的想法值得伟大的幻灯片。LUMO 使用 AI 将你的思维瞬间转化为精美、完全符合你意愿的演示文稿。LUMO 在几秒钟内将你的想法转化为精美的演示文稿。从提示生成幻灯片，在画布编辑器中完善它们，并与你的团队分享——所有功能都在一个地方。",
+      "keywords": [
+        "演示文稿",
+        "人工智能",
+        "幻灯片",
+        "设计",
+        "效率"
+      ],
+      "metrics": {
+        "votes": 90,
+        "comments": 5
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/KC4UACPCSLYR3L?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/lumo-studios?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/6bcc0e1e-4363-41ff-9abf-7e63ce7b9a44.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/6bcc0e1e-4363-41ff-9abf-7e63ce7b9a44.png?auto=format",
+        "media": []
+      },
+      "raw": {
+        "slug": "lumo-studios",
+        "featuredAt": "2026-06-05T07:01:00Z",
+        "createdAt": "2026-06-05T07:01:00Z",
+        "makers": [],
+        "topics": []
+      }
+    },
+    {
+      "rank": 13,
+      "id": "1163579",
+      "name": "Treadmill Pro",
+      "tagline": "通过 iPhone 无线控制你的跑步机",
+      "description": "通过蓝牙连接你的跑步机，直接从 iPhone 控制速度、坡度、计时器和统计数据。完全集成 Apple Health。App Store 免费。",
+      "keywords": [
+        "健身",
+        "Apple Health",
+        "蓝牙",
+        "跑步",
+        "iOS"
+      ],
+      "metrics": {
+        "votes": 90,
+        "comments": 1
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/DOVHIDLYUFGZPZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/treadmill-pro?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/17cde1b9-ab76-4b71-8e43-ae67c88e4f1a.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/17cde1b9-ab76-4b71-8e43-ae67c88e4f1a.png?auto=format",
+        "media": []
+      },
+      "raw": {
+        "slug": "treadmill-pro",
+        "featuredAt": "2026-06-05T07:01:00Z",
+        "createdAt": "2026-06-05T07:01:00Z",
+        "makers": [],
+        "topics": []
+      }
+    },
+    {
+      "rank": 14,
+      "id": "1163592",
+      "name": "Recursi",
+      "tagline": "自我改进的氛围编码环境，无 API 费用",
+      "description": "一个极其强大的氛围编码环境，允许你极其高效地使用基于网络的聊天机器人（通过 aistudio/ChatGPT 等使用 Claude/Gemini），同时严格遵守其服务条款。提供了许多应用程序作为示例/模板，包括一个 YouTube 播放列表应用，不仅提供无广告的绝佳 YouTube 体验（也在服务条款内！），还有可与 MIDI 钢琴配合工作的“钢琴版吉他英雄”。还有更多。",
+      "keywords": [
+        "编码",
+        "开发者工具",
+        "AI聊天机器人",
+        "无API费用",
+        "环境"
+      ],
+      "metrics": {
+        "votes": 89,
+        "comments": 10
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/I4WREISFO2BBDV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/recursi-self-improving-vibe-coding-env?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/28136c73-c39c-4343-a6d2-043f50b51365.jpeg?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/28136c73-c39c-4343-a6d2-043f50b51365.jpeg?auto=format",
+        "media": []
+      },
+      "raw": {
+        "slug": "recursi",
+        "featuredAt": "2026-06-05T07:01:00Z",
+        "createdAt": "2026-06-05T07:01:00Z",
+        "makers": [],
+        "topics": []
+      }
+    },
+    {
+      "rank": 15,
+      "id": "1163576",
+      "name": "VisionSync",
+      "tagline": "战略执行与执行人员相遇的地方",
+      "description": "现有工具帮助你撰写战略计划。VisionSync 确保它真正发生。它将每个目标链接到执行人员，并显示每个倡议的实时状态，使领导者能够在季度结果受到影响之前看到哪些计划正在 slipping，而不是之后。添加 ValueSync 360 将战略与人员方面的绩效联系起来。在内布拉斯加大学四个校区、玛丽维尔大学和奥马哈大商会得到验证。",
+      "keywords": [
+        "战略",
+        "执行",
+        "管理",
+        "绩效",
+        "商业"
+      ],
+      "metrics": {
+        "votes": 89,
+        "comments": 3
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/GNDEMM56EBBGG2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/visionsync?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/e56ae0b2-d863-4603-9174-814f68bdf25d.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/e56ae0b2-d863-4603-9174-814f68bdf25d.png?auto=format",
+        "media": []
+      },
+      "raw": {
+        "slug": "visionsync",
+        "featuredAt": "2026-06-05T07:01:00Z",
+        "createdAt": "2026-06-05T07:01:00Z",
+        "makers": [],
+        "topics": []
+      }
+    },
+    {
+      "rank": 16,
+      "id": "1163604",
+      "name": "Clarafy",
+      "tagline": "输入杂乱内容，瞬间获得润色",
+      "description": "大多数工具迫使你编辑。Clarafy 是一个零建议的混乱翻译器。输入或口述杂乱的意识流，按下热键，它会在原位瞬间重写完美的文本。突出功能：应用感知：为 Gmail、Slack 或 ChatGPT 进行上下文格式化；按住口述：大声唠叨；释放以注入润色后的散文；语气匹配：学习并镜像你独特的声音。无建议，无下划线。只需一次点击即可获得清晰度。",
+      "keywords": [
+        "写作",
+        "编辑",
+        "人工智能",
+        "效率",
+        "语音输入"
+      ],
+      "metrics": {
+        "votes": 88,
+        "comments": 5
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/C3AOI4BETVQ7D3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/clarafy?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/ccdf5595-1851-4c8c-b475-064cc6247c6b.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/ccdf5595-1851-4c8c-b475-064cc6247c6b.png?auto=format",
+        "media": []
+      },
+      "raw": {
+        "slug": "clarafy",
+        "featuredAt": "2026-06-05T07:01:00Z",
+        "createdAt": "2026-06-05T07:01:00Z",
+        "makers": [],
+        "topics": []
+      }
+    },
+    {
+      "rank": 17,
+      "id": "1163789",
+      "name": "Microsoft MAI-Voice-2",
+      "tagline": "具有 15 种语言语音克隆功能的表达性 TTS",
+      "description": "微软最具表现力的 TTS 模型——从短样本进行语音克隆，细粒度的情感控制，并在 15 种语言中保持一致的语音身份。现已在 Azure AI Foundry 上线，价格为每百万字符 22 美元，VSCode、Dynamics 365 Contact Center 和 Teams 的集成正在推出。对于需要生产级韵律而不需要 OpenAI Realtime API 价格的语音代理构建者。",
+      "keywords": [
+        "文本转语音",
+        "语音克隆",
+        "Azure",
+        "语音合成",
+        "人工智能"
+      ],
+      "metrics": {
+        "votes": 88,
+        "comments": 3
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/TXV2R33T3EPL56?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/mai-image-2-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/893fbf92-a1f4-4864-bc0a-74c657b50a2e.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/893fbf92-a1f4-4864-bc0a-74c657b50a2e.png?auto=format",
+        "media": []
+      },
+      "raw": {
+        "slug": "microsoft-mai-voice-2",
+        "featuredAt": "2026-06-05T07:01:00Z",
+        "createdAt": "2026-06-05T07:01:00Z",
+        "makers": [],
+        "topics": []
+      }
+    }
+  ]
+}
