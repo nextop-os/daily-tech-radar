@@ -4,7 +4,7 @@
   "locale": "en-US",
   "date": "2026-06-05",
   "sourceTimezone": "America/Los_Angeles",
-  "generatedAt": "2026-06-06T01:57:30.423Z",
+  "generatedAt": "2026-06-06T10:02:35.598Z",
   "items": [
     {
       "rank": 1,
@@ -18,8 +18,8 @@
         "store management"
       ],
       "metrics": {
-        "votes": 427,
-        "comments": 137
+        "votes": 496,
+        "comments": 161
       },
       "links": {
         "homepage": "https://www.producthunt.com/r/7EVPIJ3T3Q6YW2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
@@ -75,12 +75,12 @@
       "description": "Every great Claude response starts with context. Minimi listens across your Mac - docs, calls, messages, tabs - and gives Claude the full picture. No prompting. All on-device and private.",
       "keywords": [
         "AI context",
-        "macOS tool",
+        "macOS utility",
         "privacy"
       ],
       "metrics": {
-        "votes": 371,
-        "comments": 92
+        "votes": 467,
+        "comments": 107
       },
       "links": {
         "homepage": "https://www.producthunt.com/r/SIMPLUAHCBBLII?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
@@ -136,12 +136,12 @@
       "description": "Leni is the most accurate and verifiable AI for serious investment work. Built on 21,000+ decision traces and processing 100M+ rows daily, it delivers finance-grade outputs with full auditability through source links, timestamps, and grounded comps. Leni outperforms GPT, Claude, and Manus on independent benchmarks for accuracy, modeling, and valuation while giving teams the trust they need when millions are on the line. Leni is part of Google Startups and a serious machine for investors.",
       "keywords": [
         "investment AI",
-        "financial analysis",
-        "accuracy"
+        "financial modeling",
+        "data accuracy"
       ],
       "metrics": {
-        "votes": 342,
-        "comments": 61
+        "votes": 379,
+        "comments": 62
       },
       "links": {
         "homepage": "https://www.producthunt.com/r/FFWCFWSDY3ELXY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
@@ -206,7 +206,7 @@
         "business intelligence"
       ],
       "metrics": {
-        "votes": 265,
+        "votes": 280,
         "comments": 43
       },
       "links": {
@@ -274,10 +274,10 @@
       "keywords": [
         "image generation",
         "open weight model",
-        "text rendering"
+        "design tools"
       ],
       "metrics": {
-        "votes": 218,
+        "votes": 238,
         "comments": 10
       },
       "links": {
@@ -398,7 +398,7 @@
         "autonomous tasks"
       ],
       "metrics": {
-        "votes": 165,
+        "votes": 171,
         "comments": 19
       },
       "links": {
@@ -470,11 +470,11 @@
       "description": "A 550B MoE frontier-intelligence open model built for long-running agents. It delivers 5x faster inference and lowers the cost of complex agentic tasks by up to 30% versus other open frontier models.Ultra excels at complex tasks like coding and deep research. Long-running agents spend their time planning, using tools, recovering from failures, and deciding what to do next.",
       "keywords": [
         "NVIDIA",
-        "MoE model",
+        "large language model",
         "agent efficiency"
       ],
       "metrics": {
-        "votes": 149,
+        "votes": 155,
         "comments": 4
       },
       "links": {
@@ -520,17 +520,73 @@
     },
     {
       "rank": 8,
+      "id": "1164006",
+      "name": "LocalClicky",
+      "tagline": "Control your Mac with your voice locally",
+      "description": "LocalClicky is a Mac menubar app that lets you have a real conversation with your computer - completely offline. Say \"Computer\" to start a session. It stays listening. You chain commands back to back. Say \"goodbye\" when you're done. Everything runs on your machine: voice transcription, LLM multi models, VAD, macOS say No API keys. No subscription. No data leaving your Mac. MIT licensed.",
+      "keywords": [
+        "voice control",
+        "macOS app",
+        "offline AI"
+      ],
+      "metrics": {
+        "votes": 124,
+        "comments": 11
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/UREOXFHYYUMZVN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/localclicky?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/54681e23-9fcd-45b8-8f99-35db6382ca12.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/54681e23-9fcd-45b8-8f99-35db6382ca12.png?auto=format",
+        "media": [
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/d8699719-6125-418a-a85e-a4217ebbd998.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/af83056d-20be-4e9c-917b-5a35348b381d.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/83a9a524-fb08-4213-b1ec-58bab6142031.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/4eed38c6-fb15-42de-bf79-30f117b10236.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/19f39fa6-86eb-4018-a1de-13a7442451df.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "localclicky",
+        "featuredAt": "2026-06-05T07:01:00Z",
+        "createdAt": "2026-06-05T07:01:00Z"
+      }
+    },
+    {
+      "rank": 9,
       "id": "1100116",
       "name": "Moodloom",
       "tagline": "Ad-free Pinterest Alternative with AI content filtering ",
       "description": "Moodloom is an ad-free visual discovery platform for those fed up of Pinterest. Save and explore fashion, decor, and art - without the noise. What makes it different: Clean feed - no ads, no sponsored posts AI content filter - hide or show AI-generated images For fashion lovers, decorators & digital artists who wish Pinterest were better. We have built Save to Moodloom Extension as well using which you can Import all your Pinterest pins/boards to Moodloom.",
       "keywords": [
-        "Pinterest alternative",
+        "visual discovery",
         "ad-free",
-        "visual discovery"
+        "Pinterest alternative"
       ],
       "metrics": {
-        "votes": 118,
+        "votes": 124,
         "comments": 9
       },
       "links": {
@@ -575,62 +631,6 @@
       }
     },
     {
-      "rank": 9,
-      "id": "1164006",
-      "name": "LocalClicky",
-      "tagline": "Control your Mac with your voice locally",
-      "description": "LocalClicky is a Mac menubar app that lets you have a real conversation with your computer - completely offline. Say \"Computer\" to start a session. It stays listening. You chain commands back to back. Say \"goodbye\" when you're done. Everything runs on your machine: voice transcription, LLM multi models, VAD, macOS say No API keys. No subscription. No data leaving your Mac. MIT licensed.",
-      "keywords": [
-        "voice control",
-        "macOS",
-        "offline AI"
-      ],
-      "metrics": {
-        "votes": 118,
-        "comments": 7
-      },
-      "links": {
-        "homepage": "https://www.producthunt.com/r/UREOXFHYYUMZVN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
-        "source": "https://www.producthunt.com/products/localclicky?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
-      },
-      "assets": {
-        "icon": "https://ph-files.imgix.net/54681e23-9fcd-45b8-8f99-35db6382ca12.png?auto=format",
-        "thumbnail": "https://ph-files.imgix.net/54681e23-9fcd-45b8-8f99-35db6382ca12.png?auto=format",
-        "media": [
-          {
-            "type": "video",
-            "url": "https://ph-files.imgix.net/d8699719-6125-418a-a85e-a4217ebbd998.jpeg?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/af83056d-20be-4e9c-917b-5a35348b381d.png?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/83a9a524-fb08-4213-b1ec-58bab6142031.png?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/4eed38c6-fb15-42de-bf79-30f117b10236.png?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/19f39fa6-86eb-4018-a1de-13a7442451df.png?auto=format",
-            "videoUrl": null
-          }
-        ]
-      },
-      "raw": {
-        "slug": "localclicky",
-        "featuredAt": "2026-06-05T07:01:00Z",
-        "createdAt": "2026-06-05T07:01:00Z"
-      }
-    },
-    {
       "rank": 10,
       "id": "1162995",
       "name": "FloatPic",
@@ -642,7 +642,7 @@
         "minimalist"
       ],
       "metrics": {
-        "votes": 110,
+        "votes": 115,
         "comments": 7
       },
       "links": {
@@ -698,12 +698,12 @@
       "tagline": "Block prompt inject & cut token costs for AI browser agents",
       "description": "AI agents browsing the web have a problem: they read everything — cookie banners, hidden instructions, dark patterns — and can't tell real content from a trap. Agent Browser Shield sits between your agent and the web, stripping prompt injections, masking PII, removing dark patterns, and filtering page noise that burns tokens. Free, source-available, works with browser-use and Browserbase.",
       "keywords": [
-        "prompt injection",
         "AI security",
-        "token optimization"
+        "prompt injection",
+        "browser agents"
       ],
       "metrics": {
-        "votes": 102,
+        "votes": 105,
         "comments": 12
       },
       "links": {
@@ -744,7 +744,7 @@
         "performance tracking"
       ],
       "metrics": {
-        "votes": 98,
+        "votes": 103,
         "comments": 5
       },
       "links": {
@@ -795,17 +795,134 @@
     },
     {
       "rank": 13,
+      "id": "1163789",
+      "name": "Microsoft MAI-Voice-2",
+      "tagline": "Expressive TTS with voice cloning in 15 languages",
+      "description": "Microsoft's most expressive TTS model yet — voice cloning from short samples, fine-grained emotional control, and consistent voice identity across 15 languages. Now live in Azure AI Foundry at $22 per million characters, with integrations rolling out in VSCode, Dynamics 365 Contact Center, and Teams. For builders shipping voice agents who need production-grade prosody without the OpenAI Realtime API price tag.",
+      "keywords": [
+        "text-to-speech",
+        "voice cloning",
+        "Azure AI"
+      ],
+      "metrics": {
+        "votes": 101,
+        "comments": 4
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/TXV2R33T3EPL56?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/mai-image-2-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/893fbf92-a1f4-4864-bc0a-74c657b50a2e.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/893fbf92-a1f4-4864-bc0a-74c657b50a2e.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/0fa2658f-7808-408a-b376-c954e58b772b.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/5aae6346-671a-47de-9755-07271d886812.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/8d73881e-9394-47d3-a4bc-123dc9ca0ece.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/a4271cd7-6a45-4ff1-bb08-b0443b386e31.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/8a6424bf-3b56-498d-bca0-bae185ebeee2.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "microsoft-mai-voice-2",
+        "featuredAt": "2026-06-05T07:01:00Z",
+        "createdAt": "2026-06-05T07:01:00Z"
+      }
+    },
+    {
+      "rank": 14,
+      "id": "1163579",
+      "name": "Treadmill Pro",
+      "tagline": "Control your treadmill from your iPhone, wirelessly",
+      "description": "Connect your treadmill via Bluetooth and control speed, incline, timer and stats right from your iPhone. Full Apple Health integration. Free on the App Store.",
+      "keywords": [
+        "fitness app",
+        "Bluetooth control",
+        "Apple Health"
+      ],
+      "metrics": {
+        "votes": 99,
+        "comments": 3
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/DOVHIDLYUFGZPZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/treadmill-pro?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/17cde1b9-ab76-4b71-8e43-ae67c88e4f1a.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/17cde1b9-ab76-4b71-8e43-ae67c88e4f1a.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/a1e0de70-2023-4b4a-99b4-f0e0bf7afe85.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/29cda97f-718f-4163-b062-b809a5dddc6a.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/65a83deb-e90d-4cf3-870f-78192472df10.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/54921489-519a-46bc-b7a9-12cedc98d11c.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/4fa77dcf-e3ad-4886-9a1a-0978bb474d90.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/46d7f190-e3d2-412b-8679-7d3dcd87ccb5.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "treadmill-pro",
+        "featuredAt": "2026-06-05T07:01:00Z",
+        "createdAt": "2026-06-05T07:01:00Z"
+      }
+    },
+    {
+      "rank": 15,
       "id": "1132349",
       "name": "Lumo Studios",
       "tagline": "Build Decks that Speak for Themselves",
       "description": "Great ideas deserve great slides. LUMO uses AI to turn your thinking into polished decks instantly, beautifully, and exactly the way you want them. LUMO turns your ideas into beautiful presentations in seconds. Generate slides from a prompt, refine them in the canvas editor, and share with your team - all in one place.",
       "keywords": [
         "presentation AI",
-        "slide generation",
+        "slide generator",
         "productivity"
       ],
       "metrics": {
-        "votes": 97,
+        "votes": 98,
         "comments": 7
       },
       "links": {
@@ -860,123 +977,6 @@
       }
     },
     {
-      "rank": 14,
-      "id": "1163789",
-      "name": "Microsoft MAI-Voice-2",
-      "tagline": "Expressive TTS with voice cloning in 15 languages",
-      "description": "Microsoft's most expressive TTS model yet — voice cloning from short samples, fine-grained emotional control, and consistent voice identity across 15 languages. Now live in Azure AI Foundry at $22 per million characters, with integrations rolling out in VSCode, Dynamics 365 Contact Center, and Teams. For builders shipping voice agents who need production-grade prosody without the OpenAI Realtime API price tag.",
-      "keywords": [
-        "text-to-speech",
-        "voice cloning",
-        "Azure AI"
-      ],
-      "metrics": {
-        "votes": 96,
-        "comments": 3
-      },
-      "links": {
-        "homepage": "https://www.producthunt.com/r/TXV2R33T3EPL56?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
-        "source": "https://www.producthunt.com/products/mai-image-2-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
-      },
-      "assets": {
-        "icon": "https://ph-files.imgix.net/893fbf92-a1f4-4864-bc0a-74c657b50a2e.png?auto=format",
-        "thumbnail": "https://ph-files.imgix.net/893fbf92-a1f4-4864-bc0a-74c657b50a2e.png?auto=format",
-        "media": [
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/0fa2658f-7808-408a-b376-c954e58b772b.jpeg?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/5aae6346-671a-47de-9755-07271d886812.png?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/8d73881e-9394-47d3-a4bc-123dc9ca0ece.png?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/a4271cd7-6a45-4ff1-bb08-b0443b386e31.png?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/8a6424bf-3b56-498d-bca0-bae185ebeee2.png?auto=format",
-            "videoUrl": null
-          }
-        ]
-      },
-      "raw": {
-        "slug": "microsoft-mai-voice-2",
-        "featuredAt": "2026-06-05T07:01:00Z",
-        "createdAt": "2026-06-05T07:01:00Z"
-      }
-    },
-    {
-      "rank": 15,
-      "id": "1163579",
-      "name": "Treadmill Pro",
-      "tagline": "Control your treadmill from your iPhone, wirelessly",
-      "description": "Connect your treadmill via Bluetooth and control speed, incline, timer and stats right from your iPhone. Full Apple Health integration. Free on the App Store.",
-      "keywords": [
-        "fitness app",
-        "Bluetooth control",
-        "Apple Health"
-      ],
-      "metrics": {
-        "votes": 95,
-        "comments": 1
-      },
-      "links": {
-        "homepage": "https://www.producthunt.com/r/DOVHIDLYUFGZPZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
-        "source": "https://www.producthunt.com/products/treadmill-pro?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
-      },
-      "assets": {
-        "icon": "https://ph-files.imgix.net/17cde1b9-ab76-4b71-8e43-ae67c88e4f1a.png?auto=format",
-        "thumbnail": "https://ph-files.imgix.net/17cde1b9-ab76-4b71-8e43-ae67c88e4f1a.png?auto=format",
-        "media": [
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/a1e0de70-2023-4b4a-99b4-f0e0bf7afe85.png?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/29cda97f-718f-4163-b062-b809a5dddc6a.png?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/65a83deb-e90d-4cf3-870f-78192472df10.png?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/54921489-519a-46bc-b7a9-12cedc98d11c.png?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/4fa77dcf-e3ad-4886-9a1a-0978bb474d90.png?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/46d7f190-e3d2-412b-8679-7d3dcd87ccb5.png?auto=format",
-            "videoUrl": null
-          }
-        ]
-      },
-      "raw": {
-        "slug": "treadmill-pro",
-        "featuredAt": "2026-06-05T07:01:00Z",
-        "createdAt": "2026-06-05T07:01:00Z"
-      }
-    },
-    {
       "rank": 16,
       "id": "1163604",
       "name": "Clarafy",
@@ -988,8 +988,8 @@
         "productivity"
       ],
       "metrics": {
-        "votes": 94,
-        "comments": 7
+        "votes": 97,
+        "comments": 8
       },
       "links": {
         "homepage": "https://www.producthunt.com/r/C3AOI4BETVQ7D3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
@@ -1045,11 +1045,11 @@
       "description": "An extremely powerful environment for vibe coding, allowing you to use web based chatbots (Claude/Gemini via aistudio/ChatGPT, etc) extremely efficiently while staying firmly in their terms of service. A whole lot of apps are provided as samples / templates, including a YouTube playlist app that not only allows a great YouTube experience without ads (also within terms of service!), but \"Guitar Hero for piano\" that works with a MIDI piano. So much more.",
       "keywords": [
         "vibe coding",
-        "development environment",
+        "developer tools",
         "no API fees"
       ],
       "metrics": {
-        "votes": 93,
+        "votes": 95,
         "comments": 11
       },
       "links": {
