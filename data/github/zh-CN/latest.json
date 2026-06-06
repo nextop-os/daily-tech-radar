@@ -1,9 +1,9 @@
 {
   "schemaVersion": "trendreader.daily.v1",
-  "packageId": "github-daily-All-2026-05-31",
+  "packageId": "github-daily-All-2026-06-01",
   "locale": "zh-CN",
-  "generatedAt": "2026-06-06T10:03:29.318Z",
-  "expiresAt": "2026-06-07T10:03:29.318Z",
+  "generatedAt": "2026-06-06T10:04:31.656Z",
+  "expiresAt": "2026-06-07T10:04:31.656Z",
   "sourceWindow": {
     "since": "daily",
     "language": "All",
@@ -18,8 +18,8 @@
     }
   ],
   "taxonomy": {
-    "version": "2026-05-31",
-    "generatedAt": "2026-06-06T10:03:29.318Z",
+    "version": "2026-06-01",
+    "generatedAt": "2026-06-06T10:04:31.656Z",
     "categories": [
       {
         "id": "ai",
@@ -75,7 +75,7 @@
         "description": "与你共同成长的智能体",
         "language": "Python",
         "topics": [],
-        "stars": 184034,
+        "stars": 184036,
         "forks": 31536,
         "license": null,
         "defaultBranch": null,
@@ -92,7 +92,7 @@
       },
       "readmeSignals": {
         "title": "Hermes Agent ☤",
-        "summary": "由 NousResearch 构建的自我改进 AI 智能体。它是唯一内置学习循环的智能体——能从经验中创造技能，在使用中优化技能，通过自我提示巩固知识，检索过往对话，并构建日益深入的世界模型。",
+        "summary": "由 NousResearch 构建的自我改进 AI 智能体。它是唯一内置学习循环的智能体——能从经验中创造技能，在使用中优化技能，主动强化知识记忆，检索过往对话，并构建日益深厚的认知模型。",
         "headings": [
           "Hermes Agent ☤",
           "Quick Install",
@@ -120,8 +120,8 @@
       },
       "visual": {
         "kind": "agnes_generated",
-        "url": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/dc93120d6083443cab3d51602bd4c381.png",
-        "thumbUrl": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/dc93120d6083443cab3d51602bd4c381.png",
+        "url": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/bce36d1b8eb643f3aa3ebc667d82c325.png",
+        "thumbUrl": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/bce36d1b8eb643f3aa3ebc667d82c325.png",
         "alt": "Generated cover for NousResearch/hermes-agent",
         "sourceUrl": null,
         "promptHash": "sha256:15e7b9fd7f31"
@@ -157,10 +157,10 @@
         "starsGained": 2473
       },
       "metadata": {
-        "description": "在工具输出、日志、文件和 RAG 块到达 LLM 之前进行压缩。减少 60-95% 的 Token，答案不变。库、代理、MCP 服务器。",
+        "description": "在数据到达 LLM 之前，压缩工具输出、日志、文件和 RAG 块。减少 60-95% 的 Token，答案不变。库、代理、MCP 服务器。",
         "language": "Python",
         "topics": [],
-        "stars": 15021,
+        "stars": 15022,
         "forks": 956,
         "license": null,
         "defaultBranch": null,
@@ -177,7 +177,7 @@
       },
       "readmeSignals": {
         "title": "1 — Install",
-        "summary": "减少 60–95% 的 Token · 库 · 代理 · MCP · 6 种算法 · 本地优先 · 可逆",
+        "summary": "减少 60–95% 的 Token · 库 · 代理 · MCP · 6 种算法 · 本地优先 · 可逆压缩",
         "headings": [
           "What it does",
           "How it works (30 seconds)",
@@ -246,7 +246,7 @@
         "starsGained": 366
       },
       "metadata": {
-        "description": "智能体与生成式 UI 的前端技术栈。React + Angular。AG-UI 协议的创造者。",
+        "description": "智能体与生成式 UI 的前端技术栈。支持 React + Angular。AG-UI 协议的创造者。",
         "language": "TypeScript",
         "topics": [],
         "stars": 32909,
@@ -266,7 +266,7 @@
       },
       "readmeSignals": {
         "title": "CopilotKit",
-        "summary": "为 React、Angular、Vue、React Native 以及浏览器之外的场景提供生成式 UI、共享状态和人机协作工作流。",
+        "summary": "为 React、Angular、Vue、React Native 等提供生成式 UI、共享状态和人在回路（Human-in-the-loop）工作流，支持范围超越浏览器。",
         "headings": [
           "CopilotKit",
           "What is CopilotKit",
@@ -282,7 +282,7 @@
           "智能体",
           "CopilotKit",
           "产品简介",
-          "兼容你的技术栈",
+          "兼容技术栈",
           "跨平台支持",
           "Slack",
           "Microsoft Teams"
@@ -331,7 +331,7 @@
         "description": "具有更多灵活性和功能的 Notebook LM 开源实现",
         "language": "TypeScript",
         "topics": [],
-        "stars": 26271,
+        "stars": 26272,
         "forks": 3015,
         "license": null,
         "defaultBranch": null,
@@ -348,7 +348,7 @@
       },
       "readmeSignals": {
         "title": null,
-        "summary": "一个开源、注重隐私的 Google Notebook LM 替代品！加入我们的 Discord 服务器获取帮助、分享工作流想法并提出功能建议！访问我们的网站 » 📚 开始使用 · 📖 用户指南 · ✨ 功能 · 🚀 部署",
+        "summary": "一个开源、注重隐私的 Google Notebook LM 替代方案！加入我们的 Discord 服务器获取帮助、分享工作流想法并建议新功能！访问我们的网站 » 📚 快速开始 · 📖 用户指南 · ✨ 功能 · 🚀 部署",
         "headings": [
           "A private, multi-model, 100% local, full-featured alternative to Notebook LM",
           "🆚 Open Notebook vs Google Notebook LM",
@@ -364,10 +364,10 @@
           "私有化",
           "多模型",
           "100% 本地运行",
-          "Notebook LM 替代品",
-          "开源对比",
+          "Notebook LM 替代方案",
+          "Open Notebook vs Google Notebook LM",
           "技术栈",
-          "快速开始"
+          "快速入门"
         ],
         "score": 100
       },
@@ -408,7 +408,7 @@
         "starsGained": 1361
       },
       "metadata": {
-        "description": "智能体Harness性能优化系统。为 Claude Code、Codex、Opencode、Cursor 等提供技能、本能、记忆、安全性和研究优先的开发支持。",
+        "description": "智能体框架性能优化系统。为 Claude Code、Codex、Opencode、Cursor 等提供技能、本能、记忆、安全性和研究优先的开发支持。",
         "language": "JavaScript",
         "topics": [],
         "stars": 208680,
@@ -428,7 +428,7 @@
       },
       "readmeSignals": {
         "title": "ECC",
-        "summary": "182K+ 星 | 28K+ 叉 | 170+ 贡献者 | 12+ 语言生态系统 | 跨Harness智能体工作流",
+        "summary": "182K+ 星标 | 28K+ Fork | 170+ 贡献者 | 12+ 语言生态系统 | 跨框架智能体工作流",
         "headings": [
           "ECC",
           "The Guides",
@@ -495,7 +495,7 @@
         "starsGained": 148
       },
       "metadata": {
-        "description": "赋予 AI 智能体双眼，洞察整个互联网。读取并搜索 Twitter、Reddit、YouTube、GitHub、Bilibili、小红书——一个 CLI，零 API 费用。",
+        "description": "赋予 AI 智能体双眼，洞察整个互联网。读取并搜索 Twitter、Reddit、YouTube、GitHub、Bilibili、小红书——只需一个 CLI，零 API 费用。",
         "language": "Python",
         "topics": [],
         "stars": 21876,
@@ -515,7 +515,7 @@
       },
       "readmeSignals": {
         "title": "只预览，不实际删除",
-        "summary": "AI 智能体已能帮你写代码、改文档、管项目——但当你让它去网上找点东西时，它就抓瞎了：",
+        "summary": "AI 智能体已能帮你写代码、改文档、管项目——但当你让它去网上找点资料时，它却束手无策：",
         "headings": [
           "为什么需要 Agent Reach？",
           "✅ 在你用之前，你可能想知道",
@@ -580,7 +580,7 @@
         "starsGained": 479
       },
       "metadata": {
-        "description": "NVIDIA Cosmos 是一个开放的世界模型、数据集和工具平台，使开发人员能够构建用于机器人、自动驾驶汽车、智能基础设施等的物理 AI。",
+        "description": "NVIDIA Cosmos 是一个开放的世界模型、数据集和工具平台，使开发者能够构建用于机器人、自动驾驶汽车、智能基础设施等的物理 AI。",
         "language": "Jupyter Notebook",
         "topics": [],
         "stars": 9532,
@@ -600,7 +600,7 @@
       },
       "readmeSignals": {
         "title": "Cosmos",
-        "summary": "介绍 Cosmos-3 关键能力、模型架构、模型系列、支持的生成设置、输入与输出、用例、生成器、推理器、快速入门、Diffusers 生成、vLLM Omni 生成、Transformers 推理、vLLM 推理、NIM 推理及故障排除",
+        "summary": "介绍 Cosmos-3 关键能力、模型架构、模型家族、支持的生成设置、输入输出、用例、生成器、推理器、快速入门、Diffusers 生成、vLLM Omni 生成、Transformers 推理、vLLM 推理、NIM 推理及故障排除",
         "headings": [
           "Cosmos",
           "Table of Contents",
@@ -747,7 +747,7 @@
         "starsGained": 731
       },
       "metadata": {
-        "description": "AI 智能体技能，可在 Reddit、X、YouTube、HN、Polymarket 和网络上研究任何主题，然后合成基于事实的摘要",
+        "description": "AI 智能体技能，可在 Reddit、X、YouTube、HN、Polymarket 和全网研究任何主题，然后合成基于事实的摘要",
         "language": "Python",
         "topics": [],
         "stars": 28391,
@@ -767,7 +767,7 @@
       },
       "readmeSignals": {
         "title": "/last30days",
-        "summary": "一个由 AI 智能体主导的搜索引擎，评分依据是投票、点赞和真金白银——而非编辑。",
+        "summary": "一个由 AI 智能体主导的搜索引擎，评分依据是点赞、喜欢和真金白银，而非编辑审核。",
         "headings": [
           "/last30days",
           "Why this exists",
@@ -783,7 +783,7 @@
           "AI",
           "智能体",
           "/last30days",
-          "存在理由",
+          "存在意义",
           "数据来源",
           "用户反馈"
         ],
@@ -791,8 +791,8 @@
       },
       "visual": {
         "kind": "agnes_generated",
-        "url": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/193d826e633040b7b0442690bf6d2b3f.png",
-        "thumbUrl": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/193d826e633040b7b0442690bf6d2b3f.png",
+        "url": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/c1260b01ddf44be1be4434230ae252f8.png",
+        "thumbUrl": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/c1260b01ddf44be1be4434230ae252f8.png",
         "alt": "Generated cover for mvanhorn/last30days-skill",
         "sourceUrl": null,
         "promptHash": "sha256:dcec996b1934"
@@ -830,10 +830,10 @@
         "starsGained": 747
       },
       "metadata": {
-        "description": "将任何 PDF 或图像文档转化为 AI 的结构化数据。一个强大、轻量的 OCR 工具包， bridging 图像/PDF 与 LLM 之间的差距。支持 100+ 种语言。",
+        "description": "将任何 PDF 或图像文档转化为 AI 的结构化数据。一款强大、轻量的 OCR 工具包， bridging 图像/PDF 与 LLM 之间的差距。支持 100+ 种语言。",
         "language": "Python",
         "topics": [],
-        "stars": 80700,
+        "stars": 80701,
         "forks": 10640,
         "license": null,
         "defaultBranch": null,
@@ -865,7 +865,7 @@
         "keywords": [
           "AI",
           "LLM",
-          "关键功能",
+          "核心功能",
           "智能文档解析",
           "通用文本识别",
           "开发者生态"
@@ -933,7 +933,7 @@
       },
       "readmeSignals": {
         "title": "Plugins",
-        "summary": "此仓库包含精选的 Codex 插件示例集合。",
+        "summary": "该仓库包含精选的 Codex 插件示例集合。",
         "headings": [
           "Plugins"
         ],
@@ -946,8 +946,8 @@
       },
       "visual": {
         "kind": "agnes_generated",
-        "url": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/bf657f9f71864a5182e207e2c96a385f.png",
-        "thumbUrl": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/bf657f9f71864a5182e207e2c96a385f.png",
+        "url": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/a59fb2b8465a417bbbc7fa2ea8693eee.png",
+        "thumbUrl": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/a59fb2b8465a417bbbc7fa2ea8693eee.png",
         "alt": "Generated cover for openai/plugins",
         "sourceUrl": null,
         "promptHash": "sha256:7fb9c749c29e"
@@ -983,7 +983,7 @@
         "starsGained": 227
       },
       "metadata": {
-        "description": "基准测试最佳的开源 AI 记忆系统。而且是免费的。",
+        "description": "基准测试最佳的开源 AI 记忆系统。且完全免费。",
         "language": "Python",
         "topics": [],
         "stars": 54023,
@@ -1030,8 +1030,8 @@
       },
       "visual": {
         "kind": "agnes_generated",
-        "url": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/387e8f21342e4745a90ea8cbf39bfb17.png",
-        "thumbUrl": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/387e8f21342e4745a90ea8cbf39bfb17.png",
+        "url": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/a20e8dfccabe49e5bd11b161fb58de7b.png",
+        "thumbUrl": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/a20e8dfccabe49e5bd11b161fb58de7b.png",
         "alt": "Generated cover for MemPalace/mempalace",
         "sourceUrl": null,
         "promptHash": "sha256:446e08ca2faa"
@@ -1070,7 +1070,7 @@
         "description": "沙盒智能体框架。",
         "language": "TypeScript",
         "topics": [],
-        "stars": 4635,
+        "stars": 4636,
         "forks": 246,
         "license": null,
         "defaultBranch": null,
@@ -1112,8 +1112,8 @@
       },
       "visual": {
         "kind": "agnes_generated",
-        "url": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/022409905c6f486d95d9cbadd50b30eb.png",
-        "thumbUrl": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/022409905c6f486d95d9cbadd50b30eb.png",
+        "url": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/e544771bc4b34146ac5c2846340da035.png",
+        "thumbUrl": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/e544771bc4b34146ac5c2846340da035.png",
         "alt": "Generated cover for withastro/flue",
         "sourceUrl": null,
         "promptHash": "sha256:4758cb0b325a"
@@ -1149,7 +1149,7 @@
         "starsGained": 326
       },
       "metadata": {
-        "description": "OpenClaw 的 Windows 配套套件 - 系统托盘应用、共享库、Node 和 PowerToys 命令调色板扩展",
+        "description": "OpenClaw 的 Windows 配套套件：系统托盘应用、共享库、Node 模块和 PowerToys 命令调色板扩展",
         "language": "C#",
         "topics": [],
         "stars": 1659,
@@ -1169,7 +1169,7 @@
       },
       "readmeSignals": {
         "title": "🦞 OpenClaw Windows Hub",
-        "summary": "https://openclaw.ai 的原生 Windows 配套套件——AI 驱动的个人助手。",
+        "summary": "https://openclaw.ai 的原生 Windows 配套套件——一款 AI 驱动的个人助手。",
         "headings": [
           "🦞 OpenClaw Windows Hub",
           "Projects",
@@ -1184,8 +1184,8 @@
         "keywords": [
           "UI",
           "OpenClaw Windows Hub",
-          "项目",
-          "快速开始",
+          "项目列表",
+          "快速启动",
           "前置条件"
         ],
         "score": 100
@@ -1229,7 +1229,7 @@
         "starsGained": 207
       },
       "metadata": {
-        "description": "在容器、Kubernetes、代码仓库、云等中发现漏洞、配置错误、密钥和 SBOM",
+        "description": "在容器、Kubernetes、代码仓库、云环境等中发现漏洞、配置错误、密钥和 SBOM",
         "language": "Go",
         "topics": [],
         "stars": 35907,
@@ -1249,7 +1249,7 @@
       },
       "readmeSignals": {
         "title": null,
-        "summary": "Trivy 发音pronunciation 是一个全面且 versatile 的安全扫描器。Trivy 拥有扫描安全问题的扫描器，以及可以查找这些问题的目标。",
+        "summary": "Trivy 发音pronunciation 是一款全面且 versatile 的安全扫描器。Trivy 拥有多种扫描器来查找安全问题，并针对可发现这些问题的目标进行扫描。",
         "headings": [
           "Quick Start",
           "Get Trivy",
@@ -1263,7 +1263,7 @@
         "commands": [],
         "keywords": [
           "AI",
-          "快速开始",
+          "快速入门",
           "获取 Trivy",
           "Canary 构建",
           "常规用法"
@@ -1327,7 +1327,7 @@
       },
       "readmeSignals": {
         "title": "Coding Interview University",
-        "summary": "我最初创建这个是为了作为成为软件工程师的学习主题简短待办事项列表，但它发展成了今天这个庞大的列表。完成这个学习计划后，https://startupnextdoor.com/我已获亚马逊收购/?src=ciu! 你可能不需要再学习其他内容了。",
+        "summary": "我最初创建这个是为了列一个成为软件工程师的学习主题待办清单，但它发展成了今天这个庞大的列表。完成这个学习计划后，https://startupnextdoor.com/我已被亚马逊收购？src=ciu！你可能不需要再学习其他内容了。",
         "headings": [
           "Coding Interview University",
           "What is it?",
@@ -1340,7 +1340,7 @@
         ],
         "commands": [],
         "keywords": [
-          "编程面试大学",
+          "Coding Interview University",
           "这是什么",
           "目录",
           "学习计划"
@@ -1384,7 +1384,7 @@
         "starsGained": 309
       },
       "metadata": {
-        "description": "用于将 GitHub Copilot Agent 集成到应用和服务中的多平台 SDK",
+        "description": "用于将 GitHub Copilot 智能体集成到应用和服务中的多平台 SDK",
         "language": "Java",
         "topics": [],
         "stars": 9336,
@@ -1404,7 +1404,7 @@
       },
       "readmeSignals": {
         "title": "GitHub Copilot CLI SDKs",
-        "summary": "使用 GitHub Copilot SDK（支持 Python、TypeScript、Go、.NET、Java 和 Rust）将 Copilot 的智能体工作流嵌入你的应用程序中。",
+        "summary": "使用 GitHub Copilot SDK（支持 Python、TypeScript、Go、.NET、Java 和 Rust）将 Copilot 的智能体工作流嵌入您的应用程序。",
         "headings": [
           "GitHub Copilot CLI SDKs",
           "Available SDKs",
@@ -1423,7 +1423,7 @@
           "智能体",
           "GitHub Copilot CLI SDKs",
           "可用 SDK",
-          "入门指南",
+          "快速开始",
           "架构"
         ],
         "score": 100
