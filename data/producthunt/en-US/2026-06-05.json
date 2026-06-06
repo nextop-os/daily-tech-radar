@@ -4,7 +4,7 @@
   "locale": "en-US",
   "date": "2026-06-05",
   "sourceTimezone": "America/Los_Angeles",
-  "generatedAt": "2026-06-06T10:02:35.598Z",
+  "generatedAt": "2026-06-06T10:24:16.986Z",
   "items": [
     {
       "rank": 1,
@@ -18,7 +18,7 @@
         "store management"
       ],
       "metrics": {
-        "votes": 496,
+        "votes": 497,
         "comments": 161
       },
       "links": {
@@ -74,8 +74,8 @@
       "tagline": "Your ambient memory for Claude",
       "description": "Every great Claude response starts with context. Minimi listens across your Mac - docs, calls, messages, tabs - and gives Claude the full picture. No prompting. All on-device and private.",
       "keywords": [
-        "AI context",
-        "macOS utility",
+        "context awareness",
+        "local AI",
         "privacy"
       ],
       "metrics": {
@@ -137,7 +137,7 @@
       "keywords": [
         "investment AI",
         "financial modeling",
-        "data accuracy"
+        "verifiable AI"
       ],
       "metrics": {
         "votes": 379,
@@ -201,9 +201,9 @@
       "tagline": "AI finance copilot for cash flow, margins, and growth",
       "description": "Veltrix AI gives founders and finance teams instant clarity on cash flow, profitability, burn, and business performance. Connect QuickBooks, Xero, Shopify, Square, and HubSpot, then ask finance questions in plain English to get source-backed answers, anomalies, and recommended next steps. Replace spreadsheet chaos and static dashboards with real-time financial intelligence built to help you make faster, smarter business decisions.",
       "keywords": [
-        "financial AI",
+        "financial intelligence",
         "cash flow",
-        "business intelligence"
+        "business analytics"
       ],
       "metrics": {
         "votes": 280,
@@ -272,9 +272,9 @@
       "tagline": "Generate design-ready image with open weight, layout control",
       "description": "Ideogram 4.0 is an open-weight text-to-image model trained from scratch, with bounding-box layout control, multilingual text rendering, and native 2K output. For developers and enterprises building on visual AI.",
       "keywords": [
-        "image generation",
-        "open weight model",
-        "design tools"
+        "text-to-image",
+        "open weight",
+        "layout control"
       ],
       "metrics": {
         "votes": 238,
@@ -393,9 +393,9 @@
       "tagline": "Get real-world tasks done with autonomous AI agents",
       "description": "Most AI benchmarks test models in controlled environments. Agent Mode tests them on complex tasks to get more work done. Run autonomous agents that browse, research, code, use files, and complete multi-step workflows from a single prompt. Then watch each workflow unfold step by step. Every run contributes to the Agent Arena Leaderboard, ranking frontier models by real-world agentic performance.",
       "keywords": [
-        "AI agents",
-        "benchmarking",
-        "autonomous tasks"
+        "autonomous agents",
+        "AI benchmark",
+        "workflow automation"
       ],
       "metrics": {
         "votes": 171,
@@ -470,8 +470,8 @@
       "description": "A 550B MoE frontier-intelligence open model built for long-running agents. It delivers 5x faster inference and lowers the cost of complex agentic tasks by up to 30% versus other open frontier models.Ultra excels at complex tasks like coding and deep research. Long-running agents spend their time planning, using tools, recovering from failures, and deciding what to do next.",
       "keywords": [
         "NVIDIA",
-        "large language model",
-        "agent efficiency"
+        "MoE model",
+        "agent reasoning"
       ],
       "metrics": {
         "votes": 155,
@@ -520,14 +520,70 @@
     },
     {
       "rank": 8,
+      "id": "1100116",
+      "name": "Moodloom",
+      "tagline": "Ad-free Pinterest Alternative with AI content filtering ",
+      "description": "Moodloom is an ad-free visual discovery platform for those fed up of Pinterest. Save and explore fashion, decor, and art - without the noise. What makes it different: Clean feed - no ads, no sponsored posts AI content filter - hide or show AI-generated images For fashion lovers, decorators & digital artists who wish Pinterest were better. We have built Save to Moodloom Extension as well using which you can Import all your Pinterest pins/boards to Moodloom.",
+      "keywords": [
+        "visual discovery",
+        "ad-free",
+        "Pinterest alternative"
+      ],
+      "metrics": {
+        "votes": 126,
+        "comments": 9
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/KABC3NRR6GO7HB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/moodloom?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/a8ab0a03-78c1-4073-b9af-816922753c26.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/a8ab0a03-78c1-4073-b9af-816922753c26.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/bae5030a-87ad-412a-b75f-adb3ea3f7556.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/08743e19-5ddb-4285-a9fe-512d4d3fa968.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/ce12de12-02d4-4d73-834e-2aae2501d9e1.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/37d36abe-0eaa-469a-a2fe-871698ff8599.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/3da52c9d-32c6-4af0-a345-26a0c0a38cc2.jpeg?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "moodloom",
+        "featuredAt": "2026-06-05T07:01:00Z",
+        "createdAt": "2026-06-05T07:01:00Z"
+      }
+    },
+    {
+      "rank": 9,
       "id": "1164006",
       "name": "LocalClicky",
       "tagline": "Control your Mac with your voice locally",
       "description": "LocalClicky is a Mac menubar app that lets you have a real conversation with your computer - completely offline. Say \"Computer\" to start a session. It stays listening. You chain commands back to back. Say \"goodbye\" when you're done. Everything runs on your machine: voice transcription, LLM multi models, VAD, macOS say No API keys. No subscription. No data leaving your Mac. MIT licensed.",
       "keywords": [
         "voice control",
-        "macOS app",
-        "offline AI"
+        "offline AI",
+        "Mac utility"
       ],
       "metrics": {
         "votes": 124,
@@ -575,62 +631,6 @@
       }
     },
     {
-      "rank": 9,
-      "id": "1100116",
-      "name": "Moodloom",
-      "tagline": "Ad-free Pinterest Alternative with AI content filtering ",
-      "description": "Moodloom is an ad-free visual discovery platform for those fed up of Pinterest. Save and explore fashion, decor, and art - without the noise. What makes it different: Clean feed - no ads, no sponsored posts AI content filter - hide or show AI-generated images For fashion lovers, decorators & digital artists who wish Pinterest were better. We have built Save to Moodloom Extension as well using which you can Import all your Pinterest pins/boards to Moodloom.",
-      "keywords": [
-        "visual discovery",
-        "ad-free",
-        "Pinterest alternative"
-      ],
-      "metrics": {
-        "votes": 124,
-        "comments": 9
-      },
-      "links": {
-        "homepage": "https://www.producthunt.com/r/KABC3NRR6GO7HB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
-        "source": "https://www.producthunt.com/products/moodloom?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
-      },
-      "assets": {
-        "icon": "https://ph-files.imgix.net/a8ab0a03-78c1-4073-b9af-816922753c26.png?auto=format",
-        "thumbnail": "https://ph-files.imgix.net/a8ab0a03-78c1-4073-b9af-816922753c26.png?auto=format",
-        "media": [
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/bae5030a-87ad-412a-b75f-adb3ea3f7556.png?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/08743e19-5ddb-4285-a9fe-512d4d3fa968.png?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/ce12de12-02d4-4d73-834e-2aae2501d9e1.png?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/37d36abe-0eaa-469a-a2fe-871698ff8599.png?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "video",
-            "url": "https://ph-files.imgix.net/3da52c9d-32c6-4af0-a345-26a0c0a38cc2.jpeg?auto=format",
-            "videoUrl": null
-          }
-        ]
-      },
-      "raw": {
-        "slug": "moodloom",
-        "featuredAt": "2026-06-05T07:01:00Z",
-        "createdAt": "2026-06-05T07:01:00Z"
-      }
-    },
-    {
       "rank": 10,
       "id": "1162995",
       "name": "FloatPic",
@@ -638,8 +638,8 @@
       "description": "FloatPic is the ultra-minimalist macOS native image viewer. Borderless floating window, native gestures, blazing-fast loading, supports 30+ image formats. Make the software disappear, let images float.",
       "keywords": [
         "image viewer",
-        "macOS native",
-        "minimalist"
+        "minimalist",
+        "macOS native"
       ],
       "metrics": {
         "votes": 115,
@@ -698,9 +698,9 @@
       "tagline": "Block prompt inject & cut token costs for AI browser agents",
       "description": "AI agents browsing the web have a problem: they read everything — cookie banners, hidden instructions, dark patterns — and can't tell real content from a trap. Agent Browser Shield sits between your agent and the web, stripping prompt injections, masking PII, removing dark patterns, and filtering page noise that burns tokens. Free, source-available, works with browser-use and Browserbase.",
       "keywords": [
-        "AI security",
         "prompt injection",
-        "browser agents"
+        "browser agent",
+        "token optimization"
       ],
       "metrics": {
         "votes": 105,
@@ -851,6 +851,72 @@
     },
     {
       "rank": 14,
+      "id": "1132349",
+      "name": "Lumo Studios",
+      "tagline": "Build Decks that Speak for Themselves",
+      "description": "Great ideas deserve great slides. LUMO uses AI to turn your thinking into polished decks instantly, beautifully, and exactly the way you want them. LUMO turns your ideas into beautiful presentations in seconds. Generate slides from a prompt, refine them in the canvas editor, and share with your team - all in one place.",
+      "keywords": [
+        "presentation AI",
+        "slide generation",
+        "productivity"
+      ],
+      "metrics": {
+        "votes": 99,
+        "comments": 7
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/KC4UACPCSLYR3L?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/lumo-studios?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/6bcc0e1e-4363-41ff-9abf-7e63ce7b9a44.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/6bcc0e1e-4363-41ff-9abf-7e63ce7b9a44.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/257fac65-9345-4555-bfb2-877affbd45c6.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/619d2f6c-8c91-40a5-9cfe-8f2f2e7e3dd0.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/fd4c6b62-d125-4409-8040-b149d7f8806c.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/bdecf622-ceaf-42c9-8143-9698f7cb0902.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/280f1f91-b177-4257-a742-664cf373b181.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/393f9e92-91b6-4173-b590-908362f16c0a.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/ce6f39a4-faca-4e51-9694-9b3922966309.jpeg?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "lumo-studios",
+        "featuredAt": "2026-06-05T07:01:00Z",
+        "createdAt": "2026-06-05T07:01:00Z"
+      }
+    },
+    {
+      "rank": 15,
       "id": "1163579",
       "name": "Treadmill Pro",
       "tagline": "Control your treadmill from your iPhone, wirelessly",
@@ -906,72 +972,6 @@
       },
       "raw": {
         "slug": "treadmill-pro",
-        "featuredAt": "2026-06-05T07:01:00Z",
-        "createdAt": "2026-06-05T07:01:00Z"
-      }
-    },
-    {
-      "rank": 15,
-      "id": "1132349",
-      "name": "Lumo Studios",
-      "tagline": "Build Decks that Speak for Themselves",
-      "description": "Great ideas deserve great slides. LUMO uses AI to turn your thinking into polished decks instantly, beautifully, and exactly the way you want them. LUMO turns your ideas into beautiful presentations in seconds. Generate slides from a prompt, refine them in the canvas editor, and share with your team - all in one place.",
-      "keywords": [
-        "presentation AI",
-        "slide generator",
-        "productivity"
-      ],
-      "metrics": {
-        "votes": 98,
-        "comments": 7
-      },
-      "links": {
-        "homepage": "https://www.producthunt.com/r/KC4UACPCSLYR3L?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
-        "source": "https://www.producthunt.com/products/lumo-studios?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
-      },
-      "assets": {
-        "icon": "https://ph-files.imgix.net/6bcc0e1e-4363-41ff-9abf-7e63ce7b9a44.png?auto=format",
-        "thumbnail": "https://ph-files.imgix.net/6bcc0e1e-4363-41ff-9abf-7e63ce7b9a44.png?auto=format",
-        "media": [
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/257fac65-9345-4555-bfb2-877affbd45c6.png?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/619d2f6c-8c91-40a5-9cfe-8f2f2e7e3dd0.png?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/fd4c6b62-d125-4409-8040-b149d7f8806c.png?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/bdecf622-ceaf-42c9-8143-9698f7cb0902.png?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/280f1f91-b177-4257-a742-664cf373b181.png?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/393f9e92-91b6-4173-b590-908362f16c0a.png?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "video",
-            "url": "https://ph-files.imgix.net/ce6f39a4-faca-4e51-9694-9b3922966309.jpeg?auto=format",
-            "videoUrl": null
-          }
-        ]
-      },
-      "raw": {
-        "slug": "lumo-studios",
         "featuredAt": "2026-06-05T07:01:00Z",
         "createdAt": "2026-06-05T07:01:00Z"
       }
@@ -1045,8 +1045,8 @@
       "description": "An extremely powerful environment for vibe coding, allowing you to use web based chatbots (Claude/Gemini via aistudio/ChatGPT, etc) extremely efficiently while staying firmly in their terms of service. A whole lot of apps are provided as samples / templates, including a YouTube playlist app that not only allows a great YouTube experience without ads (also within terms of service!), but \"Guitar Hero for piano\" that works with a MIDI piano. So much more.",
       "keywords": [
         "vibe coding",
-        "developer tools",
-        "no API fees"
+        "no API fees",
+        "developer tools"
       ],
       "metrics": {
         "votes": 95,
