@@ -2,8 +2,11 @@ import { describe, expect, it } from "vitest";
 import { DailyTechRadarClient, DEFAULT_BASE_URL } from "../src/index.js";
 
 describe("DailyTechRadarClient", () => {
-  it("uses the built-in CDN base URL", () => {
+  it("uses the built-in GitHub raw base URL", () => {
     const client = new DailyTechRadarClient();
+    expect(DEFAULT_BASE_URL).toBe(
+      "https://raw.githubusercontent.com/nextop-os/daily-tech-radar/main/data"
+    );
     expect(client.baseUrl).toBe(DEFAULT_BASE_URL);
   });
 
@@ -74,4 +77,3 @@ function responseFor(url: unknown): Response {
         };
   return new Response(JSON.stringify(value), { status: 200 });
 }
-

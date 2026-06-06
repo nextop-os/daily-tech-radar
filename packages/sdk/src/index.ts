@@ -161,7 +161,7 @@ export type DailyTechRadarClientOptions = {
   fetch?: typeof fetch;
 };
 
-export const DEFAULT_BASE_URL = "https://cdn.jsdelivr.net/gh/nextop-os/daily-tech-radar@main/data";
+export const DEFAULT_BASE_URL = "https://raw.githubusercontent.com/nextop-os/daily-tech-radar/main/data";
 
 export class DailyTechRadarClient {
   readonly baseUrl: string;

@@ -7,6 +7,5 @@ const client = new DailyTechRadarClient();
 const latest = await client.productHunt.latest("zh-CN");
 ```
 
-The client reads from jsDelivr by default and accepts an optional `baseUrl` for
-tests or private mirrors.
-
+The client reads from GitHub raw by default so daily JSON updates become visible
+quickly. It accepts an optional `baseUrl` for tests or private mirrors.

@@ -1,6 +1,6 @@
 {
   "name": "@nextop-os/daily-tech-radar",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "SDK for reading Nextop Daily Tech Radar trend data.",
   "private": false,
   "type": "module",

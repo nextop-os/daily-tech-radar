@@ -85,10 +85,10 @@ npm 包名：
 @nextop-os/daily-tech-radar
 ```
 
-SDK 内置默认 CDN：
+SDK 内置默认数据源：
 
 ```txt
-https://cdn.jsdelivr.net/gh/nextop-os/daily-tech-radar@main/data
+https://raw.githubusercontent.com/nextop-os/daily-tech-radar/main/data
 ```
 
 类接口：
