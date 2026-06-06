@@ -335,21 +335,15 @@ async function selectVisual(
   }
 
   if (options.generateAgnesImages && options.agnesApiKey) {
-    const prompt = [
-      "Create a clean product card cover for an open-source GitHub project.",
-      `Project: ${candidate.owner}/${candidate.name}`,
-      `Category: ${categoryId}`,
-      `Description: ${candidate.description}`,
-      `README summary: ${summary ?? candidate.description}`,
-      "Style: light editorial software product screenshot, practical developer tool, no fake UI text, no logos copied from GitHub, 16:10 composition, clear focal object."
-    ].join("\n");
+    const prompt = buildAgnesCoverPrompt(candidate, categoryId, summary);
     try {
       const agnes = createAgnesClient({ apiKey: options.agnesApiKey, fetchImpl: options.fetchImpl });
       const image = await agnes.image.generate({
         mode: "text2img",
         model: "agnes-image-2.1-flash",
         prompt,
-        size: "1024x640"
+        size: "1024x640",
+        seed: imageSeed(`${candidate.owner}/${candidate.name}`)
       });
       return {
         kind: "agnes_generated",
@@ -372,6 +366,172 @@ async function selectVisual(
     sourceUrl: candidate.url,
     promptHash: hashPrompt(`${candidate.owner}/${candidate.name}:${candidate.description}`)
   };
+}
+
+function buildAgnesCoverPrompt(
+  candidate: CandidateRepo,
+  categoryId: string,
+  summary: string | null | undefined
+) {
+  const workflow = workflowForCategory(categoryId);
+  const visualMetaphor = visualMetaphorForRepo(candidate, summary);
+  const visualScript = visualScriptForRepo(candidate, categoryId, summary);
+
+  return [
+    "type: cartoon visual explainer infographic",
+    "Goal: turn complex technical content into a visual feast that explains the product function in one glance.",
+    "Asset type: 16:10 GitHub trend card cover for a product discovery app, optimized for a card thumbnail and a larger detail drawer.",
+    `Project: ${candidate.owner}/${candidate.name}`,
+    `Category: ${categoryId}`,
+    `Description: ${candidate.description}`,
+    `README summary: ${summary ?? candidate.description}`,
+    `Functional story: ${workflow}.`,
+    `Visual metaphor: ${visualMetaphor}.`,
+    `Required text script: headline "${visualScript.headline}", section labels "${visualScript.sections.join(" / ")}", benefit tags "${visualScript.benefits.join(" / ")}".`,
+    `Must visibly include: ${visualScript.objects.join(", ")}.`,
+    "Project/repository names are metadata only and must not appear in the image.",
+    "Choose an original layout that fits the repo. Do not copy a fixed input-center-output template and do not imitate any supplied reference image structure.",
+    "Possible layouts: process flow, before-and-after comparison, modular feature map, architecture cutaway, hub-and-spoke capability map, layered stack, dashboard collage, pipeline journey, comic-style explanation panels, or another clear infographic composition.",
+    "The poster should explain the specific repo: what problem it solves, what source material or user action starts it, what transformation happens, and what useful outcome appears.",
+    "Use a memorable central visual metaphor when helpful: compression machine, parser, agent control room, automation conveyor, memory graph, creative engine, API toolkit, or another metaphor implied by the repo.",
+    "Use large icons, clean illustrations, charts, documents, app windows, database blocks, terminal cards, agent/tool nodes, arrows, callouts, numbered badges, or benefit cards as needed, but only if they clarify the function.",
+    "Style: bright educational infographic poster, playful but professional, thick rounded strokes, glossy icons, white background, vibrant accent colors, high information density, crisp hierarchy, delightful small decorations.",
+    "Typography: use the required text script as large readable labels. Keep every text element short, high-contrast, typo-free, and important to comprehension.",
+    "Only the headline, section labels, and benefit tags may contain text. All app windows, charts, cards, buttons, terminals, and documents must use blank placeholder bars, icons, shapes, or charts with no letters.",
+    "Avoid: repo name, GitHub logo, copied GitHub UI, README screenshot, long paragraphs, small body text, code snippets, lorem ipsum, fake UI microcopy, generic sci-fi cube, plain abstract gradient, mascot-only image, dark screenshot banner.",
+    "No extra labels and no gibberish microtext. If text cannot be rendered cleanly, replace it with blank grey placeholder lines."
+  ].join("\n");
+}
+
+function visualMetaphorForRepo(candidate: CandidateRepo, summary: string | null | undefined) {
+  const text = `${candidate.name} ${candidate.description} ${summary ?? ""}`.toLowerCase();
+
+  if (/(compress|compression|context|rag|logs?|tool outputs?|chunks?)/.test(text)) {
+    return "many documents, logs, files, and RAG chunks compress into a smaller focused context packet that feeds an AI agent answer panel";
+  }
+
+  if (/(ocr|pdf|document|parse|structured data|extract)/.test(text)) {
+    return "PDFs and images enter a document parser, text regions are recognized, and clean tables or JSON-like data cards come out";
+  }
+
+  if (/(agent|workflow|automation|mcp|tool use)/.test(text)) {
+    return "a user task enters an agent workspace, tools are selected and executed, and completed action cards are produced";
+  }
+
+  if (/(commerce|ecommerce|store|shopify|order|customer support)/.test(text)) {
+    return "products, orders, and customer messages flow through an automation hub into inventory, fulfillment, and support results";
+  }
+
+  if (/(image|video|visual|generate|generation|render)/.test(text)) {
+    return "prompts and source assets flow through a creative engine into generated image or video output tiles";
+  }
+
+  if (/(memory|knowledge|search|recall|conversation)/.test(text)) {
+    return "scattered notes and conversations are indexed into a knowledge graph, then retrieved as focused answers";
+  }
+
+  if (/(cli|terminal|command|developer|sdk|api|framework)/.test(text)) {
+    return "commands, code modules, and API calls move through a developer toolkit into deployable project outputs";
+  }
+
+  return "raw project inputs are transformed through a central capability engine into practical product outputs";
+}
+
+function visualScriptForRepo(candidate: CandidateRepo, categoryId: string, summary: string | null | undefined) {
+  const text = `${candidate.name} ${candidate.description} ${summary ?? ""}`.toLowerCase();
+
+  if (/(compress|compression|context|rag|logs?|tool outputs?|chunks?)/.test(text)) {
+    return {
+      benefits: ["Less Tokens", "Agent Ready", "Better Answers"],
+      headline: "Context Compression",
+      objects: [
+        "raw log sheets",
+        "file stack",
+        "RAG chunk cards",
+        "compression engine",
+        "shrinking token meter",
+        "focused context packet",
+        "AI answer panel"
+      ],
+      sections: ["Raw Logs & Files", "Compress", "Focused Context"]
+    };
+  }
+
+  if (/(ocr|pdf|document|parse|structured data|extract)/.test(text)) {
+    return {
+      benefits: ["Tables", "JSON Data", "LLM Ready"],
+      headline: "Document AI",
+      objects: ["PDF page", "image document", "OCR scanner beam", "text blocks", "table grid", "structured data cards"],
+      sections: ["PDF & Images", "Recognize", "Structured Data"]
+    };
+  }
+
+  if (/(agent|workflow|automation|mcp|tool use)/.test(text)) {
+    return {
+      benefits: ["Tool Planning", "Auto Execute", "Workflow Done"],
+      headline: "AI Agent Workflow",
+      objects: ["user task card", "agent control room", "tool icons", "workflow arrows", "completed action cards"],
+      sections: ["Task Input", "Plan Tools", "Execute"]
+    };
+  }
+
+  if (/(commerce|ecommerce|store|shopify|order|customer support)/.test(text)) {
+    return {
+      benefits: ["Orders", "Support", "Fulfillment"],
+      headline: "Commerce Ops",
+      objects: ["product cards", "order queue", "support messages", "automation hub", "shipping boxes", "status dashboard"],
+      sections: ["Store Inputs", "Automate", "Operations"]
+    };
+  }
+
+  if (/(image|video|visual|generate|generation|render)/.test(text)) {
+    return {
+      benefits: ["Generate", "Edit", "Export"],
+      headline: "Visual AI",
+      objects: ["prompt card", "source assets", "creative engine", "image tiles", "video strip", "export tray"],
+      sections: ["Prompt & Assets", "Create", "Visual Output"]
+    };
+  }
+
+  if (/(memory|knowledge|search|recall|conversation)/.test(text)) {
+    return {
+      benefits: ["Index", "Retrieve", "Answer"],
+      headline: "Knowledge Memory",
+      objects: ["conversation cards", "note stack", "knowledge graph", "search beam", "context snippets", "answer panel"],
+      sections: ["Notes", "Memory Graph", "Answer"]
+    };
+  }
+
+  if (/(cli|terminal|command|developer|sdk|api|framework)/.test(text) || categoryId === "tools") {
+    return {
+      benefits: ["Command", "API", "Ship"],
+      headline: "Developer Tool",
+      objects: ["terminal card", "code modules", "API blocks", "automation arrows", "package box", "deploy badge"],
+      sections: ["Code", "Automate", "Ship"]
+    };
+  }
+
+  return {
+    benefits: ["Workflow", "Automation", "Result"],
+    headline: "Open Source Tool",
+    objects: ["input cards", "capability engine", "workflow arrows", "dashboard panels", "result tiles"],
+    sections: ["Inputs", "Engine", "Outputs"]
+  };
+}
+
+function workflowForCategory(categoryId: string) {
+  switch (categoryId) {
+    case "ai":
+      return "user task or data enters an AI agent/model, the system reasons with tools, and a useful result is produced";
+    case "frontend":
+      return "component or design input becomes an interactive user interface in a browser";
+    case "backend":
+      return "requests and data move through APIs, services, and storage into an operational result";
+    case "tools":
+      return "developer command or workflow input is automated into repeatable output";
+    default:
+      return "raw project input is transformed into a practical product outcome";
+  }
 }
 
 function firstReadmeImage(markdown: string, readmeRawUrl: string): { url: string; alt: string | null } | null {
@@ -407,6 +567,9 @@ function isSkippedImage(src: string, alt?: string | null): boolean {
     value.includes("starchart") ||
     value.includes("github-readme-stats") ||
     value.includes("repobeats") ||
+    value.includes("readme-banner") ||
+    value.includes("wordmark") ||
+    /(^|[-_/\s])(banner|logo)([-_.:/\s]|$)/.test(value) ||
     value.includes("contributors") ||
     value.includes("stargazers") ||
     value.includes("forks") ||
@@ -466,4 +629,8 @@ function parseFirstNumber(input: string): number {
 
 function hashPrompt(value: string): string {
   return `sha256:${createHash("sha256").update(value).digest("hex").slice(0, 12)}`;
+}
+
+function imageSeed(value: string): number {
+  return createHash("sha256").update(value).digest().readUInt32BE(0);
 }

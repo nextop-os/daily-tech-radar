@@ -173,4 +173,63 @@ describe("GitHub package generation", () => {
 
     expect(pkg.repos[0].visual.kind).toBe("repository_avatar");
   });
+
+  it("generates concrete product covers instead of README banners", async () => {
+    const html = readFileSync(join(here, "fixtures/github-trending.html"), "utf8");
+    const candidates = parseGitHubTrendingHtml(html).slice(0, 1);
+    let capturedPrompt = "";
+    const pkg = await buildGitHubPackage({
+      candidates,
+      locale: "en-US",
+      date: "2026-06-05",
+      generatedAt: "2026-06-06T08:20:00.000Z",
+      visual: {
+        agnesApiKey: "test-key",
+        generateAgnesImages: true,
+        fetchImpl: async (input, init) => {
+          const url = String(input);
+          if (url.includes("apihub.agnes-ai.com/v1/images/generations")) {
+            const body = JSON.parse(String(init?.body)) as { prompt: string };
+            capturedPrompt = body.prompt;
+            return new Response(
+              JSON.stringify({
+                data: [{ url: "https://example.com/generated-product-cover.png" }]
+              }),
+              { status: 200 }
+            );
+          }
+          return new Response(
+            [
+              "# Headroom",
+              "",
+              "![Headroom banner](./assets/banner.png)",
+              "",
+              "Headroom compresses tool outputs, logs, files, and RAG chunks before they reach the LLM, keeping agent context focused while preserving useful answers."
+            ].join("\n"),
+            { status: 200 }
+          );
+        }
+      }
+    });
+
+    expect(pkg.repos[0].visual).toMatchObject({
+      kind: "agnes_generated",
+      url: "https://example.com/generated-product-cover.png"
+    });
+    expect(capturedPrompt).toContain("type: cartoon visual explainer infographic");
+    expect(capturedPrompt).toContain("turn complex technical content into a visual feast");
+    expect(capturedPrompt).toContain("Choose an original layout that fits the repo");
+    expect(capturedPrompt).toContain("Do not copy a fixed input-center-output template");
+    expect(capturedPrompt).toContain("Possible layouts");
+    expect(capturedPrompt).toContain("Visual metaphor");
+    expect(capturedPrompt).toContain("many documents, logs, files, and RAG chunks compress into a smaller focused context packet");
+    expect(capturedPrompt).toContain("Required text script");
+    expect(capturedPrompt).toContain("Context Compression");
+    expect(capturedPrompt).toContain("Raw Logs & Files");
+    expect(capturedPrompt).toContain("Focused Context");
+    expect(capturedPrompt).toContain("Must visibly include");
+    expect(capturedPrompt).toContain("Project/repository names are metadata only");
+    expect(capturedPrompt).toContain("Only the headline, section labels, and benefit tags may contain text");
+    expect(capturedPrompt).toContain("No extra labels and no gibberish microtext");
+  });
 });

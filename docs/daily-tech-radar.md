@@ -69,9 +69,11 @@ GitHub repo 核心字段：
 视觉封面顺序：
 
 1. README 第一张有效产品图，支持 Markdown 图片和 HTML `<img>`。
-2. 跳过 badge、shield、Open Collective、star-history、stats、contributors、coverage 等非产品图。
-3. 没有 README 产品图时调用 Agnes 生图。
+2. 跳过 badge、shield、Open Collective、star-history、stats、contributors、coverage、banner、logo、wordmark 等非产品图。
+3. 没有 README 产品图时调用 Agnes 生图；生图提示词要求生成自适应的讲解型信息图海报，把复杂技术内容变成视觉解释，而不是复制固定结构。
 4. Agnes 失败时最后 fallback 到 GitHub avatar。
+
+Agnes GitHub 封面应根据仓库语义选择合适构图，例如流程图、前后对比、模块地图、架构剖面、中心辐射、分层堆栈、dashboard collage 或漫画式讲解面板。它可以使用少量清晰短标签，但禁止 repo 名、GitHub Logo、README 截图、长段落、小字乱码、抽象渐变、Logo 墙、吉祥物单图或暗色截图 banner。
 
 `zh-CN` GitHub 包会本地化 taxonomy、views label，以及 repo `metadata.description`、`readmeSignals.summary`、`readmeSignals.keywords`。有 `AGNES_API_KEY` 时使用 Agnes 生成中文文本；没有密钥或使用 `--skip-llm` 时会写入 deterministic fallback，保留来源英文，保证本地与 CI 生成稳定。
 

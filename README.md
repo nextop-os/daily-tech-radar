@@ -42,8 +42,12 @@ AGNES_API_KEY
 ```
 
 Live GitHub generation can also use `AGNES_API_KEY` to localize repo
-descriptions, README summaries, and keywords for `zh-CN`. Without it, the
-generator writes deterministic fallback text so local and CI runs stay stable.
+descriptions, README summaries, keywords for `zh-CN`, and generate product
+covers when README does not contain a usable product image. Generated covers
+must show a concrete product-use scene and input-to-output workflow, not a
+poster, title card, README screenshot, abstract banner, or logo-only image.
+Without an Agnes key, the generator writes deterministic fallback text and uses
+GitHub avatar fallback for missing visuals so local and CI runs stay stable.
 
 Do not commit real tokens. Product Hunt commercial usage may require Product
 Hunt approval; check Product Hunt's current API terms before using this data in
