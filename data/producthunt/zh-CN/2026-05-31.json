@@ -4,23 +4,23 @@
   "locale": "zh-CN",
   "date": "2026-05-31",
   "sourceTimezone": "America/Los_Angeles",
-  "generatedAt": "2026-06-06T07:40:44.177Z",
+  "generatedAt": "2026-06-06T09:52:25.029Z",
   "items": [
     {
       "rank": 1,
       "id": "1133330",
       "name": "Clipto",
-      "tagline": "完全本地化，对海量媒体进行自然语言搜索",
-      "description": "就像 Google Photos，但完全在本地运行。将你处理的视频、音频、会议记录和文件等海量数据转化为可搜索的记忆，无需上传至云端。Clipto 自动标记人物、对话和场景，让你仅通过描述就能瞬间找到媒体中埋藏的任意片段。速度也很快：在 MacBook Pro M5 上，Clipto 仅需 24 小时即可索引 2TB 的视频。",
+      "tagline": "完全本地化，支持对海量媒体进行自然语言搜索",
+      "description": "就像 Google Photos，但完全在本地运行。将你处理的视频、音频、会议记录和文件等海量数据转化为可搜索的记忆，无需上传至云端。Clipto 自动标记人物、对话和场景，让你只需描述寻找的内容，即可瞬间找到媒体中隐藏的片段。速度极快：在 MacBook Pro M5 上，Clipto 仅需 24 小时即可索引 2TB 视频。",
       "keywords": [
         "本地搜索",
         "媒体索引",
-        "自然语言",
+        "自然语言处理",
         "隐私保护",
-        "视频搜索"
+        "视频检索"
       ],
       "metrics": {
-        "votes": 475,
+        "votes": 477,
         "comments": 152
       },
       "links": {
@@ -98,14 +98,14 @@
       "rank": 2,
       "id": "1159462",
       "name": "Oura Ring 5",
-      "tagline": "全球最小的智能戒指，现在更出色",
-      "description": "遇见 Oura Ring 5。体积缩小 40%，采用钛金属设计，续航长达 9 天，用于监测睡眠、活动、压力、心脏健康和恢复情况。",
+      "tagline": "全球最小的智能戒指，如今更加出色",
+      "description": "遇见 Oura Ring 5。体积缩小 40%，采用钛金属设计，续航长达 9 天，涵盖睡眠、活动、压力、心脏健康和恢复监测。",
       "keywords": [
         "智能戒指",
         "健康追踪",
         "睡眠监测",
-        "钛金属",
-        "可穿戴设备"
+        "可穿戴设备",
+        "钛金属"
       ],
       "metrics": {
         "votes": 334,
@@ -202,13 +202,13 @@
       "id": "1151393",
       "name": "Second Brain for AI",
       "tagline": "Claude、ChatGPT 和 Cursor 的持久记忆。免费。",
-      "description": "每次 AI 对话都从零开始。你的项目、决策和偏好会在关闭聊天后立即消失。Second Brain 解决了这个问题。它是一个自托管的记忆层，可与 Claude、ChatGPT、Cursor 及任何 MCP 客户端配合使用。你可以一次性存储上下文，并通过语义而非关键词进行回忆。它包括重复检测、语义搜索和 Web UI。基于 Cloudflare 构建，提供免费层级，且数据完全由你掌控。采用 MIT 许可证。",
+      "description": "每次 AI 对话都从零开始。你的项目、决策和偏好会在关闭聊天后消失。Second Brain 解决了这个问题。它是一个自托管的记忆层，兼容 Claude、ChatGPT、Cursor 及任何 MCP 客户端。你可以一次性存储上下文，并通过语义而非关键词进行回忆。它包括重复检测、语义搜索和 Web UI。基于 Cloudflare 构建，提供免费层级，且数据完全由你掌控。采用 MIT 许可。",
       "keywords": [
         "AI 记忆",
-        "持久上下文",
-        "自托管",
         "语义搜索",
-        "生产力工具"
+        "自托管",
+        "生产力工具",
+        "MCP 客户端"
       ],
       "metrics": {
         "votes": 293,
@@ -250,13 +250,13 @@
       "id": "1159008",
       "name": "TabTasker",
       "tagline": "零服务器。完全隐私。你新的最爱工具箱。",
-      "description": "一个完全在浏览器中离线运行的免费 Web 工具箱。我们构建 TabTasker 是为了让你在不上传任何文件的情况下编辑 PDF、处理图像、转录音频并使用 50 多种实用工具。最后，它完全免费使用。",
+      "description": "一款完全在浏览器中离线运行的免费 Web 工具箱。我们开发 TabTasker 是为了让你无需上传任何文件即可编辑 PDF、处理图像、转录音频并使用 50 多种实用工具。最后，它完全免费使用。",
       "keywords": [
         "离线工具",
         "隐私保护",
         "PDF 编辑器",
         "浏览器扩展",
-        "实用工具"
+        "免费实用工具"
       ],
       "metrics": {
         "votes": 240,
@@ -308,13 +308,13 @@
       "id": "1159225",
       "name": "Marqly 5.0",
       "tagline": "你的 AI 驱动书签管理器",
-      "description": "Marqly 是一款 AI 驱动的书签管理器，使用智能标记、分类和语义搜索自动组织你保存的链接。从任何设备保存文章、视频、文档和网站，然后使用自然语言而非文件夹和手动排序来即时查找它们。凭借 AI 摘要、阅读模式、跨平台同步、离线访问和智能组织，Marqly 帮助你构建一个可搜索的知识库，无需维护。",
+      "description": "Marqly 是一款 AI 驱动的书签管理器，利用智能标记、分类和语义搜索自动组织你保存的链接。从任何设备保存文章、视频、文档和网站，然后使用自然语言而非文件夹和手动排序来即时查找它们。具备 AI 摘要、阅读器模式、跨平台同步、离线访问和智能组织功能，Marqly 帮助你构建可搜索的知识库，无需维护。",
       "keywords": [
         "书签管理器",
         "AI 整理",
         "语义搜索",
         "知识库",
-        "生产力工具"
+        "生产力"
       ],
       "metrics": {
         "votes": 181,
@@ -356,13 +356,13 @@
       "id": "1143223",
       "name": "Web Clipper for NotebookLM",
       "tagline": "NotebookLM 的终极 Chrome 扩展",
-      "description": "NotebookLM，两端增强。• 剪入：一键保存任何网页、PDF、AI 聊天、Reddit 帖子、推文或 YouTube 视频、频道或播放列表（可选择包含哪些视频）。• 导出：将 NotebookLM 的抽认卡导出到 Anki，思维导图导出到 Obsidian，报告导出到 Word/PDF，完整聊天导出到 Markdown。• 保持同步：Google Drive 源在后台自动刷新。• UI 融合得就像 Google 自己开发的一样。",
+      "description": "NotebookLM，两端增强。• 剪入：一键保存任何网页、PDF、AI 聊天、Reddit 帖子、推文或 YouTube 视频、频道或播放列表（可选择包含哪些视频）。• 导出：将 NotebookLM 的抽认卡导出至 Anki，思维导图导出至 Obsidian，报告导出至 Word/PDF，完整聊天导出至 Markdown。• 保持同步：Google Drive 源在后台自动刷新。• UI 设计完美融入 Google 风格。",
       "keywords": [
         "Chrome 扩展",
-        "内容剪辑",
         "NotebookLM",
+        "网页剪辑",
         "知识管理",
-        "导出工具"
+        "生产力"
       ],
       "metrics": {
         "votes": 148,

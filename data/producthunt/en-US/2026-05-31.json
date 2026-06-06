@@ -4,7 +4,7 @@
   "locale": "en-US",
   "date": "2026-05-31",
   "sourceTimezone": "America/Los_Angeles",
-  "generatedAt": "2026-06-06T07:40:44.177Z",
+  "generatedAt": "2026-06-06T09:52:25.029Z",
   "items": [
     {
       "rank": 1,
@@ -20,7 +20,7 @@
         "video search"
       ],
       "metrics": {
-        "votes": 475,
+        "votes": 477,
         "comments": 152
       },
       "links": {
@@ -103,9 +103,9 @@
       "keywords": [
         "smart ring",
         "health tracking",
-        "sleep monitor",
-        "titanium",
-        "wearable"
+        "sleep monitoring",
+        "wearable tech",
+        "titanium"
       ],
       "metrics": {
         "votes": 334,
@@ -205,10 +205,10 @@
       "description": "Every AI conversation starts from zero. Your projects, decisions, and preferences disappear as soon as you close the chat. Second Brain fixes that. It is a self-hosted memory layer that works with Claude, ChatGPT, Cursor, and any MCP client. You can store context once and recall it by meaning instead of keywords. It includes duplicate detection, semantic search, and a web UI. Built on Cloudflare, it offers a free tier and your data remains yours. MIT licensed.",
       "keywords": [
         "AI memory",
-        "persistent context",
-        "self-hosted",
         "semantic search",
-        "productivity"
+        "self-hosted",
+        "productivity",
+        "MCP client"
       ],
       "metrics": {
         "votes": 293,
@@ -256,7 +256,7 @@
         "privacy",
         "PDF editor",
         "browser extension",
-        "utilities"
+        "free utilities"
       ],
       "metrics": {
         "votes": 240,
@@ -359,10 +359,10 @@
       "description": "NotebookLM, supercharged from both ends. • Clip in: one click saves any web page, PDF, AI chat, Reddit thread, tweet or a YouTube video, channel, or playlist (cherry-pick which videos to include). • Export out: NotebookLM's flashcards to Anki, mind maps to Obsidian, reports to Word/PDF, full chats to Markdown. • Stay in sync: Google Drive sources auto-refresh in the background. • UI blends in like Google built it.",
       "keywords": [
         "Chrome extension",
-        "content clipping",
         "NotebookLM",
+        "web clipping",
         "knowledge management",
-        "export tools"
+        "productivity"
       ],
       "metrics": {
         "votes": 148,
