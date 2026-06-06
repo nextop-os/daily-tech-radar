@@ -4,58 +4,22 @@
   "locale": "zh-CN",
   "date": "2026-06-05",
   "sourceTimezone": "America/Los_Angeles",
-  "generatedAt": "2026-06-05T17:38:52.918Z",
+  "generatedAt": "2026-06-06T01:57:30.423Z",
   "items": [
     {
       "rank": 1,
-      "id": "1163341",
-      "name": "Leni",
-      "tagline": "全球最精准的投资AI",
-      "description": "Leni 是为严肃投资工作打造的最高精度且可验证的 AI。基于 21,000 多个决策痕迹构建，每日处理超过 1 亿行数据，通过来源链接、时间戳和基准比较提供具有财务级输出和完整审计能力。Leni 在准确性、建模和估值方面的独立基准测试中优于 GPT、Claude 和 Manus，为团队在涉及巨额资金时提供所需的信任。Leni 是 Google Startups 的一部分，是投资者的得力助手。",
-      "keywords": [
-        "人工智能",
-        "投资",
-        "金融",
-        "准确性",
-        "审计"
-      ],
-      "metrics": {
-        "votes": 381,
-        "comments": 52
-      },
-      "links": {
-        "homepage": "https://www.producthunt.com/r/FFWCFWSDY3ELXY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
-        "source": "https://www.producthunt.com/products/leni?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
-      },
-      "assets": {
-        "icon": "https://ph-files.imgix.net/b65a533c-d4cf-4bf3-8528-e57802c16a9e.webp?auto=format",
-        "thumbnail": "https://ph-files.imgix.net/b65a533c-d4cf-4bf3-8528-e57802c16a9e.webp?auto=format",
-        "media": []
-      },
-      "raw": {
-        "slug": "leni-2",
-        "featuredAt": "2026-06-05T07:01:00Z",
-        "createdAt": "2026-06-05T07:01:00Z",
-        "makers": [],
-        "topics": []
-      }
-    },
-    {
-      "rank": 2,
       "id": "1155751",
       "name": "SellerClaw",
-      "tagline": "运行跨渠道商店的 AI 代理团队",
-      "description": "运营一家在线商店就是一份全职工作。SellerClaw 是一个 AI 代理团队，为你自动运行：包括产品采购、商店管理和广告的专业代理，由你指导的主管协调。告诉它卖什么——代理会构建列表、管理广告和定价，并处理 Shopify、eBay 等平台的履约和支持。你保持控制权：每个动作都可见且可批准，你可以设置自动运行的程度。免费开始使用。",
+      "tagline": "一支运行您跨渠道商店的AI代理团队",
+      "description": "运营一家在线商店就是一份全职工作。SellerClaw 是一支AI代理团队，为您自动运行：专门的代理负责产品采购、商店管理和广告，由您指导的监督员协调。告诉它要卖什么——代理会构建列表、管理广告和定价，并处理Shopify、eBay等平台的履约和支持。您保持控制权：每个操作都可见且需批准，您可以设置多少内容自动运行。免费开始使用。",
       "keywords": [
-        "电子商务",
-        "自动化",
         "AI代理",
-        "Shopify",
+        "电商自动化",
         "商店管理"
       ],
       "metrics": {
-        "votes": 349,
-        "comments": 121
+        "votes": 427,
+        "comments": 137
       },
       "links": {
         "homepage": "https://www.producthunt.com/r/7EVPIJ3T3Q6YW2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
@@ -64,7 +28,38 @@
       "assets": {
         "icon": "https://ph-files.imgix.net/055a93ee-c4e1-4862-99e9-0984eff96f82.png?auto=format",
         "thumbnail": "https://ph-files.imgix.net/055a93ee-c4e1-4862-99e9-0984eff96f82.png?auto=format",
-        "media": []
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/4cb6a984-3d4f-454b-ab7e-79de4c6f8e20.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/9594bc80-eec7-4083-ac14-ffd6550c0e2b.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/ec42fca3-d3a0-49d8-9093-05288c2ec922.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/2c32fc3b-d9ec-4269-a699-a64bedb7218a.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/921ee052-7c51-4b97-b344-3e0075913795.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/05917104-3d1f-4c17-a6e9-7f3486f86e7b.jpeg?auto=format",
+            "videoUrl": null
+          }
+        ]
       },
       "raw": {
         "slug": "sellerclaw",
@@ -75,21 +70,19 @@
       }
     },
     {
-      "rank": 3,
+      "rank": 2,
       "id": "1163169",
       "name": "Minimi",
-      "tagline": "Claude 的环境记忆助手",
-      "description": "每个优秀的 Claude 回复都始于上下文。Minimi 在 Mac 上监听文档、通话、消息和标签页，为 Claude 提供完整画面。无需提示。所有处理均在本地完成，保护隐私。",
+      "tagline": "Claude的环境记忆助手",
+      "description": "每个优秀的Claude回复都始于上下文。Minimi 在您的Mac上监听文档、通话、消息和标签页，为Claude提供完整画面。无需提示。所有处理均在本地设备上进行，保护隐私。",
       "keywords": [
-        "Claude",
-        "上下文",
-        "隐私",
-        "Mac",
-        "效率"
+        "AI上下文",
+        "macOS工具",
+        "隐私保护"
       ],
       "metrics": {
-        "votes": 309,
-        "comments": 50
+        "votes": 371,
+        "comments": 92
       },
       "links": {
         "homepage": "https://www.producthunt.com/r/SIMPLUAHCBBLII?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
@@ -98,7 +91,38 @@
       "assets": {
         "icon": "https://ph-files.imgix.net/263c1485-e028-41c9-a635-559fbc18e830.png?auto=format",
         "thumbnail": "https://ph-files.imgix.net/263c1485-e028-41c9-a635-559fbc18e830.png?auto=format",
-        "media": []
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/a620a4e0-e814-4817-bc77-3b64de305485.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/8192e656-b12a-435d-aa20-77bb103f46b6.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/43f96bd5-851f-4268-983d-ce7321d37a86.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/3845e67a-18cd-44f1-938a-245198927cae.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/e6ac7935-1414-4514-8972-b338dddacbbd.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/26798396-6e55-4eaf-aade-6a9639bdf466.jpeg?auto=format",
+            "videoUrl": null
+          }
+        ]
       },
       "raw": {
         "slug": "minimi-2",
@@ -109,20 +133,86 @@
       }
     },
     {
+      "rank": 3,
+      "id": "1163341",
+      "name": "Leni",
+      "tagline": "全球最精准的投资者AI",
+      "description": "Leni 是为严肃投资工作打造的最高精度和可验证性的AI。基于21,000+决策轨迹构建，每日处理1亿+行数据，通过来源链接、时间戳和基础对比提供金融级输出并具备完全可审计性。Leni在精度、建模和估值方面优于GPT、Claude和Manus，为团队提供在数百万资金面前所需的信任。Leni是Google Startups的一部分，是投资者的严肃机器。",
+      "keywords": [
+        "投资AI",
+        "金融分析",
+        "高精度"
+      ],
+      "metrics": {
+        "votes": 342,
+        "comments": 61
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/FFWCFWSDY3ELXY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/leni?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/b65a533c-d4cf-4bf3-8528-e57802c16a9e.webp?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/b65a533c-d4cf-4bf3-8528-e57802c16a9e.webp?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/0cc77175-bf74-412d-9882-428247aa87c1.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/9808b458-52f3-42c2-ae15-96f4f4d5bcba.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/365100fe-9614-4696-a06f-91afbd8e6d52.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/055ce128-3bd9-4a34-8306-2425000599d7.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/5969a82e-ed5b-4417-a57e-a7c4d055a5f1.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/a82f1b8f-2998-4351-bd76-25f1b21092b9.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/320d65f5-c323-4658-8559-0a380593db03.jpeg?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "leni-2",
+        "featuredAt": "2026-06-05T07:01:00Z",
+        "createdAt": "2026-06-05T07:01:00Z",
+        "makers": [],
+        "topics": []
+      }
+    },
+    {
       "rank": 4,
       "id": "1152327",
       "name": "Veltrix AI",
-      "tagline": "现金流、利润和增长的 AI 财务副驾驶",
-      "description": "Veltrix AI 为创始人和财务团队提供对现金流、盈利能力、燃烧率和业务表现的即时清晰度。连接 QuickBooks、Xero、Shopify、Square 和 HubSpot，然后用自然语言询问财务问题，获取有来源支持的答案、异常情况和推荐下一步行动。用实时财务智能取代电子表格混乱和静态仪表板，帮助你做出更快、更明智的业务决策。",
+      "tagline": "面向现金流、利润和增长的AI财务副驾驶",
+      "description": "Veltrix AI 为创始人和财务团队提供对现金流、盈利能力、燃烧率和业务表现的即时清晰度。连接QuickBooks、Xero、Shopify、Square和HubSpot，然后用自然语言询问财务问题，获取基于来源的答案、异常情况和推荐下一步操作。用实时财务智能取代电子表格混乱和静态仪表板，帮助您做出更快、更明智的业务决策。",
       "keywords": [
-        "财务",
+        "财务AI",
         "现金流",
-        "分析",
-        "QuickBooks",
         "商业智能"
       ],
       "metrics": {
-        "votes": 232,
+        "votes": 265,
         "comments": 43
       },
       "links": {
@@ -132,7 +222,48 @@
       "assets": {
         "icon": "https://ph-files.imgix.net/00754c3c-732d-4226-ad58-1196546bb224.png?auto=format",
         "thumbnail": "https://ph-files.imgix.net/00754c3c-732d-4226-ad58-1196546bb224.png?auto=format",
-        "media": []
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/9610b4ff-c8c3-405d-974d-905439cc1c7b.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/4526055e-b44d-4fbf-891f-bb3d059d429b.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/5dbf6129-0be7-4e24-b74d-b592aa503d27.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/6018f501-5916-41af-a2f6-7614a0d47983.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/cb21ae62-c0f5-442b-a866-81af379f3a27.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/7eeb7424-bafa-470b-b632-191bb68239bf.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/bb38bd5e-9716-42ea-b070-31651ffa041e.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/8bee7adc-a155-4c09-b3a3-7671779ee3a2.png?auto=format",
+            "videoUrl": null
+          }
+        ]
       },
       "raw": {
         "slug": "veltrix-ai-2",
@@ -147,17 +278,15 @@
       "id": "1162949",
       "name": "Ideogram 4.0",
       "tagline": "生成设计就绪图像，支持开放权重和布局控制",
-      "description": "Ideogram 4.0 是一个从头训练的开放权重文本到图像模型，具有边界框布局控制、多语言文本渲染和原生 2K 输出。专为在视觉 AI 上构建的开发者和企业设计。",
+      "description": "Ideogram 4.0 是一个从头训练的开放权重文本到图像模型，支持边界框布局控制、多语言文本渲染和本地2K输出。专为在视觉AI上构建的开发者和企业设计。",
       "keywords": [
         "图像生成",
-        "开源",
-        "设计",
-        "文本转图像",
-        "AI模型"
+        "开放权重模型",
+        "文本渲染"
       ],
       "metrics": {
-        "votes": 168,
-        "comments": 8
+        "votes": 218,
+        "comments": 10
       },
       "links": {
         "homepage": "https://www.producthunt.com/r/OJNQHSZUNTKVUF?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
@@ -166,7 +295,98 @@
       "assets": {
         "icon": "https://ph-files.imgix.net/8919eccb-7bb6-4bce-ab61-8a213b393199.jpeg?auto=format",
         "thumbnail": "https://ph-files.imgix.net/8919eccb-7bb6-4bce-ab61-8a213b393199.jpeg?auto=format",
-        "media": []
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/7d309261-c17d-4ff3-8ea6-ded457b0432f.webp?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/36f34808-61c3-41fe-99e5-aeddc63fcaac.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/b05068f3-f8aa-4b5c-ba77-6806e64d9d78.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/caf763fa-91d8-4fae-b7bd-ae0d13d77d3e.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/b53640cb-cb52-4c94-b1dd-195d5542e096.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/c62e21f3-9bfe-486a-ac88-d8be96ea68b1.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/455cd1c9-61e7-482b-bfd9-c5c6a6bd6e85.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/e1644f66-2761-42df-8f37-b7da88c904b3.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/982dd506-0880-4ace-a62e-52c273366b11.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/8a9544d3-40d4-4775-93e2-c02f7219c0e5.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/563085b0-37d6-41f0-bb15-111587e8c57d.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/037e4384-20e3-4a51-a4ad-d53d81f822fe.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/0e564198-d149-445f-8981-3681d1f157f2.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/5d3d6968-0fb1-4f34-af7d-81caf31680f6.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/7e71ad3d-dece-4e30-863a-6d43213d01ff.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/0da77ceb-0943-48ea-859c-f299751fe5a0.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/e570c40e-140a-40fd-b22f-ccd5f2897495.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/6804dea9-8c36-4a7e-bafa-8380dce7631c.jpeg?auto=format",
+            "videoUrl": null
+          }
+        ]
       },
       "raw": {
         "slug": "ideogram-4-0",
@@ -178,53 +398,17 @@
     },
     {
       "rank": 6,
-      "id": "1163741",
-      "name": "Nemotron 3 Ultra by NVIDIA",
-      "tagline": "为长运行代理提供更高效推理",
-      "description": "NVIDIA 的 Nemotron 3 Ultra 是一个 550B MoE 前沿智能开放模型，专为长运行代理构建。它提供 5 倍更快的推理速度，并将复杂代理任务的成本降低高达 30%。Nemotron 在编码和深度研究等复杂任务中表现出色。长运行代理花费时间规划、使用工具、从失败中恢复并决定下一步行动。",
-      "keywords": [
-        "英伟达",
-        "大语言模型",
-        "代理",
-        "推理",
-        "开放模型"
-      ],
-      "metrics": {
-        "votes": 138,
-        "comments": 3
-      },
-      "links": {
-        "homepage": "https://www.producthunt.com/r/FRQKMP7ZDQB4RR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
-        "source": "https://www.producthunt.com/products/nvidia?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
-      },
-      "assets": {
-        "icon": "https://ph-files.imgix.net/cf242a56-5926-4b9d-99eb-cde2d4694b79.jpeg?auto=format",
-        "thumbnail": "https://ph-files.imgix.net/cf242a56-5926-4b9d-99eb-cde2d4694b79.jpeg?auto=format",
-        "media": []
-      },
-      "raw": {
-        "slug": "nemotron-3-ultra-by-nvidia",
-        "featuredAt": "2026-06-05T07:01:00Z",
-        "createdAt": "2026-06-05T07:01:00Z",
-        "makers": [],
-        "topics": []
-      }
-    },
-    {
-      "rank": 7,
       "id": "1160919",
       "name": "Agent Mode on Arena",
-      "tagline": "使用自主 AI 代理完成现实世界任务",
-      "description": "大多数 AI 基准测试在受控环境中测试模型。Agent Mode 在复杂任务上测试它们以完成更多工作。运行自主代理，浏览、研究、编码、使用文件，并从单个提示完成多步工作流。然后观看每个工作流的逐步展开。每次运行都有助于 Agent Arena 排行榜，根据现实世界的代理性能对前沿模型进行排名。",
+      "tagline": "使用自主AI代理完成现实世界任务",
+      "description": "大多数AI基准测试在受控环境中测试模型。Agent Mode 在复杂任务上测试它们以完成更多工作。运行自主代理，浏览、研究、编码、使用文件，并从单个提示中完成多步工作流。然后观看每个工作流逐步展开。每次运行都贡献于Agent Arena排行榜，根据现实世界的代理性能对前沿模型进行排名。",
       "keywords": [
         "AI代理",
         "基准测试",
-        "自动化",
-        "研究",
-        "编码"
+        "自主任务"
       ],
       "metrics": {
-        "votes": 135,
+        "votes": 165,
         "comments": 19
       },
       "links": {
@@ -234,7 +418,53 @@
       "assets": {
         "icon": "https://ph-files.imgix.net/21871a9a-84c9-4f14-baf9-ef1802a9bb10.png?auto=format",
         "thumbnail": "https://ph-files.imgix.net/21871a9a-84c9-4f14-baf9-ef1802a9bb10.png?auto=format",
-        "media": []
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/8c8e5e76-1a6d-4b41-836b-540456c36287.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/0958b676-dbaa-491b-b835-29895ad0c60d.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/2bbc273b-849a-43a7-8036-5e8446bc2c54.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/d8476358-891d-4fbc-8b15-3902fadb6ca7.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/e125bca4-7124-4358-aac3-b37e4e2ab20f.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/235bec5c-d401-44f7-9759-a2cd66a7e7cb.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/99e092b0-34ce-4357-ac14-f2013bbca40e.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/19262a96-acf7-455c-9ff1-d1db213c0487.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/af3f37f6-a8ce-4f8c-afd1-ed26a39a7c34.jpeg?auto=format",
+            "videoUrl": null
+          }
+        ]
       },
       "raw": {
         "slug": "agent-mode-on-arena",
@@ -245,33 +475,57 @@
       }
     },
     {
-      "rank": 8,
-      "id": "1164006",
-      "name": "LocalClicky",
-      "tagline": "用语音本地控制你的 Mac",
-      "description": "LocalClicky 是一个 Mac 菜单栏应用，让你与电脑进行真正的对话——完全离线。说“Computer”开始会话。它保持监听。你可以连续发出命令。说“goodbye”结束。所有内容都在你的机器上运行：语音转录、LLM 多模型、VAD、macOS 语音。无需 API 密钥。无需订阅。数据不离开你的 Mac。MIT 许可。",
+      "rank": 7,
+      "id": "1163741",
+      "name": "Nemotron 3 Ultra by NVIDIA",
+      "tagline": "为长期运行的代理提供更快速、高效的推理",
+      "description": "一个550B MoE前沿智能开放模型，专为长期运行的代理构建。它提供5倍更快的推理速度，并将复杂代理任务的成本降低高达30%（与其他开放前沿模型相比）。Ultra 擅长编码和深度研究等复杂任务。长期运行的代理花费时间规划、使用工具、从失败中恢复并决定下一步做什么。",
       "keywords": [
-        "语音控制",
-        "Mac",
-        "离线",
-        "隐私",
-        "效率"
+        "英伟达",
+        "MoE模型",
+        "代理效率"
       ],
       "metrics": {
-        "votes": 108,
-        "comments": 6
+        "votes": 149,
+        "comments": 4
       },
       "links": {
-        "homepage": "https://www.producthunt.com/r/UREOXFHYYUMZVN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
-        "source": "https://www.producthunt.com/products/localclicky?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+        "homepage": "https://www.producthunt.com/r/FRQKMP7ZDQB4RR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/nvidia?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
       },
       "assets": {
-        "icon": "https://ph-files.imgix.net/54681e23-9fcd-45b8-8f99-35db6382ca12.png?auto=format",
-        "thumbnail": "https://ph-files.imgix.net/54681e23-9fcd-45b8-8f99-35db6382ca12.png?auto=format",
-        "media": []
+        "icon": "https://ph-files.imgix.net/cf242a56-5926-4b9d-99eb-cde2d4694b79.jpeg?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/cf242a56-5926-4b9d-99eb-cde2d4694b79.jpeg?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/3510c708-7531-485b-bed4-2530fcbcdd03.webp?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/55225aef-52ab-4dd3-a032-944d26fef5d2.webp?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/26774a6e-c1ac-4e58-bee5-a08d6cd35f72.webp?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/56ea44a0-c474-4b5d-ae33-2154db05423f.webp?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/696e4c85-94a7-4d65-9090-645ecab02570.jpeg?auto=format",
+            "videoUrl": null
+          }
+        ]
       },
       "raw": {
-        "slug": "localclicky",
+        "slug": "nemotron-3-ultra-by-nvidia",
         "featuredAt": "2026-06-05T07:01:00Z",
         "createdAt": "2026-06-05T07:01:00Z",
         "makers": [],
@@ -279,21 +533,19 @@
       }
     },
     {
-      "rank": 9,
+      "rank": 8,
       "id": "1100116",
       "name": "Moodloom",
-      "tagline": "无广告 Pinterest 替代品，带 AI 内容过滤",
-      "description": "Moodloom 是一个无广告的视觉发现平台，适合受够了 Pinterest 的人。保存和探索时尚、装饰和艺术——没有噪音。不同之处：干净的信息流——无广告，无赞助帖子；AI 内容过滤器——隐藏或显示 AI 生成的图像。为希望 Pinterest 更好的时尚爱好者、装饰者和数字艺术家打造。我们还开发了 Save to Moodloom 扩展，可以导入所有 Pinterest 图钉/画板到 Moodloom。",
+      "tagline": "无广告Pinterest替代品，带AI内容过滤",
+      "description": "Moodloom 是一个无广告的视觉发现平台，专为受够了Pinterest的用户打造。保存和探索时尚、装饰和艺术——没有噪音。不同之处：干净的信息流——无广告，无赞助帖子；AI内容过滤器——隐藏或显示AI生成的图像。为希望Pinterest变得更好的时尚爱好者、装饰者和数字艺术家而建。我们还构建了Save to Moodloom扩展程序，您可以将Pinterest上的所有图钉/画板导入Moodloom。",
       "keywords": [
         "Pinterest替代品",
-        "视觉发现",
         "无广告",
-        "AI过滤",
-        "时尚"
+        "视觉发现"
       ],
       "metrics": {
-        "votes": 101,
-        "comments": 4
+        "votes": 118,
+        "comments": 9
       },
       "links": {
         "homepage": "https://www.producthunt.com/r/KABC3NRR6GO7HB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
@@ -302,7 +554,33 @@
       "assets": {
         "icon": "https://ph-files.imgix.net/a8ab0a03-78c1-4073-b9af-816922753c26.png?auto=format",
         "thumbnail": "https://ph-files.imgix.net/a8ab0a03-78c1-4073-b9af-816922753c26.png?auto=format",
-        "media": []
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/bae5030a-87ad-412a-b75f-adb3ea3f7556.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/08743e19-5ddb-4285-a9fe-512d4d3fa968.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/ce12de12-02d4-4d73-834e-2aae2501d9e1.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/37d36abe-0eaa-469a-a2fe-871698ff8599.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/3da52c9d-32c6-4af0-a345-26a0c0a38cc2.jpeg?auto=format",
+            "videoUrl": null
+          }
+        ]
       },
       "raw": {
         "slug": "moodloom",
@@ -313,20 +591,76 @@
       }
     },
     {
+      "rank": 9,
+      "id": "1164006",
+      "name": "LocalClicky",
+      "tagline": "在本地通过语音控制您的Mac",
+      "description": "LocalClicky 是一个Mac菜单栏应用，让您与计算机进行真正的对话——完全离线。说“Computer”开始会话。它保持监听。您可以连续发出命令。说“goodbye”结束。所有内容都在您的机器上运行：语音转录、LLM多模型、VAD、macOS语音。无需API密钥。无需订阅。数据不离开您的Mac。MIT许可。",
+      "keywords": [
+        "语音控制",
+        "macOS",
+        "离线AI"
+      ],
+      "metrics": {
+        "votes": 118,
+        "comments": 7
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/UREOXFHYYUMZVN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/localclicky?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/54681e23-9fcd-45b8-8f99-35db6382ca12.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/54681e23-9fcd-45b8-8f99-35db6382ca12.png?auto=format",
+        "media": [
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/d8699719-6125-418a-a85e-a4217ebbd998.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/af83056d-20be-4e9c-917b-5a35348b381d.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/83a9a524-fb08-4213-b1ec-58bab6142031.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/4eed38c6-fb15-42de-bf79-30f117b10236.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/19f39fa6-86eb-4018-a1de-13a7442451df.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "localclicky",
+        "featuredAt": "2026-06-05T07:01:00Z",
+        "createdAt": "2026-06-05T07:01:00Z",
+        "makers": [],
+        "topics": []
+      }
+    },
+    {
       "rank": 10,
       "id": "1162995",
       "name": "FloatPic",
-      "tagline": "超极简、无边框 macOS 原生图像查看器",
-      "description": "FloatPic 是超极简的 macOS 原生图像查看器。无边框浮动窗口，原生手势，极速加载，支持 30 多种图像格式。让软件消失，让图像漂浮。",
+      "tagline": "超极简、无边框macOS原生图像查看器",
+      "description": "FloatPic 是超极简的macOS原生图像查看器。无边框浮动窗口，原生手势，加载速度极快，支持30多种图像格式。让软件消失，让图像浮动。",
       "keywords": [
-        "macOS",
         "图像查看器",
-        "极简主义",
-        "原生应用",
-        "效率"
+        "macOS原生",
+        "极简主义"
       ],
       "metrics": {
-        "votes": 100,
+        "votes": 110,
         "comments": 7
       },
       "links": {
@@ -336,7 +670,38 @@
       "assets": {
         "icon": "https://ph-files.imgix.net/9bb82948-9f6f-4869-9512-b5bd13a920bf.png?auto=format",
         "thumbnail": "https://ph-files.imgix.net/9bb82948-9f6f-4869-9512-b5bd13a920bf.png?auto=format",
-        "media": []
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/f8f408bf-fbbf-47e4-ae33-bb2600d80add.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/00a44964-5356-4e2a-96d3-31881249e565.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/d2ddd965-e7db-46dc-bd65-fa62d7a10997.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/11254547-9667-4712-8a3e-d5c6a73bfe47.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/6205dabd-6906-4f1a-9538-eaec87980df5.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/117376c3-b871-45aa-867d-073fb90b450a.png?auto=format",
+            "videoUrl": null
+          }
+        ]
       },
       "raw": {
         "slug": "floatpic",
@@ -350,18 +715,16 @@
       "rank": 11,
       "id": "1163767",
       "name": "Agent Browser Shield",
-      "tagline": "阻止提示注入并降低 AI 浏览器代理的令牌成本",
-      "description": "在网络上浏览的 AI 代理有一个问题：它们阅读所有内容——Cookie 横幅、隐藏指令、黑暗模式——无法区分真实内容和陷阱。Agent Browser Shield 位于代理和网络之间，剥离提示注入、屏蔽个人身份信息、移除黑暗模式并过滤消耗令牌的页面噪音。免费，源代码可用，适用于 browser-use 和 Browserbase。",
+      "tagline": "阻止提示注入并降低AI浏览器代理的Token成本",
+      "description": "在网络上浏览的AI代理有一个问题：它们阅读所有内容——Cookie横幅、隐藏指令、黑暗模式——无法区分真实内容和陷阱。Agent Browser Shield 位于代理和网络之间，剥离提示注入、屏蔽个人身份信息、移除黑暗模式并过滤消耗Token的页面噪音。免费，源代码可用，适用于browser-use和Browserbase。",
       "keywords": [
-        "安全",
-        "AI代理",
-        "浏览器",
         "提示注入",
-        "降低成本"
+        "AI安全",
+        "Token优化"
       ],
       "metrics": {
-        "votes": 94,
-        "comments": 11
+        "votes": 102,
+        "comments": 12
       },
       "links": {
         "homepage": "https://www.producthunt.com/r/F6KGMHVJXZBD7X?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
@@ -370,7 +733,18 @@
       "assets": {
         "icon": "https://ph-files.imgix.net/7f30dd03-6e09-4e88-869d-8a1cb240e35f.png?auto=format",
         "thumbnail": "https://ph-files.imgix.net/7f30dd03-6e09-4e88-869d-8a1cb240e35f.png?auto=format",
-        "media": []
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/2d7373c1-997c-41c7-9d8e-b245a71270a2.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/ff650b11-650d-468e-ae7e-dae55f22f554.png?auto=format",
+            "videoUrl": null
+          }
+        ]
       },
       "raw": {
         "slug": "agent-browser-shield",
@@ -382,122 +756,18 @@
     },
     {
       "rank": 12,
-      "id": "1132349",
-      "name": "Lumo Studios",
-      "tagline": "构建自我表达的演示文稿",
-      "description": "伟大的想法值得伟大的幻灯片。LUMO 使用 AI 将你的思维瞬间转化为精美、完全符合你意愿的演示文稿。LUMO 在几秒钟内将你的想法转化为精美的演示文稿。从提示生成幻灯片，在画布编辑器中完善它们，并与你的团队分享——所有功能都在一个地方。",
-      "keywords": [
-        "演示文稿",
-        "人工智能",
-        "幻灯片",
-        "设计",
-        "效率"
-      ],
-      "metrics": {
-        "votes": 90,
-        "comments": 5
-      },
-      "links": {
-        "homepage": "https://www.producthunt.com/r/KC4UACPCSLYR3L?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
-        "source": "https://www.producthunt.com/products/lumo-studios?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
-      },
-      "assets": {
-        "icon": "https://ph-files.imgix.net/6bcc0e1e-4363-41ff-9abf-7e63ce7b9a44.png?auto=format",
-        "thumbnail": "https://ph-files.imgix.net/6bcc0e1e-4363-41ff-9abf-7e63ce7b9a44.png?auto=format",
-        "media": []
-      },
-      "raw": {
-        "slug": "lumo-studios",
-        "featuredAt": "2026-06-05T07:01:00Z",
-        "createdAt": "2026-06-05T07:01:00Z",
-        "makers": [],
-        "topics": []
-      }
-    },
-    {
-      "rank": 13,
-      "id": "1163579",
-      "name": "Treadmill Pro",
-      "tagline": "通过 iPhone 无线控制你的跑步机",
-      "description": "通过蓝牙连接你的跑步机，直接从 iPhone 控制速度、坡度、计时器和统计数据。完全集成 Apple Health。App Store 免费。",
-      "keywords": [
-        "健身",
-        "Apple Health",
-        "蓝牙",
-        "跑步",
-        "iOS"
-      ],
-      "metrics": {
-        "votes": 90,
-        "comments": 1
-      },
-      "links": {
-        "homepage": "https://www.producthunt.com/r/DOVHIDLYUFGZPZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
-        "source": "https://www.producthunt.com/products/treadmill-pro?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
-      },
-      "assets": {
-        "icon": "https://ph-files.imgix.net/17cde1b9-ab76-4b71-8e43-ae67c88e4f1a.png?auto=format",
-        "thumbnail": "https://ph-files.imgix.net/17cde1b9-ab76-4b71-8e43-ae67c88e4f1a.png?auto=format",
-        "media": []
-      },
-      "raw": {
-        "slug": "treadmill-pro",
-        "featuredAt": "2026-06-05T07:01:00Z",
-        "createdAt": "2026-06-05T07:01:00Z",
-        "makers": [],
-        "topics": []
-      }
-    },
-    {
-      "rank": 14,
-      "id": "1163592",
-      "name": "Recursi",
-      "tagline": "自我改进的氛围编码环境，无 API 费用",
-      "description": "一个极其强大的氛围编码环境，允许你极其高效地使用基于网络的聊天机器人（通过 aistudio/ChatGPT 等使用 Claude/Gemini），同时严格遵守其服务条款。提供了许多应用程序作为示例/模板，包括一个 YouTube 播放列表应用，不仅提供无广告的绝佳 YouTube 体验（也在服务条款内！），还有可与 MIDI 钢琴配合工作的“钢琴版吉他英雄”。还有更多。",
-      "keywords": [
-        "编码",
-        "开发者工具",
-        "AI聊天机器人",
-        "无API费用",
-        "环境"
-      ],
-      "metrics": {
-        "votes": 89,
-        "comments": 10
-      },
-      "links": {
-        "homepage": "https://www.producthunt.com/r/I4WREISFO2BBDV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
-        "source": "https://www.producthunt.com/products/recursi-self-improving-vibe-coding-env?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
-      },
-      "assets": {
-        "icon": "https://ph-files.imgix.net/28136c73-c39c-4343-a6d2-043f50b51365.jpeg?auto=format",
-        "thumbnail": "https://ph-files.imgix.net/28136c73-c39c-4343-a6d2-043f50b51365.jpeg?auto=format",
-        "media": []
-      },
-      "raw": {
-        "slug": "recursi",
-        "featuredAt": "2026-06-05T07:01:00Z",
-        "createdAt": "2026-06-05T07:01:00Z",
-        "makers": [],
-        "topics": []
-      }
-    },
-    {
-      "rank": 15,
       "id": "1163576",
       "name": "VisionSync",
       "tagline": "战略执行与执行人员相遇的地方",
-      "description": "现有工具帮助你撰写战略计划。VisionSync 确保它真正发生。它将每个目标链接到执行人员，并显示每个倡议的实时状态，使领导者能够在季度结果受到影响之前看到哪些计划正在 slipping，而不是之后。添加 ValueSync 360 将战略与人员方面的绩效联系起来。在内布拉斯加大学四个校区、玛丽维尔大学和奥马哈大商会得到验证。",
+      "description": "现有工具帮助您撰写战略计划。VisionSync 确保它真正发生。它将每个目标链接到执行人员，并显示每个倡议的实时状态，使领导者能够在季度结果受到影响之前看到哪些正在 slipping，而不是之后。添加ValueSync 360将战略与人员方面的绩效连接起来。已在内布拉斯加大学四个校区、Maryville大学和奥马哈大商会得到验证。",
       "keywords": [
-        "战略",
-        "执行",
-        "管理",
-        "绩效",
-        "商业"
+        "战略执行",
+        "项目管理",
+        "绩效跟踪"
       ],
       "metrics": {
-        "votes": 89,
-        "comments": 3
+        "votes": 98,
+        "comments": 5
       },
       "links": {
         "homepage": "https://www.producthunt.com/r/GNDEMM56EBBGG2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
@@ -506,7 +776,38 @@
       "assets": {
         "icon": "https://ph-files.imgix.net/e56ae0b2-d863-4603-9174-814f68bdf25d.png?auto=format",
         "thumbnail": "https://ph-files.imgix.net/e56ae0b2-d863-4603-9174-814f68bdf25d.png?auto=format",
-        "media": []
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/387c744b-4a7c-4731-bba4-13faf2f94881.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/32c38869-0067-4aaa-b15e-6cdec49f873b.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/330e96c1-6366-4c82-9906-ce73816474d5.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/485c9fff-7dcb-4e8b-8721-a574649ce1a2.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/c13f261f-ef70-4cd7-8973-15fe9facc962.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "interactive_demo",
+            "url": "https://ph-files.imgix.net/29477d13-9f2f-49b9-93f7-6f272055b644.gif?auto=format",
+            "videoUrl": null
+          }
+        ]
       },
       "raw": {
         "slug": "visionsync",
@@ -517,21 +818,208 @@
       }
     },
     {
+      "rank": 13,
+      "id": "1132349",
+      "name": "Lumo Studios",
+      "tagline": "构建自我表达的幻灯片",
+      "description": "伟大的想法值得伟大的幻灯片。LUMO 使用AI将您的思维瞬间转化为精美、美观且完全符合您意愿的幻灯片。LUMO 在几秒钟内将您的想法转化为精美的演示文稿。从提示生成幻灯片，在画布编辑器中微调，并与您的团队分享——所有都在一个地方完成。",
+      "keywords": [
+        "演示AI",
+        "幻灯片生成",
+        "生产力"
+      ],
+      "metrics": {
+        "votes": 97,
+        "comments": 7
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/KC4UACPCSLYR3L?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/lumo-studios?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/6bcc0e1e-4363-41ff-9abf-7e63ce7b9a44.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/6bcc0e1e-4363-41ff-9abf-7e63ce7b9a44.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/257fac65-9345-4555-bfb2-877affbd45c6.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/619d2f6c-8c91-40a5-9cfe-8f2f2e7e3dd0.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/fd4c6b62-d125-4409-8040-b149d7f8806c.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/bdecf622-ceaf-42c9-8143-9698f7cb0902.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/280f1f91-b177-4257-a742-664cf373b181.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/393f9e92-91b6-4173-b590-908362f16c0a.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/ce6f39a4-faca-4e51-9694-9b3922966309.jpeg?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "lumo-studios",
+        "featuredAt": "2026-06-05T07:01:00Z",
+        "createdAt": "2026-06-05T07:01:00Z",
+        "makers": [],
+        "topics": []
+      }
+    },
+    {
+      "rank": 14,
+      "id": "1163789",
+      "name": "Microsoft MAI-Voice-2",
+      "tagline": "具有15种语言语音克隆功能的表达性TTS",
+      "description": "微软最具表现力的TTS模型——从短样本进行语音克隆，细粒度的情感控制，并在15种语言中保持一致的语音身份。现已在Azure AI Foundry上线，价格为每百万字符22美元，VSCode、Dynamics 365 Contact Center和Teams的集成正在推出。对于需要生产级韵律而不需要OpenAI Realtime API价格的语音代理构建者。",
+      "keywords": [
+        "文本转语音",
+        "语音克隆",
+        "Azure AI"
+      ],
+      "metrics": {
+        "votes": 96,
+        "comments": 3
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/TXV2R33T3EPL56?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/mai-image-2-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/893fbf92-a1f4-4864-bc0a-74c657b50a2e.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/893fbf92-a1f4-4864-bc0a-74c657b50a2e.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/0fa2658f-7808-408a-b376-c954e58b772b.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/5aae6346-671a-47de-9755-07271d886812.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/8d73881e-9394-47d3-a4bc-123dc9ca0ece.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/a4271cd7-6a45-4ff1-bb08-b0443b386e31.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/8a6424bf-3b56-498d-bca0-bae185ebeee2.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "microsoft-mai-voice-2",
+        "featuredAt": "2026-06-05T07:01:00Z",
+        "createdAt": "2026-06-05T07:01:00Z",
+        "makers": [],
+        "topics": []
+      }
+    },
+    {
+      "rank": 15,
+      "id": "1163579",
+      "name": "Treadmill Pro",
+      "tagline": "通过iPhone无线控制您的跑步机",
+      "description": "通过蓝牙连接您的跑步机，直接从iPhone控制速度、坡度、计时器和统计数据。完整的Apple Health集成。在App Store上免费。",
+      "keywords": [
+        "健身应用",
+        "蓝牙控制",
+        "Apple Health"
+      ],
+      "metrics": {
+        "votes": 95,
+        "comments": 1
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/DOVHIDLYUFGZPZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/treadmill-pro?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/17cde1b9-ab76-4b71-8e43-ae67c88e4f1a.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/17cde1b9-ab76-4b71-8e43-ae67c88e4f1a.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/a1e0de70-2023-4b4a-99b4-f0e0bf7afe85.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/29cda97f-718f-4163-b062-b809a5dddc6a.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/65a83deb-e90d-4cf3-870f-78192472df10.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/54921489-519a-46bc-b7a9-12cedc98d11c.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/4fa77dcf-e3ad-4886-9a1a-0978bb474d90.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/46d7f190-e3d2-412b-8679-7d3dcd87ccb5.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "treadmill-pro",
+        "featuredAt": "2026-06-05T07:01:00Z",
+        "createdAt": "2026-06-05T07:01:00Z",
+        "makers": [],
+        "topics": []
+      }
+    },
+    {
       "rank": 16,
       "id": "1163604",
       "name": "Clarafy",
-      "tagline": "输入杂乱内容，瞬间获得润色",
-      "description": "大多数工具迫使你编辑。Clarafy 是一个零建议的混乱翻译器。输入或口述杂乱的意识流，按下热键，它会在原位瞬间重写完美的文本。突出功能：应用感知：为 Gmail、Slack 或 ChatGPT 进行上下文格式化；按住口述：大声唠叨；释放以注入润色后的散文；语气匹配：学习并镜像你独特的声音。无建议，无下划线。只需一次点击即可获得清晰度。",
+      "tagline": "输入杂乱内容并立即获得润色",
+      "description": "大多数工具迫使您编辑。Clarafy 是一个零建议的混乱翻译器。输入或口述杂乱的意识流，按下热键，它立即就地重写完美的文本。突出功能：应用感知：为Gmail、Slack或ChatGPT进行上下文格式化；按住口述：大声唠叨；释放以注入润色的散文；语气匹配：学习并镜像您独特的声音。无建议，无下划线。只需一次即可获得清晰度。",
       "keywords": [
-        "写作",
-        "编辑",
-        "人工智能",
-        "效率",
-        "语音输入"
+        "文本润色",
+        "写作助手",
+        "生产力"
       ],
       "metrics": {
-        "votes": 88,
-        "comments": 5
+        "votes": 94,
+        "comments": 7
       },
       "links": {
         "homepage": "https://www.producthunt.com/r/C3AOI4BETVQ7D3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
@@ -540,7 +1028,38 @@
       "assets": {
         "icon": "https://ph-files.imgix.net/ccdf5595-1851-4c8c-b475-064cc6247c6b.png?auto=format",
         "thumbnail": "https://ph-files.imgix.net/ccdf5595-1851-4c8c-b475-064cc6247c6b.png?auto=format",
-        "media": []
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/069f1d8b-0455-4dd6-9c9e-9e7863cbfc2d.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/7ab5e345-7b5b-4ffd-8439-62207207f838.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/b5a8e546-523a-4f32-a54a-f1af697b9263.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/43e909ec-9dd1-4f97-bcc1-9db4e28a538e.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/83da46e1-c370-4ba7-afdb-dadf512fc852.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/26f4d0b7-8474-4b34-95d1-b991d9e01a8a.jpeg?auto=format",
+            "videoUrl": null
+          }
+        ]
       },
       "raw": {
         "slug": "clarafy",
@@ -552,32 +1071,56 @@
     },
     {
       "rank": 17,
-      "id": "1163789",
-      "name": "Microsoft MAI-Voice-2",
-      "tagline": "具有 15 种语言语音克隆功能的表达性 TTS",
-      "description": "微软最具表现力的 TTS 模型——从短样本进行语音克隆，细粒度的情感控制，并在 15 种语言中保持一致的语音身份。现已在 Azure AI Foundry 上线，价格为每百万字符 22 美元，VSCode、Dynamics 365 Contact Center 和 Teams 的集成正在推出。对于需要生产级韵律而不需要 OpenAI Realtime API 价格的语音代理构建者。",
+      "id": "1163592",
+      "name": "Recursi",
+      "tagline": "自我改进的氛围编码环境，无API费用",
+      "description": "一个极其强大的氛围编码环境，允许您非常高效地使用基于网络的聊天机器人（通过aistudio/ChatGPT等使用Claude/Gemini等），同时坚定地遵守其服务条款。提供了许多应用程序作为示例/模板，包括一个YouTube播放列表应用程序，不仅提供无广告的绝佳YouTube体验（也在服务条款内！），还有“钢琴版吉他英雄”，可与MIDI钢琴配合使用。还有更多。",
       "keywords": [
-        "文本转语音",
-        "语音克隆",
-        "Azure",
-        "语音合成",
-        "人工智能"
+        "氛围编码",
+        "开发环境",
+        "无API费用"
       ],
       "metrics": {
-        "votes": 88,
-        "comments": 3
+        "votes": 93,
+        "comments": 11
       },
       "links": {
-        "homepage": "https://www.producthunt.com/r/TXV2R33T3EPL56?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
-        "source": "https://www.producthunt.com/products/mai-image-2-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+        "homepage": "https://www.producthunt.com/r/I4WREISFO2BBDV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/recursi-self-improving-vibe-coding-env?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
       },
       "assets": {
-        "icon": "https://ph-files.imgix.net/893fbf92-a1f4-4864-bc0a-74c657b50a2e.png?auto=format",
-        "thumbnail": "https://ph-files.imgix.net/893fbf92-a1f4-4864-bc0a-74c657b50a2e.png?auto=format",
-        "media": []
+        "icon": "https://ph-files.imgix.net/28136c73-c39c-4343-a6d2-043f50b51365.jpeg?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/28136c73-c39c-4343-a6d2-043f50b51365.jpeg?auto=format",
+        "media": [
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/18eef15d-bd98-4211-b493-b8ba4f675fe2.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/f746e2ae-ee33-4f93-9d47-bfc9ec29058a.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/1f171730-5495-4554-9da1-793da87d80c7.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/3f3637fd-0ff1-468b-bd5f-dcaeef8d1d57.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/75d06a26-7b41-49c0-aeda-f317129c9917.png?auto=format",
+            "videoUrl": null
+          }
+        ]
       },
       "raw": {
-        "slug": "microsoft-mai-voice-2",
+        "slug": "recursi",
         "featuredAt": "2026-06-05T07:01:00Z",
         "createdAt": "2026-06-05T07:01:00Z",
         "makers": [],

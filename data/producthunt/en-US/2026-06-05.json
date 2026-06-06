@@ -4,58 +4,22 @@
   "locale": "en-US",
   "date": "2026-06-05",
   "sourceTimezone": "America/Los_Angeles",
-  "generatedAt": "2026-06-05T17:38:52.918Z",
+  "generatedAt": "2026-06-06T01:57:30.423Z",
   "items": [
     {
       "rank": 1,
-      "id": "1163341",
-      "name": "Leni",
-      "tagline": "The world’s most accurate AI for investors",
-      "description": "Leni is the most accurate and verifiable AI for serious investment work. Built on 21,000+ decision traces and processing 100M+ rows daily, it delivers finance-grade outputs with full auditability through source links, timestamps, and grounded comps. Leni outperforms GPT, Claude, and Manus on independent benchmarks for accuracy, modeling, and valuation while giving teams the trust they need when millions are on the line. Leni is part of Google Startups and a serious machine for investors.",
-      "keywords": [
-        "AI",
-        "Investment",
-        "Finance",
-        "Accuracy",
-        "Auditing"
-      ],
-      "metrics": {
-        "votes": 381,
-        "comments": 52
-      },
-      "links": {
-        "homepage": "https://www.producthunt.com/r/FFWCFWSDY3ELXY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
-        "source": "https://www.producthunt.com/products/leni?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
-      },
-      "assets": {
-        "icon": "https://ph-files.imgix.net/b65a533c-d4cf-4bf3-8528-e57802c16a9e.webp?auto=format",
-        "thumbnail": "https://ph-files.imgix.net/b65a533c-d4cf-4bf3-8528-e57802c16a9e.webp?auto=format",
-        "media": []
-      },
-      "raw": {
-        "slug": "leni-2",
-        "featuredAt": "2026-06-05T07:01:00Z",
-        "createdAt": "2026-06-05T07:01:00Z",
-        "makers": [],
-        "topics": []
-      }
-    },
-    {
-      "rank": 2,
       "id": "1155751",
       "name": "SellerClaw",
       "tagline": "A team of AI agents that runs your stores across channels",
       "description": "Running even one online store is a full-time job. SellerClaw is a team of AI agents that runs it for you: specialized agents for product sourcing, store management, and advertising, coordinated by a supervisor you direct. Tell it what to sell — the agents build listings, manage ads and pricing, and handle fulfillment and support across Shopify, eBay, and more. You stay in control: every action is visible and approvable, and you set how much runs on its own. Free to start.",
       "keywords": [
-        "E-commerce",
-        "Automation",
-        "AI Agents",
-        "Shopify",
-        "Store Management"
+        "AI agents",
+        "e-commerce automation",
+        "store management"
       ],
       "metrics": {
-        "votes": 349,
-        "comments": 121
+        "votes": 427,
+        "comments": 137
       },
       "links": {
         "homepage": "https://www.producthunt.com/r/7EVPIJ3T3Q6YW2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
@@ -64,7 +28,38 @@
       "assets": {
         "icon": "https://ph-files.imgix.net/055a93ee-c4e1-4862-99e9-0984eff96f82.png?auto=format",
         "thumbnail": "https://ph-files.imgix.net/055a93ee-c4e1-4862-99e9-0984eff96f82.png?auto=format",
-        "media": []
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/4cb6a984-3d4f-454b-ab7e-79de4c6f8e20.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/9594bc80-eec7-4083-ac14-ffd6550c0e2b.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/ec42fca3-d3a0-49d8-9093-05288c2ec922.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/2c32fc3b-d9ec-4269-a699-a64bedb7218a.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/921ee052-7c51-4b97-b344-3e0075913795.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/05917104-3d1f-4c17-a6e9-7f3486f86e7b.jpeg?auto=format",
+            "videoUrl": null
+          }
+        ]
       },
       "raw": {
         "slug": "sellerclaw",
@@ -75,21 +70,19 @@
       }
     },
     {
-      "rank": 3,
+      "rank": 2,
       "id": "1163169",
       "name": "Minimi",
       "tagline": "Your ambient memory for Claude",
       "description": "Every great Claude response starts with context. Minimi listens across your Mac - docs, calls, messages, tabs - and gives Claude the full picture. No prompting. All on-device and private.",
       "keywords": [
-        "Claude",
-        "Context",
-        "Privacy",
-        "Mac",
-        "Productivity"
+        "AI context",
+        "macOS tool",
+        "privacy"
       ],
       "metrics": {
-        "votes": 309,
-        "comments": 50
+        "votes": 371,
+        "comments": 92
       },
       "links": {
         "homepage": "https://www.producthunt.com/r/SIMPLUAHCBBLII?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
@@ -98,10 +91,109 @@
       "assets": {
         "icon": "https://ph-files.imgix.net/263c1485-e028-41c9-a635-559fbc18e830.png?auto=format",
         "thumbnail": "https://ph-files.imgix.net/263c1485-e028-41c9-a635-559fbc18e830.png?auto=format",
-        "media": []
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/a620a4e0-e814-4817-bc77-3b64de305485.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/8192e656-b12a-435d-aa20-77bb103f46b6.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/43f96bd5-851f-4268-983d-ce7321d37a86.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/3845e67a-18cd-44f1-938a-245198927cae.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/e6ac7935-1414-4514-8972-b338dddacbbd.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/26798396-6e55-4eaf-aade-6a9639bdf466.jpeg?auto=format",
+            "videoUrl": null
+          }
+        ]
       },
       "raw": {
         "slug": "minimi-2",
+        "featuredAt": "2026-06-05T07:01:00Z",
+        "createdAt": "2026-06-05T07:01:00Z",
+        "makers": [],
+        "topics": []
+      }
+    },
+    {
+      "rank": 3,
+      "id": "1163341",
+      "name": "Leni",
+      "tagline": "The world’s most accurate AI for investors",
+      "description": "Leni is the most accurate and verifiable AI for serious investment work. Built on 21,000+ decision traces and processing 100M+ rows daily, it delivers finance-grade outputs with full auditability through source links, timestamps, and grounded comps. Leni outperforms GPT, Claude, and Manus on independent benchmarks for accuracy, modeling, and valuation while giving teams the trust they need when millions are on the line. Leni is part of Google Startups and a serious machine for investors.",
+      "keywords": [
+        "investment AI",
+        "financial analysis",
+        "accuracy"
+      ],
+      "metrics": {
+        "votes": 342,
+        "comments": 61
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/FFWCFWSDY3ELXY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/leni?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/b65a533c-d4cf-4bf3-8528-e57802c16a9e.webp?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/b65a533c-d4cf-4bf3-8528-e57802c16a9e.webp?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/0cc77175-bf74-412d-9882-428247aa87c1.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/9808b458-52f3-42c2-ae15-96f4f4d5bcba.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/365100fe-9614-4696-a06f-91afbd8e6d52.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/055ce128-3bd9-4a34-8306-2425000599d7.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/5969a82e-ed5b-4417-a57e-a7c4d055a5f1.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/a82f1b8f-2998-4351-bd76-25f1b21092b9.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/320d65f5-c323-4658-8559-0a380593db03.jpeg?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "leni-2",
         "featuredAt": "2026-06-05T07:01:00Z",
         "createdAt": "2026-06-05T07:01:00Z",
         "makers": [],
@@ -115,14 +207,12 @@
       "tagline": "AI finance copilot for cash flow, margins, and growth",
       "description": "Veltrix AI gives founders and finance teams instant clarity on cash flow, profitability, burn, and business performance. Connect QuickBooks, Xero, Shopify, Square, and HubSpot, then ask finance questions in plain English to get source-backed answers, anomalies, and recommended next steps. Replace spreadsheet chaos and static dashboards with real-time financial intelligence built to help you make faster, smarter business decisions.",
       "keywords": [
-        "Finance",
-        "Cash Flow",
-        "Analytics",
-        "QuickBooks",
-        "Business Intelligence"
+        "financial AI",
+        "cash flow",
+        "business intelligence"
       ],
       "metrics": {
-        "votes": 232,
+        "votes": 265,
         "comments": 43
       },
       "links": {
@@ -132,7 +222,48 @@
       "assets": {
         "icon": "https://ph-files.imgix.net/00754c3c-732d-4226-ad58-1196546bb224.png?auto=format",
         "thumbnail": "https://ph-files.imgix.net/00754c3c-732d-4226-ad58-1196546bb224.png?auto=format",
-        "media": []
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/9610b4ff-c8c3-405d-974d-905439cc1c7b.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/4526055e-b44d-4fbf-891f-bb3d059d429b.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/5dbf6129-0be7-4e24-b74d-b592aa503d27.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/6018f501-5916-41af-a2f6-7614a0d47983.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/cb21ae62-c0f5-442b-a866-81af379f3a27.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/7eeb7424-bafa-470b-b632-191bb68239bf.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/bb38bd5e-9716-42ea-b070-31651ffa041e.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/8bee7adc-a155-4c09-b3a3-7671779ee3a2.png?auto=format",
+            "videoUrl": null
+          }
+        ]
       },
       "raw": {
         "slug": "veltrix-ai-2",
@@ -149,15 +280,13 @@
       "tagline": "Generate design-ready image with open weight, layout control",
       "description": "Ideogram 4.0 is an open-weight text-to-image model trained from scratch, with bounding-box layout control, multilingual text rendering, and native 2K output. For developers and enterprises building on visual AI.",
       "keywords": [
-        "Image Generation",
-        "Open Source",
-        "Design",
-        "Text-to-Image",
-        "AI Model"
+        "image generation",
+        "open weight model",
+        "text rendering"
       ],
       "metrics": {
-        "votes": 168,
-        "comments": 8
+        "votes": 218,
+        "comments": 10
       },
       "links": {
         "homepage": "https://www.producthunt.com/r/OJNQHSZUNTKVUF?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
@@ -166,7 +295,98 @@
       "assets": {
         "icon": "https://ph-files.imgix.net/8919eccb-7bb6-4bce-ab61-8a213b393199.jpeg?auto=format",
         "thumbnail": "https://ph-files.imgix.net/8919eccb-7bb6-4bce-ab61-8a213b393199.jpeg?auto=format",
-        "media": []
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/7d309261-c17d-4ff3-8ea6-ded457b0432f.webp?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/36f34808-61c3-41fe-99e5-aeddc63fcaac.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/b05068f3-f8aa-4b5c-ba77-6806e64d9d78.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/caf763fa-91d8-4fae-b7bd-ae0d13d77d3e.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/b53640cb-cb52-4c94-b1dd-195d5542e096.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/c62e21f3-9bfe-486a-ac88-d8be96ea68b1.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/455cd1c9-61e7-482b-bfd9-c5c6a6bd6e85.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/e1644f66-2761-42df-8f37-b7da88c904b3.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/982dd506-0880-4ace-a62e-52c273366b11.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/8a9544d3-40d4-4775-93e2-c02f7219c0e5.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/563085b0-37d6-41f0-bb15-111587e8c57d.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/037e4384-20e3-4a51-a4ad-d53d81f822fe.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/0e564198-d149-445f-8981-3681d1f157f2.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/5d3d6968-0fb1-4f34-af7d-81caf31680f6.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/7e71ad3d-dece-4e30-863a-6d43213d01ff.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/0da77ceb-0943-48ea-859c-f299751fe5a0.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/e570c40e-140a-40fd-b22f-ccd5f2897495.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/6804dea9-8c36-4a7e-bafa-8380dce7631c.jpeg?auto=format",
+            "videoUrl": null
+          }
+        ]
       },
       "raw": {
         "slug": "ideogram-4-0",
@@ -178,53 +398,17 @@
     },
     {
       "rank": 6,
-      "id": "1163741",
-      "name": "Nemotron 3 Ultra by NVIDIA",
-      "tagline": "Powers faster, efficient reasoning for long-running agents",
-      "description": "A 550B MoE frontier-intelligence open model built for long-running agents. It delivers 5x faster inference and lowers the cost of complex agentic tasks by up to 30% versus other open frontier models.Ultra excels at complex tasks like coding and deep research. Long-running agents spend their time planning, using tools, recovering from failures, and deciding what to do next.",
-      "keywords": [
-        "NVIDIA",
-        "LLM",
-        "Agents",
-        "Inference",
-        "Open Model"
-      ],
-      "metrics": {
-        "votes": 138,
-        "comments": 3
-      },
-      "links": {
-        "homepage": "https://www.producthunt.com/r/FRQKMP7ZDQB4RR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
-        "source": "https://www.producthunt.com/products/nvidia?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
-      },
-      "assets": {
-        "icon": "https://ph-files.imgix.net/cf242a56-5926-4b9d-99eb-cde2d4694b79.jpeg?auto=format",
-        "thumbnail": "https://ph-files.imgix.net/cf242a56-5926-4b9d-99eb-cde2d4694b79.jpeg?auto=format",
-        "media": []
-      },
-      "raw": {
-        "slug": "nemotron-3-ultra-by-nvidia",
-        "featuredAt": "2026-06-05T07:01:00Z",
-        "createdAt": "2026-06-05T07:01:00Z",
-        "makers": [],
-        "topics": []
-      }
-    },
-    {
-      "rank": 7,
       "id": "1160919",
       "name": "Agent Mode on Arena",
       "tagline": "Get real-world tasks done with autonomous AI agents",
       "description": "Most AI benchmarks test models in controlled environments. Agent Mode tests them on complex tasks to get more work done. Run autonomous agents that browse, research, code, use files, and complete multi-step workflows from a single prompt. Then watch each workflow unfold step by step. Every run contributes to the Agent Arena Leaderboard, ranking frontier models by real-world agentic performance.",
       "keywords": [
-        "AI Agents",
-        "Benchmark",
-        "Automation",
-        "Research",
-        "Coding"
+        "AI agents",
+        "benchmarking",
+        "autonomous tasks"
       ],
       "metrics": {
-        "votes": 135,
+        "votes": 165,
         "comments": 19
       },
       "links": {
@@ -234,7 +418,53 @@
       "assets": {
         "icon": "https://ph-files.imgix.net/21871a9a-84c9-4f14-baf9-ef1802a9bb10.png?auto=format",
         "thumbnail": "https://ph-files.imgix.net/21871a9a-84c9-4f14-baf9-ef1802a9bb10.png?auto=format",
-        "media": []
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/8c8e5e76-1a6d-4b41-836b-540456c36287.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/0958b676-dbaa-491b-b835-29895ad0c60d.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/2bbc273b-849a-43a7-8036-5e8446bc2c54.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/d8476358-891d-4fbc-8b15-3902fadb6ca7.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/e125bca4-7124-4358-aac3-b37e4e2ab20f.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/235bec5c-d401-44f7-9759-a2cd66a7e7cb.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/99e092b0-34ce-4357-ac14-f2013bbca40e.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/19262a96-acf7-455c-9ff1-d1db213c0487.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/af3f37f6-a8ce-4f8c-afd1-ed26a39a7c34.jpeg?auto=format",
+            "videoUrl": null
+          }
+        ]
       },
       "raw": {
         "slug": "agent-mode-on-arena",
@@ -245,33 +475,57 @@
       }
     },
     {
-      "rank": 8,
-      "id": "1164006",
-      "name": "LocalClicky",
-      "tagline": "Control your Mac with your voice locally",
-      "description": "LocalClicky is a Mac menubar app that lets you have a real conversation with your computer - completely offline. Say \"Computer\" to start a session. It stays listening. You chain commands back to back. Say \"goodbye\" when you're done. Everything runs on your machine: voice transcription, LLM multi models, VAD, macOS say No API keys. No subscription. No data leaving your Mac. MIT licensed.",
+      "rank": 7,
+      "id": "1163741",
+      "name": "Nemotron 3 Ultra by NVIDIA",
+      "tagline": "Powers faster, efficient reasoning for long-running agents",
+      "description": "A 550B MoE frontier-intelligence open model built for long-running agents. It delivers 5x faster inference and lowers the cost of complex agentic tasks by up to 30% versus other open frontier models.Ultra excels at complex tasks like coding and deep research. Long-running agents spend their time planning, using tools, recovering from failures, and deciding what to do next.",
       "keywords": [
-        "Voice Control",
-        "Mac",
-        "Offline",
-        "Privacy",
-        "Productivity"
+        "NVIDIA",
+        "MoE model",
+        "agent efficiency"
       ],
       "metrics": {
-        "votes": 108,
-        "comments": 6
+        "votes": 149,
+        "comments": 4
       },
       "links": {
-        "homepage": "https://www.producthunt.com/r/UREOXFHYYUMZVN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
-        "source": "https://www.producthunt.com/products/localclicky?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+        "homepage": "https://www.producthunt.com/r/FRQKMP7ZDQB4RR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/nvidia?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
       },
       "assets": {
-        "icon": "https://ph-files.imgix.net/54681e23-9fcd-45b8-8f99-35db6382ca12.png?auto=format",
-        "thumbnail": "https://ph-files.imgix.net/54681e23-9fcd-45b8-8f99-35db6382ca12.png?auto=format",
-        "media": []
+        "icon": "https://ph-files.imgix.net/cf242a56-5926-4b9d-99eb-cde2d4694b79.jpeg?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/cf242a56-5926-4b9d-99eb-cde2d4694b79.jpeg?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/3510c708-7531-485b-bed4-2530fcbcdd03.webp?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/55225aef-52ab-4dd3-a032-944d26fef5d2.webp?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/26774a6e-c1ac-4e58-bee5-a08d6cd35f72.webp?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/56ea44a0-c474-4b5d-ae33-2154db05423f.webp?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/696e4c85-94a7-4d65-9090-645ecab02570.jpeg?auto=format",
+            "videoUrl": null
+          }
+        ]
       },
       "raw": {
-        "slug": "localclicky",
+        "slug": "nemotron-3-ultra-by-nvidia",
         "featuredAt": "2026-06-05T07:01:00Z",
         "createdAt": "2026-06-05T07:01:00Z",
         "makers": [],
@@ -279,21 +533,19 @@
       }
     },
     {
-      "rank": 9,
+      "rank": 8,
       "id": "1100116",
       "name": "Moodloom",
       "tagline": "Ad-free Pinterest Alternative with AI content filtering ",
       "description": "Moodloom is an ad-free visual discovery platform for those fed up of Pinterest. Save and explore fashion, decor, and art - without the noise. What makes it different: Clean feed - no ads, no sponsored posts AI content filter - hide or show AI-generated images For fashion lovers, decorators & digital artists who wish Pinterest were better. We have built Save to Moodloom Extension as well using which you can Import all your Pinterest pins/boards to Moodloom.",
       "keywords": [
-        "Pinterest Alternative",
-        "Visual Discovery",
-        "Ad-free",
-        "AI Filter",
-        "Fashion"
+        "Pinterest alternative",
+        "ad-free",
+        "visual discovery"
       ],
       "metrics": {
-        "votes": 101,
-        "comments": 4
+        "votes": 118,
+        "comments": 9
       },
       "links": {
         "homepage": "https://www.producthunt.com/r/KABC3NRR6GO7HB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
@@ -302,10 +554,94 @@
       "assets": {
         "icon": "https://ph-files.imgix.net/a8ab0a03-78c1-4073-b9af-816922753c26.png?auto=format",
         "thumbnail": "https://ph-files.imgix.net/a8ab0a03-78c1-4073-b9af-816922753c26.png?auto=format",
-        "media": []
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/bae5030a-87ad-412a-b75f-adb3ea3f7556.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/08743e19-5ddb-4285-a9fe-512d4d3fa968.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/ce12de12-02d4-4d73-834e-2aae2501d9e1.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/37d36abe-0eaa-469a-a2fe-871698ff8599.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/3da52c9d-32c6-4af0-a345-26a0c0a38cc2.jpeg?auto=format",
+            "videoUrl": null
+          }
+        ]
       },
       "raw": {
         "slug": "moodloom",
+        "featuredAt": "2026-06-05T07:01:00Z",
+        "createdAt": "2026-06-05T07:01:00Z",
+        "makers": [],
+        "topics": []
+      }
+    },
+    {
+      "rank": 9,
+      "id": "1164006",
+      "name": "LocalClicky",
+      "tagline": "Control your Mac with your voice locally",
+      "description": "LocalClicky is a Mac menubar app that lets you have a real conversation with your computer - completely offline. Say \"Computer\" to start a session. It stays listening. You chain commands back to back. Say \"goodbye\" when you're done. Everything runs on your machine: voice transcription, LLM multi models, VAD, macOS say No API keys. No subscription. No data leaving your Mac. MIT licensed.",
+      "keywords": [
+        "voice control",
+        "macOS",
+        "offline AI"
+      ],
+      "metrics": {
+        "votes": 118,
+        "comments": 7
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/UREOXFHYYUMZVN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/localclicky?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/54681e23-9fcd-45b8-8f99-35db6382ca12.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/54681e23-9fcd-45b8-8f99-35db6382ca12.png?auto=format",
+        "media": [
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/d8699719-6125-418a-a85e-a4217ebbd998.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/af83056d-20be-4e9c-917b-5a35348b381d.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/83a9a524-fb08-4213-b1ec-58bab6142031.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/4eed38c6-fb15-42de-bf79-30f117b10236.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/19f39fa6-86eb-4018-a1de-13a7442451df.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "localclicky",
         "featuredAt": "2026-06-05T07:01:00Z",
         "createdAt": "2026-06-05T07:01:00Z",
         "makers": [],
@@ -319,14 +655,12 @@
       "tagline": "Ultra-minimalist, borderless macOS native image viewer",
       "description": "FloatPic is the ultra-minimalist macOS native image viewer. Borderless floating window, native gestures, blazing-fast loading, supports 30+ image formats. Make the software disappear, let images float.",
       "keywords": [
-        "macOS",
-        "Image Viewer",
-        "Minimalist",
-        "Native App",
-        "Productivity"
+        "image viewer",
+        "macOS native",
+        "minimalist"
       ],
       "metrics": {
-        "votes": 100,
+        "votes": 110,
         "comments": 7
       },
       "links": {
@@ -336,7 +670,38 @@
       "assets": {
         "icon": "https://ph-files.imgix.net/9bb82948-9f6f-4869-9512-b5bd13a920bf.png?auto=format",
         "thumbnail": "https://ph-files.imgix.net/9bb82948-9f6f-4869-9512-b5bd13a920bf.png?auto=format",
-        "media": []
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/f8f408bf-fbbf-47e4-ae33-bb2600d80add.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/00a44964-5356-4e2a-96d3-31881249e565.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/d2ddd965-e7db-46dc-bd65-fa62d7a10997.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/11254547-9667-4712-8a3e-d5c6a73bfe47.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/6205dabd-6906-4f1a-9538-eaec87980df5.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/117376c3-b871-45aa-867d-073fb90b450a.png?auto=format",
+            "videoUrl": null
+          }
+        ]
       },
       "raw": {
         "slug": "floatpic",
@@ -353,15 +718,13 @@
       "tagline": "Block prompt inject & cut token costs for AI browser agents",
       "description": "AI agents browsing the web have a problem: they read everything — cookie banners, hidden instructions, dark patterns — and can't tell real content from a trap. Agent Browser Shield sits between your agent and the web, stripping prompt injections, masking PII, removing dark patterns, and filtering page noise that burns tokens. Free, source-available, works with browser-use and Browserbase.",
       "keywords": [
-        "Security",
-        "AI Agents",
-        "Browser",
-        "Prompt Injection",
-        "Cost Reduction"
+        "prompt injection",
+        "AI security",
+        "token optimization"
       ],
       "metrics": {
-        "votes": 94,
-        "comments": 11
+        "votes": 102,
+        "comments": 12
       },
       "links": {
         "homepage": "https://www.producthunt.com/r/F6KGMHVJXZBD7X?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
@@ -370,7 +733,18 @@
       "assets": {
         "icon": "https://ph-files.imgix.net/7f30dd03-6e09-4e88-869d-8a1cb240e35f.png?auto=format",
         "thumbnail": "https://ph-files.imgix.net/7f30dd03-6e09-4e88-869d-8a1cb240e35f.png?auto=format",
-        "media": []
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/2d7373c1-997c-41c7-9d8e-b245a71270a2.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/ff650b11-650d-468e-ae7e-dae55f22f554.png?auto=format",
+            "videoUrl": null
+          }
+        ]
       },
       "raw": {
         "slug": "agent-browser-shield",
@@ -382,20 +756,81 @@
     },
     {
       "rank": 12,
+      "id": "1163576",
+      "name": "VisionSync",
+      "tagline": "Where strategy execution meets the people doing the work",
+      "description": "Existing tools help you write a strategic plan. VisionSync makes sure it actually happens. It links every goal to the people executing it and shows the live status of each initiative, so leaders see what's slipping before it hits quarterly results, not after. Add ValueSync 360 to connect strategy to performance on the people side. Proven across all four University of Nebraska campuses, Maryville University, and the Greater Omaha Chamber of Commerce.",
+      "keywords": [
+        "strategy execution",
+        "project management",
+        "performance tracking"
+      ],
+      "metrics": {
+        "votes": 98,
+        "comments": 5
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/GNDEMM56EBBGG2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/visionsync?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/e56ae0b2-d863-4603-9174-814f68bdf25d.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/e56ae0b2-d863-4603-9174-814f68bdf25d.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/387c744b-4a7c-4731-bba4-13faf2f94881.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/32c38869-0067-4aaa-b15e-6cdec49f873b.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/330e96c1-6366-4c82-9906-ce73816474d5.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/485c9fff-7dcb-4e8b-8721-a574649ce1a2.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/c13f261f-ef70-4cd7-8973-15fe9facc962.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "interactive_demo",
+            "url": "https://ph-files.imgix.net/29477d13-9f2f-49b9-93f7-6f272055b644.gif?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "visionsync",
+        "featuredAt": "2026-06-05T07:01:00Z",
+        "createdAt": "2026-06-05T07:01:00Z",
+        "makers": [],
+        "topics": []
+      }
+    },
+    {
+      "rank": 13,
       "id": "1132349",
       "name": "Lumo Studios",
       "tagline": "Build Decks that Speak for Themselves",
       "description": "Great ideas deserve great slides. LUMO uses AI to turn your thinking into polished decks instantly, beautifully, and exactly the way you want them. LUMO turns your ideas into beautiful presentations in seconds. Generate slides from a prompt, refine them in the canvas editor, and share with your team - all in one place.",
       "keywords": [
-        "Presentations",
-        "AI",
-        "Slides",
-        "Design",
-        "Productivity"
+        "presentation AI",
+        "slide generation",
+        "productivity"
       ],
       "metrics": {
-        "votes": 90,
-        "comments": 5
+        "votes": 97,
+        "comments": 7
       },
       "links": {
         "homepage": "https://www.producthunt.com/r/KC4UACPCSLYR3L?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
@@ -404,7 +839,43 @@
       "assets": {
         "icon": "https://ph-files.imgix.net/6bcc0e1e-4363-41ff-9abf-7e63ce7b9a44.png?auto=format",
         "thumbnail": "https://ph-files.imgix.net/6bcc0e1e-4363-41ff-9abf-7e63ce7b9a44.png?auto=format",
-        "media": []
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/257fac65-9345-4555-bfb2-877affbd45c6.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/619d2f6c-8c91-40a5-9cfe-8f2f2e7e3dd0.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/fd4c6b62-d125-4409-8040-b149d7f8806c.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/bdecf622-ceaf-42c9-8143-9698f7cb0902.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/280f1f91-b177-4257-a742-664cf373b181.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/393f9e92-91b6-4173-b590-908362f16c0a.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/ce6f39a4-faca-4e51-9694-9b3922966309.jpeg?auto=format",
+            "videoUrl": null
+          }
+        ]
       },
       "raw": {
         "slug": "lumo-studios",
@@ -415,20 +886,76 @@
       }
     },
     {
-      "rank": 13,
+      "rank": 14,
+      "id": "1163789",
+      "name": "Microsoft MAI-Voice-2",
+      "tagline": "Expressive TTS with voice cloning in 15 languages",
+      "description": "Microsoft's most expressive TTS model yet — voice cloning from short samples, fine-grained emotional control, and consistent voice identity across 15 languages. Now live in Azure AI Foundry at $22 per million characters, with integrations rolling out in VSCode, Dynamics 365 Contact Center, and Teams. For builders shipping voice agents who need production-grade prosody without the OpenAI Realtime API price tag.",
+      "keywords": [
+        "text-to-speech",
+        "voice cloning",
+        "Azure AI"
+      ],
+      "metrics": {
+        "votes": 96,
+        "comments": 3
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/TXV2R33T3EPL56?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/mai-image-2-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/893fbf92-a1f4-4864-bc0a-74c657b50a2e.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/893fbf92-a1f4-4864-bc0a-74c657b50a2e.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/0fa2658f-7808-408a-b376-c954e58b772b.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/5aae6346-671a-47de-9755-07271d886812.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/8d73881e-9394-47d3-a4bc-123dc9ca0ece.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/a4271cd7-6a45-4ff1-bb08-b0443b386e31.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/8a6424bf-3b56-498d-bca0-bae185ebeee2.png?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "microsoft-mai-voice-2",
+        "featuredAt": "2026-06-05T07:01:00Z",
+        "createdAt": "2026-06-05T07:01:00Z",
+        "makers": [],
+        "topics": []
+      }
+    },
+    {
+      "rank": 15,
       "id": "1163579",
       "name": "Treadmill Pro",
       "tagline": "Control your treadmill from your iPhone, wirelessly",
       "description": "Connect your treadmill via Bluetooth and control speed, incline, timer and stats right from your iPhone. Full Apple Health integration. Free on the App Store.",
       "keywords": [
-        "Fitness",
-        "Apple Health",
-        "Bluetooth",
-        "Running",
-        "iOS"
+        "fitness app",
+        "Bluetooth control",
+        "Apple Health"
       ],
       "metrics": {
-        "votes": 90,
+        "votes": 95,
         "comments": 1
       },
       "links": {
@@ -438,78 +965,41 @@
       "assets": {
         "icon": "https://ph-files.imgix.net/17cde1b9-ab76-4b71-8e43-ae67c88e4f1a.png?auto=format",
         "thumbnail": "https://ph-files.imgix.net/17cde1b9-ab76-4b71-8e43-ae67c88e4f1a.png?auto=format",
-        "media": []
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/a1e0de70-2023-4b4a-99b4-f0e0bf7afe85.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/29cda97f-718f-4163-b062-b809a5dddc6a.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/65a83deb-e90d-4cf3-870f-78192472df10.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/54921489-519a-46bc-b7a9-12cedc98d11c.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/4fa77dcf-e3ad-4886-9a1a-0978bb474d90.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/46d7f190-e3d2-412b-8679-7d3dcd87ccb5.png?auto=format",
+            "videoUrl": null
+          }
+        ]
       },
       "raw": {
         "slug": "treadmill-pro",
-        "featuredAt": "2026-06-05T07:01:00Z",
-        "createdAt": "2026-06-05T07:01:00Z",
-        "makers": [],
-        "topics": []
-      }
-    },
-    {
-      "rank": 14,
-      "id": "1163592",
-      "name": "Recursi",
-      "tagline": "Self improving vibe coding env with no API fees",
-      "description": "An extremely powerful environment for vibe coding, allowing you to use web based chatbots (Claude/Gemini via aistudio/ChatGPT, etc) extremely efficiently while staying firmly in their terms of service. A whole lot of apps are provided as samples / templates, including a YouTube playlist app that not only allows a great YouTube experience without ads (also within terms of service!), but \"Guitar Hero for piano\" that works with a MIDI piano. So much more.",
-      "keywords": [
-        "Coding",
-        "Developer Tools",
-        "AI Chatbots",
-        "No API Fees",
-        "Environment"
-      ],
-      "metrics": {
-        "votes": 89,
-        "comments": 10
-      },
-      "links": {
-        "homepage": "https://www.producthunt.com/r/I4WREISFO2BBDV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
-        "source": "https://www.producthunt.com/products/recursi-self-improving-vibe-coding-env?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
-      },
-      "assets": {
-        "icon": "https://ph-files.imgix.net/28136c73-c39c-4343-a6d2-043f50b51365.jpeg?auto=format",
-        "thumbnail": "https://ph-files.imgix.net/28136c73-c39c-4343-a6d2-043f50b51365.jpeg?auto=format",
-        "media": []
-      },
-      "raw": {
-        "slug": "recursi",
-        "featuredAt": "2026-06-05T07:01:00Z",
-        "createdAt": "2026-06-05T07:01:00Z",
-        "makers": [],
-        "topics": []
-      }
-    },
-    {
-      "rank": 15,
-      "id": "1163576",
-      "name": "VisionSync",
-      "tagline": "Where strategy execution meets the people doing the work",
-      "description": "Existing tools help you write a strategic plan. VisionSync makes sure it actually happens. It links every goal to the people executing it and shows the live status of each initiative, so leaders see what's slipping before it hits quarterly results, not after. Add ValueSync 360 to connect strategy to performance on the people side. Proven across all four University of Nebraska campuses, Maryville University, and the Greater Omaha Chamber of Commerce.",
-      "keywords": [
-        "Strategy",
-        "Execution",
-        "Management",
-        "Performance",
-        "Business"
-      ],
-      "metrics": {
-        "votes": 89,
-        "comments": 3
-      },
-      "links": {
-        "homepage": "https://www.producthunt.com/r/GNDEMM56EBBGG2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
-        "source": "https://www.producthunt.com/products/visionsync?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
-      },
-      "assets": {
-        "icon": "https://ph-files.imgix.net/e56ae0b2-d863-4603-9174-814f68bdf25d.png?auto=format",
-        "thumbnail": "https://ph-files.imgix.net/e56ae0b2-d863-4603-9174-814f68bdf25d.png?auto=format",
-        "media": []
-      },
-      "raw": {
-        "slug": "visionsync",
         "featuredAt": "2026-06-05T07:01:00Z",
         "createdAt": "2026-06-05T07:01:00Z",
         "makers": [],
@@ -523,15 +1013,13 @@
       "tagline": "Type messy and have it instantly polished",
       "description": "Most tools force you to edit. Clarafy is a zero-suggestion chaos translator. Type or dictate a messy stream-of-consciousness, hit a hotkey, and it instantly rewrites perfect text in place. Standout Features: App-Aware: Formats contextually for Gmail, Slack, or ChatGPT. Hold-to-Dictate: Ramble out loud; release to inject polished prose. Tone Matching: Learns and mirrors your unique voice. No suggestions, no underlines. Just one-and-done clarity.",
       "keywords": [
-        "Writing",
-        "Editing",
-        "AI",
-        "Productivity",
-        "Dictation"
+        "text polishing",
+        "writing assistant",
+        "productivity"
       ],
       "metrics": {
-        "votes": 88,
-        "comments": 5
+        "votes": 94,
+        "comments": 7
       },
       "links": {
         "homepage": "https://www.producthunt.com/r/C3AOI4BETVQ7D3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
@@ -540,7 +1028,38 @@
       "assets": {
         "icon": "https://ph-files.imgix.net/ccdf5595-1851-4c8c-b475-064cc6247c6b.png?auto=format",
         "thumbnail": "https://ph-files.imgix.net/ccdf5595-1851-4c8c-b475-064cc6247c6b.png?auto=format",
-        "media": []
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/069f1d8b-0455-4dd6-9c9e-9e7863cbfc2d.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/7ab5e345-7b5b-4ffd-8439-62207207f838.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/b5a8e546-523a-4f32-a54a-f1af697b9263.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/43e909ec-9dd1-4f97-bcc1-9db4e28a538e.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/83da46e1-c370-4ba7-afdb-dadf512fc852.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/26f4d0b7-8474-4b34-95d1-b991d9e01a8a.jpeg?auto=format",
+            "videoUrl": null
+          }
+        ]
       },
       "raw": {
         "slug": "clarafy",
@@ -552,32 +1071,56 @@
     },
     {
       "rank": 17,
-      "id": "1163789",
-      "name": "Microsoft MAI-Voice-2",
-      "tagline": "Expressive TTS with voice cloning in 15 languages",
-      "description": "Microsoft's most expressive TTS model yet — voice cloning from short samples, fine-grained emotional control, and consistent voice identity across 15 languages. Now live in Azure AI Foundry at $22 per million characters, with integrations rolling out in VSCode, Dynamics 365 Contact Center, and Teams. For builders shipping voice agents who need production-grade prosody without the OpenAI Realtime API price tag.",
+      "id": "1163592",
+      "name": "Recursi",
+      "tagline": "Self improving vibe coding env with no API fees",
+      "description": "An extremely powerful environment for vibe coding, allowing you to use web based chatbots (Claude/Gemini via aistudio/ChatGPT, etc) extremely efficiently while staying firmly in their terms of service. A whole lot of apps are provided as samples / templates, including a YouTube playlist app that not only allows a great YouTube experience without ads (also within terms of service!), but \"Guitar Hero for piano\" that works with a MIDI piano. So much more.",
       "keywords": [
-        "TTS",
-        "Voice Cloning",
-        "Azure",
-        "Speech Synthesis",
-        "AI"
+        "vibe coding",
+        "development environment",
+        "no API fees"
       ],
       "metrics": {
-        "votes": 88,
-        "comments": 3
+        "votes": 93,
+        "comments": 11
       },
       "links": {
-        "homepage": "https://www.producthunt.com/r/TXV2R33T3EPL56?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
-        "source": "https://www.producthunt.com/products/mai-image-2-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+        "homepage": "https://www.producthunt.com/r/I4WREISFO2BBDV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/recursi-self-improving-vibe-coding-env?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
       },
       "assets": {
-        "icon": "https://ph-files.imgix.net/893fbf92-a1f4-4864-bc0a-74c657b50a2e.png?auto=format",
-        "thumbnail": "https://ph-files.imgix.net/893fbf92-a1f4-4864-bc0a-74c657b50a2e.png?auto=format",
-        "media": []
+        "icon": "https://ph-files.imgix.net/28136c73-c39c-4343-a6d2-043f50b51365.jpeg?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/28136c73-c39c-4343-a6d2-043f50b51365.jpeg?auto=format",
+        "media": [
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/18eef15d-bd98-4211-b493-b8ba4f675fe2.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/f746e2ae-ee33-4f93-9d47-bfc9ec29058a.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/1f171730-5495-4554-9da1-793da87d80c7.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/3f3637fd-0ff1-468b-bd5f-dcaeef8d1d57.png?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/75d06a26-7b41-49c0-aeda-f317129c9917.png?auto=format",
+            "videoUrl": null
+          }
+        ]
       },
       "raw": {
-        "slug": "microsoft-mai-voice-2",
+        "slug": "recursi",
         "featuredAt": "2026-06-05T07:01:00Z",
         "createdAt": "2026-06-05T07:01:00Z",
         "makers": [],
