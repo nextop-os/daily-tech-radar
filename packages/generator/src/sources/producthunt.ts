@@ -35,6 +35,10 @@ query DailyPosts($first: Int!, $postedAfter: DateTime!, $postedBefore: DateTime!
           url
           videoUrl
         }
+        media {
+          type
+          url
+        }
       }
     }
   }

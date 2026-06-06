@@ -132,6 +132,13 @@ export type GitHubTrendRepo = {
   };
 };
 
+export type GitHubVisualOptions = {
+  fetchImpl?: typeof fetch;
+  githubToken?: string;
+  agnesApiKey?: string;
+  generateAgnesImages?: boolean;
+};
+
 export type GitHubTrendView = {
   id: string;
   type: "category" | "curated" | "review";
@@ -181,4 +188,3 @@ export type DailyTrendPackage = {
     warnings: string[];
   };
 };
-

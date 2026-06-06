@@ -64,8 +64,13 @@ if (options.source === "producthunt") {
     ? await readFile(resolveUserPath(options.fixture), "utf8")
     : await fetch("https://github.com/trending?since=daily").then((response) => response.text());
   const candidates = parseGitHubTrendingHtml(html).slice(0, limit);
-  const enPackage = buildGitHubPackage({ candidates, locale: "en-US", date, generatedAt });
-  const zhPackage = buildGitHubPackage({ candidates, locale: "zh-CN", date, generatedAt });
+  const visualOptions = {
+    githubToken: process.env.GITHUB_TOKEN,
+    agnesApiKey: process.env.AGNES_API_KEY,
+    generateAgnesImages: process.env.DISABLE_AGNES_IMAGE_GENERATION !== "1"
+  };
+  const enPackage = await buildGitHubPackage({ candidates, locale: "en-US", date, generatedAt, visual: visualOptions });
+  const zhPackage = await buildGitHubPackage({ candidates, locale: "zh-CN", date, generatedAt, visual: visualOptions });
   const en = await writeSourcePayload({
     outputDir,
     source: "github",

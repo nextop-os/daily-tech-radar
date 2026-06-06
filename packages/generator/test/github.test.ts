@@ -22,14 +22,17 @@ describe("GitHub package generation", () => {
     });
   });
 
-  it("builds a DailyTrendPackage with views and health", () => {
+  it("builds a DailyTrendPackage with views and health", async () => {
     const html = readFileSync(join(here, "fixtures/github-trending.html"), "utf8");
     const candidates = parseGitHubTrendingHtml(html);
-    const pkg = buildGitHubPackage({
+    const pkg = await buildGitHubPackage({
       candidates,
       locale: "zh-CN",
       date: "2026-06-05",
-      generatedAt: "2026-06-06T08:20:00.000Z"
+      generatedAt: "2026-06-06T08:20:00.000Z",
+      visual: {
+        fetchImpl: async () => new Response("not found", { status: 404 })
+      }
     });
 
     expect(dailyTrendPackageSchema.parse(pkg)).toEqual(pkg);
@@ -37,5 +40,25 @@ describe("GitHub package generation", () => {
     expect(pkg.views?.some((view) => view.repoIds.length > 0)).toBe(true);
     expect(pkg.health?.status).toBe("ok");
   });
-});
 
+  it("uses the first usable README image as the repo visual", async () => {
+    const html = readFileSync(join(here, "fixtures/github-trending.html"), "utf8");
+    const candidates = parseGitHubTrendingHtml(html).slice(0, 1);
+    const pkg = await buildGitHubPackage({
+      candidates,
+      locale: "en-US",
+      date: "2026-06-05",
+      generatedAt: "2026-06-06T08:20:00.000Z",
+      visual: {
+        fetchImpl: async () =>
+          new Response("# Headroom\n\n![Demo](./assets/demo.png)\n\nA useful project.", { status: 200 })
+      }
+    });
+
+    expect(pkg.repos[0].visual).toMatchObject({
+      kind: "readme_image",
+      url: "https://raw.githubusercontent.com/chopratejas/headroom/main/assets/demo.png"
+    });
+    expect(pkg.repos[0].readmeRef.status).toBe("available");
+  });
+});

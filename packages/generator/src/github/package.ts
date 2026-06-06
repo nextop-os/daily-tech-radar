@@ -1,6 +1,7 @@
 import * as cheerio from "cheerio";
 import { createHash } from "node:crypto";
-import type { DailyTrendPackage, GitHubTrendRepo, Locale } from "../types.js";
+import { createAgnesClient } from "agnes-ai-cli";
+import type { DailyTrendPackage, GitHubTrendRepo, GitHubVisualOptions, Locale } from "../types.js";
 import { addUtcDays } from "../date.js";
 
 type CandidateRepo = {
@@ -14,6 +15,16 @@ type CandidateRepo = {
   rank: number;
   url: string;
 };
+
+type ReadmeInfo = {
+  status: "available" | "missing" | "rate_limited" | "unknown";
+  path?: string | null;
+  sha?: string | null;
+  rawUrl?: string | null;
+  markdown?: string;
+};
+
+type VisualInfo = GitHubTrendRepo["visual"];
 
 const TAXONOMY = [
   { id: "ai", label: "AI", labelEn: "AI", icon: "bot", order: 20 },
@@ -57,13 +68,16 @@ export function parseGitHubTrendingHtml(html: string): CandidateRepo[] {
   return repos;
 }
 
-export function buildGitHubPackage(options: {
+export async function buildGitHubPackage(options: {
   candidates: CandidateRepo[];
   locale: Locale;
   date: string;
   generatedAt: string;
-}): DailyTrendPackage {
-  const repos = options.candidates.map((candidate) => candidateToRepo(candidate, options.locale));
+  visual?: GitHubVisualOptions;
+}): Promise<DailyTrendPackage> {
+  const repos = await Promise.all(
+    options.candidates.map((candidate) => candidateToRepo(candidate, options.locale, options.visual ?? {}))
+  );
   const views = TAXONOMY.map((category) => ({
     id: category.id,
     type: category.id === "unclassified" ? ("review" as const) : ("category" as const),
@@ -75,6 +89,10 @@ export function buildGitHubPackage(options: {
       .map((repo) => repo.id),
     sort: "score" as const
   })).filter((view) => view.repoIds.length > 0);
+
+  const readmeImageCount = repos.filter((repo) => repo.visual.kind === "readme_image").length;
+  const agnesImageCount = repos.filter((repo) => repo.visual.kind === "agnes_generated").length;
+  const avatarFallbackCount = repos.filter((repo) => repo.visual.kind === "repository_avatar").length;
 
   return {
     schemaVersion: "trendreader.daily.v1",
@@ -105,17 +123,38 @@ export function buildGitHubPackage(options: {
     health: {
       status: repos.length > 0 ? "ok" : "degraded",
       candidateCount: options.candidates.length,
-      enrichedRepoCount: 0,
+      enrichedRepoCount: repos.filter((repo) => repo.readmeRef.status === "available").length,
       unclassifiedRepoCount: repos.filter((repo) => repo.classification.primaryCategoryId === "unclassified").length,
-      warnings: ["Phase 2 fixture package: REST enrichment and Agnes visual generation are not enabled in this run"]
+      warnings:
+        avatarFallbackCount > 0
+          ? [
+              `${readmeImageCount} repos used README images, ${agnesImageCount} used Agnes images, ${avatarFallbackCount} fell back to repository avatars`
+            ]
+          : []
     }
   };
 }
 
-function candidateToRepo(candidate: CandidateRepo, locale: Locale): GitHubTrendRepo {
+async function candidateToRepo(
+  candidate: CandidateRepo,
+  locale: Locale,
+  visualOptions: GitHubVisualOptions
+): Promise<GitHubTrendRepo> {
   const category = classify(candidate);
   const id = `${candidate.owner}-${candidate.name}`.toLowerCase().replace(/[^a-z0-9]+/g, "-");
   const score = Math.max(0, 100 - candidate.rank * 2 + Math.min(candidate.starsGained / 10, 20));
+  const readme = await fetchReadme(candidate, visualOptions);
+  const readmeSignals = readme.markdown
+    ? extractReadmeSignals(readme.markdown, candidate.description, category.signals)
+    : {
+        title: candidate.name,
+        summary: locale === "zh-CN" ? candidate.description : candidate.description,
+        headings: [],
+        commands: [],
+        keywords: category.signals,
+        score: category.confidence * 100
+      };
+  const visual = await selectVisual(candidate, category.id, readme, readmeSignals.summary, visualOptions);
   return {
     id,
     owner: candidate.owner,
@@ -140,27 +179,13 @@ function candidateToRepo(candidate: CandidateRepo, locale: Locale): GitHubTrendR
       topLanguages: candidate.language ? [candidate.language] : []
     },
     readmeRef: {
-      status: "unknown",
-      path: null,
-      sha: null,
-      rawUrl: null
+      status: readme.status,
+      path: readme.path ?? null,
+      sha: readme.sha ?? null,
+      rawUrl: readme.rawUrl ?? null
     },
-    readmeSignals: {
-      title: candidate.name,
-      summary: locale === "zh-CN" ? candidate.description : candidate.description,
-      headings: [],
-      commands: [],
-      keywords: category.signals,
-      score: category.confidence * 100
-    },
-    visual: {
-      kind: "repository_avatar",
-      url: `https://github.com/${candidate.owner}.png`,
-      thumbUrl: `https://github.com/${candidate.owner}.png`,
-      alt: `${candidate.owner}/${candidate.name}`,
-      sourceUrl: candidate.url,
-      promptHash: hashPrompt(`${candidate.owner}/${candidate.name}:${candidate.description}`)
-    },
+    readmeSignals,
+    visual,
     classification: {
       primaryCategoryId: category.id,
       secondaryCategoryIds: [],
@@ -175,6 +200,161 @@ function candidateToRepo(candidate: CandidateRepo, locale: Locale): GitHubTrendR
       score
     }
   };
+}
+
+async function fetchReadme(candidate: CandidateRepo, options: GitHubVisualOptions): Promise<ReadmeInfo> {
+  const fetchImpl = options.fetchImpl ?? fetch;
+  const headers = options.githubToken ? { Authorization: `Bearer ${options.githubToken}` } : undefined;
+  const branches = ["main", "master"];
+  const names = ["README.md", "readme.md", "README.mdx"];
+  for (const branch of branches) {
+    for (const name of names) {
+      const rawUrl = `https://raw.githubusercontent.com/${candidate.owner}/${candidate.name}/${branch}/${name}`;
+      const response = await fetchImpl(rawUrl, { headers });
+      if (response.status === 403 || response.status === 429) {
+        return { status: "rate_limited", path: name, rawUrl };
+      }
+      if (response.ok) {
+        return {
+          status: "available",
+          path: name,
+          sha: null,
+          rawUrl,
+          markdown: await response.text()
+        };
+      }
+    }
+  }
+  return { status: "missing", path: null, sha: null, rawUrl: null };
+}
+
+function extractReadmeSignals(markdown: string, fallbackSummary: string, fallbackKeywords: string[]) {
+  const title = markdown.match(/^#\s+(.+)$/m)?.[1]?.trim() ?? null;
+  const summary =
+    markdown
+      .split(/\n{2,}/)
+      .map((part) => part.replace(/[#>*_`[\]()]/g, "").trim())
+      .find((part) => part.length > 40 && !part.startsWith("!")) ?? fallbackSummary;
+  const headings = [...markdown.matchAll(/^#{1,3}\s+(.+)$/gm)].slice(0, 8).map((match) => match[1].trim());
+  const commands = [...markdown.matchAll(/\b(?:npm install|pnpm add|yarn add|pip install|cargo install)\s+[^\n`]+/g)]
+    .slice(0, 6)
+    .map((match) => match[0].trim());
+  const keywords = [...new Set([...fallbackKeywords, ...headings.slice(0, 4).map((heading) => heading.toLowerCase())])].slice(0, 8);
+  return {
+    title,
+    summary,
+    headings,
+    commands,
+    keywords,
+    score: Math.min(100, 40 + headings.length * 5 + commands.length * 5 + (summary ? 20 : 0))
+  };
+}
+
+async function selectVisual(
+  candidate: CandidateRepo,
+  categoryId: string,
+  readme: ReadmeInfo,
+  summary: string | null | undefined,
+  options: GitHubVisualOptions
+): Promise<VisualInfo> {
+  const readmeImage = readme.markdown && readme.rawUrl ? firstReadmeImage(readme.markdown, readme.rawUrl) : null;
+  if (readmeImage) {
+    return {
+      kind: "readme_image",
+      url: readmeImage.url,
+      thumbUrl: readmeImage.url,
+      alt: readmeImage.alt || `${candidate.owner}/${candidate.name}`,
+      sourceUrl: readmeImage.url,
+      promptHash: null
+    };
+  }
+
+  if (options.generateAgnesImages && options.agnesApiKey) {
+    const prompt = [
+      "Create a clean product card cover for an open-source GitHub project.",
+      `Project: ${candidate.owner}/${candidate.name}`,
+      `Category: ${categoryId}`,
+      `Description: ${candidate.description}`,
+      `README summary: ${summary ?? candidate.description}`,
+      "Style: light editorial software product screenshot, practical developer tool, no fake UI text, no logos copied from GitHub, 16:10 composition, clear focal object."
+    ].join("\n");
+    try {
+      const agnes = createAgnesClient({ apiKey: options.agnesApiKey, fetchImpl: options.fetchImpl });
+      const image = await agnes.image.generate({
+        mode: "text2img",
+        model: "agnes-image-2.1-flash",
+        prompt,
+        size: "1024x640"
+      });
+      return {
+        kind: "agnes_generated",
+        url: image.url,
+        thumbUrl: image.url,
+        alt: `Generated cover for ${candidate.owner}/${candidate.name}`,
+        sourceUrl: null,
+        promptHash: hashPrompt(prompt)
+      };
+    } catch {
+      // Fall through to avatar if generation fails.
+    }
+  }
+
+  return {
+    kind: "repository_avatar",
+    url: `https://github.com/${candidate.owner}.png`,
+    thumbUrl: `https://github.com/${candidate.owner}.png`,
+    alt: `${candidate.owner}/${candidate.name}`,
+    sourceUrl: candidate.url,
+    promptHash: hashPrompt(`${candidate.owner}/${candidate.name}:${candidate.description}`)
+  };
+}
+
+function firstReadmeImage(markdown: string, readmeRawUrl: string): { url: string; alt: string | null } | null {
+  const candidates = [
+    ...[...markdown.matchAll(/!\[([^\]]*)\]\(([^)\s]+)(?:\s+"[^"]*")?\)/g)].map((match) => ({
+      alt: match[1] || null,
+      src: match[2]
+    })),
+    ...[...markdown.matchAll(/<img[^>]+src=["']([^"']+)["'][^>]*>/gi)].map((match) => ({
+      alt: match[0].match(/alt=["']([^"']+)["']/i)?.[1] ?? null,
+      src: match[1]
+    }))
+  ];
+  for (const candidate of candidates) {
+    if (isSkippedImage(candidate.src)) {
+      continue;
+    }
+    return {
+      alt: candidate.alt,
+      url: resolveReadmeImageUrl(candidate.src, readmeRawUrl)
+    };
+  }
+  return null;
+}
+
+function isSkippedImage(src: string): boolean {
+  const value = src.toLowerCase();
+  return (
+    value.includes("shield") ||
+    value.includes("badge") ||
+    value.includes("opencollective") ||
+    value.endsWith(".svg?sanitize=true")
+  );
+}
+
+function resolveReadmeImageUrl(src: string, readmeRawUrl: string): string {
+  if (/^https?:\/\//i.test(src)) {
+    return src;
+  }
+  if (src.startsWith("//")) {
+    return `https:${src}`;
+  }
+  const base = new URL(readmeRawUrl);
+  const parts = base.pathname.split("/");
+  parts.pop();
+  const normalized = src.replace(/^\.\//, "");
+  base.pathname = `${parts.join("/")}/${normalized}`;
+  return base.toString();
 }
 
 function classify(candidate: CandidateRepo): { id: string; confidence: number; reasons: string[]; signals: string[] } {
@@ -212,4 +392,3 @@ function parseFirstNumber(input: string): number {
 function hashPrompt(value: string): string {
   return `sha256:${createHash("sha256").update(value).digest("hex").slice(0, 12)}`;
 }
-
