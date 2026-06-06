@@ -1,9 +1,9 @@
 {
   "schemaVersion": "trendreader.daily.v1",
-  "packageId": "github-daily-All-2026-06-02",
+  "packageId": "github-daily-All-2026-06-03",
   "locale": "en-US",
-  "generatedAt": "2026-06-06T10:05:50.094Z",
-  "expiresAt": "2026-06-07T10:05:50.094Z",
+  "generatedAt": "2026-06-06T10:07:11.966Z",
+  "expiresAt": "2026-06-07T10:07:11.966Z",
   "sourceWindow": {
     "since": "daily",
     "language": "All",
@@ -18,8 +18,8 @@
     }
   ],
   "taxonomy": {
-    "version": "2026-06-02",
-    "generatedAt": "2026-06-06T10:05:50.094Z",
+    "version": "2026-06-03",
+    "generatedAt": "2026-06-06T10:07:11.966Z",
     "categories": [
       {
         "id": "ai",
@@ -75,7 +75,7 @@
         "description": "The agent that grows with you",
         "language": "Python",
         "topics": [],
-        "stars": 184040,
+        "stars": 184045,
         "forks": 31536,
         "license": null,
         "defaultBranch": null,
@@ -117,8 +117,8 @@
       },
       "visual": {
         "kind": "agnes_generated",
-        "url": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/7162afc0a20a478388dafc65143b86b6.png",
-        "thumbUrl": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/7162afc0a20a478388dafc65143b86b6.png",
+        "url": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/3e0b115505734f3585d9fbed3fd8e530.png",
+        "thumbUrl": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/3e0b115505734f3585d9fbed3fd8e530.png",
         "alt": "Generated cover for NousResearch/hermes-agent",
         "sourceUrl": null,
         "promptHash": "sha256:15e7b9fd7f31"
@@ -157,7 +157,7 @@
         "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.",
         "language": "Python",
         "topics": [],
-        "stars": 15024,
+        "stars": 15026,
         "forks": 956,
         "license": null,
         "defaultBranch": null,
@@ -246,7 +246,7 @@
         "description": "The Frontend Stack for Agents & Generative UI. React + Angular. Makers of the AG-UI Protocol",
         "language": "TypeScript",
         "topics": [],
-        "stars": 32910,
+        "stars": 32911,
         "forks": 4213,
         "license": null,
         "defaultBranch": null,
@@ -488,7 +488,7 @@
         "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
         "language": "Python",
         "topics": [],
-        "stars": 21876,
+        "stars": 21877,
         "forks": 1883,
         "license": null,
         "defaultBranch": null,
@@ -781,8 +781,8 @@
       },
       "visual": {
         "kind": "agnes_generated",
-        "url": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/25ab8873e8ca4ff9834e8abb79c06723.png",
-        "thumbUrl": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/25ab8873e8ca4ff9834e8abb79c06723.png",
+        "url": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/87bed5a6e2954a2dab9ab6a62109acd6.png",
+        "thumbUrl": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/87bed5a6e2954a2dab9ab6a62109acd6.png",
         "alt": "Generated cover for mvanhorn/last30days-skill",
         "sourceUrl": null,
         "promptHash": "sha256:dcec996b1934"
@@ -936,8 +936,8 @@
       },
       "visual": {
         "kind": "agnes_generated",
-        "url": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/b2ea06436e8b4f70b58a87b4b230da5b.png",
-        "thumbUrl": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/b2ea06436e8b4f70b58a87b4b230da5b.png",
+        "url": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/a394f674a043468b8bfd67c7868ff69c.png",
+        "thumbUrl": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/a394f674a043468b8bfd67c7868ff69c.png",
         "alt": "Generated cover for openai/plugins",
         "sourceUrl": null,
         "promptHash": "sha256:7fb9c749c29e"
@@ -1020,8 +1020,8 @@
       },
       "visual": {
         "kind": "agnes_generated",
-        "url": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/29cc06aff3984a7391a6064ff0005ba8.png",
-        "thumbUrl": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/29cc06aff3984a7391a6064ff0005ba8.png",
+        "url": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/b147af15716a452682d039184412adef.png",
+        "thumbUrl": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/b147af15716a452682d039184412adef.png",
         "alt": "Generated cover for MemPalace/mempalace",
         "sourceUrl": null,
         "promptHash": "sha256:446e08ca2faa"
@@ -1102,8 +1102,8 @@
       },
       "visual": {
         "kind": "agnes_generated",
-        "url": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/e1519e21dbe5459d94d3f8022187bc3d.png",
-        "thumbUrl": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/e1519e21dbe5459d94d3f8022187bc3d.png",
+        "url": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/926e38fc3ef14239a78ab5c6338d9020.png",
+        "thumbUrl": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/926e38fc3ef14239a78ab5c6338d9020.png",
         "alt": "Generated cover for withastro/flue",
         "sourceUrl": null,
         "promptHash": "sha256:4758cb0b325a"
