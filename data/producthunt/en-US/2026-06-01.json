@@ -4,7 +4,7 @@
   "locale": "en-US",
   "date": "2026-06-01",
   "sourceTimezone": "America/Los_Angeles",
-  "generatedAt": "2026-06-06T07:42:26.258Z",
+  "generatedAt": "2026-06-06T09:56:58.749Z",
   "items": [
     {
       "rank": 1,
@@ -14,8 +14,8 @@
       "description": "Mina is an AI meeting assistant that actively participates in meetings, responds in real time, pulls context from your tools, and helps move work forward while the conversation is still happening. Unlike traditional meeting tools, Mina can speak during calls, use skills, generate outputs, and support sales calls, interviews, standups, customer conversations, and team workflows before, during, and after meetings.",
       "keywords": [
         "AI meeting assistant",
-        "real-time response",
-        "workflow automation"
+        "real-time collaboration",
+        "productivity tool"
       ],
       "metrics": {
         "votes": 467,
@@ -75,8 +75,8 @@
       "description": "SocialEcho is an AI social media copilot for teams managing social campaigns across multiple brands, accounts, and channels. See what’s trending, create content that resonates, optimize posts for every platform, publish from one workspace, manage every conversation, and track what drives engagement. Built on official social APIs, SocialEcho gives AI agents like OpenClaw, Hermes, and custom automations a secure way to manage connected social accounts without brittle scraping or risky workarounds.",
       "keywords": [
         "social media AI",
-        "multi-channel management",
-        "AI agent integration"
+        "content automation",
+        "multi-channel management"
       ],
       "metrics": {
         "votes": 388,
@@ -147,7 +147,7 @@
       "keywords": [
         "business intelligence",
         "LLM integration",
-        "data querying"
+        "data analytics"
       ],
       "metrics": {
         "votes": 360,
@@ -212,8 +212,8 @@
       "description": "Dune is a context-aware keypad for Mac that now builds around you. Create shortcuts just by talking to Claude, browse a Marketplace of community-built scripts, and assign any workflow to your three keys across the apps you use. From meetings to dev tools to everyday tasks, Dune adapts instantly so the right action is always one keypress away.",
       "keywords": [
         "Mac utility",
-        "context-aware",
-        "productivity shortcut"
+        "productivity keyboard",
+        "AI integration"
       ],
       "metrics": {
         "votes": 357,
@@ -272,9 +272,9 @@
       "tagline": "the AI in your texts that gets stuff done",
       "description": "Folk is your AI friend that lives in any messaging app: iMessage, Telegram, Discord, and more. It joins meetings, plans your date, knows where you are, and gets smarter with every conversation. The longer you use it, the more it knows you. And now it's multiplayer, so you and your friends can team up and reach your goals together.",
       "keywords": [
-        "personal AI assistant",
-        "messaging integration",
-        "social planning"
+        "AI assistant",
+        "messaging app",
+        "personal organizer"
       ],
       "metrics": {
         "votes": 303,
@@ -338,9 +338,9 @@
       "tagline": "AI autocomplete for every app on your Mac",
       "description": "Typeahead is the writing assistant that writes with you, not for you. It works in every text field on your Mac, helping you type faster and smarter with inline suggestions that appear as you write. It runs on a local AI model, works offline and keeps your writing on your device.",
       "keywords": [
-        "text completion",
+        "writing assistant",
         "local AI",
-        "privacy focused"
+        "text completion"
       ],
       "metrics": {
         "votes": 297,
@@ -411,7 +411,7 @@
       "keywords": [
         "presentation tool",
         "screen annotation",
-        "video conferencing"
+        "public speaking"
       ],
       "metrics": {
         "votes": 223,
@@ -492,7 +492,7 @@
       "keywords": [
         "advertising collective",
         "cost reduction",
-        "small business marketing"
+        "Meta ads"
       ],
       "metrics": {
         "votes": 157,
@@ -546,9 +546,9 @@
       "tagline": "Run a research agent with cited answers in a single API call",
       "description": "/research gives your app or agent cited answers from the live web in one API call. Not a pre-indexed corpus: the actual live web. Every request comes back with source URL's users can verify. Source selection, synthesis, and citation formatting are all inside the call. You write or maintain none of that code. Built for legal, financial, and competitive intel, where a wrong answer is a liability. Free to try.",
       "keywords": [
-        "web research API",
-        "cited answers",
-        "competitive intelligence"
+        "web research",
+        "API service",
+        "cited answers"
       ],
       "metrics": {
         "votes": 156,
@@ -618,7 +618,7 @@
       "description": "Open Caffeine is a native macOS menu bar app for keeping your Mac awake for a chosen duration. Pick presets, set a custom timer, toggle screen sleep behavior, use a global hotkey, show a countdown in the menu bar, and stop automatically at a low battery threshold. It is open source, Apple Silicon native, and built for people who want a simple, modern Caffeine-style utility without extra marketing menu items.",
       "keywords": [
         "macOS utility",
-        "keep awake",
+        "system control",
         "open source"
       ],
       "metrics": {
@@ -749,9 +749,9 @@
       "tagline": "A smart LLM proxy that shows where you're overpaying",
       "description": "Tokenwise is a one-line LLM proxy (OpenAI-compatible baseURL) for makers and small teams. It learns from your real requests, shows exactly where you're overpaying, proven with quality checks on your own traffic, not public benchmark, and lets you apply the fix in one click while it verifies the savings in real dollars.",
       "keywords": [
-        "LLM cost optimization",
-        "API proxy",
-        "cost monitoring"
+        "LLM optimization",
+        "cost management",
+        "API proxy"
       ],
       "metrics": {
         "votes": 133,
@@ -876,9 +876,9 @@
       "tagline": "Local natural language search across all your files",
       "description": "You know the file exists. Spotlight can't find it. Stella can. Just describe it, \"my cheat sheet for the final exam,\" \"the product spec from last week's meeting\" and Stella finds it. Then drag it straight into Gmail, open it, or launch any app from the same bar. One shortcut for your whole Mac. Free. Private. No account. Bad filenames welcome.",
       "keywords": [
-        "local search",
-        "natural language",
-        "file management"
+        "file search",
+        "local AI",
+        "productivity"
       ],
       "metrics": {
         "votes": 109,
@@ -958,7 +958,7 @@
       "description": "Turning natural language prompts into live, fully functional investing dashboards, faster than Bolt, Lovable & many more. New Omni 1.0 model, outshines the deprecated Atlas model, and is able to generate far greater dashboards. Community section added, to view 100+ pre-generated dashboards & models",
       "keywords": [
         "investment dashboard",
-        "natural language to code",
+        "AI generation",
         "financial tools"
       ],
       "metrics": {
@@ -1019,8 +1019,8 @@
       "description": "Emily is the voice assistant inside Co-Desk, now in public beta. She lives on your phone and knows your workspace. Ask about today's arrivals or overdue invoices. Tell her to book a room for a member. She prepares it as a card, you tap Confirm. Voice proposes, you confirm, always two steps. Built for operators who don't sit at a desk: walking a tour, setting up an event, turning over a room. Hands busy, phone in pocket, Emily ready.",
       "keywords": [
         "voice AI",
-        "coworking management",
-        "hands-free operation"
+        "coworking",
+        "property management"
       ],
       "metrics": {
         "votes": 101,
@@ -1069,9 +1069,9 @@
       "tagline": "Control your robots from anywhere in the world",
       "description": "Avea's Sentinel is the fastest remote teleoperation software on the market, so you can control your robots from anywhere in the world. With Sentinel, robotics companies can keep their robots at 100% uptime and instantly intervene when autonomy breaks down.",
       "keywords": [
-        "robotics control",
+        "robotics",
         "teleoperation",
-        "remote management"
+        "remote control"
       ],
       "metrics": {
         "votes": 100,
@@ -1121,8 +1121,8 @@
       "description": "A Figma plugin that binds layers to live REST endpoints. Paste a URL, map JSON paths to layer names, save the recipe as a Palette, and apply it to any frame. Design with real data instead of lorem ipsum.",
       "keywords": [
         "Figma plugin",
-        "API integration",
-        "design prototyping"
+        "UI design",
+        "API integration"
       ],
       "metrics": {
         "votes": 97,
@@ -1183,7 +1183,7 @@
       "keywords": [
         "local AI",
         "desktop automation",
-        "data privacy"
+        "privacy focused"
       ],
       "metrics": {
         "votes": 88,
@@ -1288,8 +1288,8 @@
       "description": "Inspect, debug, and understand modern API traffic with NetworkSpy — a network debugger built for GraphQL, streaming, and AI apps. When joining new projects, learning other teams’ systems, or tracking tricky issues, a custom viewer makes everything easier. Instead of raw payloads, focus on real problems with your team. Don’t fall behind in the AI era. Build faster, debug smarter, and ship better products with the right tools.",
       "keywords": [
         "API debugging",
-        "network proxy",
-        "developer tools"
+        "network tool",
+        "developer tool"
       ],
       "metrics": {
         "votes": 85,
