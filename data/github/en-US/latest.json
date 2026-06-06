@@ -1,9 +1,9 @@
 {
   "schemaVersion": "trendreader.daily.v1",
-  "packageId": "github-daily-All-2026-06-03",
+  "packageId": "github-daily-All-2026-06-04",
   "locale": "en-US",
-  "generatedAt": "2026-06-06T10:07:11.966Z",
-  "expiresAt": "2026-06-07T10:07:11.966Z",
+  "generatedAt": "2026-06-06T10:08:48.322Z",
+  "expiresAt": "2026-06-07T10:08:48.322Z",
   "sourceWindow": {
     "since": "daily",
     "language": "All",
@@ -18,8 +18,8 @@
     }
   ],
   "taxonomy": {
-    "version": "2026-06-03",
-    "generatedAt": "2026-06-06T10:07:11.966Z",
+    "version": "2026-06-04",
+    "generatedAt": "2026-06-06T10:08:48.322Z",
     "categories": [
       {
         "id": "ai",
@@ -75,8 +75,8 @@
         "description": "The agent that grows with you",
         "language": "Python",
         "topics": [],
-        "stars": 184045,
-        "forks": 31536,
+        "stars": 184046,
+        "forks": 31535,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -117,8 +117,8 @@
       },
       "visual": {
         "kind": "agnes_generated",
-        "url": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/3e0b115505734f3585d9fbed3fd8e530.png",
-        "thumbUrl": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/3e0b115505734f3585d9fbed3fd8e530.png",
+        "url": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/6bd4f319982e4a7d82857f476846064c.png",
+        "thumbUrl": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/6bd4f319982e4a7d82857f476846064c.png",
         "alt": "Generated cover for NousResearch/hermes-agent",
         "sourceUrl": null,
         "promptHash": "sha256:15e7b9fd7f31"
@@ -157,7 +157,7 @@
         "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.",
         "language": "Python",
         "topics": [],
-        "stars": 15026,
+        "stars": 15029,
         "forks": 956,
         "license": null,
         "defaultBranch": null,
@@ -246,7 +246,7 @@
         "description": "The Frontend Stack for Agents & Generative UI. React + Angular. Makers of the AG-UI Protocol",
         "language": "TypeScript",
         "topics": [],
-        "stars": 32911,
+        "stars": 32912,
         "forks": 4213,
         "license": null,
         "defaultBranch": null,
@@ -781,8 +781,8 @@
       },
       "visual": {
         "kind": "agnes_generated",
-        "url": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/87bed5a6e2954a2dab9ab6a62109acd6.png",
-        "thumbUrl": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/87bed5a6e2954a2dab9ab6a62109acd6.png",
+        "url": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/3e5dbef983194092835baa3e1db35e39.png",
+        "thumbUrl": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/3e5dbef983194092835baa3e1db35e39.png",
         "alt": "Generated cover for mvanhorn/last30days-skill",
         "sourceUrl": null,
         "promptHash": "sha256:dcec996b1934"
@@ -936,8 +936,8 @@
       },
       "visual": {
         "kind": "agnes_generated",
-        "url": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/a394f674a043468b8bfd67c7868ff69c.png",
-        "thumbUrl": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/a394f674a043468b8bfd67c7868ff69c.png",
+        "url": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/4b476e7192bf431eb74edb8c2661bff8.png",
+        "thumbUrl": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/4b476e7192bf431eb74edb8c2661bff8.png",
         "alt": "Generated cover for openai/plugins",
         "sourceUrl": null,
         "promptHash": "sha256:7fb9c749c29e"
@@ -1020,8 +1020,8 @@
       },
       "visual": {
         "kind": "agnes_generated",
-        "url": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/b147af15716a452682d039184412adef.png",
-        "thumbUrl": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/b147af15716a452682d039184412adef.png",
+        "url": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/f081938f911a46f089362b943d5569ba.png",
+        "thumbUrl": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/f081938f911a46f089362b943d5569ba.png",
         "alt": "Generated cover for MemPalace/mempalace",
         "sourceUrl": null,
         "promptHash": "sha256:446e08ca2faa"
@@ -1102,8 +1102,8 @@
       },
       "visual": {
         "kind": "agnes_generated",
-        "url": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/926e38fc3ef14239a78ab5c6338d9020.png",
-        "thumbUrl": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/926e38fc3ef14239a78ab5c6338d9020.png",
+        "url": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/490075c18535460e85f0f2684099c86b.png",
+        "thumbUrl": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/490075c18535460e85f0f2684099c86b.png",
         "alt": "Generated cover for withastro/flue",
         "sourceUrl": null,
         "promptHash": "sha256:4758cb0b325a"
@@ -1302,7 +1302,7 @@
         "description": "A complete computer science study plan to become a software engineer.",
         "language": "",
         "topics": [],
-        "stars": 350562,
+        "stars": 350563,
         "forks": 83308,
         "license": null,
         "defaultBranch": null,
