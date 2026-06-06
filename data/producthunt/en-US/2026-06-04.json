@@ -4,7 +4,7 @@
   "locale": "en-US",
   "date": "2026-06-04",
   "sourceTimezone": "America/Los_Angeles",
-  "generatedAt": "2026-06-06T07:52:24.744Z",
+  "generatedAt": "2026-06-06T10:01:34.002Z",
   "items": [
     {
       "rank": 1,
@@ -18,7 +18,7 @@
         "inbox placement"
       ],
       "metrics": {
-        "votes": 577,
+        "votes": 579,
         "comments": 104
       },
       "links": {
@@ -80,11 +80,11 @@
       "description": "Astra Autonomous Pentesting makes self-healing software the new standard, a category we’re defining after 8 years and 5,000+ real-world pentests. An army of offensive pentesters and bounty hunter agents that discovers complex chained vulnerabilities, an independent validator layer drives false positives to near-zero, and AI-fix agents deliver remediation as native Cursor, Copilot, and Claude Code prompts. The reactive pentest era is over.",
       "keywords": [
         "autonomous pentesting",
-        "AI security",
-        "vulnerability management"
+        "vulnerability detection",
+        "AI security"
       ],
       "metrics": {
-        "votes": 406,
+        "votes": 407,
         "comments": 55
       },
       "links": {
@@ -218,10 +218,10 @@
       "keywords": [
         "local AI",
         "multimodal",
-        "open source model"
+        "Gemma"
       ],
       "metrics": {
-        "votes": 290,
+        "votes": 291,
         "comments": 7
       },
       "links": {
@@ -269,7 +269,7 @@
       "keywords": [
         "AI education",
         "learning platform",
-        "community learning"
+        "community"
       ],
       "metrics": {
         "votes": 202,
@@ -480,12 +480,12 @@
       "tagline": "Catch and fix usability issues automatically as you ship",
       "description": "Novus is the product agent built for teams that ship fast. Connect your codebase and Novus automatically instruments, analyzes, and improves your product — no manual setup. It monitors continuously, flags usability issues proactively, and delivers intelligence for engineers and PMs.",
       "keywords": [
-        "product analytics",
         "usability testing",
-        "product agent"
+        "product analytics",
+        "automated QA"
       ],
       "metrics": {
-        "votes": 140,
+        "votes": 142,
         "comments": 27
       },
       "links": {
@@ -556,7 +556,7 @@
         "booking pages"
       ],
       "metrics": {
-        "votes": 137,
+        "votes": 138,
         "comments": 16
       },
       "links": {
@@ -628,7 +628,7 @@
       "description": "This isn’t just a feature launch, it’s an evolution of our entire product experience. Brilliant is now a superintelligent tutor designed to work like the best human tutors. It asks the right questions, sketches right on your screen, and adapts to how you learn best.",
       "keywords": [
         "personal tutor",
-        "AI education",
+        "education",
         "adaptive learning"
       ],
       "metrics": {
@@ -694,8 +694,8 @@
       "description": "Keen Code is an open-source, context-aware and efficient CLI coding agent written in Go. Three aspects stand it out from other similar products: - It was built from scratch by coding agents, with the full prompt/design trail preserved and shared in the repo. - It uses turn memory to keep multi-turn sessions lean which saves context significantly. - It maps MCP servers to lazy-loaded Skills instead of stuffing large schemas into context upfront. This again saves context in mult-MCP setting.",
       "keywords": [
         "CLI agent",
-        "context efficiency",
-        "open source coding"
+        "coding assistant",
+        "open source"
       ],
       "metrics": {
         "votes": 120,
@@ -741,7 +741,7 @@
       "keywords": [
         "Windows AI",
         "local agents",
-        "desktop automation"
+        "Perplexity"
       ],
       "metrics": {
         "votes": 116,
@@ -797,7 +797,7 @@
       "keywords": [
         "cloud IDE",
         "agentic coding",
-        "remote development"
+        "development environment"
       ],
       "metrics": {
         "votes": 109,
@@ -913,7 +913,7 @@
       "description": "Sun is a voice first AI model built specifically for real‑time collaborative voice interaction, not just one‑on‑one chat. ChatGPT Realtime and Gemini Live were built for one user talking to AI. Sun is built for collaboration — meetings, group calls, multi-agent debates, classrooms. One API, multi-speaker awareness, 10× the context window.",
       "keywords": [
         "voice AI",
-        "collaborative audio",
+        "collaboration",
         "multi-speaker"
       ],
       "metrics": {
@@ -1091,8 +1091,8 @@
       "description": "Intelligent Terminal is an open-source experimental fork of Windows Terminal with native agent integration. It adds an agent status bar, context-aware agent pane, automatic error detection, session management, and command palette prompts for ACP-compatible agent CLIs.",
       "keywords": [
         "terminal emulator",
-        "AI integration",
-        "developer tools"
+        "developer tools",
+        "Windows"
       ],
       "metrics": {
         "votes": 96,
@@ -1147,8 +1147,8 @@
       "description": "Kai transcribes & summarizes your Meet, Zoom, and Teams calls 100% on-device. Press ⌘⇧K, get a clean summary + action items the moment the call ends. No account, no upload, no meeting bot in the room. First Chrome extension running Whisper Base fully locally via WebGPU + WASM. No cloud STT, no API call, no signup. Free forever. Built by Morgen as the entry point to Kai, our AI executive assistant.",
       "keywords": [
         "meeting transcription",
-        "local privacy",
-        "Chrome extension"
+        "privacy",
+        "local processing"
       ],
       "metrics": {
         "votes": 93,
@@ -1203,11 +1203,11 @@
       "description": "Extella is an agentic AI platform that self-evolves. It remembers what works and reuses it, so each task runs faster and cheaper. That memory lives in four layers: Rules adapt to you, Concepts build a knowledge base, Experts turn work into automations, and a KV store keeps your keys encrypted. Bring your own LLM, connect any tool (Slack, Notion, Gmail, GitHub), any GitHub library, ML model, or your own — all managed from a single workspace. By Day 30, it's a system only you have.",
       "keywords": [
         "agentic AI",
-        "automation platform",
+        "automation",
         "self-evolving"
       ],
       "metrics": {
-        "votes": 91,
+        "votes": 92,
         "comments": 18
       },
       "links": {
