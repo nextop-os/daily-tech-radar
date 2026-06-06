@@ -1,8 +1,29 @@
 {
   "name": "@nextop-os/daily-tech-radar",
   "version": "0.1.0",
+  "description": "SDK for reading Nextop Daily Tech Radar trend data.",
   "private": false,
   "type": "module",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nextop-os/daily-tech-radar.git",
+    "directory": "packages/sdk"
+  },
+  "homepage": "https://github.com/nextop-os/daily-tech-radar#readme",
+  "bugs": {
+    "url": "https://github.com/nextop-os/daily-tech-radar/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "nextop",
+    "producthunt",
+    "github-trending",
+    "trends",
+    "sdk"
+  ],
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
@@ -20,4 +41,3 @@
     "typecheck": "tsc -p tsconfig.json --noEmit"
   }
 }
-
