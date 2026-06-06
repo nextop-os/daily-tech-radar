@@ -1,7 +1,13 @@
 import * as cheerio from "cheerio";
 import { createHash } from "node:crypto";
 import { createAgnesClient } from "agnes-ai-cli";
-import type { DailyTrendPackage, GitHubTrendRepo, GitHubVisualOptions, Locale } from "../types.js";
+import type {
+  DailyTrendPackage,
+  GitHubRepoLocalization,
+  GitHubTrendRepo,
+  GitHubVisualOptions,
+  Locale
+} from "../types.js";
 import { addUtcDays } from "../date.js";
 
 type CandidateRepo = {
@@ -73,10 +79,14 @@ export async function buildGitHubPackage(options: {
   locale: Locale;
   date: string;
   generatedAt: string;
+  localizations?: GitHubRepoLocalization[];
   visual?: GitHubVisualOptions;
 }): Promise<DailyTrendPackage> {
+  const localizations = new Map((options.localizations ?? []).map((item) => [item.id, item]));
   const repos = await Promise.all(
-    options.candidates.map((candidate) => candidateToRepo(candidate, options.locale, options.visual ?? {}))
+    options.candidates.map((candidate) =>
+      candidateToRepo(candidate, options.locale, options.visual ?? {}, localizations)
+    )
   );
   const views = TAXONOMY.map((category) => ({
     id: category.id,
@@ -138,7 +148,8 @@ export async function buildGitHubPackage(options: {
 async function candidateToRepo(
   candidate: CandidateRepo,
   locale: Locale,
-  visualOptions: GitHubVisualOptions
+  visualOptions: GitHubVisualOptions,
+  localizations: Map<string, GitHubRepoLocalization>
 ): Promise<GitHubTrendRepo> {
   const category = classify(candidate);
   const id = `${candidate.owner}-${candidate.name}`.toLowerCase().replace(/[^a-z0-9]+/g, "-");
@@ -154,6 +165,14 @@ async function candidateToRepo(
         keywords: category.signals,
         score: category.confidence * 100
       };
+  const localization = locale === "zh-CN" ? localizations.get(id) : undefined;
+  const localizedReadmeSignals = localization
+    ? {
+        ...readmeSignals,
+        summary: localization.summaryZh,
+        keywords: localization.keywordsZh
+      }
+    : readmeSignals;
   const visual = await selectVisual(candidate, category.id, readme, readmeSignals.summary, visualOptions);
   return {
     id,
@@ -168,7 +187,7 @@ async function candidateToRepo(
       starsGained: candidate.starsGained
     },
     metadata: {
-      description: candidate.description,
+      description: localization?.descriptionZh ?? candidate.description,
       language: candidate.language,
       topics: [],
       stars: candidate.stars,
@@ -184,7 +203,7 @@ async function candidateToRepo(
       sha: readme.sha ?? null,
       rawUrl: readme.rawUrl ?? null
     },
-    readmeSignals,
+    readmeSignals: localizedReadmeSignals,
     visual,
     classification: {
       primaryCategoryId: category.id,

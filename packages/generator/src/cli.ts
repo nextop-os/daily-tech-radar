@@ -2,7 +2,7 @@ import { readFile } from "node:fs/promises";
 import path from "node:path";
 import { Command } from "commander";
 import { lastCompletedProductHuntDate } from "./date.js";
-import { localizeProductHuntPosts } from "./llm/agnes.js";
+import { localizeGitHubRepos, localizeProductHuntPosts } from "./llm/agnes.js";
 import { buildProductHuntFeeds, fetchProductHuntPosts } from "./sources/producthunt.js";
 import { writeSourcePayload } from "./output/write-json.js";
 import type { ProductHuntPost } from "./types.js";
@@ -70,7 +70,18 @@ if (options.source === "producthunt") {
     generateAgnesImages: process.env.DISABLE_AGNES_IMAGE_GENERATION !== "1"
   };
   const enPackage = await buildGitHubPackage({ candidates, locale: "en-US", date, generatedAt, visual: visualOptions });
-  const zhPackage = await buildGitHubPackage({ candidates, locale: "zh-CN", date, generatedAt, visual: visualOptions });
+  const githubLocalizations = await localizeGitHubRepos({
+    repos: enPackage.repos,
+    apiKey: options.skipLlm ? undefined : process.env.AGNES_API_KEY
+  });
+  const zhPackage = await buildGitHubPackage({
+    candidates,
+    locale: "zh-CN",
+    date,
+    generatedAt,
+    localizations: githubLocalizations,
+    visual: visualOptions
+  });
   const en = await writeSourcePayload({
     outputDir,
     source: "github",

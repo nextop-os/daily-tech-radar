@@ -73,7 +73,7 @@ GitHub repo 核心字段：
 3. 没有 README 产品图时调用 Agnes 生图。
 4. Agnes 失败时最后 fallback 到 GitHub avatar。
 
-当前 `zh-CN` GitHub 包主要本地化 taxonomy 和 views label；repo `metadata.description`、`readmeSignals.summary`、`readmeSignals.keywords` 的 Agnes 中文本地化属于后续增强项。
+`zh-CN` GitHub 包会本地化 taxonomy、views label，以及 repo `metadata.description`、`readmeSignals.summary`、`readmeSignals.keywords`。有 `AGNES_API_KEY` 时使用 Agnes 生成中文文本；没有密钥或使用 `--skip-llm` 时会写入 deterministic fallback，保留来源英文，保证本地与 CI 生成稳定。
 
 ## SDK
 
@@ -126,6 +126,6 @@ GITHUB_TOKEN
 - GitHub huchenme API fallback。
 - GitHub Search degraded fallback。
 - GitHub REST metadata、languages、topics、README enrichment。
-- GitHub repo 文本的 Agnes 中文本地化。
+- GitHub repo 文本本地化质量评估、缓存和增量重试。
 - README 图片 `HEAD` / content-type 可用性校验。
 - Agnes 生成图转存到对象存储、release assets 或约定的静态资产路径。

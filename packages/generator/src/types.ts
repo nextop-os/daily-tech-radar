@@ -72,6 +72,13 @@ export type ProductHuntLocalization = {
   keywordsZh: string[];
 };
 
+export type GitHubRepoLocalization = {
+  id: string;
+  descriptionZh: string;
+  summaryZh: string;
+  keywordsZh: string[];
+};
+
 export type GitHubTrendRepo = {
   id: string;
   owner: string;

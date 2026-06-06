@@ -41,6 +41,60 @@ describe("GitHub package generation", () => {
     expect(pkg.health?.status).toBe("ok");
   });
 
+  it("applies Chinese repo localizations to GitHub text fields", async () => {
+    const html = readFileSync(join(here, "fixtures/github-trending.html"), "utf8");
+    const candidates = parseGitHubTrendingHtml(html).slice(0, 1);
+    const english = await buildGitHubPackage({
+      candidates,
+      locale: "en-US",
+      date: "2026-06-05",
+      generatedAt: "2026-06-06T08:20:00.000Z",
+      visual: {
+        fetchImpl: async () =>
+          new Response(
+            [
+              "# Headroom",
+              "",
+              "Headroom compresses tool outputs, logs, files, and RAG chunks before they reach the LLM, keeping agent context focused while preserving useful answers."
+            ].join("\n"),
+            { status: 200 }
+          )
+      }
+    });
+    const zh = await buildGitHubPackage({
+      candidates,
+      locale: "zh-CN",
+      date: "2026-06-05",
+      generatedAt: "2026-06-06T08:20:00.000Z",
+      localizations: [
+        {
+          id: english.repos[0].id,
+          descriptionZh: "在进入 LLM 前压缩工具输出和日志。",
+          summaryZh: "Headroom 会在工具输出、日志、文件和 RAG 片段进入 LLM 前进行压缩，让代理上下文保持聚焦，同时保留有用答案。",
+          keywordsZh: ["上下文压缩", "代理工具", "RAG"]
+        }
+      ],
+      visual: {
+        fetchImpl: async () =>
+          new Response(
+            [
+              "# Headroom",
+              "",
+              "Headroom compresses tool outputs, logs, files, and RAG chunks before they reach the LLM, keeping agent context focused while preserving useful answers."
+            ].join("\n"),
+            { status: 200 }
+          )
+      }
+    });
+
+    expect(zh.repos[0].metadata.description).toBe("在进入 LLM 前压缩工具输出和日志。");
+    expect(zh.repos[0].readmeSignals.summary).toBe(
+      "Headroom 会在工具输出、日志、文件和 RAG 片段进入 LLM 前进行压缩，让代理上下文保持聚焦，同时保留有用答案。"
+    );
+    expect(zh.repos[0].readmeSignals.keywords).toEqual(["上下文压缩", "代理工具", "RAG"]);
+    expect(dailyTrendPackageSchema.parse(zh)).toEqual(zh);
+  });
+
   it("uses the first usable README image as the repo visual", async () => {
     const html = readFileSync(join(here, "fixtures/github-trending.html"), "utf8");
     const candidates = parseGitHubTrendingHtml(html).slice(0, 1);

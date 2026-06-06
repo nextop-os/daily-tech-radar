@@ -1,6 +1,11 @@
 import { describe, expect, it } from "vitest";
 import { lastCompletedProductHuntDate, productHuntDayWindow } from "../src/date.js";
-import { fallbackLocalizations, localizeProductHuntPosts, parseJsonObject } from "../src/llm/agnes.js";
+import {
+  fallbackLocalizations,
+  localizeGitHubRepos,
+  localizeProductHuntPosts,
+  parseJsonObject
+} from "../src/llm/agnes.js";
 import { buildProductHuntFeeds } from "../src/sources/producthunt.js";
 import { dailyTrendFeedSchema } from "../src/schemas.js";
 import fixture from "./fixtures/producthunt-posts.json" assert { type: "json" };
@@ -82,6 +87,97 @@ describe("Product Hunt generation", () => {
         descriptionZh: "把产品会议转成清晰的笔记和任务。",
         keywordsEn: ["AI notes", "meetings"],
         keywordsZh: ["AI 笔记", "会议"]
+      }
+    ]);
+  });
+
+  it("accepts Agnes GitHub localizations wrapped in a repos array", async () => {
+    const fetchImpl = async () =>
+      new Response(
+        JSON.stringify({
+          choices: [
+            {
+              message: {
+                content: JSON.stringify({
+                  repos: [
+                    {
+                      id: "github-headroom",
+                      descriptionZh: "压缩代理上下文。",
+                      summaryZh: "在工具输出进入 LLM 前进行压缩，让上下文保持聚焦。",
+                      keywordsZh: ["上下文压缩", "代理工具"]
+                    }
+                  ]
+                })
+              }
+            }
+          ]
+        }),
+        { status: 200 }
+      );
+
+    await expect(
+      localizeGitHubRepos({
+        repos: [
+          {
+            id: "github-headroom",
+            owner: "chopratejas",
+            name: "headroom",
+            url: "https://github.com/chopratejas/headroom",
+            source: {
+              primary: "github_trending_html",
+              sourceRank: 1,
+              starsGained: 2503
+            },
+            metadata: {
+              description: "Compress context.",
+              language: "Python",
+              topics: [],
+              stars: 14201,
+              forks: 420,
+              license: null,
+              defaultBranch: null,
+              pushedAt: null,
+              topLanguages: ["Python"]
+            },
+            readmeRef: {
+              status: "missing"
+            },
+            readmeSignals: {
+              title: "Headroom",
+              summary: "Compress tool outputs before they reach the LLM.",
+              headings: [],
+              commands: [],
+              keywords: ["agent", "context"],
+              score: 80
+            },
+            visual: {
+              kind: "repository_avatar",
+              url: "https://github.com/chopratejas.png"
+            },
+            classification: {
+              primaryCategoryId: "ai",
+              secondaryCategoryIds: [],
+              confidence: 0.7,
+              method: "rules",
+              reasons: ["Matched agent"],
+              signals: ["agent"]
+            },
+            rank: {
+              globalRank: 1,
+              categoryRank: 1,
+              score: 118
+            }
+          }
+        ],
+        apiKey: "test-key",
+        fetchImpl: fetchImpl as typeof fetch
+      })
+    ).resolves.toEqual([
+      {
+        id: "github-headroom",
+        descriptionZh: "压缩代理上下文。",
+        summaryZh: "在工具输出进入 LLM 前进行压缩，让上下文保持聚焦。",
+        keywordsZh: ["上下文压缩", "代理工具"]
       }
     ]);
   });
