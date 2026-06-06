@@ -1,9 +1,9 @@
 {
   "schemaVersion": "trendreader.daily.v1",
-  "packageId": "github-daily-All-2026-06-04",
+  "packageId": "github-daily-All-2026-06-05",
   "locale": "en-US",
-  "generatedAt": "2026-06-06T10:08:48.322Z",
-  "expiresAt": "2026-06-07T10:08:48.322Z",
+  "generatedAt": "2026-06-06T10:10:38.216Z",
+  "expiresAt": "2026-06-07T10:10:38.216Z",
   "sourceWindow": {
     "since": "daily",
     "language": "All",
@@ -18,8 +18,8 @@
     }
   ],
   "taxonomy": {
-    "version": "2026-06-04",
-    "generatedAt": "2026-06-06T10:08:48.322Z",
+    "version": "2026-06-05",
+    "generatedAt": "2026-06-06T10:10:38.216Z",
     "categories": [
       {
         "id": "ai",
@@ -75,7 +75,7 @@
         "description": "The agent that grows with you",
         "language": "Python",
         "topics": [],
-        "stars": 184046,
+        "stars": 184052,
         "forks": 31535,
         "license": null,
         "defaultBranch": null,
@@ -117,8 +117,8 @@
       },
       "visual": {
         "kind": "agnes_generated",
-        "url": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/6bd4f319982e4a7d82857f476846064c.png",
-        "thumbUrl": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/6bd4f319982e4a7d82857f476846064c.png",
+        "url": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/828c5489af17475a813067d9feaa3ef7.png",
+        "thumbUrl": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/828c5489af17475a813067d9feaa3ef7.png",
         "alt": "Generated cover for NousResearch/hermes-agent",
         "sourceUrl": null,
         "promptHash": "sha256:15e7b9fd7f31"
@@ -157,7 +157,7 @@
         "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.",
         "language": "Python",
         "topics": [],
-        "stars": 15029,
+        "stars": 15033,
         "forks": 956,
         "license": null,
         "defaultBranch": null,
@@ -246,7 +246,7 @@
         "description": "The Frontend Stack for Agents & Generative UI. React + Angular. Makers of the AG-UI Protocol",
         "language": "TypeScript",
         "topics": [],
-        "stars": 32912,
+        "stars": 32913,
         "forks": 4213,
         "license": null,
         "defaultBranch": null,
@@ -326,7 +326,7 @@
         "description": "An Open Source implementation of Notebook LM with more flexibility and features",
         "language": "TypeScript",
         "topics": [],
-        "stars": 26272,
+        "stars": 26273,
         "forks": 3015,
         "license": null,
         "defaultBranch": null,
@@ -488,7 +488,7 @@
         "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
         "language": "Python",
         "topics": [],
-        "stars": 21877,
+        "stars": 21878,
         "forks": 1883,
         "license": null,
         "defaultBranch": null,
@@ -781,8 +781,8 @@
       },
       "visual": {
         "kind": "agnes_generated",
-        "url": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/3e5dbef983194092835baa3e1db35e39.png",
-        "thumbUrl": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/3e5dbef983194092835baa3e1db35e39.png",
+        "url": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/af5bc4943e7f452c919207e180757778.png",
+        "thumbUrl": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/af5bc4943e7f452c919207e180757778.png",
         "alt": "Generated cover for mvanhorn/last30days-skill",
         "sourceUrl": null,
         "promptHash": "sha256:dcec996b1934"
@@ -823,7 +823,7 @@
         "description": "Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the gap between images/PDFs and LLMs. Supports 100+ languages.",
         "language": "Python",
         "topics": [],
-        "stars": 80701,
+        "stars": 80702,
         "forks": 10640,
         "license": null,
         "defaultBranch": null,
@@ -936,8 +936,8 @@
       },
       "visual": {
         "kind": "agnes_generated",
-        "url": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/4b476e7192bf431eb74edb8c2661bff8.png",
-        "thumbUrl": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/4b476e7192bf431eb74edb8c2661bff8.png",
+        "url": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/2189dd32385b485eab518a92a19bed5a.png",
+        "thumbUrl": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/2189dd32385b485eab518a92a19bed5a.png",
         "alt": "Generated cover for openai/plugins",
         "sourceUrl": null,
         "promptHash": "sha256:7fb9c749c29e"
@@ -976,7 +976,7 @@
         "description": "The best-benchmarked open-source AI memory system. And it's free.",
         "language": "Python",
         "topics": [],
-        "stars": 54024,
+        "stars": 54025,
         "forks": 7090,
         "license": null,
         "defaultBranch": null,
@@ -1020,8 +1020,8 @@
       },
       "visual": {
         "kind": "agnes_generated",
-        "url": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/f081938f911a46f089362b943d5569ba.png",
-        "thumbUrl": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/f081938f911a46f089362b943d5569ba.png",
+        "url": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/d542c0afbfd843b99318a1258472ac45.png",
+        "thumbUrl": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/d542c0afbfd843b99318a1258472ac45.png",
         "alt": "Generated cover for MemPalace/mempalace",
         "sourceUrl": null,
         "promptHash": "sha256:446e08ca2faa"
@@ -1102,8 +1102,8 @@
       },
       "visual": {
         "kind": "agnes_generated",
-        "url": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/490075c18535460e85f0f2684099c86b.png",
-        "thumbUrl": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/490075c18535460e85f0f2684099c86b.png",
+        "url": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/e514df58d9094966a05b4bbb0ca04f63.png",
+        "thumbUrl": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/e514df58d9094966a05b4bbb0ca04f63.png",
         "alt": "Generated cover for withastro/flue",
         "sourceUrl": null,
         "promptHash": "sha256:4758cb0b325a"
@@ -1302,7 +1302,7 @@
         "description": "A complete computer science study plan to become a software engineer.",
         "language": "",
         "topics": [],
-        "stars": 350563,
+        "stars": 350564,
         "forks": 83308,
         "license": null,
         "defaultBranch": null,
@@ -1377,7 +1377,7 @@
         "description": "Multi-platform SDK for integrating GitHub Copilot Agent into apps and services",
         "language": "Java",
         "topics": [],
-        "stars": 9336,
+        "stars": 9337,
         "forks": 1232,
         "license": null,
         "defaultBranch": null,
