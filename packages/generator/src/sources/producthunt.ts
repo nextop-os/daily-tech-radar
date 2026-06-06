@@ -106,13 +106,18 @@ function mediaFor(post: ProductHuntPost) {
 }
 
 function rawFor(post: ProductHuntPost): Record<string, unknown> {
-  return {
+  const raw: Record<string, unknown> = {
     slug: post.slug ?? null,
     featuredAt: post.featuredAt ?? null,
-    createdAt: post.createdAt ?? null,
-    makers: post.makers ?? [],
-    topics: post.topics?.edges?.map((edge) => edge.node).filter(Boolean) ?? []
+    createdAt: post.createdAt ?? null
   };
+  if (post.makers) {
+    raw.makers = post.makers;
+  }
+  if (post.topics) {
+    raw.topics = post.topics.edges?.map((edge) => edge.node).filter(Boolean) ?? [];
+  }
+  return raw;
 }
 
 export function buildProductHuntFeeds(options: {

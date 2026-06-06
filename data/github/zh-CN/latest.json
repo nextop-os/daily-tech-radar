@@ -92,7 +92,7 @@
       },
       "readmeSignals": {
         "title": "Hermes Agent ☤",
-        "summary": "<p align=\"center\"\n  <img src=\"assets/banner.png\" alt=\"Hermes Agent\" width=\"100%\"\n</p",
+        "summary": "The self-improving AI agent built by https://nousresearch.com. It's the only agent with a built-in learning loop — it creates skills from experience, improves them during use, nudges itself to persist knowledge, searches its own past conversations, and builds a deepening model of",
         "headings": [
           "Hermes Agent ☤",
           "Quick Install",
@@ -174,7 +174,7 @@
       },
       "readmeSignals": {
         "title": "1 — Install",
-        "summary": "<div align=\"center\"<pre\n  ██╗  ██╗███████╗ █████╗ ██████╗ ██████╗  ██████╗  ██████╗ ███╗   ███╗\n  ██║  ██║██╔════╝██╔══██╗██╔══██╗██╔══██╗██╔═══██╗██╔═══██╗████╗ ████║\n  ███████║█████╗  ███████║██║  ██║██████╔╝██║   ██║██║   ██║██╔████╔██║\n  ██╔══██║██╔══╝  ██╔══██║██║  ██║██╔══██╗██║   ██║██║   ██║██║╚██╔╝██║\n  ██║  ██║███████╗██║  ██║██████╔╝██║  ██║╚██████╔╝╚██████╔╝██║ ╚═╝ ██║\n  ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═════╝ ╚═╝  ╚═╝ ╚═════╝  ╚═════╝ ╚═╝     ╚═╝\n                  The context compression layer for AI agents\n</pre</div",
+        "summary": "60–95% fewer tokens · library · proxy · MCP · 6 algorithms · local-first · reversible",
         "headings": [
           "What it does",
           "How it works (30 seconds)",
@@ -263,7 +263,7 @@
       },
       "readmeSignals": {
         "title": "CopilotKit",
-        "summary": "<img width=\"120\" height=\"120\" alt=\"FavIcon\" src=\"https://github.com/user-attachments/assets/779de607-2b8d-4751-872b-1243e97c7d18\" /",
+        "summary": "Generative UI, shared state, and human-in-the-loop workflows for React, Angular, Vue, React Native — and beyond the browser.",
         "headings": [
           "CopilotKit",
           "What is CopilotKit",
@@ -343,7 +343,7 @@
       },
       "readmeSignals": {
         "title": null,
-        "summary": "<!-- !Contributorscontributors-shieldcontributors-url --\n!Forksforks-shieldforks-url\n!Stargazersstars-shieldstars-url\n!Issuesissues-shieldissues-url\n!MIT Licenselicense-shieldlicense-url\n<!-- !LinkedInlinkedin-shieldlinkedin-url --",
+        "summary": "An open source, privacy-focused alternative to Google's Notebook LM! Join our Discord server for help, to share workflow ideas, and suggest features! Checkout our website » 📚 Get Started · 📖 User Guide · ✨ Features · 🚀 Deploy",
         "headings": [
           "A private, multi-model, 100% local, full-featured alternative to Notebook LM",
           "🆚 Open Notebook vs Google Notebook LM",
@@ -420,7 +420,7 @@
       },
       "readmeSignals": {
         "title": "ECC",
-        "summary": "Language: English | Português Brasildocs/pt-BR/README.md | 简体中文README.zh-CN.md | 繁體中文docs/zh-TW/README.md | 日本語docs/ja-JP/README.md | 한국어docs/ko-KR/README.md | Türkçedocs/tr/README.md | Русскийdocs/ru/README.md | Tiếng Việtdocs/vi-VN/README.md | ไทยdocs/th/README.md | Deutschdocs/de-DE/README.md",
+        "summary": "182K+ stars | 28K+ forks | 170+ contributors | 12+ language ecosystems | Cross-harness agent workflows",
         "headings": [
           "ECC",
           "The Guides",
@@ -505,7 +505,7 @@
       },
       "readmeSignals": {
         "title": "只预览，不实际删除",
-        "summary": "<p align=\"center\"\n  <strong给你的 AI Agent 一键装上互联网能力</strong\n</p",
+        "summary": "AI Agent 已经能帮你写代码、改文档、管项目——但你让它去网上找点东西，它就抓瞎了：",
         "headings": [
           "为什么需要 Agent Reach？",
           "✅ 在你用之前，你可能想知道",
@@ -530,12 +530,12 @@
         "score": 100
       },
       "visual": {
-        "kind": "readme_image",
-        "url": "https://api.star-history.com/svg?repos=Panniantong/Agent-Reach&type=Date&v=20260309",
-        "thumbUrl": "https://api.star-history.com/svg?repos=Panniantong/Agent-Reach&type=Date&v=20260309",
-        "alt": "Star History Chart",
-        "sourceUrl": "https://api.star-history.com/svg?repos=Panniantong/Agent-Reach&type=Date&v=20260309",
-        "promptHash": null
+        "kind": "agnes_generated",
+        "url": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/434a4e0d3e0c4dcb82bb685d477c259f.png",
+        "thumbUrl": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/434a4e0d3e0c4dcb82bb685d477c259f.png",
+        "alt": "Generated cover for Panniantong/Agent-Reach",
+        "sourceUrl": null,
+        "promptHash": "sha256:b8f6f9dfef31"
       },
       "classification": {
         "primaryCategoryId": "ai",
@@ -590,7 +590,7 @@
       },
       "readmeSignals": {
         "title": "Cosmos",
-        "summary": "<p align=\"center\"\n  <img src=\"https://github.com/user-attachments/assets/28f2d612-bbd6-44a3-8795-833d05e9f05f\" width=\"274\" alt=\"NVIDIA Cosmos\"\n</p",
+        "summary": "introduction cosmos-3 key-capabilities model-architecture model-family supported-generation-settings input-and-output use-cases generator reasoner quickstart generator-with-diffusers generator-with-vllm-omni reasoner-with-transformers reasoner-with-vllm reasoner-with-nim troubles",
         "headings": [
           "Cosmos",
           "Table of Contents",
@@ -680,7 +680,7 @@
       },
       "readmeSignals": {
         "title": "Copy the example configuration file",
-        "summary": "<img src=\"./static/image/MiroFishlogocompressed.jpeg\" alt=\"MiroFish Logo\" width=\"75%\"/",
+        "summary": "简洁通用的群体智能引擎，预测万物 A Simple and Universal Swarm Intelligence Engine, Predicting Anything",
         "headings": [
           "⚡ Overview",
           "Our Vision",
@@ -757,7 +757,7 @@
       },
       "readmeSignals": {
         "title": "/last30days",
-        "summary": "<p align=\"center\"\n  <a href=\"https://github.com/mvanhorn/last30days-skill\"\n    <img src=\"https://img.shields.io/badge/%231-Repository%20Of%20The%20Day-6f42c1?style=for-the-badge&logo=github&label=GITHUB%20TRENDING\" alt=\"GitHub Trending 1 Repository Of The Day\" /\n  </a\n  <br/\n  <a href=\"https://trendshift.io/repositories/21997\" target=\"blank\"\n    <img src=\"https://trendshift.io/api/badge/repositories/21997\" alt=\"mvanhorn/last30days-skill | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/\n  </a\n</p",
+        "summary": "An AI agent-led search engine scored by upvotes, likes, and real money - not editors.",
         "headings": [
           "/last30days",
           "Why this exists",
@@ -780,12 +780,12 @@
         "score": 100
       },
       "visual": {
-        "kind": "readme_image",
-        "url": "https://api.star-history.com/svg?repos=mvanhorn/last30days-skill&type=Date",
-        "thumbUrl": "https://api.star-history.com/svg?repos=mvanhorn/last30days-skill&type=Date",
-        "alt": "Star History Chart",
-        "sourceUrl": "https://api.star-history.com/svg?repos=mvanhorn/last30days-skill&type=Date",
-        "promptHash": null
+        "kind": "agnes_generated",
+        "url": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/1558011fcecb435e94eab8a942fafd67.png",
+        "thumbUrl": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/1558011fcecb435e94eab8a942fafd67.png",
+        "alt": "Generated cover for mvanhorn/last30days-skill",
+        "sourceUrl": null,
+        "promptHash": "sha256:21e4ea8de1bf"
       },
       "classification": {
         "primaryCategoryId": "ai",
@@ -840,7 +840,7 @@
       },
       "readmeSignals": {
         "title": null,
-        "summary": "<div align=\"center\"\n  <p\n      <img width=\"800\" src=\"https://raw.githubusercontent.com/cuicheng01/PaddleXdocimages/main/images/paddleocr/README/Banner.png\" alt=\"Star-history\"\n  </p",
+        "summary": "Global Leading OCR Toolkit & Document AI Engine",
         "headings": [
           "🚀 Key Features",
           "📄 Intelligent Document Parsing (LLM-Ready)",
@@ -863,12 +863,12 @@
         "score": 100
       },
       "visual": {
-        "kind": "readme_image",
-        "url": "https://raw.githubusercontent.com/cuicheng01/PaddleX_doc_images/main/images/paddleocr/README/Banner.png",
-        "thumbUrl": "https://raw.githubusercontent.com/cuicheng01/PaddleX_doc_images/main/images/paddleocr/README/Banner.png",
-        "alt": "Star-history",
-        "sourceUrl": "https://raw.githubusercontent.com/cuicheng01/PaddleX_doc_images/main/images/paddleocr/README/Banner.png",
-        "promptHash": null
+        "kind": "agnes_generated",
+        "url": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/0b5478b77a094972a71faaa5a7ac762b.png",
+        "thumbUrl": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/0b5478b77a094972a71faaa5a7ac762b.png",
+        "alt": "Generated cover for PaddlePaddle/PaddleOCR",
+        "sourceUrl": null,
+        "promptHash": "sha256:b3531d466843"
       },
       "classification": {
         "primaryCategoryId": "ai",
@@ -993,7 +993,7 @@
       },
       "readmeSignals": {
         "title": "MemPalace",
-        "summary": "<img src=\"assets/mempalacelogo.png\" alt=\"MemPalace\" width=\"240\"",
+        "summary": "Local-first AI memory. Verbatim storage, pluggable backend, 96.6% R@5 raw on LongMemEval — zero API calls.",
         "headings": [
           "MemPalace",
           "What it is",
@@ -1076,7 +1076,7 @@
       },
       "readmeSignals": {
         "title": "Flue",
-        "summary": "Experimental — Flue is under active development. APIs may change.\n\n Looking for v0.0.x? See here.https://github.com/withastro/flue/tree/v0.0.x",
+        "summary": "Experimental — Flue is under active development. APIs may change. Looking for v0.0.x? https://github.com/withastro/flue/tree/v0.0.x",
         "headings": [
           "Flue",
           "Packages",
@@ -1158,7 +1158,7 @@
       },
       "readmeSignals": {
         "title": "🦞 OpenClaw Windows Hub",
-        "summary": "A native Windows companion suite for OpenClawhttps://openclaw.ai - the AI-powered personal assistant.",
+        "summary": "A native Windows companion suite for https://openclaw.ai - the AI-powered personal assistant.",
         "headings": [
           "🦞 OpenClaw Windows Hub",
           "Projects",
@@ -1238,7 +1238,7 @@
       },
       "readmeSignals": {
         "title": null,
-        "summary": "<div align=\"center\"\n<img src=\"docs/imgs/logo.png\" width=\"200\"",
+        "summary": "Trivy pronunciationpronunciation is a comprehensive and versatile security scanner. Trivy has scanners that look for security issues, and targets where it can find those issues.",
         "headings": [
           "Quick Start",
           "Get Trivy",
@@ -1316,7 +1316,7 @@
       },
       "readmeSignals": {
         "title": "Coding Interview University",
-        "summary": "I originally created this as a short to-do list of study topics for becoming a software engineer,\n but it grew to the large list you see today. After going through this study plan, I got hired\n as a Software Development Engineer at Amazonhttps://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu!\n You probably won't have to study as much as I did. Anyway, everything you need is here.\n\n I studied about 8-12 hours a day, for several months. This is my story: Why I studied full-time for 8 months for a Google interviewhttps://medium.freecodecamp.org/why-i-studied-full-time-for-8-months-for-a-google-interview-cc662ce9bb13\n\n Please Note: You won't need to study as much as I did. I wasted a lot of time on things I didn't need to know. More info about that is below. I'll help you get there without wasting your precious time.\n\n The items listed here will prepare you well for a technical interview at just about any software company,\n including the giants: Amazon, Facebook, Google, and Microsoft.\n\n Best of luck to you!",
+        "summary": "I originally created this as a short to-do list of study topics for becoming a software engineer, but it grew to the large list you see today. After going through this study plan, https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu! You probably won't have to study a",
         "headings": [
           "Coding Interview University",
           "What is it?",

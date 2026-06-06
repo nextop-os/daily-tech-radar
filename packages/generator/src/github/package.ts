@@ -230,11 +230,7 @@ async function fetchReadme(candidate: CandidateRepo, options: GitHubVisualOption
 
 function extractReadmeSignals(markdown: string, fallbackSummary: string, fallbackKeywords: string[]) {
   const title = markdown.match(/^#\s+(.+)$/m)?.[1]?.trim() ?? null;
-  const summary =
-    markdown
-      .split(/\n{2,}/)
-      .map((part) => part.replace(/[#>*_`[\]()]/g, "").trim())
-      .find((part) => part.length > 40 && !part.startsWith("!")) ?? fallbackSummary;
+  const summary = extractReadmeSummary(markdown) ?? fallbackSummary;
   const headings = [...markdown.matchAll(/^#{1,3}\s+(.+)$/gm)].slice(0, 8).map((match) => match[1].trim());
   const commands = [...markdown.matchAll(/\b(?:npm install|pnpm add|yarn add|pip install|cargo install)\s+[^\n`]+/g)]
     .slice(0, 6)
@@ -248,6 +244,56 @@ function extractReadmeSignals(markdown: string, fallbackSummary: string, fallbac
     keywords,
     score: Math.min(100, 40 + headings.length * 5 + commands.length * 5 + (summary ? 20 : 0))
   };
+}
+
+export function extractReadmeSummary(markdown: string): string | null {
+  const scrubbed = markdown
+    .replace(/```[\s\S]*?```/g, "\n")
+    .replace(/<!--[\s\S]*?-->/g, "\n")
+    .replace(/<img\b[^>]*>/gi, "\n")
+    .replace(/!\[[^\]]*]\([^)]+\)/g, "\n")
+    .replace(/\[[^\]]+]:\s+\S+.*$/gm, "\n");
+
+  for (const paragraph of scrubbed.split(/\n{2,}/)) {
+    const text = paragraph
+      .replace(/<[^>]+>/g, " ")
+      .replace(/^#{1,6}\s+/gm, "")
+      .replace(/^\s*[-*_]{3,}\s*$/gm, "")
+      .replace(/^\s*[|: -]+\s*$/gm, "")
+      .replace(/^\s*[-*+]\s+/gm, "")
+      .replace(/\[[^\]]+]\(([^)]+)\)/g, "$1")
+      .replace(/[#>*_`[\]()]/g, "")
+      .replace(/\s+/g, " ")
+      .trim();
+    if (isUsableSummary(text)) {
+      return text.slice(0, 280);
+    }
+  }
+  return null;
+}
+
+function isUsableSummary(value: string): boolean {
+  if (value.length < 40) {
+    return false;
+  }
+  if (/^(language|contributors?|forks|stargazers?|stars?|license|build|coverage)\b/i.test(value)) {
+    return false;
+  }
+  if (/^!/.test(value)) {
+    return false;
+  }
+  if (/[█╔╗║═╝╚]/.test(value)) {
+    return false;
+  }
+  if (/(shield|badge|release-img|test-img|license-img|go-report-img|docker-pulls|github-downloads)/i.test(value)) {
+    return false;
+  }
+  if (/^(https?:\/\/|www\.)/i.test(value)) {
+    return false;
+  }
+  const letters = value.replace(/[^a-zA-Z\u4e00-\u9fff]/g, "");
+  const compact = value.replace(/\s/g, "");
+  return letters.length >= 24 && letters.length / compact.length >= 0.45;
 }
 
 async function selectVisual(
@@ -321,7 +367,7 @@ function firstReadmeImage(markdown: string, readmeRawUrl: string): { url: string
     }))
   ];
   for (const candidate of candidates) {
-    if (isSkippedImage(candidate.src)) {
+    if (isSkippedImage(candidate.src, candidate.alt)) {
       continue;
     }
     return {
@@ -332,12 +378,22 @@ function firstReadmeImage(markdown: string, readmeRawUrl: string): { url: string
   return null;
 }
 
-function isSkippedImage(src: string): boolean {
-  const value = src.toLowerCase();
+function isSkippedImage(src: string, alt?: string | null): boolean {
+  const value = `${src} ${alt ?? ""}`.toLowerCase();
   return (
     value.includes("shield") ||
     value.includes("badge") ||
     value.includes("opencollective") ||
+    value.includes("star-history") ||
+    value.includes("starchart") ||
+    value.includes("github-readme-stats") ||
+    value.includes("repobeats") ||
+    value.includes("contributors") ||
+    value.includes("stargazers") ||
+    value.includes("forks") ||
+    value.includes("coverage") ||
+    value.includes("build status") ||
+    value.includes("star history") ||
     value.endsWith(".svg?sanitize=true")
   );
 }

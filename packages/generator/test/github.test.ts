@@ -61,4 +61,62 @@ describe("GitHub package generation", () => {
     });
     expect(pkg.repos[0].readmeRef.status).toBe("available");
   });
+
+  it("keeps README images and badges out of readmeSignals.summary", async () => {
+    const html = readFileSync(join(here, "fixtures/github-trending.html"), "utf8");
+    const candidates = parseGitHubTrendingHtml(html).slice(0, 1);
+    const pkg = await buildGitHubPackage({
+      candidates,
+      locale: "en-US",
+      date: "2026-06-05",
+      generatedAt: "2026-06-06T08:20:00.000Z",
+      visual: {
+        fetchImpl: async () =>
+          new Response(
+            [
+              "# Headroom",
+              "",
+              "██╗  ██╗███████╗ █████╗ ██████╗ ██████╗",
+              "",
+              '<p align="center"><img src="./assets/demo.png" alt="Demo"></p>',
+              "",
+              "[![Build](https://img.shields.io/badge/build-ok-green.svg)](https://example.com)",
+              "",
+              "Headroom compresses tool outputs, logs, files, and RAG chunks before they reach the LLM, keeping agent context focused while preserving useful answers."
+            ].join("\n"),
+            { status: 200 }
+          )
+      }
+    });
+
+    expect(pkg.repos[0].readmeSignals.summary).toBe(
+      "Headroom compresses tool outputs, logs, files, and RAG chunks before they reach the LLM, keeping agent context focused while preserving useful answers."
+    );
+  });
+
+  it("does not treat star-history charts as product visuals", async () => {
+    const html = readFileSync(join(here, "fixtures/github-trending.html"), "utf8");
+    const candidates = parseGitHubTrendingHtml(html).slice(0, 1);
+    const pkg = await buildGitHubPackage({
+      candidates,
+      locale: "en-US",
+      date: "2026-06-05",
+      generatedAt: "2026-06-06T08:20:00.000Z",
+      visual: {
+        fetchImpl: async () =>
+          new Response(
+            [
+              "# Headroom",
+              "",
+              "![Star History Chart](https://api.star-history.com/svg?repos=chopratejas/headroom&type=Date)",
+              "",
+              "Headroom compresses tool outputs, logs, files, and RAG chunks before they reach the LLM, keeping agent context focused while preserving useful answers."
+            ].join("\n"),
+            { status: 200 }
+          )
+      }
+    });
+
+    expect(pkg.repos[0].visual.kind).toBe("repository_avatar");
+  });
 });
