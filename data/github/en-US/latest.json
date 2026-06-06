@@ -2,8 +2,8 @@
   "schemaVersion": "trendreader.daily.v1",
   "packageId": "github-daily-All-2026-06-05",
   "locale": "en-US",
-  "generatedAt": "2026-06-05T17:35:32.689Z",
-  "expiresAt": "2026-06-06T17:35:32.689Z",
+  "generatedAt": "2026-06-06T01:55:48.343Z",
+  "expiresAt": "2026-06-07T01:55:48.343Z",
   "sourceWindow": {
     "since": "daily",
     "language": "All",
@@ -14,12 +14,12 @@
       "id": "github_trending_html",
       "role": "candidate",
       "status": "ok",
-      "itemCount": 16
+      "itemCount": 17
     }
   ],
   "taxonomy": {
     "version": "2026-06-05",
-    "generatedAt": "2026-06-05T17:35:32.689Z",
+    "generatedAt": "2026-06-06T01:55:48.343Z",
     "categories": [
       {
         "id": "ai",
@@ -69,14 +69,14 @@
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 1,
-        "starsGained": 1821
+        "starsGained": 1845
       },
       "metadata": {
         "description": "The agent that grows with you",
         "language": "Python",
         "topics": [],
-        "stars": 182616,
-        "forks": 31310,
+        "stars": 183193,
+        "forks": 31423,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -85,28 +85,43 @@
         ]
       },
       "readmeRef": {
-        "status": "unknown",
-        "path": null,
+        "status": "available",
+        "path": "README.md",
         "sha": null,
-        "rawUrl": null
+        "rawUrl": "https://raw.githubusercontent.com/NousResearch/hermes-agent/main/README.md"
       },
       "readmeSignals": {
-        "title": "hermes-agent",
-        "summary": "The agent that grows with you",
-        "headings": [],
-        "commands": [],
-        "keywords": [
-          "agent"
+        "title": "Hermes Agent ☤",
+        "summary": "<p align=\"center\"\n  <img src=\"assets/banner.png\" alt=\"Hermes Agent\" width=\"100%\"\n</p",
+        "headings": [
+          "Hermes Agent ☤",
+          "Quick Install",
+          "Linux, macOS, WSL2, Termux",
+          "Windows (native, PowerShell)",
+          "Getting Started",
+          "Skip the API-key collection — Nous Portal",
+          "CLI vs Messaging Quick Reference",
+          "Documentation"
         ],
-        "score": 70
+        "commands": [
+          "pip install -e \".[all,dev]\""
+        ],
+        "keywords": [
+          "agent",
+          "hermes agent ☤",
+          "quick install",
+          "linux, macos, wsl2, termux",
+          "windows (native, powershell)"
+        ],
+        "score": 100
       },
       "visual": {
-        "kind": "repository_avatar",
-        "url": "https://github.com/NousResearch.png",
-        "thumbUrl": "https://github.com/NousResearch.png",
-        "alt": "NousResearch/hermes-agent",
-        "sourceUrl": "https://github.com/NousResearch/hermes-agent",
-        "promptHash": "sha256:cf2cce4a9ff3"
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/NousResearch/hermes-agent/main/assets/banner.png",
+        "thumbUrl": "https://raw.githubusercontent.com/NousResearch/hermes-agent/main/assets/banner.png",
+        "alt": "Hermes Agent",
+        "sourceUrl": "https://raw.githubusercontent.com/NousResearch/hermes-agent/main/assets/banner.png",
+        "promptHash": null
       },
       "classification": {
         "primaryCategoryId": "ai",
@@ -136,14 +151,14 @@
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 2,
-        "starsGained": 2503
+        "starsGained": 2473
       },
       "metadata": {
         "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.",
         "language": "Python",
         "topics": [],
-        "stars": 14258,
-        "forks": 900,
+        "stars": 14552,
+        "forks": 924,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -152,29 +167,48 @@
         ]
       },
       "readmeRef": {
-        "status": "unknown",
-        "path": null,
+        "status": "available",
+        "path": "README.md",
         "sha": null,
-        "rawUrl": null
+        "rawUrl": "https://raw.githubusercontent.com/chopratejas/headroom/main/README.md"
       },
       "readmeSignals": {
-        "title": "headroom",
-        "summary": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.",
-        "headings": [],
-        "commands": [],
+        "title": "1 — Install",
+        "summary": "<div align=\"center\"<pre\n  ██╗  ██╗███████╗ █████╗ ██████╗ ██████╗  ██████╗  ██████╗ ███╗   ███╗\n  ██║  ██║██╔════╝██╔══██╗██╔══██╗██╔══██╗██╔═══██╗██╔═══██╗████╗ ████║\n  ███████║█████╗  ███████║██║  ██║██████╔╝██║   ██║██║   ██║██╔████╔██║\n  ██╔══██║██╔══╝  ██╔══██║██║  ██║██╔══██╗██║   ██║██║   ██║██║╚██╔╝██║\n  ██║  ██║███████╗██║  ██║██████╔╝██║  ██║╚██████╔╝╚██████╔╝██║ ╚═╝ ██║\n  ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═════╝ ╚═╝  ╚═╝ ╚═════╝  ╚═════╝ ╚═╝     ╚═╝\n                  The context compression layer for AI agents\n</pre</div",
+        "headings": [
+          "What it does",
+          "How it works (30 seconds)",
+          "Get started (60 seconds)",
+          "1 — Install",
+          "2 — Pick your mode",
+          "or: from headroom import compress      # inline library",
+          "3 — See the savings",
+          "Proof"
+        ],
+        "commands": [
+          "pip install \"headroom-ai[all]\"          # Python",
+          "npm install headroom-ai                 # Node / TypeScript",
+          "pip install \"headroom-ai[all]\"          # Python, everything",
+          "npm install headroom-ai                 # TypeScript / Node",
+          "pip install -e \".[dev]\" && pytest"
+        ],
         "keywords": [
           "llm",
-          "mcp"
+          "mcp",
+          "what it does",
+          "how it works (30 seconds)",
+          "get started (60 seconds)",
+          "1 — install"
         ],
-        "score": 80
+        "score": 100
       },
       "visual": {
-        "kind": "repository_avatar",
-        "url": "https://github.com/chopratejas.png",
-        "thumbUrl": "https://github.com/chopratejas.png",
-        "alt": "chopratejas/headroom",
-        "sourceUrl": "https://github.com/chopratejas/headroom",
-        "promptHash": "sha256:4c29eeefde92"
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/chopratejas/headroom/main/HeadroomDemo-Fast.gif",
+        "thumbUrl": "https://raw.githubusercontent.com/chopratejas/headroom/main/HeadroomDemo-Fast.gif",
+        "alt": "Headroom in action",
+        "sourceUrl": "https://raw.githubusercontent.com/chopratejas/headroom/main/HeadroomDemo-Fast.gif",
+        "promptHash": null
       },
       "classification": {
         "primaryCategoryId": "ai",
@@ -206,14 +240,14 @@
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 3,
-        "starsGained": 350
+        "starsGained": 366
       },
       "metadata": {
         "description": "The Frontend Stack for Agents & Generative UI. React + Angular. Makers of the AG-UI Protocol",
         "language": "TypeScript",
         "topics": [],
-        "stars": 32506,
-        "forks": 4181,
+        "stars": 32708,
+        "forks": 4196,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -222,28 +256,41 @@
         ]
       },
       "readmeRef": {
-        "status": "unknown",
-        "path": null,
+        "status": "available",
+        "path": "README.md",
         "sha": null,
-        "rawUrl": null
+        "rawUrl": "https://raw.githubusercontent.com/CopilotKit/CopilotKit/main/README.md"
       },
       "readmeSignals": {
         "title": "CopilotKit",
-        "summary": "The Frontend Stack for Agents & Generative UI. React + Angular. Makers of the AG-UI Protocol",
-        "headings": [],
+        "summary": "<img width=\"120\" height=\"120\" alt=\"FavIcon\" src=\"https://github.com/user-attachments/assets/779de607-2b8d-4751-872b-1243e97c7d18\" /",
+        "headings": [
+          "CopilotKit",
+          "What is CopilotKit",
+          "🧩 Works With Your Stack",
+          "💬 Beyond the Browser: Slack & Microsoft Teams (Discord, Google Chat coming soon...)",
+          "🧠 Self-Learning Agents",
+          "Quick Start",
+          "New projects:",
+          "Existing projects:"
+        ],
         "commands": [],
         "keywords": [
-          "agent"
+          "agent",
+          "copilotkit",
+          "what is copilotkit",
+          "🧩 works with your stack",
+          "💬 beyond the browser: slack & microsoft teams (discord, google chat coming soon...)"
         ],
-        "score": 70
+        "score": 100
       },
       "visual": {
-        "kind": "repository_avatar",
-        "url": "https://github.com/CopilotKit.png",
-        "thumbUrl": "https://github.com/CopilotKit.png",
-        "alt": "CopilotKit/CopilotKit",
-        "sourceUrl": "https://github.com/CopilotKit/CopilotKit",
-        "promptHash": "sha256:fa783c554eb7"
+        "kind": "readme_image",
+        "url": "https://github.com/user-attachments/assets/aeb56c28-c766-44a5-810c-5d999bb6a32a",
+        "thumbUrl": "https://github.com/user-attachments/assets/aeb56c28-c766-44a5-810c-5d999bb6a32a",
+        "alt": "CopilotKit",
+        "sourceUrl": "https://github.com/user-attachments/assets/aeb56c28-c766-44a5-810c-5d999bb6a32a",
+        "promptHash": null
       },
       "classification": {
         "primaryCategoryId": "ai",
@@ -273,14 +320,14 @@
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 4,
-        "starsGained": 1142
+        "starsGained": 1152
       },
       "metadata": {
         "description": "An Open Source implementation of Notebook LM with more flexibility and features",
         "language": "TypeScript",
         "topics": [],
-        "stars": 25792,
-        "forks": 2970,
+        "stars": 26035,
+        "forks": 2994,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -289,26 +336,40 @@
         ]
       },
       "readmeRef": {
-        "status": "unknown",
-        "path": null,
+        "status": "available",
+        "path": "README.md",
         "sha": null,
-        "rawUrl": null
+        "rawUrl": "https://raw.githubusercontent.com/lfnovo/open-notebook/main/README.md"
       },
       "readmeSignals": {
-        "title": "open-notebook",
-        "summary": "An Open Source implementation of Notebook LM with more flexibility and features",
-        "headings": [],
+        "title": null,
+        "summary": "<!-- !Contributorscontributors-shieldcontributors-url --\n!Forksforks-shieldforks-url\n!Stargazersstars-shieldstars-url\n!Issuesissues-shieldissues-url\n!MIT Licenselicense-shieldlicense-url\n<!-- !LinkedInlinkedin-shieldlinkedin-url --",
+        "headings": [
+          "A private, multi-model, 100% local, full-featured alternative to Notebook LM",
+          "🆚 Open Notebook vs Google Notebook LM",
+          "Built With",
+          "🚀 Quick Start (2 Minutes)",
+          "Prerequisites",
+          "Step 1: Get docker-compose.yml",
+          "Step 2: Set Your Encryption Key",
+          "Step 3: Start Services"
+        ],
         "commands": [],
-        "keywords": [],
-        "score": 40
+        "keywords": [
+          "a private, multi-model, 100% local, full-featured alternative to notebook lm",
+          "🆚 open notebook vs google notebook lm",
+          "built with",
+          "🚀 quick start (2 minutes)"
+        ],
+        "score": 100
       },
       "visual": {
-        "kind": "repository_avatar",
-        "url": "https://github.com/lfnovo.png",
-        "thumbUrl": "https://github.com/lfnovo.png",
-        "alt": "lfnovo/open-notebook",
-        "sourceUrl": "https://github.com/lfnovo/open-notebook",
-        "promptHash": "sha256:5a43bc84925a"
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/lfnovo/open-notebook/main/docs/assets/asset_list.png",
+        "thumbUrl": "https://raw.githubusercontent.com/lfnovo/open-notebook/main/docs/assets/asset_list.png",
+        "alt": "New Notebook",
+        "sourceUrl": "https://raw.githubusercontent.com/lfnovo/open-notebook/main/docs/assets/asset_list.png",
+        "promptHash": null
       },
       "classification": {
         "primaryCategoryId": "unclassified",
@@ -336,14 +397,14 @@
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 5,
-        "starsGained": 1368
+        "starsGained": 1361
       },
       "metadata": {
         "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
         "language": "JavaScript",
         "topics": [],
-        "stars": 208140,
-        "forks": 31937,
+        "stars": 208384,
+        "forks": 31969,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -352,28 +413,46 @@
         ]
       },
       "readmeRef": {
-        "status": "unknown",
-        "path": null,
+        "status": "available",
+        "path": "README.md",
         "sha": null,
-        "rawUrl": null
+        "rawUrl": "https://raw.githubusercontent.com/affaan-m/ECC/main/README.md"
       },
       "readmeSignals": {
         "title": "ECC",
-        "summary": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-        "headings": [],
-        "commands": [],
-        "keywords": [
-          "agent"
+        "summary": "Language: English | Português Brasildocs/pt-BR/README.md | 简体中文README.zh-CN.md | 繁體中文docs/zh-TW/README.md | 日本語docs/ja-JP/README.md | 한국어docs/ko-KR/README.md | Türkçedocs/tr/README.md | Русскийdocs/ru/README.md | Tiếng Việtdocs/vi-VN/README.md | ไทยdocs/th/README.md | Deutschdocs/de-DE/README.md",
+        "headings": [
+          "ECC",
+          "The Guides",
+          "What's New",
+          "v2.0.0-rc.1 — Surface Refresh, Operator Workflows, and ECC 2.0 Alpha (Apr 2026)",
+          "v1.9.0 — Selective Install & Language Expansion (Mar 2026)",
+          "v1.8.0 — Harness Performance System (Mar 2026)",
+          "v1.7.0 — Cross-Platform Expansion & Presentation Builder (Feb 2026)",
+          "v1.6.0 — Codex CLI, AgentShield & Marketplace (Feb 2026)"
         ],
-        "score": 70
+        "commands": [
+          "npm install        # or: pnpm install | yarn install | bun install",
+          "npm install && bash scripts/sync-ecc-to-codex.sh",
+          "npm install -g opencode",
+          "npm install ecc-universal"
+        ],
+        "keywords": [
+          "agent",
+          "ecc",
+          "the guides",
+          "what's new",
+          "v2.0.0-rc.1 — surface refresh, operator workflows, and ecc 2.0 alpha (apr 2026)"
+        ],
+        "score": 100
       },
       "visual": {
-        "kind": "repository_avatar",
-        "url": "https://github.com/affaan-m.png",
-        "thumbUrl": "https://github.com/affaan-m.png",
-        "alt": "affaan-m/ECC",
-        "sourceUrl": "https://github.com/affaan-m/ECC",
-        "promptHash": "sha256:e9377f45d1ff"
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/affaan-m/ECC/main/assets/hero.png",
+        "thumbUrl": "https://raw.githubusercontent.com/affaan-m/ECC/main/assets/hero.png",
+        "alt": "ECC - the harness-native operator system for agentic work",
+        "sourceUrl": "https://raw.githubusercontent.com/affaan-m/ECC/main/assets/hero.png",
+        "promptHash": null
       },
       "classification": {
         "primaryCategoryId": "ai",
@@ -403,14 +482,14 @@
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 6,
-        "starsGained": 127
+        "starsGained": 148
       },
       "metadata": {
         "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
         "language": "Python",
         "topics": [],
-        "stars": 21430,
-        "forks": 1852,
+        "stars": 21591,
+        "forks": 1864,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -419,29 +498,44 @@
         ]
       },
       "readmeRef": {
-        "status": "unknown",
-        "path": null,
+        "status": "available",
+        "path": "README.md",
         "sha": null,
-        "rawUrl": null
+        "rawUrl": "https://raw.githubusercontent.com/Panniantong/Agent-Reach/main/README.md"
       },
       "readmeSignals": {
-        "title": "Agent-Reach",
-        "summary": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
-        "headings": [],
-        "commands": [],
+        "title": "只预览，不实际删除",
+        "summary": "<p align=\"center\"\n  <strong给你的 AI Agent 一键装上互联网能力</strong\n</p",
+        "headings": [
+          "为什么需要 Agent Reach？",
+          "✅ 在你用之前，你可能想知道",
+          "支持的平台",
+          "快速上手",
+          "装好就能用",
+          "设计理念",
+          "🔌 每个渠道都是可插拔的",
+          "当前选型"
+        ],
+        "commands": [
+          "pip install agent-reach"
+        ],
         "keywords": [
           "ai",
-          "agent"
+          "agent",
+          "为什么需要 agent reach？",
+          "✅ 在你用之前，你可能想知道",
+          "支持的平台",
+          "快速上手"
         ],
-        "score": 80
+        "score": 100
       },
       "visual": {
-        "kind": "repository_avatar",
-        "url": "https://github.com/Panniantong.png",
-        "thumbUrl": "https://github.com/Panniantong.png",
-        "alt": "Panniantong/Agent-Reach",
-        "sourceUrl": "https://github.com/Panniantong/Agent-Reach",
-        "promptHash": "sha256:f893e229bc13"
+        "kind": "readme_image",
+        "url": "https://api.star-history.com/svg?repos=Panniantong/Agent-Reach&type=Date&v=20260309",
+        "thumbUrl": "https://api.star-history.com/svg?repos=Panniantong/Agent-Reach&type=Date&v=20260309",
+        "alt": "Star History Chart",
+        "sourceUrl": "https://api.star-history.com/svg?repos=Panniantong/Agent-Reach&type=Date&v=20260309",
+        "promptHash": null
       },
       "classification": {
         "primaryCategoryId": "ai",
@@ -460,7 +554,7 @@
       "rank": {
         "globalRank": 6,
         "categoryRank": 6,
-        "score": 100.7
+        "score": 102.8
       }
     },
     {
@@ -473,14 +567,14 @@
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 7,
-        "starsGained": 494
+        "starsGained": 479
       },
       "metadata": {
         "description": "NVIDIA Cosmos is an open platform of world models, datasets, and tools that enables developers to build Physical AI for robots, autonomous vehicles, smart infrastructure, and more.",
         "language": "Jupyter Notebook",
         "topics": [],
-        "stars": 9341,
-        "forks": 595,
+        "stars": 9422,
+        "forks": 602,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -489,29 +583,49 @@
         ]
       },
       "readmeRef": {
-        "status": "unknown",
-        "path": null,
+        "status": "available",
+        "path": "README.md",
         "sha": null,
-        "rawUrl": null
+        "rawUrl": "https://raw.githubusercontent.com/NVIDIA/cosmos/main/README.md"
       },
       "readmeSignals": {
-        "title": "cosmos",
-        "summary": "NVIDIA Cosmos is an open platform of world models, datasets, and tools that enables developers to build Physical AI for robots, autonomous vehicles, smart infrastructure, and more.",
-        "headings": [],
-        "commands": [],
+        "title": "Cosmos",
+        "summary": "<p align=\"center\"\n  <img src=\"https://github.com/user-attachments/assets/28f2d612-bbd6-44a3-8795-833d05e9f05f\" width=\"274\" alt=\"NVIDIA Cosmos\"\n</p",
+        "headings": [
+          "Cosmos",
+          "Table of Contents",
+          "Introduction",
+          "Cosmos 3",
+          "Key Capabilities",
+          "Model Architecture",
+          "Model Family",
+          "Supported Generation Settings"
+        ],
+        "commands": [
+          "pip install --torch-backend=auto \\",
+          "pip install --torch-backend=cu130 \\",
+          "pip install --torch-backend=cu128 \\",
+          "pip install --torch-backend=cu130 \"vllm==0.21.0\" \\",
+          "pip install torch",
+          "pip install --torch-backend=auto torch torchvision"
+        ],
         "keywords": [
           "ai",
-          "model"
+          "model",
+          "cosmos",
+          "table of contents",
+          "introduction",
+          "cosmos 3"
         ],
-        "score": 80
+        "score": 100
       },
       "visual": {
-        "kind": "repository_avatar",
-        "url": "https://github.com/NVIDIA.png",
-        "thumbUrl": "https://github.com/NVIDIA.png",
-        "alt": "NVIDIA/cosmos",
-        "sourceUrl": "https://github.com/NVIDIA/cosmos",
-        "promptHash": "sha256:eeaee5a8dacf"
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/NVIDIA/cosmos/main/cookbooks/cosmos3/cosmos3-model-architecture.png",
+        "thumbUrl": "https://raw.githubusercontent.com/NVIDIA/cosmos/main/cookbooks/cosmos3/cosmos3-model-architecture.png",
+        "alt": "Cosmos 3 model architecture",
+        "sourceUrl": "https://raw.githubusercontent.com/NVIDIA/cosmos/main/cookbooks/cosmos3/cosmos3-model-architecture.png",
+        "promptHash": null
       },
       "classification": {
         "primaryCategoryId": "ai",
@@ -543,14 +657,14 @@
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 8,
-        "starsGained": 324
+        "starsGained": 320
       },
       "metadata": {
         "description": "A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物",
         "language": "Python",
         "topics": [],
-        "stars": 64588,
-        "forks": 10076,
+        "stars": 64722,
+        "forks": 10088,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -559,26 +673,40 @@
         ]
       },
       "readmeRef": {
-        "status": "unknown",
-        "path": null,
+        "status": "available",
+        "path": "README.md",
         "sha": null,
-        "rawUrl": null
+        "rawUrl": "https://raw.githubusercontent.com/666ghj/MiroFish/main/README.md"
       },
       "readmeSignals": {
-        "title": "MiroFish",
-        "summary": "A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物",
-        "headings": [],
+        "title": "Copy the example configuration file",
+        "summary": "<img src=\"./static/image/MiroFishlogocompressed.jpeg\" alt=\"MiroFish Logo\" width=\"75%\"/",
+        "headings": [
+          "⚡ Overview",
+          "Our Vision",
+          "🌐 Live Demo",
+          "📸 Screenshots",
+          "🎬 Demo Videos",
+          "1. Wuhan University Public Opinion Simulation + MiroFish Project Introduction",
+          "2. Dream of the Red Chamber Lost Ending Simulation",
+          "🔄 Workflow"
+        ],
         "commands": [],
-        "keywords": [],
-        "score": 40
+        "keywords": [
+          "⚡ overview",
+          "our vision",
+          "🌐 live demo",
+          "📸 screenshots"
+        ],
+        "score": 100
       },
       "visual": {
-        "kind": "repository_avatar",
-        "url": "https://github.com/666ghj.png",
-        "thumbUrl": "https://github.com/666ghj.png",
-        "alt": "666ghj/MiroFish",
-        "sourceUrl": "https://github.com/666ghj/MiroFish",
-        "promptHash": "sha256:0f67c68be212"
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/666ghj/MiroFish/main/static/image/MiroFish_logo_compressed.jpeg",
+        "thumbUrl": "https://raw.githubusercontent.com/666ghj/MiroFish/main/static/image/MiroFish_logo_compressed.jpeg",
+        "alt": "MiroFish Logo",
+        "sourceUrl": "https://raw.githubusercontent.com/666ghj/MiroFish/main/static/image/MiroFish_logo_compressed.jpeg",
+        "promptHash": null
       },
       "classification": {
         "primaryCategoryId": "unclassified",
@@ -606,14 +734,14 @@
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 9,
-        "starsGained": 738
+        "starsGained": 731
       },
       "metadata": {
         "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
         "language": "Python",
         "topics": [],
-        "stars": 28105,
-        "forks": 2388,
+        "stars": 28227,
+        "forks": 2392,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -622,29 +750,42 @@
         ]
       },
       "readmeRef": {
-        "status": "unknown",
-        "path": null,
+        "status": "available",
+        "path": "README.md",
         "sha": null,
-        "rawUrl": null
+        "rawUrl": "https://raw.githubusercontent.com/mvanhorn/last30days-skill/main/README.md"
       },
       "readmeSignals": {
-        "title": "last30days-skill",
-        "summary": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
-        "headings": [],
+        "title": "/last30days",
+        "summary": "<p align=\"center\"\n  <a href=\"https://github.com/mvanhorn/last30days-skill\"\n    <img src=\"https://img.shields.io/badge/%231-Repository%20Of%20The%20Day-6f42c1?style=for-the-badge&logo=github&label=GITHUB%20TRENDING\" alt=\"GitHub Trending 1 Repository Of The Day\" /\n  </a\n  <br/\n  <a href=\"https://trendshift.io/repositories/21997\" target=\"blank\"\n    <img src=\"https://trendshift.io/api/badge/repositories/21997\" alt=\"mvanhorn/last30days-skill | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/\n  </a\n</p",
+        "headings": [
+          "/last30days",
+          "Why this exists",
+          "Sources, scored by the people",
+          "What people actually use it for",
+          "What v3 Changed",
+          "Shareable HTML briefs",
+          "Intelligent search: the killer feature",
+          "Best Takes"
+        ],
         "commands": [],
         "keywords": [
           "ai",
-          "agent"
+          "agent",
+          "/last30days",
+          "why this exists",
+          "sources, scored by the people",
+          "what people actually use it for"
         ],
-        "score": 80
+        "score": 100
       },
       "visual": {
-        "kind": "repository_avatar",
-        "url": "https://github.com/mvanhorn.png",
-        "thumbUrl": "https://github.com/mvanhorn.png",
-        "alt": "mvanhorn/last30days-skill",
-        "sourceUrl": "https://github.com/mvanhorn/last30days-skill",
-        "promptHash": "sha256:c1fba947ac05"
+        "kind": "readme_image",
+        "url": "https://api.star-history.com/svg?repos=mvanhorn/last30days-skill&type=Date",
+        "thumbUrl": "https://api.star-history.com/svg?repos=mvanhorn/last30days-skill&type=Date",
+        "alt": "Star History Chart",
+        "sourceUrl": "https://api.star-history.com/svg?repos=mvanhorn/last30days-skill&type=Date",
+        "promptHash": null
       },
       "classification": {
         "primaryCategoryId": "ai",
@@ -676,14 +817,14 @@
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 10,
-        "starsGained": 755
+        "starsGained": 747
       },
       "metadata": {
         "description": "Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the gap between images/PDFs and LLMs. Supports 100+ languages.",
         "language": "Python",
         "topics": [],
-        "stars": 80436,
-        "forks": 10626,
+        "stars": 80557,
+        "forks": 10633,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -692,29 +833,42 @@
         ]
       },
       "readmeRef": {
-        "status": "unknown",
-        "path": null,
+        "status": "available",
+        "path": "README.md",
         "sha": null,
-        "rawUrl": null
+        "rawUrl": "https://raw.githubusercontent.com/PaddlePaddle/PaddleOCR/main/README.md"
       },
       "readmeSignals": {
-        "title": "PaddleOCR",
-        "summary": "Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the gap between images/PDFs and LLMs. Supports 100+ languages.",
-        "headings": [],
+        "title": null,
+        "summary": "<div align=\"center\"\n  <p\n      <img width=\"800\" src=\"https://raw.githubusercontent.com/cuicheng01/PaddleXdocimages/main/images/paddleocr/README/Banner.png\" alt=\"Star-history\"\n  </p",
+        "headings": [
+          "🚀 Key Features",
+          "📄 Intelligent Document Parsing (LLM-Ready)",
+          "🔍 Universal Text Recognition (Scene OCR)",
+          "🛠️ Developer-Centric Ecosystem",
+          "📣 Recent updates",
+          "🔥 2026.05.28: Release of PaddleOCR 3.6.0",
+          "🚀 Quick Start",
+          "Step 1: Try Online"
+        ],
         "commands": [],
         "keywords": [
           "ai",
-          "llm"
+          "llm",
+          "🚀 key features",
+          "📄 intelligent document parsing (llm-ready)",
+          "🔍 universal text recognition (scene ocr)",
+          "🛠️ developer-centric ecosystem"
         ],
-        "score": 80
+        "score": 100
       },
       "visual": {
-        "kind": "repository_avatar",
-        "url": "https://github.com/PaddlePaddle.png",
-        "thumbUrl": "https://github.com/PaddlePaddle.png",
-        "alt": "PaddlePaddle/PaddleOCR",
-        "sourceUrl": "https://github.com/PaddlePaddle/PaddleOCR",
-        "promptHash": "sha256:08d54e96dd52"
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/cuicheng01/PaddleX_doc_images/main/images/paddleocr/README/Banner.png",
+        "thumbUrl": "https://raw.githubusercontent.com/cuicheng01/PaddleX_doc_images/main/images/paddleocr/README/Banner.png",
+        "alt": "Star-history",
+        "sourceUrl": "https://raw.githubusercontent.com/cuicheng01/PaddleX_doc_images/main/images/paddleocr/README/Banner.png",
+        "promptHash": null
       },
       "classification": {
         "primaryCategoryId": "ai",
@@ -746,14 +900,14 @@
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 11,
-        "starsGained": 82
+        "starsGained": 49
       },
       "metadata": {
         "description": "OpenAI Plugins",
         "language": "JavaScript",
         "topics": [],
-        "stars": 1475,
-        "forks": 235,
+        "stars": 1546,
+        "forks": 243,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -762,28 +916,31 @@
         ]
       },
       "readmeRef": {
-        "status": "unknown",
-        "path": null,
+        "status": "available",
+        "path": "README.md",
         "sha": null,
-        "rawUrl": null
+        "rawUrl": "https://raw.githubusercontent.com/openai/plugins/main/README.md"
       },
       "readmeSignals": {
-        "title": "plugins",
-        "summary": "OpenAI Plugins",
-        "headings": [],
+        "title": "Plugins",
+        "summary": "This repository contains a curated collection of Codex plugin examples.",
+        "headings": [
+          "Plugins"
+        ],
         "commands": [],
         "keywords": [
-          "ai"
+          "ai",
+          "plugins"
         ],
-        "score": 70
+        "score": 65
       },
       "visual": {
-        "kind": "repository_avatar",
-        "url": "https://github.com/openai.png",
-        "thumbUrl": "https://github.com/openai.png",
-        "alt": "openai/plugins",
-        "sourceUrl": "https://github.com/openai/plugins",
-        "promptHash": "sha256:c027108304fb"
+        "kind": "agnes_generated",
+        "url": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/d06347ca15c64e21a932dc2b681edded.png",
+        "thumbUrl": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/d06347ca15c64e21a932dc2b681edded.png",
+        "alt": "Generated cover for openai/plugins",
+        "sourceUrl": null,
+        "promptHash": "sha256:b4582523566d"
       },
       "classification": {
         "primaryCategoryId": "ai",
@@ -800,7 +957,7 @@
       "rank": {
         "globalRank": 11,
         "categoryRank": 11,
-        "score": 86.2
+        "score": 82.9
       }
     },
     {
@@ -813,14 +970,14 @@
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 12,
-        "starsGained": 228
+        "starsGained": 227
       },
       "metadata": {
         "description": "The best-benchmarked open-source AI memory system. And it's free.",
         "language": "Python",
         "topics": [],
-        "stars": 53756,
-        "forks": 7075,
+        "stars": 53903,
+        "forks": 7081,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -829,28 +986,44 @@
         ]
       },
       "readmeRef": {
-        "status": "unknown",
-        "path": null,
+        "status": "available",
+        "path": "README.md",
         "sha": null,
-        "rawUrl": null
+        "rawUrl": "https://raw.githubusercontent.com/MemPalace/mempalace/main/README.md"
       },
       "readmeSignals": {
-        "title": "mempalace",
-        "summary": "The best-benchmarked open-source AI memory system. And it's free.",
-        "headings": [],
-        "commands": [],
-        "keywords": [
-          "ai"
+        "title": "MemPalace",
+        "summary": "<img src=\"assets/mempalacelogo.png\" alt=\"MemPalace\" width=\"240\"",
+        "headings": [
+          "MemPalace",
+          "What it is",
+          "Install",
+          "Quickstart",
+          "Mine content into the palace",
+          "Search",
+          "Load context for a new session",
+          "Benchmarks"
         ],
-        "score": 70
+        "commands": [
+          "pip install mempalace",
+          "pip install -e \".[dev]\""
+        ],
+        "keywords": [
+          "ai",
+          "mempalace",
+          "what it is",
+          "install",
+          "quickstart"
+        ],
+        "score": 100
       },
       "visual": {
-        "kind": "repository_avatar",
-        "url": "https://github.com/MemPalace.png",
-        "thumbUrl": "https://github.com/MemPalace.png",
-        "alt": "MemPalace/mempalace",
-        "sourceUrl": "https://github.com/MemPalace/mempalace",
-        "promptHash": "sha256:5fd828d66f65"
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/MemPalace/mempalace/main/assets/mempalace_logo.png",
+        "thumbUrl": "https://raw.githubusercontent.com/MemPalace/mempalace/main/assets/mempalace_logo.png",
+        "alt": "MemPalace",
+        "sourceUrl": "https://raw.githubusercontent.com/MemPalace/mempalace/main/assets/mempalace_logo.png",
+        "promptHash": null
       },
       "classification": {
         "primaryCategoryId": "ai",
@@ -871,248 +1044,68 @@
       }
     },
     {
-      "id": "openclaw-openclaw-windows-node",
-      "owner": "openclaw",
-      "name": "openclaw-windows-node",
-      "url": "https://github.com/openclaw/openclaw-windows-node",
-      "avatarUrl": "https://github.com/openclaw.png",
+      "id": "withastro-flue",
+      "owner": "withastro",
+      "name": "flue",
+      "url": "https://github.com/withastro/flue",
+      "avatarUrl": "https://github.com/withastro.png",
       "homepageUrl": null,
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 13,
-        "starsGained": 329
+        "starsGained": 126
       },
       "metadata": {
-        "description": "Windows companion suite for OpenClaw - System Tray app, Shared library, Node, and PowerToys Command Palette extension",
-        "language": "C#",
+        "description": "The sandbox agent framework.",
+        "language": "TypeScript",
         "topics": [],
-        "stars": 1545,
-        "forks": 178,
+        "stars": 4533,
+        "forks": 241,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
         "topLanguages": [
-          "C#"
+          "TypeScript"
         ]
       },
       "readmeRef": {
-        "status": "unknown",
-        "path": null,
+        "status": "available",
+        "path": "README.md",
         "sha": null,
-        "rawUrl": null
+        "rawUrl": "https://raw.githubusercontent.com/withastro/flue/main/README.md"
       },
       "readmeSignals": {
-        "title": "openclaw-windows-node",
-        "summary": "Windows companion suite for OpenClaw - System Tray app, Shared library, Node, and PowerToys Command Palette extension",
-        "headings": [],
-        "commands": [],
+        "title": "Flue",
+        "summary": "Experimental — Flue is under active development. APIs may change.\n\n Looking for v0.0.x? See here.https://github.com/withastro/flue/tree/v0.0.x",
+        "headings": [
+          "Flue",
+          "Packages",
+          "Examples",
+          "Quickstart",
+          "Support Agent",
+          "Issue Triage (CI)",
+          "Coding Agent (Remote Sandbox)",
+          "Remote MCP Tools"
+        ],
+        "commands": [
+          "npm install --save-dev wrangler"
+        ],
         "keywords": [
-          "ui"
+          "agent",
+          "flue",
+          "packages",
+          "examples",
+          "quickstart"
         ],
-        "score": 70
+        "score": 100
       },
       "visual": {
-        "kind": "repository_avatar",
-        "url": "https://github.com/openclaw.png",
-        "thumbUrl": "https://github.com/openclaw.png",
-        "alt": "openclaw/openclaw-windows-node",
-        "sourceUrl": "https://github.com/openclaw/openclaw-windows-node",
-        "promptHash": "sha256:fe437809d4c1"
-      },
-      "classification": {
-        "primaryCategoryId": "frontend",
-        "secondaryCategoryIds": [],
-        "confidence": 0.7,
-        "method": "rules",
-        "reasons": [
-          "Matched ui"
-        ],
-        "signals": [
-          "ui"
-        ]
-      },
-      "rank": {
-        "globalRank": 13,
-        "categoryRank": 13,
-        "score": 94
-      }
-    },
-    {
-      "id": "aquasecurity-trivy",
-      "owner": "aquasecurity",
-      "name": "trivy",
-      "url": "https://github.com/aquasecurity/trivy",
-      "avatarUrl": "https://github.com/aquasecurity.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 14,
-        "starsGained": 208
-      },
-      "metadata": {
-        "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
-        "language": "Go",
-        "topics": [],
-        "stars": 35804,
-        "forks": 440,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "Go"
-        ]
-      },
-      "readmeRef": {
-        "status": "unknown",
-        "path": null,
-        "sha": null,
-        "rawUrl": null
-      },
-      "readmeSignals": {
-        "title": "trivy",
-        "summary": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
-        "headings": [],
-        "commands": [],
-        "keywords": [
-          "ai"
-        ],
-        "score": 70
-      },
-      "visual": {
-        "kind": "repository_avatar",
-        "url": "https://github.com/aquasecurity.png",
-        "thumbUrl": "https://github.com/aquasecurity.png",
-        "alt": "aquasecurity/trivy",
-        "sourceUrl": "https://github.com/aquasecurity/trivy",
-        "promptHash": "sha256:6d23a995845e"
-      },
-      "classification": {
-        "primaryCategoryId": "ai",
-        "secondaryCategoryIds": [],
-        "confidence": 0.7,
-        "method": "rules",
-        "reasons": [
-          "Matched ai"
-        ],
-        "signals": [
-          "ai"
-        ]
-      },
-      "rank": {
-        "globalRank": 14,
-        "categoryRank": 14,
-        "score": 92
-      }
-    },
-    {
-      "id": "jwasham-coding-interview-university",
-      "owner": "jwasham",
-      "name": "coding-interview-university",
-      "url": "https://github.com/jwasham/coding-interview-university",
-      "avatarUrl": "https://github.com/jwasham.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 15,
-        "starsGained": 757
-      },
-      "metadata": {
-        "description": "A complete computer science study plan to become a software engineer.",
-        "language": "",
-        "topics": [],
-        "stars": 350280,
-        "forks": 83286,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": []
-      },
-      "readmeRef": {
-        "status": "unknown",
-        "path": null,
-        "sha": null,
-        "rawUrl": null
-      },
-      "readmeSignals": {
-        "title": "coding-interview-university",
-        "summary": "A complete computer science study plan to become a software engineer.",
-        "headings": [],
-        "commands": [],
-        "keywords": [],
-        "score": 40
-      },
-      "visual": {
-        "kind": "repository_avatar",
-        "url": "https://github.com/jwasham.png",
-        "thumbUrl": "https://github.com/jwasham.png",
-        "alt": "jwasham/coding-interview-university",
-        "sourceUrl": "https://github.com/jwasham/coding-interview-university",
-        "promptHash": "sha256:a21860ffab8a"
-      },
-      "classification": {
-        "primaryCategoryId": "unclassified",
-        "secondaryCategoryIds": [],
-        "confidence": 0.4,
-        "method": "rules",
-        "reasons": [
-          "No taxonomy rule matched with enough confidence"
-        ],
-        "signals": []
-      },
-      "rank": {
-        "globalRank": 15,
-        "categoryRank": 15,
-        "score": 90
-      }
-    },
-    {
-      "id": "github-copilot-sdk",
-      "owner": "github",
-      "name": "copilot-sdk",
-      "url": "https://github.com/github/copilot-sdk",
-      "avatarUrl": "https://github.com/github.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 16,
-        "starsGained": 310
-      },
-      "metadata": {
-        "description": "Multi-platform SDK for integrating GitHub Copilot Agent into apps and services",
-        "language": "Java",
-        "topics": [],
-        "stars": 9177,
-        "forks": 1219,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "Java"
-        ]
-      },
-      "readmeRef": {
-        "status": "unknown",
-        "path": null,
-        "sha": null,
-        "rawUrl": null
-      },
-      "readmeSignals": {
-        "title": "copilot-sdk",
-        "summary": "Multi-platform SDK for integrating GitHub Copilot Agent into apps and services",
-        "headings": [],
-        "commands": [],
-        "keywords": [
-          "agent"
-        ],
-        "score": 70
-      },
-      "visual": {
-        "kind": "repository_avatar",
-        "url": "https://github.com/github.png",
-        "thumbUrl": "https://github.com/github.png",
-        "alt": "github/copilot-sdk",
-        "sourceUrl": "https://github.com/github/copilot-sdk",
-        "promptHash": "sha256:e65fee332d7a"
+        "kind": "agnes_generated",
+        "url": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/f15e7c89699b498da3957c8c1167f003.png",
+        "thumbUrl": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/f15e7c89699b498da3957c8c1167f003.png",
+        "alt": "Generated cover for withastro/flue",
+        "sourceUrl": null,
+        "promptHash": "sha256:47c37a7acc01"
       },
       "classification": {
         "primaryCategoryId": "ai",
@@ -1127,9 +1120,327 @@
         ]
       },
       "rank": {
+        "globalRank": 13,
+        "categoryRank": 13,
+        "score": 86.6
+      }
+    },
+    {
+      "id": "openclaw-openclaw-windows-node",
+      "owner": "openclaw",
+      "name": "openclaw-windows-node",
+      "url": "https://github.com/openclaw/openclaw-windows-node",
+      "avatarUrl": "https://github.com/openclaw.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 14,
+        "starsGained": 326
+      },
+      "metadata": {
+        "description": "Windows companion suite for OpenClaw - System Tray app, Shared library, Node, and PowerToys Command Palette extension",
+        "language": "C#",
+        "topics": [],
+        "stars": 1612,
+        "forks": 182,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "C#"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/openclaw/openclaw-windows-node/master/README.md"
+      },
+      "readmeSignals": {
+        "title": "🦞 OpenClaw Windows Hub",
+        "summary": "A native Windows companion suite for OpenClawhttps://openclaw.ai - the AI-powered personal assistant.",
+        "headings": [
+          "🦞 OpenClaw Windows Hub",
+          "Projects",
+          "🚀 Quick Start",
+          "Prerequisites",
+          "Build",
+          "Check prerequisites",
+          "Build all projects",
+          "Build specific project"
+        ],
+        "commands": [],
+        "keywords": [
+          "ui",
+          "🦞 openclaw windows hub",
+          "projects",
+          "🚀 quick start",
+          "prerequisites"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/openclaw/openclaw-windows-node/master/docs/assets/readme-banner.jpg",
+        "thumbUrl": "https://raw.githubusercontent.com/openclaw/openclaw-windows-node/master/docs/assets/readme-banner.jpg",
+        "alt": "OpenClaw Windows Node banner",
+        "sourceUrl": "https://raw.githubusercontent.com/openclaw/openclaw-windows-node/master/docs/assets/readme-banner.jpg",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "frontend",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched ui"
+        ],
+        "signals": [
+          "ui"
+        ]
+      },
+      "rank": {
+        "globalRank": 14,
+        "categoryRank": 14,
+        "score": 92
+      }
+    },
+    {
+      "id": "aquasecurity-trivy",
+      "owner": "aquasecurity",
+      "name": "trivy",
+      "url": "https://github.com/aquasecurity/trivy",
+      "avatarUrl": "https://github.com/aquasecurity.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 15,
+        "starsGained": 207
+      },
+      "metadata": {
+        "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
+        "language": "Go",
+        "topics": [],
+        "stars": 35862,
+        "forks": 443,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Go"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/aquasecurity/trivy/main/README.md"
+      },
+      "readmeSignals": {
+        "title": null,
+        "summary": "<div align=\"center\"\n<img src=\"docs/imgs/logo.png\" width=\"200\"",
+        "headings": [
+          "Quick Start",
+          "Get Trivy",
+          "Canary builds",
+          "General usage",
+          "FAQ",
+          "How to pronounce the name \"Trivy\"?",
+          "Want more? Check out Aqua",
+          "Community"
+        ],
+        "commands": [],
+        "keywords": [
+          "ai",
+          "quick start",
+          "get trivy",
+          "canary builds",
+          "general usage"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/aquasecurity/trivy/main/docs/imgs/trivy-k8s.png",
+        "thumbUrl": "https://raw.githubusercontent.com/aquasecurity/trivy/main/docs/imgs/trivy-k8s.png",
+        "alt": "k8s summary",
+        "sourceUrl": "https://raw.githubusercontent.com/aquasecurity/trivy/main/docs/imgs/trivy-k8s.png",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched ai"
+        ],
+        "signals": [
+          "ai"
+        ]
+      },
+      "rank": {
+        "globalRank": 15,
+        "categoryRank": 15,
+        "score": 90
+      }
+    },
+    {
+      "id": "jwasham-coding-interview-university",
+      "owner": "jwasham",
+      "name": "coding-interview-university",
+      "url": "https://github.com/jwasham/coding-interview-university",
+      "avatarUrl": "https://github.com/jwasham.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 16,
+        "starsGained": 745
+      },
+      "metadata": {
+        "description": "A complete computer science study plan to become a software engineer.",
+        "language": "",
+        "topics": [],
+        "stars": 350400,
+        "forks": 83290,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": []
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/jwasham/coding-interview-university/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Coding Interview University",
+        "summary": "I originally created this as a short to-do list of study topics for becoming a software engineer,\n but it grew to the large list you see today. After going through this study plan, I got hired\n as a Software Development Engineer at Amazonhttps://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu!\n You probably won't have to study as much as I did. Anyway, everything you need is here.\n\n I studied about 8-12 hours a day, for several months. This is my story: Why I studied full-time for 8 months for a Google interviewhttps://medium.freecodecamp.org/why-i-studied-full-time-for-8-months-for-a-google-interview-cc662ce9bb13\n\n Please Note: You won't need to study as much as I did. I wasted a lot of time on things I didn't need to know. More info about that is below. I'll help you get there without wasting your precious time.\n\n The items listed here will prepare you well for a technical interview at just about any software company,\n including the giants: Amazon, Facebook, Google, and Microsoft.\n\n Best of luck to you!",
+        "headings": [
+          "Coding Interview University",
+          "What is it?",
+          "Table of Contents",
+          "The Study Plan",
+          "Topics of Study",
+          "Getting the Job",
+          "Optional Extra Topics & Resources",
+          "Why use it?"
+        ],
+        "commands": [],
+        "keywords": [
+          "coding interview university",
+          "what is it?",
+          "table of contents",
+          "the study plan"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://d3j2pkmjtin6ou.cloudfront.net/coding-at-the-whiteboard-silicon-valley.png",
+        "thumbUrl": "https://d3j2pkmjtin6ou.cloudfront.net/coding-at-the-whiteboard-silicon-valley.png",
+        "alt": "Coding at the whiteboard - from HBO's Silicon Valley",
+        "sourceUrl": "https://d3j2pkmjtin6ou.cloudfront.net/coding-at-the-whiteboard-silicon-valley.png",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "unclassified",
+        "secondaryCategoryIds": [],
+        "confidence": 0.4,
+        "method": "rules",
+        "reasons": [
+          "No taxonomy rule matched with enough confidence"
+        ],
+        "signals": []
+      },
+      "rank": {
         "globalRank": 16,
         "categoryRank": 16,
         "score": 88
+      }
+    },
+    {
+      "id": "github-copilot-sdk",
+      "owner": "github",
+      "name": "copilot-sdk",
+      "url": "https://github.com/github/copilot-sdk",
+      "avatarUrl": "https://github.com/github.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 17,
+        "starsGained": 309
+      },
+      "metadata": {
+        "description": "Multi-platform SDK for integrating GitHub Copilot Agent into apps and services",
+        "language": "Java",
+        "topics": [],
+        "stars": 9254,
+        "forks": 1223,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Java"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/github/copilot-sdk/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "GitHub Copilot CLI SDKs",
+        "summary": "Embed Copilot's agentic workflows in your application with the GitHub Copilot SDK for Python, TypeScript, Go, .NET, Java, and Rust.",
+        "headings": [
+          "GitHub Copilot CLI SDKs",
+          "Available SDKs",
+          "Getting Started",
+          "Architecture",
+          "FAQ",
+          "Do I need a GitHub Copilot subscription to use the SDK?",
+          "How does billing work for SDK usage?",
+          "Does it support BYOK (Bring Your Own Key)?"
+        ],
+        "commands": [
+          "npm install @github/copilot-sdk",
+          "pip install github-copilot-sdk"
+        ],
+        "keywords": [
+          "agent",
+          "github copilot cli sdks",
+          "available sdks",
+          "getting started",
+          "architecture"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/github/copilot-sdk/main/assets/RepoHeader_01.png",
+        "thumbUrl": "https://raw.githubusercontent.com/github/copilot-sdk/main/assets/RepoHeader_01.png",
+        "alt": "GitHub Copilot SDK",
+        "sourceUrl": "https://raw.githubusercontent.com/github/copilot-sdk/main/assets/RepoHeader_01.png",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched agent"
+        ],
+        "signals": [
+          "agent"
+        ]
+      },
+      "rank": {
+        "globalRank": 17,
+        "categoryRank": 17,
+        "score": 86
       }
     }
   ],
@@ -1145,11 +1456,12 @@
         "copilotkit-copilotkit",
         "affaan-m-ecc",
         "nvidia-cosmos",
-        "mvanhorn-last30days-skill",
         "panniantong-agent-reach",
+        "mvanhorn-last30days-skill",
         "paddlepaddle-paddleocr",
         "mempalace-mempalace",
         "aquasecurity-trivy",
+        "withastro-flue",
         "github-copilot-sdk",
         "openai-plugins"
       ],
@@ -1180,11 +1492,9 @@
   ],
   "health": {
     "status": "ok",
-    "candidateCount": 16,
-    "enrichedRepoCount": 0,
+    "candidateCount": 17,
+    "enrichedRepoCount": 17,
     "unclassifiedRepoCount": 3,
-    "warnings": [
-      "Phase 2 fixture package: REST enrichment and Agnes visual generation are not enabled in this run"
-    ]
+    "warnings": []
   }
 }
