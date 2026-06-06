@@ -4,22 +4,25 @@
   "locale": "zh-CN",
   "date": "2026-06-02",
   "sourceTimezone": "America/Los_Angeles",
-  "generatedAt": "2026-06-06T07:44:48.183Z",
+  "generatedAt": "2026-06-06T09:58:29.072Z",
   "items": [
     {
       "rank": 1,
       "id": "1157940",
       "name": "Fundraisly",
-      "tagline": "AI 融资助手，精准对接投资人并预约会议",
-      "description": "Fundraisly 是终极 AI 融资代理。它分析超过 30 万位投资人和数百万笔交易，识别出正在积极投资您所在领域的目标，并为您规划从现有网络出发的暖路径，其余部分则通过精准的外展覆盖。结果：获得 20-40 个合格的投资者会议。由融资超过 10 亿美元的创始人打造。",
+      "tagline": "AI 融资助手，自动寻找投资者并预约会议",
+      "description": "Fundraisly 是终极 AI 融资代理。它分析 30 万多名投资者和数百万笔交易，识别出积极投资您所在领域的目标投资者，从您的现有网络中建立联系路径，并辅以精准的外展开发。最终结果：获得 20-40 个合格的投资者会议。由融资超过 10 亿美元的创始人打造。",
       "keywords": [
         "融资",
-        "AI 代理",
-        "投资人对接"
+        "人工智能",
+        "投资者关系",
+        "初创企业",
+        "商务拓展",
+        "自动化营销"
       ],
       "metrics": {
-        "votes": 1099,
-        "comments": 270
+        "votes": 1100,
+        "comments": 271
       },
       "links": {
         "homepage": "https://www.producthunt.com/r/SH5BHT7UOKB2F5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
@@ -71,12 +74,15 @@
       "rank": 2,
       "id": "1153715",
       "name": "Vokal",
-      "tagline": "10 倍速团队成员与其 AI 代理的协作空间",
-      "description": "Vokal 将 10 倍速团队成员及其 AI 代理带入一个实时工作空间，无论是本地运行的 Codex、Claude Code 还是 Hermes，亦或是云端服务。您可以为代理命名、分配角色、权限和记忆，在共享协作空间中工作，取代 Slack 中繁琐的复制粘贴和手动传递。",
+      "tagline": "10 倍速团队成员及其 AI 代理的协作空间",
+      "description": "Vokal 将 10 倍速团队成员及其 AI 代理（如 Codex、Claude Code、Hermes）带入一个实时的协作工作区。通过命名代理、分配角色、权限和记忆，在共享空间中工作，取代低效的复制粘贴和 Slack 沟通，实现高效协作。",
       "keywords": [
         "AI 协作",
         "开发者工具",
-        "团队工作区"
+        "团队效率",
+        "编程代理",
+        "工作流自动化",
+        "软件开发"
       ],
       "metrics": {
         "votes": 453,
@@ -148,11 +154,14 @@
       "id": "1159137",
       "name": "Gigacatalyst",
       "tagline": "赋予销售和客服团队工程超能力",
-      "description": "Gigacatalyst 的 AI 构建器学习您的 API 并嵌入您的产品中，使销售和客服团队能够构建客户所需的缺失功能。当软件适应每个客户的工作流时，他们使用更频繁、留存更久、扩张更快，因为获得了针对其确切用例的定制实现。",
+      "description": "Gigacatalyst 的 AI 构建器学习您的 API 并嵌入您的产品中，使销售和客服团队能够为客户构建平台所需的缺失功能。当软件适应每个客户的工作流时，他们使用更频繁、留存更久、扩张更快，因为获得了针对其确切用例的定制实现。",
       "keywords": [
         "销售赋能",
         "客户成功",
-        "无代码构建器"
+        "AI 构建器",
+        "API 集成",
+        "产品定制",
+        "SaaS"
       ],
       "metrics": {
         "votes": 295,
@@ -209,11 +218,14 @@
       "id": "1146535",
       "name": "Co-Invest",
       "tagline": "直接在 ChatGPT 和 Claude 中交易 500+ 市场",
-      "description": "Co-Invest by Liquid 让您在 ChatGPT 或 Claude 内部研究和执行真实交易。访问涵盖加密货币、股票、外汇、商品和预测市场的 500+ 市场，7x24 小时服务。在聊天中注资，使用链上信号，并用自然语言执行带有止损/目标的交易。AI 还处理带有完整上下文的客户支持。",
+      "description": "Co-Invest by Liquid 让您在 ChatGPT 或 Claude 内部研究和执行真实交易。访问涵盖加密货币、股票、外汇、商品和预测市场的 500 多个市场，7x24 小时可用。在聊天中入金，使用链上信号，用自然语言执行交易并设置止损/目标。AI 还处理带有完整上下文的客户支持。",
       "keywords": [
         "加密货币交易",
         "AI 交易",
-        "ChatGPT 集成"
+        "ChatGPT 集成",
+        "金融市场",
+        "区块链",
+        "投资工具"
       ],
       "metrics": {
         "votes": 277,
@@ -280,11 +292,14 @@
       "id": "1153634",
       "name": "Brief",
       "tagline": "引导您的 AI 代理实现产品市场契合",
-      "description": "Brief 为产品团队提供一个活生生的真相来源，捕捉决策、保留产品意图，并通过聊天、Slack、CLI 和 MCP 向人类和代理提供相关上下文。它将战略、决策和执行从愿景到影响紧密连接，防止 AI 代理在缺乏产品背景时盲目行动。",
+      "description": "Brief 为产品团队提供一个动态的真理来源，捕捉决策、保留产品意图，并通过聊天、Slack、CLI 和 MCP 向人类和代理提供相关上下文。它将战略、决策和执行从愿景到影响紧密连接，防止 AI 代理在缺乏产品背景时盲目行动。",
       "keywords": [
         "产品管理",
         "AI 上下文",
-        "产品市场契合"
+        "产品市场契合",
+        "文档管理",
+        "MCP 协议",
+        "团队协同"
       ],
       "metrics": {
         "votes": 250,
@@ -356,11 +371,14 @@
       "id": "1160898",
       "name": "Paste MCP & AI Tools",
       "tagline": "Claude、Codex 及其他 AI 工具的无限剪贴板",
-      "description": "隐私优先、闪电般快速、可搜索，并跨所有设备可用。保存代码片段，安全同步，并通过智能快捷键和即时粘贴历史记录提升生产力。专为 Claude、Codex 等 AI 工具优化。",
+      "description": "Paste MCP & AI Tools 提供隐私优先、闪电般快速、可搜索的剪贴板服务，支持所有设备。保存代码片段，安全同步，并通过智能快捷键和即时粘贴历史记录提升生产力。",
       "keywords": [
         "剪贴板管理",
-        "生产力",
-        "AI 工具"
+        "生产力工具",
+        "AI 工具",
+        "开发者实用程序",
+        "隐私保护",
+        "代码片段管理"
       ],
       "metrics": {
         "votes": 223,
@@ -412,11 +430,14 @@
       "id": "1159331",
       "name": "Enshittifier",
       "tagline": "将“AI”替换为💩的 Chrome 扩展",
-      "description": "这个 Chrome 扩展利用字体连字将“AI”一词视觉上替换为💩表情符号。它既是对 AI 热潮的幽默调侃，也是提醒人们对 AI 喧嚣保持一点意识的微妙提示。从字体文件开始，重新审视我们与 AI 的关系。",
+      "description": "Enshittifier 是一个 Chrome 扩展，利用字体连字技术将网页上的“AI”字样替换为💩表情符号。这是一个幽默的举动，旨在提醒人们对 AI 热潮保持清醒和谨慎，同时也展示了字体设计的趣味性。",
       "keywords": [
+        "浏览器扩展",
+        "幽默",
+        "AI 讽刺",
         "Chrome 扩展",
-        "趣味",
-        "AI 讽刺"
+        "网页设计",
+        "趣味工具"
       ],
       "metrics": {
         "votes": 146,
@@ -468,11 +489,14 @@
       "id": "1159547",
       "name": "PawPause",
       "tagline": "锁定键盘，防止猫咪制造混乱",
-      "description": "一款微小的 macOS 菜单栏应用，当检测到猫咪在键盘上时，会暂停系统级输入。100% 在设备端运行，开源且免费。完美解决宠物干扰工作的痛点。",
+      "description": "PawPause 是一款小巧的 macOS 菜单栏应用，当检测到猫咪踩在键盘上时，会暂停系统输入。100% 本地处理，开源且免费，是猫奴们的必备神器。",
       "keywords": [
         "macOS 应用",
         "宠物友好",
-        "键盘锁定"
+        "键盘锁定",
+        "生产力",
+        "开源",
+        "猫奴必备"
       ],
       "metrics": {
         "votes": 145,
@@ -508,12 +532,15 @@
       "rank": 9,
       "id": "1146478",
       "name": "Rodeo by TwelveLabs",
-      "tagline": "描述您的镜头，Rodeo 构建您的初剪",
-      "description": "Rodeo by TwelveLabs 是为创作者和大规模制作团队打造的 AI 视频智能平台。使用自然语言，从原始片段到初剪仅需几分钟。Rodeo 的多模态 AI 同时理解视觉、音频、语音和文本，使视频库对人和代理都可即时查询，实现结构化创作而非手动审查。",
+      "tagline": "描述您的镜头，Rodeo 为您构建初剪",
+      "description": "Rodeo by TwelveLabs 是面向创作者和团队的 AI 视频智能平台。通过自然语言描述，从原始片段快速生成初剪。其多模态 AI 同时理解视觉、音频、语音和文本，使视频库可即时查询，大幅提升视频制作效率。",
       "keywords": [
         "视频编辑",
         "AI 视频",
-        "内容创作"
+        "内容创作",
+        "多模态 AI",
+        "视频搜索",
+        "媒体制作"
       ],
       "metrics": {
         "votes": 134,
@@ -559,12 +586,15 @@
       "rank": 10,
       "id": "1159972",
       "name": "choclift",
-      "tagline": "用 iPhone 在 Mac 上打开应用、快捷方式和网站",
-      "description": "choclift 是交互 Mac 的第三种界面。它将 iPhone 变成可定制的巧克力条，让您瞬间切换 Mac 上的常用和最近应用，触发 Apple Shortcuts，并使用网站书签。专注于产品设计和用户体验，打造最快、最甜美的 Mac 工作方式。",
+      "tagline": "用 iPhone 在 Mac 上打开应用、快捷指令和网站",
+      "description": "choclift 将 iPhone 变成可定制的“巧克力条”，作为 Mac 的第三种交互界面。您可以快速切换常用和最近的应用，触发 Apple Shortcuts，并使用网站书签。专注于产品设计和用户体验，打造与 Mac 协作的最快方式。",
       "keywords": [
-        "iPhone 集成",
-        "Mac 生产力",
-        "Apple 快捷指令"
+        "iPhone Mac 集成",
+        "生产力",
+        "Apple 快捷指令",
+        "硬件交互",
+        "工作流",
+        "苹果生态"
       ],
       "metrics": {
         "votes": 125,
@@ -620,12 +650,15 @@
       "rank": 11,
       "id": "1161141",
       "name": "Branda",
-      "tagline": "创造和管理品牌的趣味新方式",
-      "description": "Branda 在几分钟内将名称和想法转化为完整的品牌标识：战略、Logo、调色板、字体和完整品牌套件。支持从零开始或导入现有资产。AI 助手 Lucky 可主导生成，也可由您指导策略和草图。使用视觉提示保持一致性，提取元素，矢量化为 SVG，并导出分享。",
+      "tagline": "一种有趣的新方式来创建和管理品牌",
+      "description": "Branda 在几分钟内将名称和想法转化为完整的品牌标识：战略、标志、调色板、字体和品牌套件。支持从零开始或导入现有资产。AI 助手 Lucky 可引导策略，也可手动指导。使用视觉提示保持一致性，提取元素，矢量化为 SVG，并导出分享。",
       "keywords": [
         "品牌设计",
-        "Logo 生成",
-        "AI 设计"
+        "标志设计",
+        "AI 设计",
+        "品牌标识",
+        "平面设计",
+        "营销工具"
       ],
       "metrics": {
         "votes": 119,
@@ -692,11 +725,14 @@
       "id": "1159865",
       "name": "GlowPulse",
       "tagline": "您的 Mac 摄像头现在是一个心率传感器",
-      "description": "GlowPulse 使用 rPPG 技术通过 Mac 内置摄像头测量心率，无需手表或胸带。位于菜单栏，显示实时 BPM、趋势图和颜色编码区域。100% 在设备端处理，无云、无账户、无遥测。支持番茄钟专注、呼吸练习和压力检查。一次性付费 $2.99。",
+      "description": "GlowPulse 利用 rPPG 技术，通过 Mac 内置摄像头测量心率，无需手表或胸带。位于菜单栏，显示实时 BPM、趋势图和颜色编码区域。100% 本地处理，无云、无账户、无遥测。支持番茄钟专注、呼吸练习和压力检查。一次性付费 $2.99。",
       "keywords": [
         "健康科技",
-        "macOS 实用工具",
-        "心率监测"
+        "macOS 应用",
+        "心率监测",
+        "隐私保护",
+        "身心健康",
+        "端侧 AI"
       ],
       "metrics": {
         "votes": 107,
@@ -753,11 +789,14 @@
       "id": "1158104",
       "name": "Knock agent for Slack",
       "tagline": "在 Slack 中构建、管理和发送客户消息",
-      "description": "Knock 是面向客户消息的代理驱动平台。连接 Knock 到 Slack 后，在频道中标记 @Knock 并描述您的需求，代理将在后台构建活动、起草消息并更新生命周期工作流。它从您的账户收集上下文，在对话线程中发布进度更新，并提供资源链接供审查。",
+      "description": "Knock 是面向 Slack 的代理驱动型客户参与平台。连接后，在频道中 @Knock 并描述需求，代理将在后台自动构建活动、起草消息并更新生命周期工作流。它从账户获取上下文，在对话中更新进度，并提供资源链接供审查。",
       "keywords": [
-        "客户互动",
         "Slack 集成",
-        "营销自动化"
+        "客户参与",
+        "AI 代理",
+        "营销自动化",
+        "客户支持",
+        "工作流自动化"
       ],
       "metrics": {
         "votes": 102,
@@ -803,12 +842,15 @@
       "rank": 14,
       "id": "1157533",
       "name": "Trovelo",
-      "tagline": "私密规划并追踪您的旅行",
-      "description": "Trovelo 是专为 iPhone 和 Mac 设计的私密旅行规划器，无需账户、服务器或订阅。按天规划，智能卡片，自然语言输入，双货币费用追踪，路线优化，并通过 iCloud 私密同步。一次性付费 $6.99 Pro，永久拥有。",
+      "tagline": "私密地规划和跟踪您的旅行",
+      "description": "Trovelo 是一款面向 iPhone 和 Mac 的私密旅行规划应用，无需账户、服务器或订阅。支持智能卡片按天规划、自然语言输入、双货币费用跟踪、路线优化，并通过 iCloud 私密同步。一次性付费 $6.99 Pro，永久拥有。",
       "keywords": [
         "旅行规划",
-        "隐私优先",
-        "离线应用"
+        "隐私保护",
+        "iPhone 应用",
+        "Mac 应用",
+        "行程管理",
+        "费用跟踪"
       ],
       "metrics": {
         "votes": 100,
@@ -874,12 +916,15 @@
       "rank": 15,
       "id": "1156922",
       "name": "Kompassify 2.0",
-      "tagline": "用户引导现在配备 AI 副驾驶",
-      "description": "Kompassify 2.0 是一个全功能用户采用平台，无需编写代码。包含产品导览、引导清单、通知小部件、应用内调查、产品分析、AI 副驾驶以修复采用问题、欢迎屏幕、多语言支持和细分功能。只需一个代码片段，免费计划无需信用卡。",
+      "tagline": "用户入职体验现在配备 AI 副驾驶",
+      "description": "Kompassify 2.0 是一个全功能的产品采用平台，无需编码。包含产品导览、入职检查清单、通知小部件、应用内调查、产品分析、AI 副驾驶（用于解决采用问题）、欢迎屏幕、多语言支持和细分功能。只需一个代码片段，提供免费计划。",
       "keywords": [
-        "用户引导",
+        "用户入职",
         "产品采用",
-        "无代码"
+        "AI 副驾驶",
+        "无代码",
+        "用户体验",
+        "SaaS 分析"
       ],
       "metrics": {
         "votes": 97,
@@ -931,11 +976,14 @@
       "id": "1157670",
       "name": "Mirowl",
       "tagline": "通过本地 OCR 驱动的 AI 搜索所有截图",
-      "description": "Mirowl 是一款无摩擦、本地优先的 Mac 应用，用于索引和搜索所有截图和图像资产。使用 Rust/Tauri 构建，零占用，并由原生 macOS Vision 提供 10 倍 OCR 准确率。可选云同步，无追踪，纯粹的工具效用。",
+      "description": "Mirowl 是一款无摩擦、本地优先的 Mac 应用，用于索引和搜索所有截图和图像资产。基于 Rust/Tauri 构建，零占用，并利用原生 macOS Vision 实现 10 倍 OCR 准确率。可选云同步，无追踪，纯粹的工具效用。",
       "keywords": [
         "截图搜索",
         "OCR 识别",
-        "macOS 实用工具"
+        "macOS 应用",
+        "本地 AI",
+        "生产力",
+        "图像管理"
       ],
       "metrics": {
         "votes": 94,
@@ -987,11 +1035,14 @@
       "id": "1160238",
       "name": "Moxie Docs",
       "tagline": "GitHub 仓库的活文档 + MCP 上下文",
-      "description": "Moxie Docs 一次性索引您的 GitHub 仓库，然后将这种理解放到工作发生的地方：通过 MCP 在 AI 代理内部提供仓库上下文，一个可搜索的文档工作区，以及保持文档诚实的 PR 检查。",
+      "description": "Moxie Docs 一次性索引您的 GitHub 仓库，然后将这种理解带到工作发生的地方：通过 MCP 在 AI 代理中提供仓库上下文，一个可搜索的文档工作区，以及保持文档诚实的 PR 检查。",
       "keywords": [
-        "开发者工具",
+        "GitHub",
         "文档管理",
-        "GitHub 集成"
+        "MCP 协议",
+        "开发者工具",
+        "AI 上下文",
+        "代码管理"
       ],
       "metrics": {
         "votes": 94,
@@ -1043,11 +1094,14 @@
       "id": "1103030",
       "name": "ConnectWizard",
       "tagline": "解锁隐藏的 App Store Connect 分析数据",
-      "description": "ConnectWizard 解锁 Apple 收集的所有 100+ 种报告类型，包括 App Store 数据和来自用户的设备端数据。获取预定义统计信息，或挖掘原始数据构建自己的预设。对于拥有较大用户群的应用，还可获取详细的框架使用数据，如 Live Activities 的使用时长或 Shortcuts 的运行情况。",
+      "description": "ConnectWizard 解锁 App Store Connect 中 Apple 收集的所有 100+ 种报告类型，包括应用商店数据和用户设备数据。支持预定义统计、原始数据探索以及详细框架使用情况（如 Live Activities 使用时长或 Shortcuts 运行状态），适合拥有较大用户群的应用。",
       "keywords": [
-        "App Store 分析",
+        "App Store Connect",
+        "数据分析",
         "iOS 开发",
-        "数据洞察"
+        "数据洞察",
+        "移动应用",
+        "开发者工具"
       ],
       "metrics": {
         "votes": 91,
@@ -1104,11 +1158,14 @@
       "id": "1160458",
       "name": "Galleroo",
       "tagline": "将您的 Google Drive 变成精美的客户画廊",
-      "description": "Galleroo 在 60 秒内将任何 Google Drive 文件夹转化为美观、受密码保护的客户画廊。无需重新上传，客户无需账户，且照片永远不会离开您的 Drive。",
+      "description": "Galleroo 在 60 秒内将任何 Google Drive 文件夹转化为美观、受密码保护的客户画廊。无需重新上传，客户无需账户，且照片永远不会离开您的 Drive，确保隐私和安全。",
       "keywords": [
-        "客户展示",
         "Google Drive",
-        "照片画廊"
+        "客户画廊",
+        "照片分享",
+        "隐私保护",
+        "设计作品集",
+        "文件管理"
       ],
       "metrics": {
         "votes": 85,
@@ -1165,11 +1222,14 @@
       "id": "1158366",
       "name": "Overline",
       "tagline": "任何浏览器视频的真实时间 AI 字幕和翻译",
-      "description": "Overline 是一款 Chrome 扩展，为任何浏览器视频添加实时 AI 字幕和现场翻译，无需字幕文件，无需切换标签页。适用于 YouTube、Netflix、Twitch、Zoom 或任何标签页。亚秒级延迟。翻译可选且按会话进行。无页面注入，无文件上传，纯实时音频流。",
+      "description": "Overline 是一款 Chrome 扩展，为任何浏览器视频添加实时 AI 字幕和现场翻译，无需字幕文件，无需切换标签页。适用于 YouTube、Netflix、Twitch、Zoom 等。亚秒级延迟，翻译可选且按会话进行。无页面注入，无文件上传，纯实时音频流。",
       "keywords": [
-        "视频翻译",
+        "浏览器扩展",
+        "实时翻译",
+        "AI 字幕",
+        "视频无障碍",
         "Chrome 扩展",
-        "实时字幕"
+        "多语言"
       ],
       "metrics": {
         "votes": 83,

@@ -4,7 +4,7 @@
   "locale": "en-US",
   "date": "2026-06-02",
   "sourceTimezone": "America/Los_Angeles",
-  "generatedAt": "2026-06-06T07:44:48.183Z",
+  "generatedAt": "2026-06-06T09:58:29.072Z",
   "items": [
     {
       "rank": 1,
@@ -15,11 +15,14 @@
       "keywords": [
         "fundraising",
         "AI agent",
-        "investor matching"
+        "investor outreach",
+        "startup funding",
+        "networking",
+        "sales automation"
       ],
       "metrics": {
-        "votes": 1099,
-        "comments": 270
+        "votes": 1100,
+        "comments": 271
       },
       "links": {
         "homepage": "https://www.producthunt.com/r/SH5BHT7UOKB2F5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
@@ -76,7 +79,10 @@
       "keywords": [
         "AI collaboration",
         "developer tools",
-        "team workspace"
+        "team productivity",
+        "coding agents",
+        "workflow automation",
+        "software development"
       ],
       "metrics": {
         "votes": 453,
@@ -152,7 +158,10 @@
       "keywords": [
         "sales enablement",
         "customer success",
-        "no-code builder"
+        "AI builder",
+        "API integration",
+        "product customization",
+        "SaaS"
       ],
       "metrics": {
         "votes": 295,
@@ -213,7 +222,10 @@
       "keywords": [
         "crypto trading",
         "AI trading",
-        "ChatGPT integration"
+        "ChatGPT integration",
+        "financial markets",
+        "blockchain",
+        "investment tools"
       ],
       "metrics": {
         "votes": 277,
@@ -284,7 +296,10 @@
       "keywords": [
         "product management",
         "AI context",
-        "product-market fit"
+        "product-market fit",
+        "documentation",
+        "MCP",
+        "team alignment"
       ],
       "metrics": {
         "votes": 250,
@@ -360,7 +375,10 @@
       "keywords": [
         "clipboard manager",
         "productivity",
-        "AI tools"
+        "AI tools",
+        "developer utilities",
+        "privacy",
+        "snippet management"
       ],
       "metrics": {
         "votes": 223,
@@ -414,9 +432,12 @@
       "tagline": "Chrome extension that replaces \"AI\" with 💩",
       "description": "The Mac app started as a dumb question: can you use font ligatures to turn AI into 💩? Turns out yes. Ironically, I used AI to figure out how. The Chrome extension came after — web fonts don't always cooperate. So mostly this is me poking fun. It's also a small nudge to be a little more mindful of the din around AI. Starting, apparently, with your font files.",
       "keywords": [
+        "browser extension",
+        "humor",
+        "AI satire",
         "chrome extension",
-        "fun",
-        "AI satire"
+        "web design",
+        "fun tools"
       ],
       "metrics": {
         "votes": 146,
@@ -472,7 +493,10 @@
       "keywords": [
         "macOS app",
         "pet friendly",
-        "keyboard lock"
+        "keyboard lock",
+        "productivity",
+        "open source",
+        "cat lovers"
       ],
       "metrics": {
         "votes": 145,
@@ -513,7 +537,10 @@
       "keywords": [
         "video editing",
         "AI video",
-        "content creation"
+        "content creation",
+        "multimodal AI",
+        "video search",
+        "media production"
       ],
       "metrics": {
         "votes": 134,
@@ -562,9 +589,12 @@
       "tagline": "Use iPhone to open apps, Apple Shortcuts and websites on Mac",
       "description": "Think beyond the keyboard, trackpad, and mouse: choclift is the third interface for interacting with your Mac. It turns your iPhone into a customizable chocolate bar that lets you instantly switch between favorite and recent Mac apps, trigger Apple Shortcuts without any detours, and use website bookmarks like never before. With a strong focus on product design and user experience, we're just getting started on building the quickest and sweetest way to work with your Mac.",
       "keywords": [
-        "iPhone integration",
-        "Mac productivity",
-        "Apple Shortcuts"
+        "iPhone Mac integration",
+        "productivity",
+        "Apple Shortcuts",
+        "hardware interface",
+        "workflow",
+        "Apple ecosystem"
       ],
       "metrics": {
         "votes": 125,
@@ -625,7 +655,10 @@
       "keywords": [
         "branding",
         "logo design",
-        "AI design"
+        "AI design",
+        "brand identity",
+        "graphic design",
+        "marketing tools"
       ],
       "metrics": {
         "votes": 119,
@@ -695,8 +728,11 @@
       "description": "GlowPulse measures your heart rate from your Mac's built-in camera using rPPG – no watch, no chest strap, no wearable. Lives in the menu bar with live BPM, sparkline, and color-coded zones. 100% on-device. Camera frames are processed in memory and discarded. No cloud, no account, no telemetry. Pomodoro focus with live HR chart. Breathing sessions with real-time HRV. 30-second stress check. $2.99 once. macOS 13+.",
       "keywords": [
         "health tech",
-        "macOS utility",
-        "heart rate monitor"
+        "macOS app",
+        "heart rate monitor",
+        "privacy",
+        "wellness",
+        "on-device AI"
       ],
       "metrics": {
         "votes": 107,
@@ -755,9 +791,12 @@
       "tagline": "Build, manage, and ship customer messaging from Slack",
       "description": "Knock is the agent-led customer engagement platform for managing all the messages your users receive across channels. After connecting Knock to Slack, simply tag @Knock in any channel, describe what you want, and let the agent work in the background to build campaigns, draft messaging, and update lifecycle workflows. The agent gathers the context from your account, posts progress updates in the thread as it works, and provides a link to the resource when it's ready to review.",
       "keywords": [
-        "customer engagement",
         "Slack integration",
-        "marketing automation"
+        "customer engagement",
+        "AI agent",
+        "marketing automation",
+        "customer support",
+        "workflow automation"
       ],
       "metrics": {
         "votes": 102,
@@ -807,8 +846,11 @@
       "description": "Trovelo is a private trip planner for iPhone and Mac — no accounts, no servers, no subscription. Built by a solo traveler with 40+ countries of experience frustrated with every existing app. Plan day by day with smart cards, type naturally and the app figures it out, track expenses in dual currency, optimize your route, and sync privately via iCloud. One-time $6.99 Pro. Yours forever.",
       "keywords": [
         "travel planning",
-        "privacy focused",
-        "offline app"
+        "privacy",
+        "iPhone app",
+        "Mac app",
+        "itinerary",
+        "expense tracking"
       ],
       "metrics": {
         "votes": 100,
@@ -879,7 +921,10 @@
       "keywords": [
         "user onboarding",
         "product adoption",
-        "no-code"
+        "AI copilot",
+        "no-code",
+        "user experience",
+        "SaaS analytics"
       ],
       "metrics": {
         "votes": 97,
@@ -935,7 +980,10 @@
       "keywords": [
         "screenshot search",
         "OCR",
-        "macOS utility"
+        "macOS app",
+        "local AI",
+        "productivity",
+        "image management"
       ],
       "metrics": {
         "votes": 94,
@@ -989,9 +1037,12 @@
       "tagline": "Living docs + MCP context for your GitHub repos ",
       "description": "Moxie Docs indexes your GitHub repo once, then puts that understanding where the work happens: repo context inside your AI agents over MCP, a searchable docs workspace, and PR checks that keep documentation honest.",
       "keywords": [
-        "developer tools",
+        "GitHub",
         "documentation",
-        "GitHub integration"
+        "MCP",
+        "developer tools",
+        "AI context",
+        "code management"
       ],
       "metrics": {
         "votes": 94,
@@ -1045,9 +1096,12 @@
       "tagline": "Unlock hidden App Store Connect analytics",
       "description": "App Store Connect only shows a fraction of the data Apple actually collects about your app. ConnectWizard unlocks all 100+ report types — both App Store data and on-device data from your users. Get started with pre-defined stats and pin the ones that matter to you, or dig into the raw data and build your own presets. If your app has a larger user base, you also get detailed framework usage data like how long Live Activities are used or which Shortcuts run or fail.",
       "keywords": [
-        "App Store Analytics",
+        "App Store Connect",
+        "analytics",
         "iOS development",
-        "data insights"
+        "data insights",
+        "mobile app",
+        "developer tools"
       ],
       "metrics": {
         "votes": 91,
@@ -1106,9 +1160,12 @@
       "tagline": "Turn your Google Drive into a stunning client gallery",
       "description": "Galleroo turns any Google Drive folder into a beautiful, password-protected client gallery in under 60 seconds. No re-uploading, no account needed for clients, and your photos never leave your Drive.",
       "keywords": [
-        "client presentation",
         "Google Drive",
-        "photo gallery"
+        "client gallery",
+        "photo sharing",
+        "privacy",
+        "design portfolio",
+        "file management"
       ],
       "metrics": {
         "votes": 85,
@@ -1167,9 +1224,12 @@
       "tagline": "Real-time AI captions and translation for any browser video",
       "description": "Overline is a Chrome extension that adds real-time AI captions and live translation on top of any browser video, no subtitles needed, no tab switching. Works on YouTube, Netflix, Twitch, Zoom, or any tab. Sub-second latency. Translation is optional and per-session. No page injection, no file uploads, pure live audio streaming.",
       "keywords": [
-        "video translation",
-        "chrome extension",
-        "live captions"
+        "browser extension",
+        "live translation",
+        "AI captions",
+        "video accessibility",
+        "Chrome extension",
+        "multilingual"
       ],
       "metrics": {
         "votes": 83,
