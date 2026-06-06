@@ -4,20 +4,20 @@
   "locale": "zh-CN",
   "date": "2026-06-03",
   "sourceTimezone": "America/Los_Angeles",
-  "generatedAt": "2026-06-06T07:49:04.800Z",
+  "generatedAt": "2026-06-06T10:00:05.903Z",
   "items": [
     {
       "rank": 1,
       "id": "1149728",
       "name": "Elentaria",
-      "tagline": "您的GTM战略：从诊断到执行",
-      "description": "Elentaria是面向B2B的AI运营专家：它分析您的业务，对22个渠道进行评分，制定符合您需求的计划，并学习哪些策略推动了收入增长，从而让下周的策略更加精准。每周都在您的技术栈上，以您的声音进行运作。",
+      "tagline": "您的GTM策略：从诊断到执行",
+      "description": "Elentaria是面向B2B的AI运营专家：它分析您的业务，对22个渠道进行评分，制定适合您的计划，并学习哪些因素推动了收入增长，以便让下周的策略更加精准。每周，它都在您的技术栈上，以您的声音工作。",
       "keywords": [
         "B2B",
-        "Go-To-Market",
+        "Go-to-Market",
         "AI运营",
         "收入增长",
-        "渠道分析"
+        "营销渠道"
       ],
       "metrics": {
         "votes": 534,
@@ -89,16 +89,16 @@
       "id": "1159756",
       "name": "InsForge Backend Branching",
       "tagline": "后端开发的Git风格分支管理",
-      "description": "为您的整个后端提供Git风格的分支管理。创建一个分支即可获得完整的隔离副本：包括数据库、存储、身份验证、边缘函数等，准备好供您的AI代理进行实验，而不会影响生产环境。",
+      "description": "为您的整个后端提供Git风格的分支管理。创建一个分支即可获得完整、隔离的副本：包括数据库、存储、身份验证、边缘函数等，让您的AI代理可以在不触碰生产环境的情况下进行实验。",
       "keywords": [
         "后端开发",
         "Git分支",
-        "隔离环境",
         "AI代理",
-        "开发工作流"
+        "开发环境",
+        "环境隔离"
       ],
       "metrics": {
-        "votes": 532,
+        "votes": 533,
         "comments": 184
       },
       "links": {
@@ -151,17 +151,17 @@
       "rank": 3,
       "id": "1161070",
       "name": "superlog",
-      "tagline": "让您的产品无Bug",
-      "description": "Superlog是一款开源自主可观测性工具。它自动安装并修复发现的Bug。只需一个提示，它就能用OpenTelemetry对您的代码库进行仪器化并保持更新。当出现问题时，它将嘈杂的问题归并为单一事件，并在Slack中发布一个可合并的PR。与Datadog或Sentry不同，无需设置，无警报疲劳，无需手动修复。您的遥测数据保持供应商中立，让您完全掌控数据。",
+      "tagline": "让您的产品零Bug",
+      "description": "Superlog是一款开源的自主可观测性工具。它自动安装并修复发现的Bug。只需一个提示，它就能用OpenTelemetry对您的代码库进行仪器化并保持更新。当出现问题时，它将嘈杂的问题归并为单一事件，并在Slack中发布一个可合并的PR。与Datadog或Sentry不同，无需设置，无警报疲劳，无需手动修复。您的遥测数据保持供应商中立，让您完全掌控数据。",
       "keywords": [
         "可观测性",
         "开源",
         "自动修复",
         "OpenTelemetry",
-        "自主运维"
+        "运维开发"
       ],
       "metrics": {
-        "votes": 443,
+        "votes": 444,
         "comments": 79
       },
       "links": {
@@ -214,8 +214,8 @@
       "rank": 4,
       "id": "1160971",
       "name": "Franz 6",
-      "tagline": "所有通讯应用集成在一个窗口中——支持隐私AI",
-      "description": "WhatsApp、Slack、Signal、Telegram、Gmail、Outlook等75+服务集成在一个快速的桌面应用中，不再需要切换十个浏览器标签。Franz 6内置AI助手，可总结长聊天、转录语音笔记、分类收件箱并起草回复——所有处理均在本地完成，确保对话隐私（可选欧盟托管云）。下载量超100万，免费，跨平台，维也纳制造。荣获2016年Product Hunt金猫奖年度桌面应用。",
+      "tagline": "所有即时通讯应用集成在一个窗口中——具备隐私AI功能",
+      "description": "WhatsApp、Slack、Signal、Telegram、Gmail、Outlook等75+服务集成在一个快速的桌面应用中——不再需要切换十个浏览器标签。Franz 6内置AI助手，可总结长聊天、转录语音笔记、分类收件箱并起草回复——所有处理均在本地完成，确保对话隐私（可选欧盟托管云服务）。下载量超100万。免费，跨平台，维也纳制造。荣获2016年Product Hunt金猫奖年度桌面应用。",
       "keywords": [
         "即时通讯",
         "效率工具",
@@ -225,7 +225,7 @@
       ],
       "metrics": {
         "votes": 255,
-        "comments": 24
+        "comments": 25
       },
       "links": {
         "homepage": "https://www.producthunt.com/r/FS4OANAZV3TTIP?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
@@ -273,12 +273,12 @@
       "id": "1162051",
       "name": "Replicas",
       "tagline": "在云端运行Claude Code和Codex",
-      "description": "随时随地运行后台编码代理。在VM中启动Claude Code或Codex，代码和工具已就绪。从Slack、Linear或GitHub交接任务，Replicas在云端运行Claude Code、Codex或任何编码代理。代理在具有真实开发环境的隔离VM中运行，您可以自带订阅和API密钥。从Slack、Linear或GitHub触发任务，回来时即可看到准备好审查的PR。",
+      "description": "随时随地运行后台编码代理。在VM中启动Claude Code或Codex，代码和工具已准备就绪。通过Slack、Linear或GitHub移交任务。Replicas在云端运行Claude Code、Codex或任何编码代理。代理在具有真实开发环境的隔离VM中运行，您可以自带订阅和API密钥。从Slack、Linear或GitHub触发任务，回来时即可审查PR。",
       "keywords": [
-        "云端编码",
-        "AI代理",
+        "编码代理",
+        "云计算",
         "Claude Code",
-        "DevOps",
+        "开发者工具",
         "自动化"
       ],
       "metrics": {
@@ -351,10 +351,10 @@
       "id": "1161963",
       "name": "Hermes Desktop",
       "tagline": "与您共同成长的AI代理",
-      "description": "Hermes Desktop——这款开源AI代理与您共同成长，现已推出macOS、Windows和Linux的原生应用。由Nous Research开发。",
+      "description": "Hermes Desktop——这款开源AI代理与您共同成长，现已成为macOS、Windows和Linux的原生应用。由Nous Research开发。",
       "keywords": [
-        "开源",
         "AI代理",
+        "开源",
         "桌面应用",
         "Nous Research",
         "跨平台"
@@ -404,12 +404,12 @@
       "id": "1119517",
       "name": "Spectron",
       "tagline": "值得信赖的代理记忆",
-      "description": "Spectron是基于单一ACID底层的代理记忆系统。图、向量、文档和结构化行在一个事务中提交。每个事实都带有来源证明。修正覆盖而非覆盖旧数据。混合检索融合向量、图、BM25和关键词。追踪反馈用于排名。支持三时态事实、多租户范围和MCP。无需拼接存储，无需同步管道。",
+      "description": "Spectron是基于单一ACID底层的代理记忆系统。图、向量、文档和结构化行在一个事务中提交。每个事实都带有来源证明。更正覆盖而非覆盖旧数据。混合检索融合向量、图、BM25和关键词。追踪反馈回排名。三重时间事实、多租户范围和MCP支持。无拼接存储，无同步管道。",
       "keywords": [
         "代理记忆",
         "ACID事务",
+        "向量数据库",
         "图数据库",
-        "向量搜索",
         "数据完整性"
       ],
       "metrics": {
@@ -467,13 +467,13 @@
       "id": "1158294",
       "name": "Walkable",
       "tagline": "安全第一的步行导航，选择最安全的路线",
-      "description": "安全第一的步行导航。厌倦了地图为了节省3分钟而让您穿过黑暗或空旷的街道吗？Walkable使用Walkable评分实时显示最安全的路线，考虑照明、人流、一天中的时间以及实时安全信号（包括犯罪活动数据）。在“最安全”、“平衡”或“最快”路线之间选择，然后自信地行走。专为女性、家长和拒绝以安全换取速度的旅行者设计。",
+      "description": "安全第一的步行导航。厌倦了地图为了节省3分钟而让您穿过黑暗或空旷的街道吗？Walkable实时显示最安全的路线，使用考虑照明、人流、一天中的时间和实时安全信号（包括犯罪活动数据）的Walkable评分。在“最安全”、“平衡”或“最快”路线之间选择，然后自信地行走。专为拒绝用安全换取速度的女性、家长和旅行者设计。",
       "keywords": [
         "安全",
         "导航",
         "步行",
-        "实时数据",
-        "旅行"
+        "人身安全",
+        "实时数据"
       ],
       "metrics": {
         "votes": 155,
@@ -535,13 +535,13 @@
       "id": "1160559",
       "name": "Uselink",
       "tagline": "托管HTML，分享链接，获取评论",
-      "description": "uselink将任何HTML或Markdown转化为您控制的干净链接。粘贴文档，获得带有您域名的URL，决定谁可以阅读和评论。读者无需账户即可在线程中回复，这是Google Docs和Notion无法做到的。交互式HTML实际运行。添加密码、过期时间或查看限制，并保留每个版本。本次发布新功能：可视化编辑器，无需代码即可编辑实时页面，以及MCP服务器，使Claude、Cursor或n8n可以为您发布。",
+      "description": "uselink将任何HTML或Markdown转化为您控制的干净链接。粘贴文档，获得以您的句柄为域名的URL，决定谁可以阅读和评论。读者无需账户即可在线程中回复，这是Google Docs和Notion无法做到的。交互式HTML实际运行。添加密码、过期时间或查看限制，并保留每个版本。本次发布新功能：无需代码的可视化编辑器，以及MCP服务器，让Claude、Cursor或n8n可以为您发布。",
       "keywords": [
         "HTML托管",
         "协作",
         "Markdown",
         "无代码",
-        "反馈"
+        "MCP协议"
       ],
       "metrics": {
         "votes": 154,
@@ -607,8 +607,8 @@
       "rank": 10,
       "id": "1161965",
       "name": "Town",
-      "tagline": "了解您工作方式的助手，然后开始工作",
-      "description": "Town是不寻常有帮助的AI助手。它学习您的工作方式，而不是反过来：您的声音、您的团队、您的模式。它在您工作的地方工作，跨越电子邮件、日历、文档和消息。它起草您的回复，处理您的日程安排，并为重复的工作建立例行程序。它学习得越多，自动执行的工作就越多，让您的时间投入到只有您能完成的工作中。",
+      "tagline": "学习您的工作方式，然后开始工作的助手",
+      "description": "Town是异常有帮助的AI助手。它学习您的工作方式，而不是反过来：您的声音、您的同事、您的模式。它在您工作的地方工作，跨越电子邮件、日历、文档和消息。它起草您的回复，处理您的日程安排，并为您的重复性工作建立例行程序。它学得越多，自动完成的工作就越多，让您的时间投入到只有您能完成的工作中。",
       "keywords": [
         "AI助手",
         "效率工具",
@@ -665,14 +665,14 @@
       "rank": 11,
       "id": "1161388",
       "name": "Brand Context API",
-      "tagline": "确保AI输出符合品牌调性",
-      "description": "Brand Context API通过一次调用返回公司的品牌身份：语气、使命、产品、受众。利用这些结构化数据，您的产品从第一个提示开始就能生成符合品牌基调的输出。",
+      "tagline": "让AI保持品牌一致性",
+      "description": "Brand Context API通过一次调用返回公司的品牌身份：语气、使命、产品、受众。通过这种结构化数据，您的产品从第一个提示开始就能生成符合品牌基调的输出。",
       "keywords": [
         "品牌身份",
         "AI集成",
         "上下文API",
-        "一致性",
-        "营销"
+        "营销",
+        "一致性"
       ],
       "metrics": {
         "votes": 122,
@@ -723,8 +723,8 @@
       "rank": 12,
       "id": "1162181",
       "name": "Composer",
-      "tagline": "为您、您的团队和您的代理提供的多人Markdown编辑器",
-      "description": "Composer是一个实时的多人Markdown编辑器，人和代理可以并肩工作。即时分享由您的代理生成的Markdown，与团队成员实时编辑，留下评论、建议，并共享上下文。您的代理作为真正的协作者加入，直接与您的团队一起工作。",
+      "tagline": "为您、您的团队和您的代理提供多人协作Markdown",
+      "description": "Composer是一个实时的多人Markdown编辑器，人和代理可以并肩工作。即时共享由您的代理生成的Markdown，与队友实时编辑，留下评论、建议，并共享上下文。您的代理作为真正的协作者加入，直接与您和您的团队一起工作。",
       "keywords": [
         "协作",
         "Markdown",
@@ -780,10 +780,10 @@
       "description": "从统一界面管理本地和云端代理集群。规划、委派、审查和发布，无需离开您的编辑器。",
       "keywords": [
         "代理管理",
-        "DevOps",
-        "自动化",
-        "IDE集成",
-        "云端"
+        "运维开发",
+        "云端",
+        "本地",
+        "工作流"
       ],
       "metrics": {
         "votes": 113,
@@ -835,7 +835,7 @@
       "id": "1161835",
       "name": "FolderPlus",
       "tagline": "无需打开即可预览任何文件夹",
-      "description": "以Quick Look本应工作的方式预览文件夹和归档文件。FolderPlus通过丰富、即时的文件夹和压缩归档文件预览功能，增强了Mac的Quick Look。只需在任意文件夹或ZIP文件上按空格键，即可立即看到内部内容——无需点击，无需等待，无需解压。这是Quick Look一直缺失的功能，原生为macOS构建，旨在融入您的日常工作流。",
+      "description": "以Quick Look本应工作的方式预览文件夹和归档文件。FolderPlus通过丰富、即时的文件夹和压缩归档预览功能，增强了Mac的Quick Look。只需在任何文件夹或ZIP文件上按空格键，即可立即看到内部内容——无需点击，无需等待，无需解压。这是Quick Look一直缺失的功能，原生构建于macOS，旨在融入您的日常工作流。",
       "keywords": [
         "macOS",
         "文件预览",
@@ -898,13 +898,13 @@
       "id": "1162093",
       "name": "Dropstone 1.5",
       "tagline": "每月15美元，使用量是Claude Code Pro的两倍",
-      "description": "Dropstone 1.5是我们的月度重新基线发布。我们每月测试顶级AI编码模型，并在获胜者身上重建运行时。本月：DeepSeek V4 Flash、V4 Pro和Moonshot Kimi K2.6均托管在美国，我们的侧不存储任何数据。每月15美元可获得约每周450次深度编码会话。大约是Claude Code Pro在20美元时提供量的两倍。完整技术报告包含成本数学和基准测试：blankline.org/research/dropstone-1-5",
+      "description": "Dropstone 1.5是我们的月度重新基线版本。我们每月测试顶级AI编码模型，并在获胜者身上重建运行时。本月：DeepSeek V4 Flash、V4 Pro和Moonshot Kimi K2.6均托管在美国，我们这边不存储任何数据。每月15美元可获得每周约450次深度编码会话。大约是Claude Code Pro在20美元时提供量的两倍。完整技术报告包含成本数学和基准测试：blankline.org/research/dropstone-1-5",
       "keywords": [
         "AI编码",
         "高性价比",
         "DeepSeek",
-        "云端IDE",
-        "基准测试"
+        "Moonshot",
+        "开发者工具"
       ],
       "metrics": {
         "votes": 102,
@@ -956,7 +956,7 @@
       "id": "1161524",
       "name": "Forward",
       "tagline": "一条命令将您的API安装到客户的代码库中",
-      "description": "Forward是一款AI向前部署工程师，它将您的API直接集成到客户的代码库中。用户无需阅读50页的文档，只需运行一条命令。Forward分析他们的代码库，在新分支上编写集成代码，运行测试，并打开PR供审查。专为API和SDK公司构建，以消除注册和首次成功调用之间的流失。它学习您的风格，并通过构建验证确保安全——同时为用户节省数小时的手动接线时间。",
+      "description": "Forward是一款AI前向部署工程师，直接将您的API集成到客户的代码库中。用户无需阅读50页的文档，只需运行一条命令。Forward分析他们的代码库，在新分支上编写集成代码，运行测试，并打开PR供审查。专为API和SDK公司打造，旨在消除注册和首次成功调用之间的流失。它学习您的风格，并通过构建验证确保安全——同时节省用户数小时的手动接线时间。",
       "keywords": [
         "API集成",
         "开发者体验",
@@ -1027,10 +1027,10 @@
       "description": "Carbone是一款通用文档生成引擎：向其提供模板文件和JSON文件，它即可大规模生成像素完美的文档。Carbone Skill教给Claude或ChatGPT等AI助手整个Carbone模板语言。用自然语言描述您的需求，您的AI将编写正确的Carbone语法，在DOCX、XLSX、PPTX、HTML或PDF中构建模板，并在您大规模渲染前自动验证标签。",
       "keywords": [
         "文档生成",
-        "AI模板",
+        "模板",
+        "AI集成",
         "自动化",
-        "PDF",
-        "开发者工具"
+        "Carbone"
       ],
       "metrics": {
         "votes": 100,
@@ -1086,13 +1086,13 @@
       "rank": 18,
       "id": "1161523",
       "name": "RadianceKit",
-      "tagline": "在Mac上将照片转换为3D高斯溅射",
-      "description": "RadianceKit是首款原生macOS 3D高斯溅射应用。拖入任何物体或场景的照片或视频——它对齐相机，训练模型，并在您的Mac GPU上本地渲染出照片级真实的3D重建。无需Python，无需CUDA，无需云端。简单模式一键出结果，场景类预设（渲染/户外/室内），以及完整的专家控制。导出6种格式，轨道视频和网络查看器。M1+芯片，一次性购买7.99美元，3天试用。",
+      "tagline": "在Mac上将照片转换为3D高斯泼溅",
+      "description": "RadianceKit是首款原生macOS 3D高斯泼溅应用。拖入任何物体或场景的照片或视频——它对齐相机，训练模型，并在您的Mac GPU上本地渲染逼真的3D重建。无需Python，无需CUDA，无需云端。简单模式一键出结果，场景类预设（渲染/户外/室内）和完整的专家控制。导出至6种格式，轨道视频和Web查看器。M1及以上，一次性付费7.99美元，3天试用。",
       "keywords": [
-        "3D重建",
+        "3D建模",
         "macOS",
-        "高斯溅射",
-        "计算机视觉",
+        "高斯泼溅",
+        "摄影测量",
         "本地处理"
       ],
       "metrics": {
@@ -1139,14 +1139,14 @@
       "rank": 19,
       "id": "1161519",
       "name": "Handler",
-      "tagline": "在生成时像堆叠PR一样审查AI编辑",
-      "description": "代理提出的每个编辑都附带内置解释及其专属聊天。询问原因、影响范围，或要求重做。这一切都不会干扰主代理的工作。",
+      "tagline": "在生成时像堆叠PR一样审查AI编辑。",
+      "description": "代理提出的每个编辑都附带内置解释及其专属聊天。询问原因、影响范围，或让它重新做。这一切都不会干扰主代理的工作。",
       "keywords": [
         "代码审查",
         "AI编辑",
         "开发者工具",
-        "透明度",
-        "工作流"
+        "协作",
+        "透明度"
       ],
       "metrics": {
         "votes": 95,
@@ -1193,12 +1193,12 @@
       "id": "1161669",
       "name": "TaskGPT ",
       "tagline": "MacOS语音代理",
-      "description": "用语音控制您的Mac。使用存储在本地机器上的OpenAPI/Anthropic API密钥，我们不拥有服务器，也不保留任何数据。",
+      "description": "用语音控制您的Mac。使用存储在您机器上的OpenAPI/Anthropic API密钥，我们不拥有服务器，也不保留任何您的数据。",
       "keywords": [
         "语音控制",
         "macOS",
         "隐私",
-        "AI助手",
+        "AI代理",
         "本地处理"
       ],
       "metrics": {

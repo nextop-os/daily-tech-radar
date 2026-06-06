@@ -4,7 +4,7 @@
   "locale": "en-US",
   "date": "2026-06-03",
   "sourceTimezone": "America/Los_Angeles",
-  "generatedAt": "2026-06-06T07:49:04.800Z",
+  "generatedAt": "2026-06-06T10:00:05.903Z",
   "items": [
     {
       "rank": 1,
@@ -16,8 +16,8 @@
         "B2B",
         "GTM",
         "AI Operator",
-        "Revenue Growth",
-        "Channel Analysis"
+        "Revenue",
+        "Marketing Channels"
       ],
       "metrics": {
         "votes": 534,
@@ -93,12 +93,12 @@
       "keywords": [
         "Backend",
         "Git Branching",
-        "Isolated Environment",
         "AI Agents",
-        "Development Workflow"
+        "Development Environment",
+        "Isolation"
       ],
       "metrics": {
-        "votes": 532,
+        "votes": 533,
         "comments": 184
       },
       "links": {
@@ -158,10 +158,10 @@
         "Open Source",
         "Bug Fixing",
         "OpenTelemetry",
-        "Autonomous"
+        "DevOps"
       ],
       "metrics": {
-        "votes": 443,
+        "votes": 444,
         "comments": 79
       },
       "links": {
@@ -225,7 +225,7 @@
       ],
       "metrics": {
         "votes": 255,
-        "comments": 24
+        "comments": 25
       },
       "links": {
         "homepage": "https://www.producthunt.com/r/FS4OANAZV3TTIP?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
@@ -275,10 +275,10 @@
       "tagline": "Run Claude Code and Codex in the cloud",
       "description": "Run background coding agents from anywhere. Spawn Claude Code or Codex in a VM with code and tooling ready to go. Hand off tasks from Slack, Linear, or GitHub Replicas runs Claude Code, Codex, or any coding agent in the cloud. Agents run in isolated VMs with real dev environments, and you can bring your own subscriptions and API keys. Trigger tasks from Slack, Linear, or GitHub and come back to a PR ready to review.",
       "keywords": [
-        "Cloud Coding",
-        "AI Agents",
+        "Coding Agents",
+        "Cloud Computing",
         "Claude Code",
-        "DevOps",
+        "Developer Tools",
         "Automation"
       ],
       "metrics": {
@@ -353,11 +353,11 @@
       "tagline": "The agent that grows with you",
       "description": "Hermes Desktop — the open-source agent that grows with you, now a native app for macOS, Windows, and Linux. By Nous Research.",
       "keywords": [
-        "Open Source",
         "AI Agent",
+        "Open Source",
         "Desktop App",
         "Nous Research",
-        "Cross-Platform"
+        "Cross-platform"
       ],
       "metrics": {
         "votes": 210,
@@ -408,8 +408,8 @@
       "keywords": [
         "Agent Memory",
         "ACID",
+        "Vector Database",
         "Graph Database",
-        "Vector Search",
         "Data Integrity"
       ],
       "metrics": {
@@ -472,8 +472,8 @@
         "Safety",
         "Navigation",
         "Walking",
-        "Real-time Data",
-        "Travel"
+        "Personal Safety",
+        "Real-time Data"
       ],
       "metrics": {
         "votes": 155,
@@ -540,8 +540,8 @@
         "HTML Hosting",
         "Collaboration",
         "Markdown",
-        "No Code",
-        "Feedback"
+        "No-code",
+        "MCP"
       ],
       "metrics": {
         "votes": 154,
@@ -671,8 +671,8 @@
         "Brand Identity",
         "AI Integration",
         "Context API",
-        "Consistency",
-        "Marketing"
+        "Marketing",
+        "Consistency"
       ],
       "metrics": {
         "votes": 122,
@@ -781,9 +781,9 @@
       "keywords": [
         "Agent Management",
         "DevOps",
-        "Automation",
-        "IDE Integration",
-        "Cloud"
+        "Cloud",
+        "Local",
+        "Workflow"
       ],
       "metrics": {
         "votes": 113,
@@ -903,8 +903,8 @@
         "AI Coding",
         "Cost Effective",
         "DeepSeek",
-        "Cloud IDE",
-        "Benchmark"
+        "Moonshot",
+        "Developer Tools"
       ],
       "metrics": {
         "votes": 102,
@@ -1027,10 +1027,10 @@
       "description": "Carbone is a universal document-generation engine: feed it a template file and JSON file, and it produces pixel-perfect documents at scale. The Carbone Skill teaches AI assistants like Claude or ChatGPT the entire Carbone templating language. Describe what you want in plain language and your AI writes correct Carbone syntax, builds templates in DOCX, XLSX, PPTX, HTML or PDF, and validates tags before you render automatically at scale.",
       "keywords": [
         "Document Generation",
-        "AI Templating",
+        "Templates",
+        "AI Integration",
         "Automation",
-        "PDF",
-        "Developer Tools"
+        "Carbone"
       ],
       "metrics": {
         "votes": 100,
@@ -1089,10 +1089,10 @@
       "tagline": "Turn photos into 3D Gaussian Splats on your Mac",
       "description": "RadianceKit is the first native macOS app for 3D Gaussian Splatting. Drop in photos or video of any object or scene — it aligns the cameras, trains the model, and renders a photorealistic 3D reconstruction, all locally on your Mac's GPU. No Python, no CUDA, no cloud. Simple Mode for one-click results, Scene-Class Presets (Render/Outdoor/Indoor), and full Expert control. Export to 6 formats, orbit videos, and web viewers. M1+, $7.99 one-time, 3-day trial.",
       "keywords": [
-        "3D Reconstruction",
+        "3D Modeling",
         "macOS",
         "Gaussian Splatting",
-        "Computer Vision",
+        "Photogrammetry",
         "Local Processing"
       ],
       "metrics": {
@@ -1145,8 +1145,8 @@
         "Code Review",
         "AI Editing",
         "Developer Tools",
-        "Transparency",
-        "Workflow"
+        "Collaboration",
+        "Transparency"
       ],
       "metrics": {
         "votes": 95,
@@ -1198,7 +1198,7 @@
         "Voice Control",
         "MacOS",
         "Privacy",
-        "AI Assistant",
+        "AI Agent",
         "Local Processing"
       ],
       "metrics": {
