@@ -230,8 +230,14 @@ describe("GitHub package generation", () => {
     expect(capturedPrompt).toContain("Raw Logs & Files");
     expect(capturedPrompt).toContain("Focused Context");
     expect(capturedPrompt).toContain("Must visibly include");
+    expect(capturedPrompt).toContain("infer the actual product or tool");
+    expect(capturedPrompt).toContain("Render the most likely product UI or usage surface");
+    expect(capturedPrompt).toContain("browser extension popup");
+    expect(capturedPrompt).toContain("editor panel");
+    expect(capturedPrompt).toContain("agent chat");
+    expect(capturedPrompt).toContain("Use product-specific interface details");
     expect(capturedPrompt).toContain("the repo title must be the largest readable text");
-    expect(capturedPrompt).toContain("Only the repo title, capability headline, section labels, and benefit tags may contain text");
+    expect(capturedPrompt).toContain("Only the repo title, capability headline, section labels, benefit tags, and essential UI labels may contain text");
     expect(capturedPrompt).not.toContain("repo name, GitHub logo");
     expect(capturedPrompt).toContain("No extra labels and no gibberish microtext");
   });
