@@ -11,19 +11,20 @@ import { dailyTrendFeedSchema } from "../src/schemas.js";
 import fixture from "./fixtures/producthunt-posts.json" assert { type: "json" };
 
 describe("Product Hunt generation", () => {
-  it("computes the last completed Product Hunt day in Pacific time", () => {
+  it("computes the last completed Product Hunt day in UTC", () => {
     expect(lastCompletedProductHuntDate(new Date("2026-06-06T08:20:00Z"))).toBe("2026-06-05");
     expect(lastCompletedProductHuntDate(new Date("2026-12-06T09:20:00Z"))).toBe("2026-12-05");
+    expect(lastCompletedProductHuntDate(new Date("2026-06-08T03:45:00Z"))).toBe("2026-06-07");
   });
 
-  it("builds PST/PDT day windows", () => {
+  it("builds UTC day windows", () => {
     expect(productHuntDayWindow("2026-06-05")).toEqual({
-      postedAfter: "2026-06-05T07:00:00.000Z",
-      postedBefore: "2026-06-06T07:00:00.000Z"
+      postedAfter: "2026-06-05T00:00:00.000Z",
+      postedBefore: "2026-06-06T00:00:00.000Z"
     });
     expect(productHuntDayWindow("2026-12-05")).toEqual({
-      postedAfter: "2026-12-05T08:00:00.000Z",
-      postedBefore: "2026-12-06T08:00:00.000Z"
+      postedAfter: "2026-12-05T00:00:00.000Z",
+      postedBefore: "2026-12-06T00:00:00.000Z"
     });
   });
 

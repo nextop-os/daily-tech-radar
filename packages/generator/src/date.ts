@@ -1,6 +1,6 @@
 import { DateTime } from "luxon";
 
-export const PRODUCT_HUNT_TIMEZONE = "America/Los_Angeles";
+export const PRODUCT_HUNT_TIMEZONE = "UTC";
 
 export function lastCompletedProductHuntDate(now = new Date()): string {
   return requireIso(
