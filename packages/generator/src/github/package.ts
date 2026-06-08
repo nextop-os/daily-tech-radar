@@ -673,7 +673,7 @@ function isSkippedImage(src: string, alt?: string | null): boolean {
 
 function resolveReadmeImageUrl(src: string, readmeRawUrl: string): string {
   if (/^https?:\/\//i.test(src)) {
-    return src;
+    return normalizeGitHubFileUrl(src);
   }
   if (src.startsWith("//")) {
     return `https:${src}`;
@@ -684,6 +684,29 @@ function resolveReadmeImageUrl(src: string, readmeRawUrl: string): string {
   const normalized = src.replace(/^\.\//, "");
   base.pathname = `${parts.join("/")}/${normalized}`;
   return base.toString();
+}
+
+function normalizeGitHubFileUrl(src: string): string {
+  try {
+    const url = new URL(src);
+    if (!["github.com", "www.github.com"].includes(url.hostname)) {
+      return src;
+    }
+
+    const [owner, repo, mode, branch, ...fileParts] = url.pathname
+      .split("/")
+      .filter(Boolean);
+    if (!owner || !repo || !branch || fileParts.length === 0) {
+      return src;
+    }
+    if (mode !== "blob" && mode !== "raw") {
+      return src;
+    }
+
+    return `https://raw.githubusercontent.com/${owner}/${repo}/${branch}/${fileParts.join("/")}`;
+  } catch {
+    return src;
+  }
 }
 
 function classify(candidate: CandidateRepo): { id: string; confidence: number; reasons: string[]; signals: string[] } {
