@@ -273,6 +273,7 @@ export function extractReadmeSummary(markdown: string): string | null {
     .replace(/!\[[^\]]*]\([^)]+\)/g, "\n")
     .replace(/\[[^\]]+]:\s+\S+.*$/gm, "\n");
 
+  const summaryParts: string[] = [];
   for (const paragraph of scrubbed.split(/\n{2,}/)) {
     const text = paragraph
       .replace(/<[^>]+>/g, " ")
@@ -285,10 +286,14 @@ export function extractReadmeSummary(markdown: string): string | null {
       .replace(/\s+/g, " ")
       .trim();
     if (isUsableSummary(text)) {
-      return text.slice(0, 280);
+      summaryParts.push(text);
+      const combined = summaryParts.join(" ");
+      if (combined.length >= 560) {
+        return combined.slice(0, 700);
+      }
     }
   }
-  return null;
+  return summaryParts.length > 0 ? summaryParts.join(" ").slice(0, 700) : null;
 }
 
 function isUsableSummary(value: string): boolean {
@@ -305,6 +310,9 @@ function isUsableSummary(value: string): boolean {
     return false;
   }
   if (/(shield|badge|release-img|test-img|license-img|go-report-img|docker-pulls|github-downloads)/i.test(value)) {
+    return false;
+  }
+  if (/(has moved|project has moved|moved from|bear with us|during the transition|links and references.*updated)/i.test(value)) {
     return false;
   }
   if (/^(https?:\/\/|www\.)/i.test(value)) {
@@ -376,6 +384,7 @@ function buildAgnesCoverPrompt(
   const workflow = workflowForCategory(categoryId);
   const visualMetaphor = visualMetaphorForRepo(candidate, summary);
   const visualScript = visualScriptForRepo(candidate, categoryId, summary);
+  const productBrief = productBriefForRepo(candidate, categoryId, summary, visualScript);
 
   return [
     "type: cartoon visual explainer infographic",
@@ -385,18 +394,26 @@ function buildAgnesCoverPrompt(
     `Category: ${categoryId}`,
     `Description: ${candidate.description}`,
     `README summary: ${summary ?? candidate.description}`,
+    `Meaning brief: Positioning "${productBrief.positioning}", Core Capability "${productBrief.coreCapability}", Standout "${productBrief.standout}", Best Fit "${productBrief.bestFit}".`,
+    `Visible text script: main title "${productBrief.title}", capability headline "${productBrief.capabilityHeadline}", feature chips "${productBrief.chips.join(" / ")}", panel headers "${productBrief.panels.join(" / ")}".`,
+    "Draw the visible text script as the primary text whenever possible. Optional fallback text is only a backup if the visible text script is missing or unclear.",
+    `Required visible title hierarchy: 1) exact main title "${candidate.owner}/${candidate.name}", 2) product-specific capability headline from the visible text script, 3) short feature chips or panel labels from the visible text script.`,
     `Functional story: ${workflow}.`,
     `Visual metaphor: ${visualMetaphor}.`,
-    `Fallback text hints if the repo text is ambiguous: capability headline "${visualScript.headline}", section labels "${visualScript.sections.join(" / ")}", benefit tags "${visualScript.benefits.join(" / ")}".`,
-    `Fallback visual hints if the repo text is ambiguous: ${visualScript.objects.join(", ")}.`,
+    `Optional fallback text hints only if the repo text is ambiguous: capability headline "${visualScript.headline}", section labels "${visualScript.sections.join(" / ")}", benefit tags "${visualScript.benefits.join(" / ")}".`,
+    `Optional fallback visual hints only if the repo text is ambiguous: ${visualScript.objects.join(", ")}.`,
     "Before drawing, infer the actual product or tool from the project name, description, and README summary. The image should feel like this specific repo's product, not a generic category poster.",
+    "Never use Category, Functional story, Visual metaphor, or optional fallback headline as the main title when Project and Description are available. Never use optional fallback section labels as the capability headline when the visible text script is available.",
     "Priority: the Description is the strongest signal for the product promise. README summary, category, functional story, visual metaphor, and required text script are supporting hints only; never let them override a clearer product promise in the Description.",
-    "The cover should foreground four meaning layers: project positioning, core capability, key differentiator or signal, and best-fit use case. These layers should be visually legible through a headline, short labels, feature chips, callouts, or UI panels.",
-    "Project positioning should answer what the repo is in one phrase. Core capability should answer what it does. Key differentiator should answer why it is notable. Best-fit use case should answer who should use it or when it is useful.",
-    "If the Description implies an offline, self-contained, portable, local-first, survival, emergency, field, or no-internet product, make that the main story: show a rugged offline device or local node with built-in tools, local archives/data, power/connectivity status, maps or field knowledge, and an AI assistant available without cloud access.",
-    "Create a better capability headline than the fallback when the Description provides one. For offline/self-contained survival tools, prefer headlines like Offline Survival Computer, Portable AI Field Node, Local Knowledge Kit, or another concise phrase that matches the repo.",
+    "The capability headline must be a product noun phrase from the repo promise, not a process label. Good patterns: Native Open Source AI Agent, Job Data API, Context Compression Tool, Visual AI Editor, Developer Automation CLI. Do not use section labels such as Task Input / Plan Tools / Execute as the headline.",
+    "Use an internal four-point product brief before drawing: Positioning, Core Capability, Standout, and Best Fit. Do not draw this as a bullet list; translate it into a repo title, capability headline, feature chips, callouts, and concrete UI panels.",
+    "The cover should foreground those four meaning layers. Positioning answers what the repo is in one phrase. Core Capability answers what it does. Standout answers why it is notable. Best Fit answers who should use it or when it is useful.",
+    "Only make offline, survival, emergency, field, or no-internet use the main story when the project text explicitly describes that kind of product. Local, native, self-hosted, portable, or runs-on-your-machine means the software runs close to the user; it does not mean a rugged survival device unless the repo says so.",
+    "Create a better capability headline than the fallback when the Description or README provides one. Prefer the repo's concrete product promise over generic category labels.",
     "Render the most likely product UI or usage surface implied by the repo: browser extension popup, editor panel, terminal session, canvas, agent chat, workflow builder, dashboard, API console, mobile app, document parser, database browser, or other concrete interface.",
-    "Make the repository identity obvious at thumbnail size: the repo title must be the largest readable text, and the capability headline must sit directly beneath it.",
+    "When the repo text names app surfaces, integrations, providers, extensions, APIs, data sources, platforms, or user workflows, render those as explicit feature chips, tabs, panels, or tool tiles so the specific capability is visible.",
+    "For AI agent products, show concrete agent surfaces: a task or prompt panel, tool/action tiles, model/provider chips, extension/plugin tiles, and a result panel. If the repo text mentions install, execute, edit, test, any LLM, desktop app, CLI, API, providers, or extensions, turn those exact capabilities into readable chips or panel labels.",
+    "Make the repository identity obvious at thumbnail size: use the exact Project value as the largest readable title, and put a capability headline directly beneath it.",
     "Choose an original layout that fits the repo. Do not copy a fixed input-center-output template and do not imitate any supplied reference image structure.",
     "Possible layouts: process flow, before-and-after comparison, modular feature map, architecture cutaway, hub-and-spoke capability map, layered stack, dashboard collage, pipeline journey, comic-style explanation panels, or another clear infographic composition.",
     "The poster should explain the specific repo: what problem it solves, what source material or user action starts it, what transformation happens, and what useful outcome appears. Use the repo title and capability headline to anchor that story.",
@@ -405,16 +422,82 @@ function buildAgnesCoverPrompt(
     "Use large icons, clean illustrations, charts, documents, app windows, database blocks, terminal cards, agent/tool nodes, arrows, callouts, numbered badges, or benefit cards as needed, but only if they clarify the function.",
     "Style: bright educational infographic poster, playful but professional, thick rounded strokes, glossy icons, white background, vibrant accent colors, high information density, crisp hierarchy, delightful small decorations.",
     "Typography: use the inferred positioning, capability, differentiator, and use-case labels as large readable labels. Keep every text element short, high-contrast, typo-free, and important to comprehension.",
+    "Text budget: exact repo title, one capability headline, 4 to 7 feature chips, and up to 3 panel headers. Each label should be short, no more than 4 words when possible.",
     "Only the repo title, capability headline, section labels, benefit tags, essential UI labels, and concise positioning/use-case callouts may contain text. Essential UI labels must be short, meaningful, and tied to the repo's capability; avoid fake filler text.",
-    "Avoid: GitHub logo, copied GitHub UI, README screenshot, long paragraphs, small body text, code snippets, lorem ipsum, fake UI microcopy, generic sci-fi cube, plain abstract gradient, mascot-only image, dark screenshot banner.",
+    "Logos or product marks are allowed when they make the repo identity clearer, but do not copy a GitHub repository page as the design.",
+    "Avoid: copied GitHub UI, README screenshot, long paragraphs, small body text, code snippets, lorem ipsum, fake UI microcopy, generic sci-fi cube, plain abstract gradient, mascot-only image, dark screenshot banner.",
     "No extra labels and no gibberish microtext. If text cannot be rendered cleanly, replace it with blank grey placeholder lines."
   ].join("\n");
+}
+
+function productBriefForRepo(
+  candidate: CandidateRepo,
+  categoryId: string,
+  summary: string | null | undefined,
+  visualScript: ReturnType<typeof visualScriptForRepo>
+) {
+  const text = `${candidate.name} ${candidate.description} ${summary ?? ""}`.toLowerCase();
+  const title = `${candidate.owner}/${candidate.name}`;
+
+  if (visualScript.headline === "AI Agent Workflow" && /(agent|llm|mcp|model|workflow|automation)/.test(text)) {
+    const capabilityParts = [
+      /\bnative\b|desktop app/.test(text) ? "Native" : null,
+      /open source/.test(text) ? "Open Source" : null,
+      "AI Agent"
+    ].filter(Boolean);
+    const surfaceChips = [
+      /desktop app|macos|windows|linux/.test(text) ? "Desktop" : null,
+      /\bcli\b|terminal/.test(text) ? "CLI" : null,
+      /\bapi\b/.test(text) ? "API" : null
+    ].filter(Boolean);
+    const actionChips = [
+      /install/.test(text) ? "Install" : null,
+      /execute/.test(text) ? "Execute" : null,
+      /edit/.test(text) || /test/.test(text) ? "Edit & Test" : null
+    ].filter(Boolean);
+    const chips = [
+      surfaceChips.length > 0 ? surfaceChips.join(" / ") : null,
+      /any llm|llm|provider|anthropic|openai|google|ollama/.test(text) ? "Any LLM" : null,
+      /mcp|extension|plugin/.test(text) ? "MCP Extensions" : null,
+      ...actionChips,
+      /research/.test(text) ? "Research" : null,
+      /automation/.test(text) ? "Automation" : null
+    ].filter(Boolean) as string[];
+
+    return {
+      bestFit: /research|writing|automation|data analysis/.test(text)
+        ? "code, research, automation, and data analysis"
+        : "developer workflows and automation",
+      capabilityHeadline: capabilityParts.join(" "),
+      chips: [...new Set(chips)].slice(0, 7),
+      coreCapability: /install|execute|edit|test/.test(text)
+        ? "install, execute, edit, and test with LLM tools"
+        : "plan and execute tasks with tools",
+      panels: ["Task", "Tools", "Result"],
+      positioning: /general-purpose/.test(text) ? "general-purpose local AI agent" : "AI agent for work",
+      standout: /provider|extension|mcp|any llm/.test(text)
+        ? "works with many LLM providers and extensions"
+        : "tool-using automation",
+      title
+    };
+  }
+
+  return {
+    bestFit: categoryId === "tools" ? "developer and operator workflows" : "teams evaluating open source tools",
+    capabilityHeadline: visualScript.headline,
+    chips: visualScript.benefits,
+    coreCapability: candidate.description,
+    panels: visualScript.sections,
+    positioning: `${categoryId} product or tool`,
+    standout: visualScript.benefits.join(", "),
+    title
+  };
 }
 
 function visualMetaphorForRepo(candidate: CandidateRepo, summary: string | null | undefined) {
   const text = `${candidate.name} ${candidate.description} ${summary ?? ""}`.toLowerCase();
 
-  if (/(compress|compression|context|rag|logs?|tool outputs?|chunks?)/.test(text)) {
+  if (/(compress|compression|rag|logs?|tool outputs?|chunks?)/.test(text)) {
     return "many documents, logs, files, and RAG chunks compress into a smaller focused context packet that feeds an AI agent answer panel";
   }
 
@@ -448,7 +531,7 @@ function visualMetaphorForRepo(candidate: CandidateRepo, summary: string | null 
 function visualScriptForRepo(candidate: CandidateRepo, categoryId: string, summary: string | null | undefined) {
   const text = `${candidate.name} ${candidate.description} ${summary ?? ""}`.toLowerCase();
 
-  if (/(compress|compression|context|rag|logs?|tool outputs?|chunks?)/.test(text)) {
+  if (/(compress|compression|rag|logs?|tool outputs?|chunks?)/.test(text)) {
     return {
       benefits: ["Less Tokens", "Agent Ready", "Better Answers"],
       headline: "Context Compression",

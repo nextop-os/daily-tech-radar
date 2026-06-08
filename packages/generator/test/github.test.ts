@@ -2,7 +2,7 @@ import { readFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
 import { describe, expect, it } from "vitest";
-import { buildGitHubPackage, parseGitHubTrendingHtml } from "../src/github/package.js";
+import { buildGitHubPackage, extractReadmeSummary, parseGitHubTrendingHtml } from "../src/github/package.js";
 import { dailyTrendPackageSchema } from "../src/schemas.js";
 
 const here = dirname(fileURLToPath(import.meta.url));
@@ -174,6 +174,27 @@ describe("GitHub package generation", () => {
     expect(pkg.repos[0].visual.kind).toBe("repository_avatar");
   });
 
+  it("skips repository move notices when extracting README summaries", () => {
+    const summary = extractReadmeSummary(
+      [
+        "> **goose has moved!** This project has moved from `block/goose` to the Agentic AI Foundation. Some links and references are still being updated — please bear with us during the transition.",
+        "",
+        "# goose",
+        "",
+        "_your native open source AI agent — desktop app, CLI, and API — for code, workflows, and everything in between_",
+        "",
+        "goose is a general-purpose AI agent that runs on your machine. Not just for code — use it for research, writing, automation, data analysis, or anything you need to get done."
+      ].join("\n")
+    );
+
+    expect(summary).toContain(
+      "your native open source AI agent — desktop app, CLI, and API — for code, workflows, and everything in between"
+    );
+    expect(summary).toContain(
+      "goose is a general-purpose AI agent that runs on your machine. Not just for code"
+    );
+  });
+
   it("generates concrete product covers instead of README banners", async () => {
     const html = readFileSync(join(here, "fixtures/github-trending.html"), "utf8");
     const candidates = parseGitHubTrendingHtml(html).slice(0, 1);
@@ -223,32 +244,103 @@ describe("GitHub package generation", () => {
     expect(capturedPrompt).toContain("Possible layouts");
     expect(capturedPrompt).toContain("Visual metaphor");
     expect(capturedPrompt).toContain("many documents, logs, files, and RAG chunks compress into a smaller focused context packet");
-    expect(capturedPrompt).toContain("Fallback text hints");
+    expect(capturedPrompt).toContain("Required visible title hierarchy");
+    expect(capturedPrompt).toContain('Meaning brief: Positioning "ai product or tool"');
+    expect(capturedPrompt).toContain('Visible text script: main title "chopratejas/headroom"');
+    expect(capturedPrompt).toContain("exact main title");
+    expect(capturedPrompt).toContain("product-specific capability headline");
+    expect(capturedPrompt).toContain("Optional fallback text hints");
     expect(capturedPrompt).toContain("Project: chopratejas/headroom");
     expect(capturedPrompt).toContain("repo title");
     expect(capturedPrompt).toContain("capability headline");
     expect(capturedPrompt).toContain("Context Compression");
     expect(capturedPrompt).toContain("Raw Logs & Files");
     expect(capturedPrompt).toContain("Focused Context");
-    expect(capturedPrompt).toContain("Fallback visual hints");
+    expect(capturedPrompt).toContain("Optional fallback visual hints");
     expect(capturedPrompt).toContain("infer the actual product or tool");
+    expect(capturedPrompt).toContain("Never use Category, Functional story, Visual metaphor, or optional fallback headline as the main title");
     expect(capturedPrompt).toContain("Description is the strongest signal");
-    expect(capturedPrompt).toContain("project positioning, core capability, key differentiator or signal, and best-fit use case");
-    expect(capturedPrompt).toContain("Project positioning should answer what the repo is");
-    expect(capturedPrompt).toContain("Core capability should answer what it does");
-    expect(capturedPrompt).toContain("Key differentiator should answer why it is notable");
-    expect(capturedPrompt).toContain("Best-fit use case should answer who should use it");
-    expect(capturedPrompt).toContain("offline, self-contained, portable, local-first, survival, emergency");
-    expect(capturedPrompt).toContain("rugged offline device or local node");
+    expect(capturedPrompt).toContain("capability headline must be a product noun phrase");
+    expect(capturedPrompt).toContain("Do not use section labels such as Task Input / Plan Tools / Execute as the headline");
+    expect(capturedPrompt).toContain("Use an internal four-point product brief");
+    expect(capturedPrompt).toContain("Positioning, Core Capability, Standout, and Best Fit");
+    expect(capturedPrompt).toContain("Positioning answers what the repo is");
+    expect(capturedPrompt).toContain("Core Capability answers what it does");
+    expect(capturedPrompt).toContain("Standout answers why it is notable");
+    expect(capturedPrompt).toContain("Best Fit answers who should use it");
+    expect(capturedPrompt).toContain("Only make offline, survival, emergency, field, or no-internet use the main story");
+    expect(capturedPrompt).toContain("Local, native, self-hosted, portable, or runs-on-your-machine");
+    expect(capturedPrompt).toContain("does not mean a rugged survival device unless the repo says so");
     expect(capturedPrompt).toContain("Create a better capability headline than the fallback");
     expect(capturedPrompt).toContain("Render the most likely product UI or usage surface");
     expect(capturedPrompt).toContain("browser extension popup");
     expect(capturedPrompt).toContain("editor panel");
     expect(capturedPrompt).toContain("agent chat");
+    expect(capturedPrompt).toContain("app surfaces, integrations, providers, extensions, APIs");
+    expect(capturedPrompt).toContain("For AI agent products, show concrete agent surfaces");
+    expect(capturedPrompt).toContain("install, execute, edit, test, any LLM, desktop app, CLI, API");
     expect(capturedPrompt).toContain("Use product-specific interface details");
-    expect(capturedPrompt).toContain("the repo title must be the largest readable text");
+    expect(capturedPrompt).toContain("use the exact Project value as the largest readable title");
+    expect(capturedPrompt).toContain("Text budget: exact repo title, one capability headline, 4 to 7 feature chips");
     expect(capturedPrompt).toContain("Only the repo title, capability headline, section labels, benefit tags, essential UI labels, and concise positioning/use-case callouts may contain text");
+    expect(capturedPrompt).toContain("Logos or product marks are allowed");
     expect(capturedPrompt).not.toContain("repo name, GitHub logo");
+    expect(capturedPrompt).not.toContain("Avoid: GitHub logo");
     expect(capturedPrompt).toContain("No extra labels and no gibberish microtext");
+  });
+
+  it("creates product-specific visible text for native agent repos", async () => {
+    const html = [
+      '<article class="Box-row">',
+      '  <h2><a href="/aaif-goose/goose">aaif-goose / goose</a></h2>',
+      "  <p>an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM</p>",
+      '  <span itemprop="programmingLanguage">Rust</span>',
+      '  <a class="Link--muted" href="/aaif-goose/goose/stargazers">47,602</a>',
+      '  <a class="Link--muted" href="/aaif-goose/goose/forks">5,018</a>',
+      '  <span class="d-inline-block float-sm-right">106 stars today</span>',
+      "</article>"
+    ].join("\n");
+    const candidates = parseGitHubTrendingHtml(html);
+    let capturedPrompt = "";
+    await buildGitHubPackage({
+      candidates,
+      locale: "en-US",
+      date: "2026-06-07",
+      generatedAt: "2026-06-08T06:00:00.000Z",
+      visual: {
+        agnesApiKey: "test-key",
+        generateAgnesImages: true,
+        fetchImpl: async (input, init) => {
+          const url = String(input);
+          if (url.includes("apihub.agnes-ai.com/v1/images/generations")) {
+            const body = JSON.parse(String(init?.body)) as { prompt: string };
+            capturedPrompt = body.prompt;
+            return new Response(JSON.stringify({ data: [{ url: "https://example.com/goose-cover.png" }] }), {
+              status: 200
+            });
+          }
+          return new Response(
+            [
+              "> **goose has moved!** This project has moved from `block/goose` to the Agentic AI Foundation. Some links and references are still being updated — please bear with us during the transition.",
+              "",
+              "# goose",
+              "",
+              "_your native open source AI agent — desktop app, CLI, and API — for code, workflows, and everything in between_",
+              "",
+              "goose is a general-purpose AI agent that runs on your machine. Not just for code — use it for research, writing, automation, data analysis, or anything you need to get done.",
+              "",
+              "goose works with 15+ providers and 70+ extensions via the Model Context Protocol."
+            ].join("\n"),
+            { status: 200 }
+          );
+        }
+      }
+    });
+
+    expect(capturedPrompt).toContain('Visible text script: main title "aaif-goose/goose"');
+    expect(capturedPrompt).toContain('capability headline "Native Open Source AI Agent"');
+    expect(capturedPrompt).toContain('feature chips "Desktop / CLI / API / Any LLM / MCP Extensions / Install / Execute / Edit & Test / Research"');
+    expect(capturedPrompt).toContain('panel headers "Task / Tools / Result"');
+    expect(capturedPrompt).not.toContain("goose has moved");
   });
 });
