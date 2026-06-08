@@ -18,6 +18,10 @@ on:
   schedule:
     - cron: "20 8 * * *"
 
+concurrency:
+  group: generate-daily-data-${{ github.ref }}
+  cancel-in-progress: false
+
 permissions:
   contents: write
 
@@ -28,6 +32,9 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
 
       - name: Setup pnpm
         uses: pnpm/action-setup@v4
@@ -57,6 +64,11 @@ jobs:
           fi
           pnpm generate -- "${args[@]}"
 
+      - name: Sync with latest main
+        run: |
+          git fetch origin main
+          git rebase --autostash origin/main
+
       - name: Commit generated data
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
@@ -64,11 +76,15 @@ jobs:
           file_pattern: data/**/*.json
 
   github:
-    if: github.event_name == 'schedule' || inputs.source == 'github'
+    needs: producthunt
+    if: always() && (github.event_name == 'schedule' || inputs.source == 'github')
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
 
       - name: Setup pnpm
         uses: pnpm/action-setup@v4
@@ -98,9 +114,13 @@ jobs:
           fi
           pnpm generate -- "${args[@]}"
 
+      - name: Sync with latest main
+        run: |
+          git fetch origin main
+          git rebase --autostash origin/main
+
       - name: Commit generated data
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore(data): update GitHub daily data"
           file_pattern: data/**/*.json
-
