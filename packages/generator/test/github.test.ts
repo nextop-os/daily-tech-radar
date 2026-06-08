@@ -231,6 +231,10 @@ describe("GitHub package generation", () => {
     expect(capturedPrompt).toContain("Focused Context");
     expect(capturedPrompt).toContain("Must visibly include");
     expect(capturedPrompt).toContain("infer the actual product or tool");
+    expect(capturedPrompt).toContain("Description is the strongest signal");
+    expect(capturedPrompt).toContain("offline, self-contained, portable, local-first, survival, emergency");
+    expect(capturedPrompt).toContain("rugged offline device or local node");
+    expect(capturedPrompt).toContain("Create a better capability headline than the fallback");
     expect(capturedPrompt).toContain("Render the most likely product UI or usage surface");
     expect(capturedPrompt).toContain("browser extension popup");
     expect(capturedPrompt).toContain("editor panel");
