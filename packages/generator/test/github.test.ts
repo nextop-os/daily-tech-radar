@@ -116,6 +116,46 @@ describe("GitHub package generation", () => {
     expect(pkg.repos[0].readmeRef.status).toBe("available");
   });
 
+  it("normalizes GitHub file page README images to raw image URLs", async () => {
+    const html = [
+      '<article class="Box-row">',
+      '  <h2><a href="/HunxByts/GhostTrack">HunxByts / GhostTrack</a></h2>',
+      "  <p>Useful tool to track location or mobile number.</p>",
+      '  <span itemprop="programmingLanguage">Python</span>',
+      '  <a class="Link--muted" href="/HunxByts/GhostTrack/stargazers">13,800</a>',
+      '  <a class="Link--muted" href="/HunxByts/GhostTrack/forks">1,800</a>',
+      '  <span class="d-inline-block float-sm-right">90 stars today</span>',
+      "</article>"
+    ].join("\n");
+    const candidates = parseGitHubTrendingHtml(html);
+    const pkg = await buildGitHubPackage({
+      candidates,
+      locale: "en-US",
+      date: "2026-06-07",
+      generatedAt: "2026-06-08T06:00:00.000Z",
+      visual: {
+        fetchImpl: async () =>
+          new Response(
+            [
+              "# GhostTrack",
+              "",
+              "![HunxByts/GhostTrack](https://github.com/HunxByts/GhostTrack/blob/main/asset/bn.png)",
+              "",
+              "GhostTrack is a useful OSINT tool for tracking location or mobile number signals."
+            ].join("\n"),
+            { status: 200 }
+          )
+      }
+    });
+
+    expect(pkg.repos[0].visual).toMatchObject({
+      kind: "readme_image",
+      url: "https://raw.githubusercontent.com/HunxByts/GhostTrack/main/asset/bn.png",
+      thumbUrl: "https://raw.githubusercontent.com/HunxByts/GhostTrack/main/asset/bn.png",
+      sourceUrl: "https://raw.githubusercontent.com/HunxByts/GhostTrack/main/asset/bn.png"
+    });
+  });
+
   it("keeps README images and badges out of readmeSignals.summary", async () => {
     const html = readFileSync(join(here, "fixtures/github-trending.html"), "utf8");
     const candidates = parseGitHubTrendingHtml(html).slice(0, 1);

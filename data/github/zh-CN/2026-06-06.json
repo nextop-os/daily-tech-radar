@@ -1151,10 +1151,10 @@
       },
       "visual": {
         "kind": "readme_image",
-        "url": "https://github.com/HunxByts/GhostTrack/blob/main/asset/bn.png",
-        "thumbUrl": "https://github.com/HunxByts/GhostTrack/blob/main/asset/bn.png",
+        "url": "https://raw.githubusercontent.com/HunxByts/GhostTrack/main/asset/bn.png",
+        "thumbUrl": "https://raw.githubusercontent.com/HunxByts/GhostTrack/main/asset/bn.png",
         "alt": "HunxByts/GhostTrack",
-        "sourceUrl": "https://github.com/HunxByts/GhostTrack/blob/main/asset/bn.png",
+        "sourceUrl": "https://raw.githubusercontent.com/HunxByts/GhostTrack/main/asset/bn.png",
         "promptHash": null
       },
       "classification": {
