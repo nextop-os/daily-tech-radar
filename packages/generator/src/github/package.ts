@@ -385,12 +385,14 @@ function buildAgnesCoverPrompt(
     `Category: ${categoryId}`,
     `Description: ${candidate.description}`,
     `README summary: ${summary ?? candidate.description}`,
-    `Functional story: ${workflow}.`,
-    `Visual metaphor: ${visualMetaphor}.`,
-    `Required text script: repo title "${candidate.owner} / ${candidate.name}", capability headline "${visualScript.headline}", section labels "${visualScript.sections.join(" / ")}", benefit tags "${visualScript.benefits.join(" / ")}".`,
-    `Must visibly include: ${visualScript.objects.join(", ")}.`,
-    "Before drawing, infer the actual product or tool from the project name, description, and README summary. The image should feel like this specific repo's product, not a generic category poster.",
-    "Render the most likely product UI or usage surface implied by the repo: browser extension popup, editor panel, terminal session, canvas, agent chat, workflow builder, dashboard, API console, mobile app, document parser, database browser, or other concrete interface.",
+    `Category hint: ${categoryId}`,
+    `Functional story hint: ${workflow}.`,
+    `Visual metaphor hint: ${visualMetaphor}.`,
+    `Fallback text script if semantic inference is uncertain: capability headline "${visualScript.headline}", section labels "${visualScript.sections.join(" / ")}", benefit tags "${visualScript.benefits.join(" / ")}".`,
+    `Fallback visual objects if semantic inference is uncertain: ${visualScript.objects.join(", ")}.`,
+    "Semantic inference rules: before drawing, infer the actual product or tool from the repo title, description, and README summary. Decide the product type, target user, core job-to-be-done, input sources, transformation, output, proof/scoring signals, and likely UI surface.",
+    "Generate the visible script from that inferred meaning: repo title, a concise capability headline, 2-3 section labels that describe the real workflow, and 2-4 benefit tags that name the real capabilities or signals. Do not merely reuse the fallback script when the repo text gives better specifics.",
+    "Render the most likely product UI or usage surface implied by the repo: browser extension popup, editor panel, terminal session, canvas, agent chat, workflow builder, dashboard, API console, mobile app, document parser, database browser, or other concrete interface. Pick the surface semantically rather than by keyword matching.",
     "Make the repository identity obvious at thumbnail size: the repo title must be the largest readable text, and the capability headline must sit directly beneath it.",
     "Choose an original layout that fits the repo. Do not copy a fixed input-center-output template and do not imitate any supplied reference image structure.",
     "Possible layouts: process flow, before-and-after comparison, modular feature map, architecture cutaway, hub-and-spoke capability map, layered stack, dashboard collage, pipeline journey, comic-style explanation panels, or another clear infographic composition.",
@@ -408,8 +410,6 @@ function buildAgnesCoverPrompt(
 
 function visualMetaphorForRepo(candidate: CandidateRepo, summary: string | null | undefined) {
   const text = `${candidate.name} ${candidate.description} ${summary ?? ""}`.toLowerCase();
-  const researchSources = researchSourcesForText(text);
-  const researchSignals = researchSignalsForText(text);
 
   if (/(compress|compression|context|rag|logs?|tool outputs?|chunks?)/.test(text)) {
     return "many documents, logs, files, and RAG chunks compress into a smaller focused context packet that feeds an AI agent answer panel";
@@ -420,9 +420,6 @@ function visualMetaphorForRepo(candidate: CandidateRepo, summary: string | null 
   }
 
   if (/(agent|workflow|automation|mcp|tool use)/.test(text)) {
-    if (isResearchAgentText(text)) {
-      return `an agent skill search surface gathers ${researchSources.join(", ")} evidence, ranks ${researchSignals.join(" and ")} signals, then writes a grounded brief`;
-    }
     return "a user task enters an agent workspace, tools are selected and executed, and completed action cards are produced";
   }
 
@@ -447,8 +444,6 @@ function visualMetaphorForRepo(candidate: CandidateRepo, summary: string | null 
 
 function visualScriptForRepo(candidate: CandidateRepo, categoryId: string, summary: string | null | undefined) {
   const text = `${candidate.name} ${candidate.description} ${summary ?? ""}`.toLowerCase();
-  const researchSources = researchSourcesForText(text);
-  const researchSignals = researchSignalsForText(text);
 
   if (/(compress|compression|context|rag|logs?|tool outputs?|chunks?)/.test(text)) {
     return {
@@ -477,21 +472,6 @@ function visualScriptForRepo(candidate: CandidateRepo, categoryId: string, summa
   }
 
   if (/(agent|workflow|automation|mcp|tool use)/.test(text)) {
-    if (isResearchAgentText(text)) {
-      return {
-        benefits: [...researchSignals, "Grounded Brief"],
-        headline: "Research Agent Skill",
-        objects: [
-          "agent skill card",
-          "search command bar",
-          `source chips for ${researchSources.join(" ")}`,
-          "ranked evidence cards",
-          `${researchSignals.join(" ")} badges`,
-          "grounded brief panel"
-        ],
-        sections: ["Search Topic", "Rank Signals", "Brief"]
-      };
-    }
     return {
       benefits: ["Tool Planning", "Auto Execute", "Workflow Done"],
       headline: "AI Agent Workflow",
@@ -542,50 +522,6 @@ function visualScriptForRepo(candidate: CandidateRepo, categoryId: string, summa
     objects: ["input cards", "capability engine", "workflow arrows", "dashboard panels", "result tiles"],
     sections: ["Inputs", "Engine", "Outputs"]
   };
-}
-
-function isResearchAgentText(text: string) {
-  return (
-    /(research|search|sources?|synthesis|synthesize|summary|brief|grounded|evidence)/.test(text) &&
-    /(agent|skill|workflow|automation|tool|search)/.test(text)
-  );
-}
-
-function researchSourcesForText(text: string) {
-  const sources: string[] = [];
-  if (/\breddit\b/.test(text)) {
-    sources.push("Reddit");
-  }
-  if (/(^|[^a-z])x([^a-z]|$)|twitter/.test(text)) {
-    sources.push("X");
-  }
-  if (/\byoutube\b/.test(text)) {
-    sources.push("YouTube");
-  }
-  if (/(hacker news|\bhn\b)/.test(text)) {
-    sources.push("HN");
-  }
-  if (/\bpolymarket\b/.test(text)) {
-    sources.push("Polymarket");
-  }
-  if (/\bweb\b|internet|search/.test(text)) {
-    sources.push("Web");
-  }
-  return sources.length > 0 ? sources : ["source"];
-}
-
-function researchSignalsForText(text: string) {
-  const signals: string[] = [];
-  if (/(upvotes?|likes?|stars?|comments?|social)/.test(text)) {
-    signals.push("Social Signals");
-  }
-  if (/(money|market|odds|polymarket|prediction)/.test(text)) {
-    signals.push("Market Odds");
-  }
-  if (/(citations?|grounded|evidence|sources?)/.test(text)) {
-    signals.push("Evidence");
-  }
-  return signals.length > 0 ? signals : ["Ranked Signals"];
 }
 
 function workflowForCategory(categoryId: string) {

@@ -221,16 +221,20 @@ describe("GitHub package generation", () => {
     expect(capturedPrompt).toContain("Choose an original layout that fits the repo");
     expect(capturedPrompt).toContain("Do not copy a fixed input-center-output template");
     expect(capturedPrompt).toContain("Possible layouts");
-    expect(capturedPrompt).toContain("Visual metaphor");
+    expect(capturedPrompt).toContain("Visual metaphor hint");
     expect(capturedPrompt).toContain("many documents, logs, files, and RAG chunks compress into a smaller focused context packet");
-    expect(capturedPrompt).toContain("Required text script");
-    expect(capturedPrompt).toContain('repo title "chopratejas / headroom"');
-    expect(capturedPrompt).toContain("capability headline");
+    expect(capturedPrompt).toContain("Fallback text script");
+    expect(capturedPrompt).toContain("repo title");
+    expect(capturedPrompt).toContain("a concise capability headline");
     expect(capturedPrompt).toContain("Context Compression");
     expect(capturedPrompt).toContain("Raw Logs & Files");
     expect(capturedPrompt).toContain("Focused Context");
-    expect(capturedPrompt).toContain("Must visibly include");
+    expect(capturedPrompt).toContain("Fallback visual objects");
+    expect(capturedPrompt).toContain("Semantic inference rules");
     expect(capturedPrompt).toContain("infer the actual product or tool");
+    expect(capturedPrompt).toContain("Decide the product type");
+    expect(capturedPrompt).toContain("proof/scoring signals");
+    expect(capturedPrompt).toContain("Generate the visible script from that inferred meaning");
     expect(capturedPrompt).toContain("Render the most likely product UI or usage surface");
     expect(capturedPrompt).toContain("browser extension popup");
     expect(capturedPrompt).toContain("editor panel");
@@ -243,7 +247,7 @@ describe("GitHub package generation", () => {
     expect(capturedPrompt).toContain("No extra labels and no gibberish microtext");
   });
 
-  it("infers research agent cover concepts from repo text", async () => {
+  it("passes repo meaning to Agnes without hard-coded research cover details", async () => {
     const html = [
       '<article class="Box-row">',
       '<h2><a href="/mvanhorn/last30days-skill">mvanhorn / last30days-skill</a></h2>',
@@ -287,13 +291,15 @@ describe("GitHub package generation", () => {
       }
     });
 
-    expect(capturedPrompt).toContain('repo title "mvanhorn / last30days-skill"');
-    expect(capturedPrompt).toContain('capability headline "Research Agent Skill"');
-    expect(capturedPrompt).toContain('benefit tags "Social Signals / Market Odds / Evidence / Grounded Brief"');
-    expect(capturedPrompt).toContain("agent skill card");
-    expect(capturedPrompt).toContain("source chips for Reddit X YouTube HN Polymarket Web");
-    expect(capturedPrompt).toContain("Social Signals Market Odds Evidence badges");
-    expect(capturedPrompt).toContain("grounded brief panel");
+    expect(capturedPrompt).toContain("Project: mvanhorn/last30days-skill");
+    expect(capturedPrompt).toContain("Reddit, X, YouTube, HN, Polymarket, and the web");
+    expect(capturedPrompt).toContain("scored by upvotes, likes, and real money");
+    expect(capturedPrompt).toContain("Semantic inference rules");
+    expect(capturedPrompt).toContain("Generate the visible script from that inferred meaning");
+    expect(capturedPrompt).toContain("proof/scoring signals");
+    expect(capturedPrompt).not.toContain('capability headline "Research Agent Skill"');
+    expect(capturedPrompt).not.toContain("source chips for Reddit X YouTube HN Polymarket Web");
+    expect(capturedPrompt).not.toContain("Social Signals Market Odds Evidence badges");
     expect(capturedPrompt).not.toContain("Avoid: GitHub logo");
   });
 });
