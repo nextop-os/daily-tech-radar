@@ -4,24 +4,24 @@
   "locale": "zh-CN",
   "date": "2026-06-07",
   "sourceTimezone": "UTC",
-  "generatedAt": "2026-06-08T03:52:24.131Z",
+  "generatedAt": "2026-06-08T12:43:07.863Z",
   "items": [
     {
       "rank": 1,
       "id": "1162631",
       "name": "Dreambeans by Google Labs",
-      "tagline": "Dreambeans by Google Labs：基于您Google应用数据的个性化AI每日故事集",
-      "description": "Dreambeans 在夜间整合您的 Gmail、日历、照片、YouTube 和搜索数据，为 Google AI Ultra 订阅用户生成个性化的每日 AI 故事集，主动呈现与您个人背景相关的信息。",
+      "tagline": "每日AI故事，源自您的Google应用个性化定制",
+      "description": "Dreambeans 会在夜间整合您的 Gmail、日历、照片、YouTube 和搜索记录，生成每日 AI 故事合集。专为希望主动获取个性化上下文的 Google AI Ultra 订阅用户设计。",
       "keywords": [
-        "Google Labs",
-        "个性化AI",
-        "每日摘要",
-        "Gmail集成",
-        "AI故事集"
+        "人工智能",
+        "Google",
+        "个性化",
+        "效率工具",
+        "每日摘要"
       ],
       "metrics": {
-        "votes": 277,
-        "comments": 8
+        "votes": 345,
+        "comments": 9
       },
       "links": {
         "homepage": "https://www.producthunt.com/r/JQLUSYPX7QVIND?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
@@ -98,18 +98,18 @@
       "rank": 2,
       "id": "1127185",
       "name": "Wave",
-      "tagline": "Wave：macOS 上的语音转文字与 AI 处理工具",
-      "description": "Wave 允许您在 macOS 任何位置通过语音调用 AI 模型。按住快捷键说话并释放，即可将语音转录、处理并直接插入到您需要的地方，支持替换文本或提供浮动答案，跨应用无缝工作。",
+      "tagline": "将语音转为文字——本地或云端，由您选择",
+      "description": "Wave 让您在 macOS 上通过语音调用 AI 模型。按住热键说话，松开后语音即被转录、处理，结果精准出现在您需要的位置。打字时替换或插入文本，阅读时显示浮动答案。支持所有应用，并可利用选中文本作为上下文。",
       "keywords": [
-        "macOS工具",
-        "语音转录",
-        "AI处理",
-        "生产力提升",
-        "快捷键集成"
+        "macOS",
+        "语音转文字",
+        "人工智能",
+        "效率工具",
+        "本地AI"
       ],
       "metrics": {
-        "votes": 239,
-        "comments": 13
+        "votes": 287,
+        "comments": 18
       },
       "links": {
         "homepage": "https://www.producthunt.com/r/USLATFWCNZUTRR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
@@ -161,18 +161,18 @@
       "rank": 3,
       "id": "1163777",
       "name": "CabinLink",
-      "tagline": "CabinLink：基于机舱 Wi-Fi 的实时航班地图仪表盘",
-      "description": "CabinLink 读取机舱 Wi-Fi 数据，生成原生航班仪表盘，显示航线、位置、高度、速度、ETA 及目的地天气。无需登录或付费 Wi-Fi，支持 iPhone、iPad、Mac 和 Apple Vision Pro。",
+      "tagline": "来自机舱 Wi-Fi 的航班地图",
+      "description": "CabinLink 读取支持的机上 Wi-Fi 清单，将其转化为原生航班仪表盘。可查看航线、当前位置、高度、速度、预计到达时间、飞机详情及目的地天气。当机舱连接中断时显示最后已知更新。无需登录、无广告，支持清单无需付费 Wi-Fi 即可使用。将于 2026 年 6 月 7 日美山地时间上午 9 点在 iPhone、iPad、Mac 和 Apple Vision Pro 上发布。",
       "keywords": [
+        "旅行",
         "航班追踪",
-        "机舱Wi-Fi",
-        "旅行仪表盘",
-        "Apple Vision Pro",
-        "实时数据"
+        "Wi-Fi",
+        "航空",
+        "iOS"
       ],
       "metrics": {
-        "votes": 209,
-        "comments": 17
+        "votes": 256,
+        "comments": 18
       },
       "links": {
         "homepage": "https://www.producthunt.com/r/WJB5UOA5RWHWAR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
@@ -214,18 +214,18 @@
       "rank": 4,
       "id": "1165266",
       "name": "Job Postings API",
-      "tagline": "Job Postings API：监控与分析超过 180 万美国职位数据",
-      "description": "一个免费的托管职位列表 API，涵盖 60,000 多家公司的 180 万+职位数据。整合 30 多种申请人跟踪系统的活跃和历史数据，助力招聘分析。",
+      "tagline": "查看、监控和分析 180 万+ 美国职位",
+      "description": "一个免费的托管职位列表 API，涵盖 180 万+ 职位，涉及 6 万家企业。从 30 多种申请人跟踪系统中获取全面的活跃和历史职位数据，企业涵盖各行业及各发展阶段。",
       "keywords": [
-        "职位API",
-        "招聘数据",
-        "雇佣分析",
-        "开源API",
-        "就业趋势"
+        "API",
+        "招聘",
+        "就业市场",
+        "数据",
+        "招聘"
       ],
       "metrics": {
-        "votes": 191,
-        "comments": 16
+        "votes": 221,
+        "comments": 19
       },
       "links": {
         "homepage": "https://www.producthunt.com/r/BNWVWGJYIBQSCF?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
@@ -262,18 +262,18 @@
       "rank": 5,
       "id": "1163550",
       "name": "Smmall Cloud for iOS",
-      "tagline": "Smmall Cloud for iOS：专注且可定制的轻量级文件共享方案",
-      "description": "Smmall Cloud 是一款专为 iPad/iPhone 设计的文件共享应用，支持上传照片、视频和文档，通过链接、二维码或短链接分享。提供文件夹组织、文件收件箱及品牌自定义功能，无冗余层级。",
+      "tagline": "在 iPad 或 iPhone 上轻松共享文件",
+      "description": "Smmall Cloud 是您一直缺失的专注且可定制的文件共享应用。从 iPhone 或 iPad 上传照片、视频、文档等，然后通过干净的链接、二维码或自定义短链接进行分享。将文件组织到有序文件夹中，通过文件收件箱收集任何人的上传内容，并在每次分享中展示您的品牌。无杂乱功能，无企业版，无销售团队——只做正确的共享方式。",
       "keywords": [
         "文件共享",
-        "iOS应用",
+        "iOS",
         "云存储",
-        "二维码分享",
-        "隐私优先"
+        "二维码",
+        "简洁"
       ],
       "metrics": {
-        "votes": 160,
-        "comments": 8
+        "votes": 184,
+        "comments": 9
       },
       "links": {
         "homepage": "https://www.producthunt.com/r/IU63Q3CJKEUWTQ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",

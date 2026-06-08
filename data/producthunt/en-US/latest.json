@@ -4,7 +4,7 @@
   "locale": "en-US",
   "date": "2026-06-07",
   "sourceTimezone": "UTC",
-  "generatedAt": "2026-06-08T03:52:24.131Z",
+  "generatedAt": "2026-06-08T12:43:07.863Z",
   "items": [
     {
       "rank": 1,
@@ -13,15 +13,15 @@
       "tagline": "Daily AI stories personalised from your Google apps",
       "description": "Dreambeans synthesises your Gmail, Calendar, Photos, YouTube, and Search overnight to deliver daily AI-generated story collections. For Google AI Ultra subscribers who want personal context surfaced proactively.",
       "keywords": [
-        "Google Labs",
-        "Personalized AI",
-        "Daily Digest",
-        "Gmail Integration",
-        "AI Stories"
+        "AI",
+        "Google",
+        "Personalization",
+        "Productivity",
+        "Daily Digest"
       ],
       "metrics": {
-        "votes": 277,
-        "comments": 8
+        "votes": 345,
+        "comments": 9
       },
       "links": {
         "homepage": "https://www.producthunt.com/r/JQLUSYPX7QVIND?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
@@ -101,15 +101,15 @@
       "tagline": "Turn your voice into text — local or cloud, your choice",
       "description": "Wave lets you invoke an AI model anywhere on macOS using just your voice. Hold a hotkey, speak, and release—your speech is transcribed, processed, and the result appears exactly where you need it. If you're typing, it replaces or inserts text. If you're reading, it shows a floating answer. Works across all apps with selected text as context.",
       "keywords": [
-        "macOS Tool",
-        "Voice Transcription",
-        "AI Processing",
+        "macOS",
+        "Voice-to-Text",
+        "AI",
         "Productivity",
-        "Hotkey Integration"
+        "Local AI"
       ],
       "metrics": {
-        "votes": 239,
-        "comments": 13
+        "votes": 287,
+        "comments": 18
       },
       "links": {
         "homepage": "https://www.producthunt.com/r/USLATFWCNZUTRR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
@@ -164,15 +164,15 @@
       "tagline": "Flight map from cabin Wi-Fi",
       "description": "CabinLink reads supported in-flight Wi-Fi manifests and turns them into a native flight dashboard. See route, current position, altitude, speed, ETA, aircraft details, and destination weather, with last-known updates when the cabin connection drops. No login, no ads, and no paid Wi-Fi pass required for supported manifests. Launches Jun 7, 2026 at 9 AM MST on iPhone, iPad, Mac, and Apple Vision Pro.",
       "keywords": [
+        "Travel",
         "Flight Tracking",
-        "In-flight Wi-Fi",
-        "Travel Dashboard",
-        "Apple Vision Pro",
-        "Real-time Data"
+        "Wi-Fi",
+        "Aviation",
+        "iOS"
       ],
       "metrics": {
-        "votes": 209,
-        "comments": 17
+        "votes": 256,
+        "comments": 18
       },
       "links": {
         "homepage": "https://www.producthunt.com/r/WJB5UOA5RWHWAR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
@@ -217,15 +217,15 @@
       "tagline": "View, monitor, and analyze 1.8M+ US jobs",
       "description": "A free, hosted job listings API with 1.8M+ listings across 60k companies. Get comprehensive active and historical job data from 30+ applicant tracking systems, with companies spanning industries and stages.",
       "keywords": [
-        "Job API",
-        "Recruitment Data",
-        "Hiring Analytics",
-        "Open Source API",
-        "Employment Trends"
+        "API",
+        "Recruitment",
+        "Job Market",
+        "Data",
+        "Hiring"
       ],
       "metrics": {
-        "votes": 191,
-        "comments": 16
+        "votes": 221,
+        "comments": 19
       },
       "links": {
         "homepage": "https://www.producthunt.com/r/BNWVWGJYIBQSCF?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
@@ -266,14 +266,14 @@
       "description": "Smmall Cloud is the focused, customizable file-sharing app you've been missing. Upload photos, videos, docs, and more from your iPhone or iPad, then share them with a clean link, a QR code, or a custom short URL. Organize files into ordered folders, collect uploads from anyone through your File Inbox, and put your own brand front and center on every share. No clutter, no enterprise tier, no sales team — just sharing done right.",
       "keywords": [
         "File Sharing",
-        "iOS App",
+        "iOS",
         "Cloud Storage",
-        "QR Code Sharing",
-        "Privacy Focused"
+        "QR Code",
+        "Simple"
       ],
       "metrics": {
-        "votes": 160,
-        "comments": 8
+        "votes": 184,
+        "comments": 9
       },
       "links": {
         "homepage": "https://www.producthunt.com/r/IU63Q3CJKEUWTQ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
