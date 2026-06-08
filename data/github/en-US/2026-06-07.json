@@ -2,8 +2,8 @@
   "schemaVersion": "trendreader.daily.v1",
   "packageId": "github-daily-All-2026-06-07",
   "locale": "en-US",
-  "generatedAt": "2026-06-08T03:56:07.600Z",
-  "expiresAt": "2026-06-09T03:56:07.600Z",
+  "generatedAt": "2026-06-08T10:35:49.951Z",
+  "expiresAt": "2026-06-09T10:35:49.951Z",
   "sourceWindow": {
     "since": "daily",
     "language": "All",
@@ -19,7 +19,7 @@
   ],
   "taxonomy": {
     "version": "2026-06-07",
-    "generatedAt": "2026-06-08T03:56:07.600Z",
+    "generatedAt": "2026-06-08T10:35:49.951Z",
     "categories": [
       {
         "id": "ai",
@@ -75,8 +75,8 @@
         "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
         "language": "Python",
         "topics": [],
-        "stars": 31620,
-        "forks": 2634,
+        "stars": 32783,
+        "forks": 2695,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -92,7 +92,7 @@
       },
       "readmeSignals": {
         "title": "/last30days",
-        "summary": "An AI agent-led search engine scored by upvotes, likes, and real money - not editors.",
+        "summary": "An AI agent-led search engine scored by upvotes, likes, and real money - not editors. This README tracks the current v3 pipeline. The runtime skill spec lives in skills/last30days/SKILL.md, which is the source of truth for the latest command and setup behavior. Claude Code recommended — auto-updates via marketplace: Codex, Cursor, Copilot, Gemini CLI, or any of 50+ https://agentskills.io hosts: -g installs globally for your user, available across all projects. Drop it to scope per-project. More install options claude.ai web, OpenClaw, manual in the install section below.",
         "headings": [
           "/last30days",
           "Why this exists",
@@ -116,11 +116,11 @@
       },
       "visual": {
         "kind": "agnes_generated",
-        "url": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/9f4c6677363e4537a2a56df7b53ba77e.png",
-        "thumbUrl": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/9f4c6677363e4537a2a56df7b53ba77e.png",
+        "url": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/c6ba7c414f294f96bc3783103b7ccfc4.png",
+        "thumbUrl": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/c6ba7c414f294f96bc3783103b7ccfc4.png",
         "alt": "Generated cover for mvanhorn/last30days-skill",
         "sourceUrl": null,
-        "promptHash": "sha256:dcec996b1934"
+        "promptHash": "sha256:810b5e5e76a9"
       },
       "classification": {
         "primaryCategoryId": "ai",
@@ -158,8 +158,8 @@
         "description": "Open Source Computer Vision Library",
         "language": "C++",
         "topics": [],
-        "stars": 88161,
-        "forks": 56600,
+        "stars": 88305,
+        "forks": 56612,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -175,7 +175,7 @@
       },
       "readmeSignals": {
         "title": null,
-        "summary": "OpenCV: Open Source Computer Vision Library",
+        "summary": "OpenCV: Open Source Computer Vision Library Homepage: Courses: Docs: Q&A forum: previous forum read only: Issue tracking: Additional OpenCV functionality: Donate to OpenCV: Please read the https://github.com/opencv/opencv/wiki/Howtocontribute before starting work on a pull request. One pull request per issue; Choose the right base branch; Include tests and documentation; Clean up \"oops\" commits before submitting; Follow the https://github.com/opencv/opencv/wiki/CodingStyleGuide.",
         "headings": [
           "OpenCV: Open Source Computer Vision Library",
           "Resources",
@@ -193,11 +193,11 @@
       },
       "visual": {
         "kind": "agnes_generated",
-        "url": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/4793c2b46961408198b9800527d0fe57.png",
-        "thumbUrl": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/4793c2b46961408198b9800527d0fe57.png",
+        "url": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/c0764f97fb4d41639655163bd2af6959.png",
+        "thumbUrl": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/c0764f97fb4d41639655163bd2af6959.png",
         "alt": "Generated cover for opencv/opencv",
         "sourceUrl": null,
-        "promptHash": "sha256:3287fc17e4ef"
+        "promptHash": "sha256:8a2fdf0f9ee7"
       },
       "classification": {
         "primaryCategoryId": "unclassified",
@@ -231,8 +231,8 @@
         "description": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop",
         "language": "Shell",
         "topics": [],
-        "stars": 37063,
-        "forks": 2661,
+        "stars": 37869,
+        "forks": 2701,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -248,7 +248,7 @@
       },
       "readmeSignals": {
         "title": "Taste Skill",
-        "summary": "The Anti-Slop Frontend Framework for AI Agents",
+        "summary": "The Anti-Slop Frontend Framework for AI Agents Portable Agent Skills that upgrade AI-built interfaces: stronger layout, typography, motion, and spacing instead of boilerplate-looking UIs. This repo also includes image-generation skills for reference boards web, mobile, brand kits. Pair them with ChatGPT Images or similar generators, then hand the frames to Codex, Cursor, or Claude Code for implementation. Taste Skill has no official token, coin, or crypto project. Any token using my name, image, or project is unaffiliated and not endorsed by me. Disclaimer · Install · Skills · Settings · Examples · Sponsor · Research · FAQ · License",
         "headings": [
           "Taste Skill",
           "Disclaimer",
@@ -311,8 +311,8 @@
         "description": "The agent that grows with you",
         "language": "Python",
         "topics": [],
-        "stars": 186189,
-        "forks": 32026,
+        "stars": 186720,
+        "forks": 32120,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -328,7 +328,7 @@
       },
       "readmeSignals": {
         "title": "Hermes Agent ☤",
-        "summary": "The self-improving AI agent built by https://nousresearch.com. It's the only agent with a built-in learning loop — it creates skills from experience, improves them during use, nudges itself to persist knowledge, searches its own past conversations, and builds a deepening model of",
+        "summary": "The self-improving AI agent built by https://nousresearch.com. It's the only agent with a built-in learning loop — it creates skills from experience, improves them during use, nudges itself to persist knowledge, searches its own past conversations, and builds a deepening model of who you are across sessions. Run it on a $5 VPS, a GPU cluster, or serverless infrastructure that costs nearly nothing when idle. It's not tied to your laptop — talk to it from Telegram while it works on a cloud VM. Use any model you want — https://portal.nousresearch.com, https://openrouter.ai 200+ models, https://novita.ai AI-native cloud for Model API, Agent Sandbox, and GPU Cloud, https://build.nvidia.com Nemotr",
         "headings": [
           "Hermes Agent ☤",
           "Quick Install",
@@ -353,11 +353,11 @@
       },
       "visual": {
         "kind": "agnes_generated",
-        "url": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/dac63143ef084573b010921fc31c339e.png",
-        "thumbUrl": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/dac63143ef084573b010921fc31c339e.png",
+        "url": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/a040824664e04a5b87d1ca1991a6c2a3.png",
+        "thumbUrl": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/a040824664e04a5b87d1ca1991a6c2a3.png",
         "alt": "Generated cover for NousResearch/hermes-agent",
         "sourceUrl": null,
-        "promptHash": "sha256:15e7b9fd7f31"
+        "promptHash": "sha256:0883b990f892"
       },
       "classification": {
         "primaryCategoryId": "ai",
@@ -393,8 +393,8 @@
         "description": "An Open Source implementation of Notebook LM with more flexibility and features",
         "language": "TypeScript",
         "topics": [],
-        "stars": 27408,
-        "forks": 3108,
+        "stars": 27714,
+        "forks": 3133,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -410,7 +410,7 @@
       },
       "readmeSignals": {
         "title": null,
-        "summary": "An open source, privacy-focused alternative to Google's Notebook LM! Join our Discord server for help, to share workflow ideas, and suggest features! Checkout our website » 📚 Get Started · 📖 User Guide · ✨ Features · 🚀 Deploy",
+        "summary": "An open source, privacy-focused alternative to Google's Notebook LM! Join our Discord server for help, to share workflow ideas, and suggest features! Checkout our website » 📚 Get Started · 📖 User Guide · ✨ Features · 🚀 Deploy Deutsch | Español | français | 日本語 | 한국어 | Português | Русский | 中文 A private, multi-model, 100% local, full-featured alternative to Notebook LM In a world dominated by Artificial Intelligence, having the ability to think 🧠 and acquire new knowledge 💡, is a skill that should not be a privilege for a few, nor restricted to a single provider.",
         "headings": [
           "A private, multi-model, 100% local, full-featured alternative to Notebook LM",
           "🆚 Open Notebook vs Google Notebook LM",
@@ -470,8 +470,8 @@
         "description": "Let's use AI to Earn!",
         "language": "TypeScript",
         "topics": [],
-        "stars": 18930,
-        "forks": 2921,
+        "stars": 19246,
+        "forks": 2957,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -487,7 +487,7 @@
       },
       "readmeSignals": {
         "title": "[Aitoearn：OPC（一人公司）的AI内容营销智能体](https://aitoearn.ai)",
-        "summary": "Monetize · Publish · Engage · Create —— 一站式平台。",
+        "summary": "Monetize · Publish · Engage · Create —— 一站式平台。 AiToEarn 通过 AI Agent自动化，帮助 OPC（一人公司）、创作者、品牌与企业在全球主流平台上构建、分发并变现内容。 支持渠道： 抖音、小红书（Rednote）、快手、哔哩哔哩、视频号、TikTok、YouTube、Facebook、Instagram、Threads、Twitter（X）、Pinterest、LinkedIn | 方式 | 适合谁 | 需要部署吗 | | use-web | 所有用户 | ❌ 不需要 | | use-in-openclaw | 龙虾用户 | ❌ 不需要 | | use-in-claude | AI 工具用户 | ❌ 不需要 | | use-docker | 想私有化部署的团队 | ✅ 需要服务器 | | use-source | 开发者 | ✅ 需要开发环境 | 💡 方式 ②③④ 都需要先获取 API Key，请先看 get-api-key。 2026-05-21: https://github.com/yikart/AiToEarn/releases/tag/v2.4.0 — 草稿生成新增支持 HappyHorse 1.0 和 Seedance 2.0，增强视频/图文草稿批量生成、多模型选择、参考图片/视频、目标平台限制与文案提示词；带来全新界面风格，并增强 Twitter/X 探索与互动能力。 2026-04-20: OpenClaw（龙虾）新增 AiToEarn 赚钱支持，可在龙虾中直接接收并执行内容变现任务。 2026-03-2",
         "headings": [
           "[Aitoearn：OPC（一人公司）的AI内容营销智能体](https://aitoearn.ai)",
           "🚀 快速使用 AiToEarn（5 种方式）",
@@ -552,8 +552,8 @@
         "description": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM",
         "language": "Rust",
         "topics": [],
-        "stars": 47602,
-        "forks": 5018,
+        "stars": 47802,
+        "forks": 5036,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -569,7 +569,7 @@
       },
       "readmeSignals": {
         "title": "goose",
-        "summary": "🦆 goose has moved! This project has moved from block/goose to the https://aaif.io/ at the Linux Foundation. Some links and references are still being updated — please bear with us during the transition.",
+        "summary": "your native open source AI agent — desktop app, CLI, and API — for code, workflows, and everything in between goose is a general-purpose AI agent that runs on your machine. Not just for code — use it for research, writing, automation, data analysis, or anything you need to get done. A native desktop app for macOS, Linux, and Windows. A full CLI for terminal workflows. An API to embed it anywhere. Built in Rust for performance and portability. goose works with 15+ providers — Anthropic, OpenAI, Google, Ollama, OpenRouter, Azure, Bedrock, and more. Use API keys or your existing Claude, ChatGPT, or Gemini subscriptions via https://goose-docs.ai/docs/guides/acp-providers. Connect to 70+ extensio",
         "headings": [
           "goose",
           "Get started",
@@ -592,11 +592,11 @@
       },
       "visual": {
         "kind": "agnes_generated",
-        "url": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/0ae5991dbbee45038826632c985a7c28.png",
-        "thumbUrl": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/0ae5991dbbee45038826632c985a7c28.png",
+        "url": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/183c453b8f504b2192ccd1b5e6ed3580.png",
+        "thumbUrl": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/183c453b8f504b2192ccd1b5e6ed3580.png",
         "alt": "Generated cover for aaif-goose/goose",
         "sourceUrl": null,
-        "promptHash": "sha256:83af2da94885"
+        "promptHash": "sha256:6f03df0a0ee9"
       },
       "classification": {
         "primaryCategoryId": "ai",
@@ -636,8 +636,8 @@
         "description": "Project N.O.M.A.D, is a self-contained, offline survival computer packed with critical tools, knowledge, and AI to keep you informed and empowered—anytime, anywhere.",
         "language": "TypeScript",
         "topics": [],
-        "stars": 29797,
-        "forks": 2954,
+        "stars": 29938,
+        "forks": 2968,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -653,7 +653,7 @@
       },
       "readmeSignals": {
         "title": "Project N.O.M.A.D.",
-        "summary": "Project N.O.M.A.D. Node for Offline Media, Archives, and Data",
+        "summary": "Project N.O.M.A.D. Node for Offline Media, Archives, and Data Project N.O.M.A.D. is a self-contained, offline-first knowledge and education server packed with critical tools, knowledge, and AI to keep you informed and empowered—anytime, anywhere. Installation & Quickstart Project N.O.M.A.D. can be installed on any Debian-based operating system we recommend Ubuntu. Installation is completely terminal-based, and all tools and resources are designed to be accessed through the browser, so there's no need for a desktop environment if you'd rather setup N.O.M.A.D. as a \"server\" and access it through other clients.",
         "headings": [
           "Project N.O.M.A.D.",
           "Node for Offline Media, Archives, and Data",
@@ -676,11 +676,11 @@
       },
       "visual": {
         "kind": "agnes_generated",
-        "url": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/c55d8ae896514c0fb449a6129cfb6707.png",
-        "thumbUrl": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/c55d8ae896514c0fb449a6129cfb6707.png",
+        "url": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/a5e2c8dd28c84d65b90c040b56ee5c17.png",
+        "thumbUrl": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/a5e2c8dd28c84d65b90c040b56ee5c17.png",
         "alt": "Generated cover for Crosstalk-Solutions/project-nomad",
         "sourceUrl": null,
-        "promptHash": "sha256:0f682c3b1c3b"
+        "promptHash": "sha256:37c85475d787"
       },
       "classification": {
         "primaryCategoryId": "ai",
@@ -716,8 +716,8 @@
         "description": "LLM inference in C/C++",
         "language": "C++",
         "topics": [],
-        "stars": 115398,
-        "forks": 19315,
+        "stars": 115535,
+        "forks": 19336,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -733,7 +733,7 @@
       },
       "readmeSignals": {
         "title": "llama.cpp",
-        "summary": "Hugging Face cache migration: models downloaded with -hf are now stored in the standard Hugging Face cache directory, enabling sharing with other HF tools. https://github.com/ggml-org/llama.cpp/discussions/16938 https://github.com/ggml-org/llama.cpp/discussions/15396 FEEDBACK Bet",
+        "summary": "Hugging Face cache migration: models downloaded with -hf are now stored in the standard Hugging Face cache directory, enabling sharing with other HF tools. https://github.com/ggml-org/llama.cpp/discussions/16938 https://github.com/ggml-org/llama.cpp/discussions/15396 FEEDBACK Better packaging for llama.cpp to support downstream consumers 🤗https://github.com/ggml-org/llama.cpp/discussions/15313 Support for the gpt-oss model with native MXFP4 format has been added | https://github.com/ggml-org/llama.cpp/pull/15091 | https://blogs.nvidia.com/blog/rtx-ai-garage-openai-oss | https://github.com/ggml-org/llama.cpp/discussions/15095 Multimodal support arrived in llama-server: https://github.com/ggm",
         "headings": [
           "llama.cpp",
           "Recent API changes",
@@ -796,8 +796,8 @@
         "description": "A vector index built on TurboQuant, written in Rust with Python bindings",
         "language": "Python",
         "topics": [],
-        "stars": 7392,
-        "forks": 715,
+        "stars": 7820,
+        "forks": 744,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -813,7 +813,7 @@
       },
       "readmeSignals": {
         "title": "Stage 1: external system narrows to candidate ids.",
-        "summary": "A 10 million document corpus takes 31 GB of RAM as float32. turbovec fits it in 4 GB - and searches it faster than FAISS.",
+        "summary": "A 10 million document corpus takes 31 GB of RAM as float32. turbovec fits it in 4 GB - and searches it faster than FAISS. turbovec is a Rust vector index with Python bindings, built on Google Research's https://arxiv.org/abs/2504.19874 algorithm — a data-oblivious quantizer that matches the Shannon lower bound on distortion, with no codebook training and no separate train phase. Online ingest. Add vectors, they're indexed — no train step, no parameter tuning, no rebuilds as the corpus grows. Faster than FAISS. Hand-written NEON ARM and AVX-512BW x86 kernels beat FAISS IndexPQFastScan by 12–20% on ARM and match-or-beat it on x86. Filter at search time. Pass an id allowlist or a slot bitmask t",
         "headings": [
           "Python",
           "Hybrid retrieval (filtered search)",
@@ -883,8 +883,8 @@
         "description": "所有小初高、大学PDF教材。",
         "language": "Roff",
         "topics": [],
-        "stars": 72610,
-        "forks": 16268,
+        "stars": 72813,
+        "forks": 16304,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -900,7 +900,7 @@
       },
       "readmeSignals": {
         "title": null,
-        "summary": "项目的由来 虽然国内教育网站已提供免费资源，但大多数普通人获取信息的途径依然受限。有些人利用这一点，在某站上销售这些带有私人水印的资源。为了应对这种情况，我计划将这些资源集中并开源，以促进义务教育的普及和消除地区间的教育贫困。",
+        "summary": "项目的由来 虽然国内教育网站已提供免费资源，但大多数普通人获取信息的途径依然受限。有些人利用这一点，在某站上销售这些带有私人水印的资源。为了应对这种情况，我计划将这些资源集中并开源，以促进义务教育的普及和消除地区间的教育贫困。 大学数学 https://github.com/TapXWorld/ChinaTextbook/tree/master/%E5%A4%A7%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%90%8C%E6%B5%8E%E5%A4%A7%E5%AD%A6%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%E7%AC%AC%E4%B8%83%E7%89%88 https://github.com/TapXWorld/ChinaTextbook/tree/master/%E5%A4%A7%E5%AD%A6/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0 https://github.com/TapXWorld/ChinaTextbook/tree/master/%E5%A4%A7%E5%AD%A6/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6 https://github.com/TapXWorld/ChinaTextbook/tree/master/%E5%A4%A7%E5%AD%A6/%E6%A6%82%E7%8E%87%E8%AE%BA",
         "headings": [
           "项目的由来",
           "学习数学",
@@ -960,8 +960,8 @@
         "description": "OpenAI Plugins",
         "language": "JavaScript",
         "topics": [],
-        "stars": 2089,
-        "forks": 273,
+        "stars": 2178,
+        "forks": 276,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -977,7 +977,7 @@
       },
       "readmeSignals": {
         "title": "Plugins",
-        "summary": "This repository contains a curated collection of Codex plugin examples.",
+        "summary": "This repository contains a curated collection of Codex plugin examples. Each plugin lives under plugins/ / with a required .codex-plugin/plugin.json manifest and optional companion surfaces such as skills/, .app.json, .mcp.json, plugin-level agents/, commands/, hooks.json, assets/, and other supporting files. Highlighted richer examples in this repo include: plugins/figma for usefigma, Code to Canvas, Code Connect, and design system rules plugins/notion for planning, research, meetings, and knowledge capture plugins/build-ios-apps for SwiftUI implementation, refactors, performance, and debugging plugins/build-macos-apps for macOS SwiftUI/AppKit workflows, build/run/debug loops, and packaging",
         "headings": [
           "Plugins"
         ],
@@ -990,11 +990,11 @@
       },
       "visual": {
         "kind": "agnes_generated",
-        "url": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/35488047bb254cfe95957539c4b8e9ef.png",
-        "thumbUrl": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/35488047bb254cfe95957539c4b8e9ef.png",
+        "url": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/9817764f2b4644589a294693191c4d7d.png",
+        "thumbUrl": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/9817764f2b4644589a294693191c4d7d.png",
         "alt": "Generated cover for openai/plugins",
         "sourceUrl": null,
-        "promptHash": "sha256:7fb9c749c29e"
+        "promptHash": "sha256:9c6fcc3b71a3"
       },
       "classification": {
         "primaryCategoryId": "ai",
@@ -1030,8 +1030,8 @@
         "description": "Desktop app to manage markdown knowledge bases",
         "language": "TypeScript",
         "topics": [],
-        "stars": 12980,
-        "forks": 915,
+        "stars": 13173,
+        "forks": 925,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -1047,7 +1047,7 @@
       },
       "readmeSignals": {
         "title": "💧 Tolaria",
-        "summary": "Tolaria is a desktop app for macOS, Windows, and Linux for managing markdown knowledge bases. People use it for a variety of use cases:",
+        "summary": "Tolaria is a desktop app for macOS, Windows, and Linux for managing markdown knowledge bases. People use it for a variety of use cases: Operate second brains and personal knowledge Organize company docs as context for AI Store OpenClaw/assistants memory and procedures Personally, I use it to run my life hey 👋 http://x.com/lucaronin. I have a massive workspace of 10,000+ notes, which are the result of my https://refactoring.fm/ work + a ton of personal journaling and second braining. You can find some Loom walkthroughs below — they are short and to the point: https://www.loom.com/share/bb3aaffa238b4be0bd62e4464bca2528 https://www.loom.com/share/dffda263317b4fa8b47b59cdf9330571 https://www.lo",
         "headings": [
           "💧 Tolaria",
           "Walkthroughs",
@@ -1107,8 +1107,8 @@
         "description": "Useful tool to track location or mobile number",
         "language": "Python",
         "topics": [],
-        "stars": 13782,
-        "forks": 1839,
+        "stars": 13907,
+        "forks": 1850,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -1124,7 +1124,7 @@
       },
       "readmeSignals": {
         "title": "GhostTrack",
-        "summary": "GhostTrack Useful tool to track location or mobile number, so this tool can be called osint or also information gathering",
+        "summary": "GhostTrack Useful tool to track location or mobile number, so this tool can be called osint or also information gathering on the IP Track menu, you can combo with the seeker tool to get the target IP :zap: Install Seeker : Get Seeker on this menu you can search for information from the target phone number on this menu you can search for information from the target username on social media",
         "headings": [
           "GhostTrack",
           "Instalation on Linux (deb)",
@@ -1183,8 +1183,8 @@
         "description": "PostgreSQL in-database durable execution",
         "language": "Rust",
         "topics": [],
-        "stars": 1504,
-        "forks": 33,
+        "stars": 1609,
+        "forks": 37,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -1200,7 +1200,7 @@
       },
       "readmeSignals": {
         "title": "Start PostgreSQL",
-        "summary": "Long-running, fault-tolerant SQL functions for teams that already keep their state in Postgres and want to stop stitching together cron jobs, workers, queues, and status tables to make background work reliable. Define the workflow in SQL, let pgdurable checkpoint each step, and r",
+        "summary": "Long-running, fault-tolerant SQL functions for teams that already keep their state in Postgres and want to stop stitching together cron jobs, workers, queues, and status tables to make background work reliable. Define the workflow in SQL, let pgdurable checkpoint each step, and resume after crashes, restarts, or failed steps. Durable execution is now a standard industry pattern, and pgdurable brings it inside Postgres with no extra service infrastructure required. Part of our mission to bring compute close to data. Try pgdurable now in Azure HorizonDB , Microsoft's new PostgreSQL cloud service engineered for performance and built with pgdurable inside",
         "headings": [
           "Durable Execution inside PostgreSQL",
           "Is this for me?",

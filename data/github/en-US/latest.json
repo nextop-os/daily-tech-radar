@@ -1,9 +1,9 @@
 {
   "schemaVersion": "trendreader.daily.v1",
-  "packageId": "github-daily-All-2026-06-05",
+  "packageId": "github-daily-All-2026-06-07",
   "locale": "en-US",
-  "generatedAt": "2026-06-08T10:34:41.824Z",
-  "expiresAt": "2026-06-09T10:34:41.824Z",
+  "generatedAt": "2026-06-08T10:35:49.951Z",
+  "expiresAt": "2026-06-09T10:35:49.951Z",
   "sourceWindow": {
     "since": "daily",
     "language": "All",
@@ -18,8 +18,8 @@
     }
   ],
   "taxonomy": {
-    "version": "2026-06-05",
-    "generatedAt": "2026-06-08T10:34:41.824Z",
+    "version": "2026-06-07",
+    "generatedAt": "2026-06-08T10:35:49.951Z",
     "categories": [
       {
         "id": "ai",
@@ -75,7 +75,7 @@
         "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
         "language": "Python",
         "topics": [],
-        "stars": 32779,
+        "stars": 32783,
         "forks": 2695,
         "license": null,
         "defaultBranch": null,
@@ -116,8 +116,8 @@
       },
       "visual": {
         "kind": "agnes_generated",
-        "url": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/e6310d9830bd4a228f3edfe271a3ad56.png",
-        "thumbUrl": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/e6310d9830bd4a228f3edfe271a3ad56.png",
+        "url": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/c6ba7c414f294f96bc3783103b7ccfc4.png",
+        "thumbUrl": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/c6ba7c414f294f96bc3783103b7ccfc4.png",
         "alt": "Generated cover for mvanhorn/last30days-skill",
         "sourceUrl": null,
         "promptHash": "sha256:810b5e5e76a9"
@@ -158,7 +158,7 @@
         "description": "Open Source Computer Vision Library",
         "language": "C++",
         "topics": [],
-        "stars": 88304,
+        "stars": 88305,
         "forks": 56612,
         "license": null,
         "defaultBranch": null,
@@ -193,8 +193,8 @@
       },
       "visual": {
         "kind": "agnes_generated",
-        "url": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/aafa93a0fef14c83b67a8d25e7f4285f.png",
-        "thumbUrl": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/aafa93a0fef14c83b67a8d25e7f4285f.png",
+        "url": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/c0764f97fb4d41639655163bd2af6959.png",
+        "thumbUrl": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/c0764f97fb4d41639655163bd2af6959.png",
         "alt": "Generated cover for opencv/opencv",
         "sourceUrl": null,
         "promptHash": "sha256:8a2fdf0f9ee7"
@@ -231,7 +231,7 @@
         "description": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop",
         "language": "Shell",
         "topics": [],
-        "stars": 37867,
+        "stars": 37869,
         "forks": 2701,
         "license": null,
         "defaultBranch": null,
@@ -311,7 +311,7 @@
         "description": "The agent that grows with you",
         "language": "Python",
         "topics": [],
-        "stars": 186716,
+        "stars": 186720,
         "forks": 32120,
         "license": null,
         "defaultBranch": null,
@@ -353,8 +353,8 @@
       },
       "visual": {
         "kind": "agnes_generated",
-        "url": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/f300da2a8be34bba8f766358e15e8a5a.png",
-        "thumbUrl": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/f300da2a8be34bba8f766358e15e8a5a.png",
+        "url": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/a040824664e04a5b87d1ca1991a6c2a3.png",
+        "thumbUrl": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/a040824664e04a5b87d1ca1991a6c2a3.png",
         "alt": "Generated cover for NousResearch/hermes-agent",
         "sourceUrl": null,
         "promptHash": "sha256:0883b990f892"
@@ -552,7 +552,7 @@
         "description": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM",
         "language": "Rust",
         "topics": [],
-        "stars": 47800,
+        "stars": 47802,
         "forks": 5036,
         "license": null,
         "defaultBranch": null,
@@ -592,8 +592,8 @@
       },
       "visual": {
         "kind": "agnes_generated",
-        "url": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/02e3ff82aaea48e896220769f968067f.png",
-        "thumbUrl": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/02e3ff82aaea48e896220769f968067f.png",
+        "url": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/183c453b8f504b2192ccd1b5e6ed3580.png",
+        "thumbUrl": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/183c453b8f504b2192ccd1b5e6ed3580.png",
         "alt": "Generated cover for aaif-goose/goose",
         "sourceUrl": null,
         "promptHash": "sha256:6f03df0a0ee9"
@@ -636,7 +636,7 @@
         "description": "Project N.O.M.A.D, is a self-contained, offline survival computer packed with critical tools, knowledge, and AI to keep you informed and empowered—anytime, anywhere.",
         "language": "TypeScript",
         "topics": [],
-        "stars": 29937,
+        "stars": 29938,
         "forks": 2968,
         "license": null,
         "defaultBranch": null,
@@ -676,8 +676,8 @@
       },
       "visual": {
         "kind": "agnes_generated",
-        "url": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/93a546b335454bfd830952defd513ee0.png",
-        "thumbUrl": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/93a546b335454bfd830952defd513ee0.png",
+        "url": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/a5e2c8dd28c84d65b90c040b56ee5c17.png",
+        "thumbUrl": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/a5e2c8dd28c84d65b90c040b56ee5c17.png",
         "alt": "Generated cover for Crosstalk-Solutions/project-nomad",
         "sourceUrl": null,
         "promptHash": "sha256:37c85475d787"
@@ -717,7 +717,7 @@
         "language": "C++",
         "topics": [],
         "stars": 115535,
-        "forks": 19335,
+        "forks": 19336,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -883,7 +883,7 @@
         "description": "所有小初高、大学PDF教材。",
         "language": "Roff",
         "topics": [],
-        "stars": 72812,
+        "stars": 72813,
         "forks": 16304,
         "license": null,
         "defaultBranch": null,
@@ -960,7 +960,7 @@
         "description": "OpenAI Plugins",
         "language": "JavaScript",
         "topics": [],
-        "stars": 2177,
+        "stars": 2178,
         "forks": 276,
         "license": null,
         "defaultBranch": null,
@@ -990,8 +990,8 @@
       },
       "visual": {
         "kind": "agnes_generated",
-        "url": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/b68300568df84f24b1ed2c312aad8748.png",
-        "thumbUrl": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/b68300568df84f24b1ed2c312aad8748.png",
+        "url": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/9817764f2b4644589a294693191c4d7d.png",
+        "thumbUrl": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/9817764f2b4644589a294693191c4d7d.png",
         "alt": "Generated cover for openai/plugins",
         "sourceUrl": null,
         "promptHash": "sha256:9c6fcc3b71a3"
@@ -1107,7 +1107,7 @@
         "description": "Useful tool to track location or mobile number",
         "language": "Python",
         "topics": [],
-        "stars": 13905,
+        "stars": 13907,
         "forks": 1850,
         "license": null,
         "defaultBranch": null,
