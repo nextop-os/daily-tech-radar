@@ -2,8 +2,8 @@
   "schemaVersion": "trendreader.daily.v1",
   "packageId": "github-daily-All-2026-06-05",
   "locale": "en-US",
-  "generatedAt": "2026-06-06T10:10:38.216Z",
-  "expiresAt": "2026-06-07T10:10:38.216Z",
+  "generatedAt": "2026-06-08T03:41:09.072Z",
+  "expiresAt": "2026-06-09T03:41:09.072Z",
   "sourceWindow": {
     "since": "daily",
     "language": "All",
@@ -14,12 +14,12 @@
       "id": "github_trending_html",
       "role": "candidate",
       "status": "ok",
-      "itemCount": 17
+      "itemCount": 15
     }
   ],
   "taxonomy": {
     "version": "2026-06-05",
-    "generatedAt": "2026-06-06T10:10:38.216Z",
+    "generatedAt": "2026-06-08T03:41:09.072Z",
     "categories": [
       {
         "id": "ai",
@@ -60,6 +60,242 @@
   },
   "repos": [
     {
+      "id": "mvanhorn-last30days-skill",
+      "owner": "mvanhorn",
+      "name": "last30days-skill",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "avatarUrl": "https://github.com/mvanhorn.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 1,
+        "starsGained": 1111
+      },
+      "metadata": {
+        "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+        "language": "Python",
+        "topics": [],
+        "stars": 31576,
+        "forks": 2631,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Python"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/mvanhorn/last30days-skill/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "/last30days",
+        "summary": "An AI agent-led search engine scored by upvotes, likes, and real money - not editors.",
+        "headings": [
+          "/last30days",
+          "Why this exists",
+          "Sources, scored by the people",
+          "What people actually use it for",
+          "What v3 Changed",
+          "Shareable HTML briefs",
+          "Intelligent search: the killer feature",
+          "Best Takes"
+        ],
+        "commands": [],
+        "keywords": [
+          "ai",
+          "agent",
+          "/last30days",
+          "why this exists",
+          "sources, scored by the people",
+          "what people actually use it for"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "agnes_generated",
+        "url": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/0113496aad394fb998f9bf10112fe019.png",
+        "thumbUrl": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/0113496aad394fb998f9bf10112fe019.png",
+        "alt": "Generated cover for mvanhorn/last30days-skill",
+        "sourceUrl": null,
+        "promptHash": "sha256:dcec996b1934"
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.8,
+        "method": "rules",
+        "reasons": [
+          "Matched ai",
+          "Matched agent"
+        ],
+        "signals": [
+          "ai",
+          "agent"
+        ]
+      },
+      "rank": {
+        "globalRank": 1,
+        "categoryRank": 1,
+        "score": 118
+      }
+    },
+    {
+      "id": "opencv-opencv",
+      "owner": "opencv",
+      "name": "opencv",
+      "url": "https://github.com/opencv/opencv",
+      "avatarUrl": "https://github.com/opencv.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 2,
+        "starsGained": 65
+      },
+      "metadata": {
+        "description": "Open Source Computer Vision Library",
+        "language": "C++",
+        "topics": [],
+        "stars": 88156,
+        "forks": 56600,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "C++"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/opencv/opencv/master/README.md"
+      },
+      "readmeSignals": {
+        "title": null,
+        "summary": "OpenCV: Open Source Computer Vision Library",
+        "headings": [
+          "OpenCV: Open Source Computer Vision Library",
+          "Resources",
+          "Contributing",
+          "Additional Resources"
+        ],
+        "commands": [],
+        "keywords": [
+          "opencv: open source computer vision library",
+          "resources",
+          "contributing",
+          "additional resources"
+        ],
+        "score": 80
+      },
+      "visual": {
+        "kind": "agnes_generated",
+        "url": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/1cb82d1930a14b0d853647d5553791af.png",
+        "thumbUrl": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/1cb82d1930a14b0d853647d5553791af.png",
+        "alt": "Generated cover for opencv/opencv",
+        "sourceUrl": null,
+        "promptHash": "sha256:3287fc17e4ef"
+      },
+      "classification": {
+        "primaryCategoryId": "unclassified",
+        "secondaryCategoryIds": [],
+        "confidence": 0.4,
+        "method": "rules",
+        "reasons": [
+          "No taxonomy rule matched with enough confidence"
+        ],
+        "signals": []
+      },
+      "rank": {
+        "globalRank": 2,
+        "categoryRank": 2,
+        "score": 102.5
+      }
+    },
+    {
+      "id": "leonxlnx-taste-skill",
+      "owner": "Leonxlnx",
+      "name": "taste-skill",
+      "url": "https://github.com/Leonxlnx/taste-skill",
+      "avatarUrl": "https://github.com/Leonxlnx.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 3,
+        "starsGained": 1103
+      },
+      "metadata": {
+        "description": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop",
+        "language": "Shell",
+        "topics": [],
+        "stars": 37042,
+        "forks": 2661,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Shell"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/Leonxlnx/taste-skill/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Taste Skill",
+        "summary": "The Anti-Slop Frontend Framework for AI Agents",
+        "headings": [
+          "Taste Skill",
+          "Disclaimer",
+          "Feedback & Contributions",
+          "Installing",
+          "Updating from the previous version",
+          "Skills",
+          "Image generation skills",
+          "Which one should I use?"
+        ],
+        "commands": [],
+        "keywords": [
+          "ai",
+          "taste skill",
+          "disclaimer",
+          "feedback & contributions",
+          "installing"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/Leonxlnx/taste-skill/main/examples/floria-top.webp",
+        "thumbUrl": "https://raw.githubusercontent.com/Leonxlnx/taste-skill/main/examples/floria-top.webp",
+        "alt": "Leonxlnx/taste-skill",
+        "sourceUrl": "https://raw.githubusercontent.com/Leonxlnx/taste-skill/main/examples/floria-top.webp",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched ai"
+        ],
+        "signals": [
+          "ai"
+        ]
+      },
+      "rank": {
+        "globalRank": 3,
+        "categoryRank": 3,
+        "score": 114
+      }
+    },
+    {
       "id": "nousresearch-hermes-agent",
       "owner": "NousResearch",
       "name": "hermes-agent",
@@ -68,15 +304,15 @@
       "homepageUrl": null,
       "source": {
         "primary": "github_trending_html",
-        "sourceRank": 1,
-        "starsGained": 1845
+        "sourceRank": 4,
+        "starsGained": 1112
       },
       "metadata": {
         "description": "The agent that grows with you",
         "language": "Python",
         "topics": [],
-        "stars": 184052,
-        "forks": 31535,
+        "stars": 186167,
+        "forks": 32023,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -117,8 +353,8 @@
       },
       "visual": {
         "kind": "agnes_generated",
-        "url": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/828c5489af17475a813067d9feaa3ef7.png",
-        "thumbUrl": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/828c5489af17475a813067d9feaa3ef7.png",
+        "url": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/77d107b3028d4489864ddcd0c8e61b43.png",
+        "thumbUrl": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/77d107b3028d4489864ddcd0c8e61b43.png",
         "alt": "Generated cover for NousResearch/hermes-agent",
         "sourceUrl": null,
         "promptHash": "sha256:15e7b9fd7f31"
@@ -136,178 +372,9 @@
         ]
       },
       "rank": {
-        "globalRank": 1,
-        "categoryRank": 1,
-        "score": 118
-      }
-    },
-    {
-      "id": "chopratejas-headroom",
-      "owner": "chopratejas",
-      "name": "headroom",
-      "url": "https://github.com/chopratejas/headroom",
-      "avatarUrl": "https://github.com/chopratejas.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 2,
-        "starsGained": 2473
-      },
-      "metadata": {
-        "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.",
-        "language": "Python",
-        "topics": [],
-        "stars": 15033,
-        "forks": 956,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "Python"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/chopratejas/headroom/main/README.md"
-      },
-      "readmeSignals": {
-        "title": "1 — Install",
-        "summary": "60–95% fewer tokens · library · proxy · MCP · 6 algorithms · local-first · reversible",
-        "headings": [
-          "What it does",
-          "How it works (30 seconds)",
-          "Get started (60 seconds)",
-          "1 — Install",
-          "2 — Pick your mode",
-          "or: from headroom import compress      # inline library",
-          "3 — See the savings",
-          "Proof"
-        ],
-        "commands": [
-          "pip install \"headroom-ai[all]\"          # Python",
-          "npm install headroom-ai                 # Node / TypeScript",
-          "pip install \"headroom-ai[all]\"          # Python, everything",
-          "npm install headroom-ai                 # TypeScript / Node",
-          "pip install -e \".[dev]\" && pytest"
-        ],
-        "keywords": [
-          "llm",
-          "mcp",
-          "what it does",
-          "how it works (30 seconds)",
-          "get started (60 seconds)",
-          "1 — install"
-        ],
-        "score": 100
-      },
-      "visual": {
-        "kind": "readme_image",
-        "url": "https://raw.githubusercontent.com/chopratejas/headroom/main/HeadroomDemo-Fast.gif",
-        "thumbUrl": "https://raw.githubusercontent.com/chopratejas/headroom/main/HeadroomDemo-Fast.gif",
-        "alt": "Headroom in action",
-        "sourceUrl": "https://raw.githubusercontent.com/chopratejas/headroom/main/HeadroomDemo-Fast.gif",
-        "promptHash": null
-      },
-      "classification": {
-        "primaryCategoryId": "ai",
-        "secondaryCategoryIds": [],
-        "confidence": 0.8,
-        "method": "rules",
-        "reasons": [
-          "Matched llm",
-          "Matched mcp"
-        ],
-        "signals": [
-          "llm",
-          "mcp"
-        ]
-      },
-      "rank": {
-        "globalRank": 2,
-        "categoryRank": 2,
-        "score": 116
-      }
-    },
-    {
-      "id": "copilotkit-copilotkit",
-      "owner": "CopilotKit",
-      "name": "CopilotKit",
-      "url": "https://github.com/CopilotKit/CopilotKit",
-      "avatarUrl": "https://github.com/CopilotKit.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 3,
-        "starsGained": 366
-      },
-      "metadata": {
-        "description": "The Frontend Stack for Agents & Generative UI. React + Angular. Makers of the AG-UI Protocol",
-        "language": "TypeScript",
-        "topics": [],
-        "stars": 32913,
-        "forks": 4213,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "TypeScript"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/CopilotKit/CopilotKit/main/README.md"
-      },
-      "readmeSignals": {
-        "title": "CopilotKit",
-        "summary": "Generative UI, shared state, and human-in-the-loop workflows for React, Angular, Vue, React Native — and beyond the browser.",
-        "headings": [
-          "CopilotKit",
-          "What is CopilotKit",
-          "🧩 Works With Your Stack",
-          "💬 Beyond the Browser: Slack & Microsoft Teams (Discord, Google Chat coming soon...)",
-          "🧠 Self-Learning Agents",
-          "Quick Start",
-          "New projects:",
-          "Existing projects:"
-        ],
-        "commands": [],
-        "keywords": [
-          "agent",
-          "copilotkit",
-          "what is copilotkit",
-          "🧩 works with your stack",
-          "💬 beyond the browser: slack & microsoft teams (discord, google chat coming soon...)"
-        ],
-        "score": 100
-      },
-      "visual": {
-        "kind": "readme_image",
-        "url": "https://github.com/user-attachments/assets/aeb56c28-c766-44a5-810c-5d999bb6a32a",
-        "thumbUrl": "https://github.com/user-attachments/assets/aeb56c28-c766-44a5-810c-5d999bb6a32a",
-        "alt": "CopilotKit",
-        "sourceUrl": "https://github.com/user-attachments/assets/aeb56c28-c766-44a5-810c-5d999bb6a32a",
-        "promptHash": null
-      },
-      "classification": {
-        "primaryCategoryId": "ai",
-        "secondaryCategoryIds": [],
-        "confidence": 0.7,
-        "method": "rules",
-        "reasons": [
-          "Matched agent"
-        ],
-        "signals": [
-          "agent"
-        ]
-      },
-      "rank": {
-        "globalRank": 3,
-        "categoryRank": 3,
-        "score": 114
+        "globalRank": 4,
+        "categoryRank": 4,
+        "score": 112
       }
     },
     {
@@ -319,15 +386,15 @@
       "homepageUrl": null,
       "source": {
         "primary": "github_trending_html",
-        "sourceRank": 4,
-        "starsGained": 1152
+        "sourceRank": 5,
+        "starsGained": 554
       },
       "metadata": {
         "description": "An Open Source implementation of Notebook LM with more flexibility and features",
         "language": "TypeScript",
         "topics": [],
-        "stars": 26273,
-        "forks": 3015,
+        "stars": 27394,
+        "forks": 3108,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -382,76 +449,73 @@
         "signals": []
       },
       "rank": {
-        "globalRank": 4,
-        "categoryRank": 4,
-        "score": 112
+        "globalRank": 5,
+        "categoryRank": 5,
+        "score": 110
       }
     },
     {
-      "id": "affaan-m-ecc",
-      "owner": "affaan-m",
-      "name": "ECC",
-      "url": "https://github.com/affaan-m/ECC",
-      "avatarUrl": "https://github.com/affaan-m.png",
+      "id": "yikart-aitoearn",
+      "owner": "yikart",
+      "name": "AiToEarn",
+      "url": "https://github.com/yikart/AiToEarn",
+      "avatarUrl": "https://github.com/yikart.png",
       "homepageUrl": null,
       "source": {
         "primary": "github_trending_html",
-        "sourceRank": 5,
-        "starsGained": 1361
+        "sourceRank": 6,
+        "starsGained": 183
       },
       "metadata": {
-        "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-        "language": "JavaScript",
+        "description": "Let's use AI to Earn!",
+        "language": "TypeScript",
         "topics": [],
-        "stars": 208682,
-        "forks": 32004,
+        "stars": 18922,
+        "forks": 2920,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
         "topLanguages": [
-          "JavaScript"
+          "TypeScript"
         ]
       },
       "readmeRef": {
         "status": "available",
         "path": "README.md",
         "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/affaan-m/ECC/main/README.md"
+        "rawUrl": "https://raw.githubusercontent.com/yikart/AiToEarn/main/README.md"
       },
       "readmeSignals": {
-        "title": "ECC",
-        "summary": "182K+ stars | 28K+ forks | 170+ contributors | 12+ language ecosystems | Cross-harness agent workflows",
+        "title": "[Aitoearn：OPC（一人公司）的AI内容营销智能体](https://aitoearn.ai)",
+        "summary": "Monetize · Publish · Engage · Create —— 一站式平台。",
         "headings": [
-          "ECC",
-          "The Guides",
-          "What's New",
-          "v2.0.0-rc.1 — Surface Refresh, Operator Workflows, and ECC 2.0 Alpha (Apr 2026)",
-          "v1.9.0 — Selective Install & Language Expansion (Mar 2026)",
-          "v1.8.0 — Harness Performance System (Mar 2026)",
-          "v1.7.0 — Cross-Platform Expansion & Presentation Builder (Feb 2026)",
-          "v1.6.0 — Codex CLI, AgentShield & Marketplace (Feb 2026)"
+          "[Aitoearn：OPC（一人公司）的AI内容营销智能体](https://aitoearn.ai)",
+          "🚀 快速使用 AiToEarn（5 种方式）",
+          "最新动态",
+          "核心功能",
+          "💰 Monetize —— 内容赚钱",
+          "📢 Publish —— 内容发布 Agent",
+          "💬 Engage —— 内容互动 Agent",
+          "🎨 Create —— 内容创作 Agent"
         ],
         "commands": [
-          "npm install        # or: pnpm install | yarn install | bun install",
-          "npm install && bash scripts/sync-ecc-to-codex.sh",
-          "npm install -g opencode",
-          "npm install ecc-universal"
+          "npm install\n\n# 编译 sqlite（better-sqlite3 需要 node-gyp 和本地 Python）"
         ],
         "keywords": [
-          "agent",
-          "ecc",
-          "the guides",
-          "what's new",
-          "v2.0.0-rc.1 — surface refresh, operator workflows, and ecc 2.0 alpha (apr 2026)"
+          "ai",
+          "[aitoearn：opc（一人公司）的ai内容营销智能体](https://aitoearn.ai)",
+          "🚀 快速使用 aitoearn（5 种方式）",
+          "最新动态",
+          "核心功能"
         ],
         "score": 100
       },
       "visual": {
         "kind": "readme_image",
-        "url": "https://raw.githubusercontent.com/affaan-m/ECC/main/assets/hero.png",
-        "thumbUrl": "https://raw.githubusercontent.com/affaan-m/ECC/main/assets/hero.png",
-        "alt": "ECC - the harness-native operator system for agentic work",
-        "sourceUrl": "https://raw.githubusercontent.com/affaan-m/ECC/main/assets/hero.png",
+        "url": "https://raw.githubusercontent.com/yikart/AiToEarn/main/presentation/monetize-cn.png",
+        "thumbUrl": "https://raw.githubusercontent.com/yikart/AiToEarn/main/presentation/monetize-cn.png",
+        "alt": "yikart/AiToEarn",
+        "sourceUrl": "https://raw.githubusercontent.com/yikart/AiToEarn/main/presentation/monetize-cn.png",
         "promptHash": null
       },
       "classification": {
@@ -460,185 +524,94 @@
         "confidence": 0.7,
         "method": "rules",
         "reasons": [
-          "Matched agent"
+          "Matched ai"
         ],
         "signals": [
-          "agent"
-        ]
-      },
-      "rank": {
-        "globalRank": 5,
-        "categoryRank": 5,
-        "score": 110
-      }
-    },
-    {
-      "id": "panniantong-agent-reach",
-      "owner": "Panniantong",
-      "name": "Agent-Reach",
-      "url": "https://github.com/Panniantong/Agent-Reach",
-      "avatarUrl": "https://github.com/Panniantong.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 6,
-        "starsGained": 148
-      },
-      "metadata": {
-        "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
-        "language": "Python",
-        "topics": [],
-        "stars": 21878,
-        "forks": 1883,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "Python"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/Panniantong/Agent-Reach/main/README.md"
-      },
-      "readmeSignals": {
-        "title": "只预览，不实际删除",
-        "summary": "AI Agent 已经能帮你写代码、改文档、管项目——但你让它去网上找点东西，它就抓瞎了：",
-        "headings": [
-          "为什么需要 Agent Reach？",
-          "✅ 在你用之前，你可能想知道",
-          "支持的平台",
-          "快速上手",
-          "装好就能用",
-          "设计理念",
-          "🔌 每个渠道都是可插拔的",
-          "当前选型"
-        ],
-        "commands": [
-          "pip install agent-reach"
-        ],
-        "keywords": [
-          "ai",
-          "agent",
-          "为什么需要 agent reach？",
-          "✅ 在你用之前，你可能想知道",
-          "支持的平台",
-          "快速上手"
-        ],
-        "score": 100
-      },
-      "visual": {
-        "kind": "readme_image",
-        "url": "https://raw.githubusercontent.com/Panniantong/Agent-Reach/main/docs/wechat-group-qr.jpg",
-        "thumbUrl": "https://raw.githubusercontent.com/Panniantong/Agent-Reach/main/docs/wechat-group-qr.jpg",
-        "alt": "WeChat QR",
-        "sourceUrl": "https://raw.githubusercontent.com/Panniantong/Agent-Reach/main/docs/wechat-group-qr.jpg",
-        "promptHash": null
-      },
-      "classification": {
-        "primaryCategoryId": "ai",
-        "secondaryCategoryIds": [],
-        "confidence": 0.8,
-        "method": "rules",
-        "reasons": [
-          "Matched ai",
-          "Matched agent"
-        ],
-        "signals": [
-          "ai",
-          "agent"
+          "ai"
         ]
       },
       "rank": {
         "globalRank": 6,
         "categoryRank": 6,
-        "score": 102.8
+        "score": 106.3
       }
     },
     {
-      "id": "nvidia-cosmos",
-      "owner": "NVIDIA",
-      "name": "cosmos",
-      "url": "https://github.com/NVIDIA/cosmos",
-      "avatarUrl": "https://github.com/NVIDIA.png",
+      "id": "aaif-goose-goose",
+      "owner": "aaif-goose",
+      "name": "goose",
+      "url": "https://github.com/aaif-goose/goose",
+      "avatarUrl": "https://github.com/aaif-goose.png",
       "homepageUrl": null,
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 7,
-        "starsGained": 479
+        "starsGained": 322
       },
       "metadata": {
-        "description": "NVIDIA Cosmos is an open platform of world models, datasets, and tools that enables developers to build Physical AI for robots, autonomous vehicles, smart infrastructure, and more.",
-        "language": "Jupyter Notebook",
+        "description": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM",
+        "language": "Rust",
         "topics": [],
-        "stars": 9532,
-        "forks": 606,
+        "stars": 47595,
+        "forks": 5018,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
         "topLanguages": [
-          "Jupyter Notebook"
+          "Rust"
         ]
       },
       "readmeRef": {
         "status": "available",
         "path": "README.md",
         "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/NVIDIA/cosmos/main/README.md"
+        "rawUrl": "https://raw.githubusercontent.com/aaif-goose/goose/main/README.md"
       },
       "readmeSignals": {
-        "title": "Cosmos",
-        "summary": "introduction cosmos-3 key-capabilities model-architecture model-family supported-generation-settings input-and-output use-cases generator reasoner quickstart generator-with-diffusers generator-with-vllm-omni reasoner-with-transformers reasoner-with-vllm reasoner-with-nim troubles",
+        "title": "goose",
+        "summary": "🦆 goose has moved! This project has moved from block/goose to the https://aaif.io/ at the Linux Foundation. Some links and references are still being updated — please bear with us during the transition.",
         "headings": [
-          "Cosmos",
-          "Table of Contents",
-          "Introduction",
-          "Cosmos 3",
-          "Key Capabilities",
-          "Model Architecture",
-          "Model Family",
-          "Supported Generation Settings"
+          "goose",
+          "Get started",
+          "Quick links",
+          "Need help?",
+          "a little goose humor 🪿",
+          "goose around with us"
         ],
-        "commands": [
-          "pip install --torch-backend=auto \\",
-          "pip install --torch-backend=cu130 \\",
-          "pip install --torch-backend=cu128 \\",
-          "pip install --torch-backend=cu130 \"vllm==0.21.0\" \\",
-          "pip install torch",
-          "pip install --torch-backend=auto torch torchvision"
-        ],
+        "commands": [],
         "keywords": [
           "ai",
-          "model",
-          "cosmos",
-          "table of contents",
-          "introduction",
-          "cosmos 3"
+          "agent",
+          "llm",
+          "goose",
+          "get started",
+          "quick links",
+          "need help?"
         ],
-        "score": 100
+        "score": 90
       },
       "visual": {
-        "kind": "readme_image",
-        "url": "https://raw.githubusercontent.com/NVIDIA/cosmos/main/cookbooks/cosmos3/cosmos3-model-architecture.png",
-        "thumbUrl": "https://raw.githubusercontent.com/NVIDIA/cosmos/main/cookbooks/cosmos3/cosmos3-model-architecture.png",
-        "alt": "Cosmos 3 model architecture",
-        "sourceUrl": "https://raw.githubusercontent.com/NVIDIA/cosmos/main/cookbooks/cosmos3/cosmos3-model-architecture.png",
-        "promptHash": null
+        "kind": "agnes_generated",
+        "url": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/b76ac5f5a0194553850f9636edacd89e.png",
+        "thumbUrl": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/b76ac5f5a0194553850f9636edacd89e.png",
+        "alt": "Generated cover for aaif-goose/goose",
+        "sourceUrl": null,
+        "promptHash": "sha256:83af2da94885"
       },
       "classification": {
         "primaryCategoryId": "ai",
         "secondaryCategoryIds": [],
-        "confidence": 0.8,
+        "confidence": 0.9,
         "method": "rules",
         "reasons": [
           "Matched ai",
-          "Matched model"
+          "Matched agent",
+          "Matched llm"
         ],
         "signals": [
           "ai",
-          "model"
+          "agent",
+          "llm"
         ]
       },
       "rank": {
@@ -648,23 +621,183 @@
       }
     },
     {
-      "id": "666ghj-mirofish",
-      "owner": "666ghj",
-      "name": "MiroFish",
-      "url": "https://github.com/666ghj/MiroFish",
-      "avatarUrl": "https://github.com/666ghj.png",
+      "id": "crosstalk-solutions-project-nomad",
+      "owner": "Crosstalk-Solutions",
+      "name": "project-nomad",
+      "url": "https://github.com/Crosstalk-Solutions/project-nomad",
+      "avatarUrl": "https://github.com/Crosstalk-Solutions.png",
       "homepageUrl": null,
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 8,
-        "starsGained": 320
+        "starsGained": 309
       },
       "metadata": {
-        "description": "A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物",
+        "description": "Project N.O.M.A.D, is a self-contained, offline survival computer packed with critical tools, knowledge, and AI to keep you informed and empowered—anytime, anywhere.",
+        "language": "TypeScript",
+        "topics": [],
+        "stars": 29792,
+        "forks": 2953,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "TypeScript"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/Crosstalk-Solutions/project-nomad/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Project N.O.M.A.D.",
+        "summary": "Project N.O.M.A.D. Node for Offline Media, Archives, and Data",
+        "headings": [
+          "Project N.O.M.A.D.",
+          "Node for Offline Media, Archives, and Data",
+          "Installation & Quickstart",
+          "Quick Install (Debian-based OS Only)",
+          "Advanced Installation",
+          "How It Works",
+          "What's Included",
+          "Device Requirements"
+        ],
+        "commands": [],
+        "keywords": [
+          "ai",
+          "project n.o.m.a.d.",
+          "node for offline media, archives, and data",
+          "installation & quickstart",
+          "quick install (debian-based os only)"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "agnes_generated",
+        "url": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/6ad9a5f70cc842f596d22fd5ff77a3bf.png",
+        "thumbUrl": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/6ad9a5f70cc842f596d22fd5ff77a3bf.png",
+        "alt": "Generated cover for Crosstalk-Solutions/project-nomad",
+        "sourceUrl": null,
+        "promptHash": "sha256:0f682c3b1c3b"
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched ai"
+        ],
+        "signals": [
+          "ai"
+        ]
+      },
+      "rank": {
+        "globalRank": 8,
+        "categoryRank": 8,
+        "score": 104
+      }
+    },
+    {
+      "id": "ggml-org-llama-cpp",
+      "owner": "ggml-org",
+      "name": "llama.cpp",
+      "url": "https://github.com/ggml-org/llama.cpp",
+      "avatarUrl": "https://github.com/ggml-org.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 9,
+        "starsGained": 158
+      },
+      "metadata": {
+        "description": "LLM inference in C/C++",
+        "language": "C++",
+        "topics": [],
+        "stars": 115393,
+        "forks": 19313,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "C++"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/ggml-org/llama.cpp/master/README.md"
+      },
+      "readmeSignals": {
+        "title": "llama.cpp",
+        "summary": "Hugging Face cache migration: models downloaded with -hf are now stored in the standard Hugging Face cache directory, enabling sharing with other HF tools. https://github.com/ggml-org/llama.cpp/discussions/16938 https://github.com/ggml-org/llama.cpp/discussions/15396 FEEDBACK Bet",
+        "headings": [
+          "llama.cpp",
+          "Recent API changes",
+          "Hot topics",
+          "Quick start",
+          "Use a local model file",
+          "Or download and run a model directly from Hugging Face",
+          "Launch OpenAI-compatible API server",
+          "Description"
+        ],
+        "commands": [],
+        "keywords": [
+          "llm",
+          "llama.cpp",
+          "recent api changes",
+          "hot topics",
+          "quick start"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://user-images.githubusercontent.com/1991296/230134379-7181e485-c521-4d23-a0d6-f7b3b61ba524.png",
+        "thumbUrl": "https://user-images.githubusercontent.com/1991296/230134379-7181e485-c521-4d23-a0d6-f7b3b61ba524.png",
+        "alt": "llama",
+        "sourceUrl": "https://user-images.githubusercontent.com/1991296/230134379-7181e485-c521-4d23-a0d6-f7b3b61ba524.png",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched llm"
+        ],
+        "signals": [
+          "llm"
+        ]
+      },
+      "rank": {
+        "globalRank": 9,
+        "categoryRank": 9,
+        "score": 97.8
+      }
+    },
+    {
+      "id": "ryancodrai-turbovec",
+      "owner": "RyanCodrai",
+      "name": "turbovec",
+      "url": "https://github.com/RyanCodrai/turbovec",
+      "avatarUrl": "https://github.com/RyanCodrai.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 10,
+        "starsGained": 1554
+      },
+      "metadata": {
+        "description": "A vector index built on TurboQuant, written in Rust with Python bindings",
         "language": "Python",
         "topics": [],
-        "stars": 64906,
-        "forks": 10097,
+        "stars": 7374,
+        "forks": 713,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -676,36 +809,123 @@
         "status": "available",
         "path": "README.md",
         "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/666ghj/MiroFish/main/README.md"
+        "rawUrl": "https://raw.githubusercontent.com/RyanCodrai/turbovec/main/README.md"
       },
       "readmeSignals": {
-        "title": "Copy the example configuration file",
-        "summary": "简洁通用的群体智能引擎，预测万物 A Simple and Universal Swarm Intelligence Engine, Predicting Anything",
+        "title": "Stage 1: external system narrows to candidate ids.",
+        "summary": "A 10 million document corpus takes 31 GB of RAM as float32. turbovec fits it in 4 GB - and searches it faster than FAISS.",
         "headings": [
-          "⚡ Overview",
-          "Our Vision",
-          "🌐 Live Demo",
-          "📸 Screenshots",
-          "🎬 Demo Videos",
-          "1. Wuhan University Public Opinion Simulation + MiroFish Project Introduction",
-          "2. Dream of the Red Chamber Lost Ending Simulation",
-          "🔄 Workflow"
+          "Python",
+          "Hybrid retrieval (filtered search)",
+          "Stage 1: external system narrows to candidate ids.",
+          "Stage 2: dense rerank within the candidate set.",
+          "Framework integrations",
+          "Rust",
+          "Recall",
+          "Compression"
         ],
-        "commands": [],
+        "commands": [
+          "pip install turbovec",
+          "pip install turbovec[langchain]",
+          "pip install turbovec[llama-index]",
+          "pip install turbovec[haystack]",
+          "pip install turbovec[agno]",
+          "pip install maturin"
+        ],
         "keywords": [
-          "⚡ overview",
-          "our vision",
-          "🌐 live demo",
-          "📸 screenshots"
+          "ui",
+          "python",
+          "hybrid retrieval (filtered search)",
+          "stage 1: external system narrows to candidate ids.",
+          "stage 2: dense rerank within the candidate set."
         ],
         "score": 100
       },
       "visual": {
         "kind": "readme_image",
-        "url": "https://raw.githubusercontent.com/666ghj/MiroFish/main/static/image/Screenshot/%E8%BF%90%E8%A1%8C%E6%88%AA%E5%9B%BE1.png",
-        "thumbUrl": "https://raw.githubusercontent.com/666ghj/MiroFish/main/static/image/Screenshot/%E8%BF%90%E8%A1%8C%E6%88%AA%E5%9B%BE1.png",
-        "alt": "Screenshot 1",
-        "sourceUrl": "https://raw.githubusercontent.com/666ghj/MiroFish/main/static/image/Screenshot/%E8%BF%90%E8%A1%8C%E6%88%AA%E5%9B%BE1.png",
+        "url": "https://raw.githubusercontent.com/RyanCodrai/turbovec/main/docs/recall_glove.svg",
+        "thumbUrl": "https://raw.githubusercontent.com/RyanCodrai/turbovec/main/docs/recall_glove.svg",
+        "alt": "Recall GloVe d=200",
+        "sourceUrl": "https://raw.githubusercontent.com/RyanCodrai/turbovec/main/docs/recall_glove.svg",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "frontend",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched ui"
+        ],
+        "signals": [
+          "ui"
+        ]
+      },
+      "rank": {
+        "globalRank": 10,
+        "categoryRank": 10,
+        "score": 100
+      }
+    },
+    {
+      "id": "tapxworld-chinatextbook",
+      "owner": "TapXWorld",
+      "name": "ChinaTextbook",
+      "url": "https://github.com/TapXWorld/ChinaTextbook",
+      "avatarUrl": "https://github.com/TapXWorld.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 11,
+        "starsGained": 350
+      },
+      "metadata": {
+        "description": "所有小初高、大学PDF教材。",
+        "language": "Roff",
+        "topics": [],
+        "stars": 72603,
+        "forks": 16264,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Roff"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/TapXWorld/ChinaTextbook/master/README.md"
+      },
+      "readmeSignals": {
+        "title": null,
+        "summary": "项目的由来 虽然国内教育网站已提供免费资源，但大多数普通人获取信息的途径依然受限。有些人利用这一点，在某站上销售这些带有私人水印的资源。为了应对这种情况，我计划将这些资源集中并开源，以促进义务教育的普及和消除地区间的教育贫困。",
+        "headings": [
+          "项目的由来",
+          "学习数学",
+          "小学数学",
+          "初中数学",
+          "高中数学",
+          "大学数学",
+          "## 问题：如何合并被拆分的文件？",
+          "示例"
+        ],
+        "commands": [],
+        "keywords": [
+          "项目的由来",
+          "学习数学",
+          "小学数学",
+          "初中数学"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/TapXWorld/ChinaTextbook/master/.cache/support-alipay.png",
+        "thumbUrl": "https://raw.githubusercontent.com/TapXWorld/ChinaTextbook/master/.cache/support-alipay.png",
+        "alt": "TapXWorld/ChinaTextbook",
+        "sourceUrl": "https://raw.githubusercontent.com/TapXWorld/ChinaTextbook/master/.cache/support-alipay.png",
         "promptHash": null
       },
       "classification": {
@@ -719,175 +939,9 @@
         "signals": []
       },
       "rank": {
-        "globalRank": 8,
-        "categoryRank": 8,
-        "score": 104
-      }
-    },
-    {
-      "id": "mvanhorn-last30days-skill",
-      "owner": "mvanhorn",
-      "name": "last30days-skill",
-      "url": "https://github.com/mvanhorn/last30days-skill",
-      "avatarUrl": "https://github.com/mvanhorn.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 9,
-        "starsGained": 731
-      },
-      "metadata": {
-        "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
-        "language": "Python",
-        "topics": [],
-        "stars": 28391,
-        "forks": 2403,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "Python"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/mvanhorn/last30days-skill/main/README.md"
-      },
-      "readmeSignals": {
-        "title": "/last30days",
-        "summary": "An AI agent-led search engine scored by upvotes, likes, and real money - not editors.",
-        "headings": [
-          "/last30days",
-          "Why this exists",
-          "Sources, scored by the people",
-          "What people actually use it for",
-          "What v3 Changed",
-          "Shareable HTML briefs",
-          "Intelligent search: the killer feature",
-          "Best Takes"
-        ],
-        "commands": [],
-        "keywords": [
-          "ai",
-          "agent",
-          "/last30days",
-          "why this exists",
-          "sources, scored by the people",
-          "what people actually use it for"
-        ],
-        "score": 100
-      },
-      "visual": {
-        "kind": "agnes_generated",
-        "url": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/af5bc4943e7f452c919207e180757778.png",
-        "thumbUrl": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/af5bc4943e7f452c919207e180757778.png",
-        "alt": "Generated cover for mvanhorn/last30days-skill",
-        "sourceUrl": null,
-        "promptHash": "sha256:dcec996b1934"
-      },
-      "classification": {
-        "primaryCategoryId": "ai",
-        "secondaryCategoryIds": [],
-        "confidence": 0.8,
-        "method": "rules",
-        "reasons": [
-          "Matched ai",
-          "Matched agent"
-        ],
-        "signals": [
-          "ai",
-          "agent"
-        ]
-      },
-      "rank": {
-        "globalRank": 9,
-        "categoryRank": 9,
-        "score": 102
-      }
-    },
-    {
-      "id": "paddlepaddle-paddleocr",
-      "owner": "PaddlePaddle",
-      "name": "PaddleOCR",
-      "url": "https://github.com/PaddlePaddle/PaddleOCR",
-      "avatarUrl": "https://github.com/PaddlePaddle.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 10,
-        "starsGained": 747
-      },
-      "metadata": {
-        "description": "Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the gap between images/PDFs and LLMs. Supports 100+ languages.",
-        "language": "Python",
-        "topics": [],
-        "stars": 80702,
-        "forks": 10640,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "Python"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/PaddlePaddle/PaddleOCR/main/README.md"
-      },
-      "readmeSignals": {
-        "title": null,
-        "summary": "Global Leading OCR Toolkit & Document AI Engine",
-        "headings": [
-          "🚀 Key Features",
-          "📄 Intelligent Document Parsing (LLM-Ready)",
-          "🔍 Universal Text Recognition (Scene OCR)",
-          "🛠️ Developer-Centric Ecosystem",
-          "📣 Recent updates",
-          "🔥 2026.05.28: Release of PaddleOCR 3.6.0",
-          "🚀 Quick Start",
-          "Step 1: Try Online"
-        ],
-        "commands": [],
-        "keywords": [
-          "ai",
-          "llm",
-          "🚀 key features",
-          "📄 intelligent document parsing (llm-ready)",
-          "🔍 universal text recognition (scene ocr)",
-          "🛠️ developer-centric ecosystem"
-        ],
-        "score": 100
-      },
-      "visual": {
-        "kind": "readme_image",
-        "url": "https://raw.githubusercontent.com/cuicheng01/PaddleX_doc_images/main/images/paddleocr/README/Arch.jpg",
-        "thumbUrl": "https://raw.githubusercontent.com/cuicheng01/PaddleX_doc_images/main/images/paddleocr/README/Arch.jpg",
-        "alt": "PaddleOCR Architecture",
-        "sourceUrl": "https://raw.githubusercontent.com/cuicheng01/PaddleX_doc_images/main/images/paddleocr/README/Arch.jpg",
-        "promptHash": null
-      },
-      "classification": {
-        "primaryCategoryId": "ai",
-        "secondaryCategoryIds": [],
-        "confidence": 0.8,
-        "method": "rules",
-        "reasons": [
-          "Matched ai",
-          "Matched llm"
-        ],
-        "signals": [
-          "ai",
-          "llm"
-        ]
-      },
-      "rank": {
-        "globalRank": 10,
-        "categoryRank": 10,
-        "score": 100
+        "globalRank": 11,
+        "categoryRank": 11,
+        "score": 98
       }
     },
     {
@@ -899,15 +953,15 @@
       "homepageUrl": null,
       "source": {
         "primary": "github_trending_html",
-        "sourceRank": 11,
-        "starsGained": 49
+        "sourceRank": 12,
+        "starsGained": 262
       },
       "metadata": {
         "description": "OpenAI Plugins",
         "language": "JavaScript",
         "topics": [],
-        "stars": 1618,
-        "forks": 251,
+        "stars": 2083,
+        "forks": 273,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -936,95 +990,11 @@
       },
       "visual": {
         "kind": "agnes_generated",
-        "url": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/2189dd32385b485eab518a92a19bed5a.png",
-        "thumbUrl": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/2189dd32385b485eab518a92a19bed5a.png",
+        "url": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/6f92d4262cc047488bcac5ba80973bfa.png",
+        "thumbUrl": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/6f92d4262cc047488bcac5ba80973bfa.png",
         "alt": "Generated cover for openai/plugins",
         "sourceUrl": null,
         "promptHash": "sha256:7fb9c749c29e"
-      },
-      "classification": {
-        "primaryCategoryId": "ai",
-        "secondaryCategoryIds": [],
-        "confidence": 0.7,
-        "method": "rules",
-        "reasons": [
-          "Matched ai"
-        ],
-        "signals": [
-          "ai"
-        ]
-      },
-      "rank": {
-        "globalRank": 11,
-        "categoryRank": 11,
-        "score": 82.9
-      }
-    },
-    {
-      "id": "mempalace-mempalace",
-      "owner": "MemPalace",
-      "name": "mempalace",
-      "url": "https://github.com/MemPalace/mempalace",
-      "avatarUrl": "https://github.com/MemPalace.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 12,
-        "starsGained": 227
-      },
-      "metadata": {
-        "description": "The best-benchmarked open-source AI memory system. And it's free.",
-        "language": "Python",
-        "topics": [],
-        "stars": 54025,
-        "forks": 7090,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "Python"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/MemPalace/mempalace/main/README.md"
-      },
-      "readmeSignals": {
-        "title": "MemPalace",
-        "summary": "Local-first AI memory. Verbatim storage, pluggable backend, 96.6% R@5 raw on LongMemEval — zero API calls.",
-        "headings": [
-          "MemPalace",
-          "What it is",
-          "Install",
-          "Docker",
-          "Build the image (CPU; bundles the `extract` + `spellcheck` extras)",
-          "MCP server over stdio — note the `-i` flag (JSON-RPC needs stdin)",
-          "Run any CLI command instead (mount the host directory you want to mine)",
-          "Storage backends"
-        ],
-        "commands": [
-          "pip install mempalace",
-          "pip install mempalace[pgvector]",
-          "pip install -e \".[dev]\""
-        ],
-        "keywords": [
-          "ai",
-          "mempalace",
-          "what it is",
-          "install",
-          "docker"
-        ],
-        "score": 100
-      },
-      "visual": {
-        "kind": "agnes_generated",
-        "url": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/d542c0afbfd843b99318a1258472ac45.png",
-        "thumbUrl": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/d542c0afbfd843b99318a1258472ac45.png",
-        "alt": "Generated cover for MemPalace/mempalace",
-        "sourceUrl": null,
-        "promptHash": "sha256:446e08ca2faa"
       },
       "classification": {
         "primaryCategoryId": "ai",
@@ -1045,23 +1015,23 @@
       }
     },
     {
-      "id": "withastro-flue",
-      "owner": "withastro",
-      "name": "flue",
-      "url": "https://github.com/withastro/flue",
-      "avatarUrl": "https://github.com/withastro.png",
+      "id": "refactoringhq-tolaria",
+      "owner": "refactoringhq",
+      "name": "tolaria",
+      "url": "https://github.com/refactoringhq/tolaria",
+      "avatarUrl": "https://github.com/refactoringhq.png",
       "homepageUrl": null,
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 13,
-        "starsGained": 126
+        "starsGained": 245
       },
       "metadata": {
-        "description": "The sandbox agent framework.",
+        "description": "Desktop app to manage markdown knowledge bases",
         "language": "TypeScript",
         "topics": [],
-        "stars": 4636,
-        "forks": 246,
+        "stars": 12972,
+        "forks": 914,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -1073,276 +1043,36 @@
         "status": "available",
         "path": "README.md",
         "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/withastro/flue/main/README.md"
+        "rawUrl": "https://raw.githubusercontent.com/refactoringhq/tolaria/main/README.md"
       },
       "readmeSignals": {
-        "title": "Flue",
-        "summary": "Experimental — Flue is under active development. APIs may change. Looking for v0.0.x? https://github.com/withastro/flue/tree/v0.0.x",
+        "title": "💧 Tolaria",
+        "summary": "Tolaria is a desktop app for macOS, Windows, and Linux for managing markdown knowledge bases. People use it for a variety of use cases:",
         "headings": [
-          "Flue",
-          "Packages",
-          "Examples",
-          "Quickstart",
-          "Support Agent",
-          "Issue Triage (CI)",
-          "Coding Agent (Remote Sandbox)",
-          "Remote MCP Tools"
-        ],
-        "commands": [
-          "npm install --save-dev wrangler"
-        ],
-        "keywords": [
-          "agent",
-          "flue",
-          "packages",
-          "examples",
-          "quickstart"
-        ],
-        "score": 100
-      },
-      "visual": {
-        "kind": "agnes_generated",
-        "url": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/e514df58d9094966a05b4bbb0ca04f63.png",
-        "thumbUrl": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/e514df58d9094966a05b4bbb0ca04f63.png",
-        "alt": "Generated cover for withastro/flue",
-        "sourceUrl": null,
-        "promptHash": "sha256:4758cb0b325a"
-      },
-      "classification": {
-        "primaryCategoryId": "ai",
-        "secondaryCategoryIds": [],
-        "confidence": 0.7,
-        "method": "rules",
-        "reasons": [
-          "Matched agent"
-        ],
-        "signals": [
-          "agent"
-        ]
-      },
-      "rank": {
-        "globalRank": 13,
-        "categoryRank": 13,
-        "score": 86.6
-      }
-    },
-    {
-      "id": "openclaw-openclaw-windows-node",
-      "owner": "openclaw",
-      "name": "openclaw-windows-node",
-      "url": "https://github.com/openclaw/openclaw-windows-node",
-      "avatarUrl": "https://github.com/openclaw.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 14,
-        "starsGained": 326
-      },
-      "metadata": {
-        "description": "Windows companion suite for OpenClaw - System Tray app, Shared library, Node, and PowerToys Command Palette extension",
-        "language": "C#",
-        "topics": [],
-        "stars": 1659,
-        "forks": 186,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "C#"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/openclaw/openclaw-windows-node/master/README.md"
-      },
-      "readmeSignals": {
-        "title": "🦞 OpenClaw Windows Hub",
-        "summary": "A native Windows companion suite for https://openclaw.ai - the AI-powered personal assistant.",
-        "headings": [
-          "🦞 OpenClaw Windows Hub",
-          "Projects",
-          "🚀 Quick Start",
-          "Prerequisites",
-          "Build",
-          "Check prerequisites",
-          "Build all projects",
-          "Build specific project"
+          "💧 Tolaria",
+          "Walkthroughs",
+          "Principles",
+          "Installation",
+          "Homebrew",
+          "Download from releases",
+          "Getting started",
+          "Open source and local setup"
         ],
         "commands": [],
         "keywords": [
-          "ui",
-          "🦞 openclaw windows hub",
-          "projects",
-          "🚀 quick start",
-          "prerequisites"
+          "💧 tolaria",
+          "walkthroughs",
+          "principles",
+          "installation"
         ],
         "score": 100
       },
       "visual": {
         "kind": "readme_image",
-        "url": "https://raw.githubusercontent.com/openclaw/openclaw-windows-node/master/docs/images/openclawwindows1.png",
-        "thumbUrl": "https://raw.githubusercontent.com/openclaw/openclaw-windows-node/master/docs/images/openclawwindows1.png",
-        "alt": "OpenClaw Windows Hub tray menu",
-        "sourceUrl": "https://raw.githubusercontent.com/openclaw/openclaw-windows-node/master/docs/images/openclawwindows1.png",
-        "promptHash": null
-      },
-      "classification": {
-        "primaryCategoryId": "frontend",
-        "secondaryCategoryIds": [],
-        "confidence": 0.7,
-        "method": "rules",
-        "reasons": [
-          "Matched ui"
-        ],
-        "signals": [
-          "ui"
-        ]
-      },
-      "rank": {
-        "globalRank": 14,
-        "categoryRank": 14,
-        "score": 92
-      }
-    },
-    {
-      "id": "aquasecurity-trivy",
-      "owner": "aquasecurity",
-      "name": "trivy",
-      "url": "https://github.com/aquasecurity/trivy",
-      "avatarUrl": "https://github.com/aquasecurity.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 15,
-        "starsGained": 207
-      },
-      "metadata": {
-        "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
-        "language": "Go",
-        "topics": [],
-        "stars": 35907,
-        "forks": 448,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "Go"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/aquasecurity/trivy/main/README.md"
-      },
-      "readmeSignals": {
-        "title": null,
-        "summary": "Trivy pronunciationpronunciation is a comprehensive and versatile security scanner. Trivy has scanners that look for security issues, and targets where it can find those issues.",
-        "headings": [
-          "Quick Start",
-          "Get Trivy",
-          "Canary builds",
-          "General usage",
-          "FAQ",
-          "How to pronounce the name \"Trivy\"?",
-          "Want more? Check out Aqua",
-          "Community"
-        ],
-        "commands": [],
-        "keywords": [
-          "ai",
-          "quick start",
-          "get trivy",
-          "canary builds",
-          "general usage"
-        ],
-        "score": 100
-      },
-      "visual": {
-        "kind": "readme_image",
-        "url": "https://raw.githubusercontent.com/aquasecurity/trivy/main/docs/imgs/trivy-k8s.png",
-        "thumbUrl": "https://raw.githubusercontent.com/aquasecurity/trivy/main/docs/imgs/trivy-k8s.png",
-        "alt": "k8s summary",
-        "sourceUrl": "https://raw.githubusercontent.com/aquasecurity/trivy/main/docs/imgs/trivy-k8s.png",
-        "promptHash": null
-      },
-      "classification": {
-        "primaryCategoryId": "ai",
-        "secondaryCategoryIds": [],
-        "confidence": 0.7,
-        "method": "rules",
-        "reasons": [
-          "Matched ai"
-        ],
-        "signals": [
-          "ai"
-        ]
-      },
-      "rank": {
-        "globalRank": 15,
-        "categoryRank": 15,
-        "score": 90
-      }
-    },
-    {
-      "id": "jwasham-coding-interview-university",
-      "owner": "jwasham",
-      "name": "coding-interview-university",
-      "url": "https://github.com/jwasham/coding-interview-university",
-      "avatarUrl": "https://github.com/jwasham.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 16,
-        "starsGained": 745
-      },
-      "metadata": {
-        "description": "A complete computer science study plan to become a software engineer.",
-        "language": "",
-        "topics": [],
-        "stars": 350564,
-        "forks": 83308,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": []
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/jwasham/coding-interview-university/main/README.md"
-      },
-      "readmeSignals": {
-        "title": "Coding Interview University",
-        "summary": "I originally created this as a short to-do list of study topics for becoming a software engineer, but it grew to the large list you see today. After going through this study plan, https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu! You probably won't have to study a",
-        "headings": [
-          "Coding Interview University",
-          "What is it?",
-          "Table of Contents",
-          "The Study Plan",
-          "Topics of Study",
-          "Getting the Job",
-          "Optional Extra Topics & Resources",
-          "Why use it?"
-        ],
-        "commands": [],
-        "keywords": [
-          "coding interview university",
-          "what is it?",
-          "table of contents",
-          "the study plan"
-        ],
-        "score": 100
-      },
-      "visual": {
-        "kind": "readme_image",
-        "url": "https://d3j2pkmjtin6ou.cloudfront.net/coding-at-the-whiteboard-silicon-valley.png",
-        "thumbUrl": "https://d3j2pkmjtin6ou.cloudfront.net/coding-at-the-whiteboard-silicon-valley.png",
-        "alt": "Coding at the whiteboard - from HBO's Silicon Valley",
-        "sourceUrl": "https://d3j2pkmjtin6ou.cloudfront.net/coding-at-the-whiteboard-silicon-valley.png",
+        "url": "https://github.com/user-attachments/assets/8aeafb0a-b236-43c2-a083-ec111f903c38",
+        "thumbUrl": "https://github.com/user-attachments/assets/8aeafb0a-b236-43c2-a083-ec111f903c38",
+        "alt": "1776506856823-CleanShot_2026-04-18_at_12 06 57_2x",
+        "sourceUrl": "https://github.com/user-attachments/assets/8aeafb0a-b236-43c2-a083-ec111f903c38",
         "promptHash": null
       },
       "classification": {
@@ -1356,92 +1086,168 @@
         "signals": []
       },
       "rank": {
-        "globalRank": 16,
-        "categoryRank": 16,
-        "score": 88
+        "globalRank": 13,
+        "categoryRank": 13,
+        "score": 94
       }
     },
     {
-      "id": "github-copilot-sdk",
-      "owner": "github",
-      "name": "copilot-sdk",
-      "url": "https://github.com/github/copilot-sdk",
-      "avatarUrl": "https://github.com/github.png",
+      "id": "hunxbyts-ghosttrack",
+      "owner": "HunxByts",
+      "name": "GhostTrack",
+      "url": "https://github.com/HunxByts/GhostTrack",
+      "avatarUrl": "https://github.com/HunxByts.png",
       "homepageUrl": null,
       "source": {
         "primary": "github_trending_html",
-        "sourceRank": 17,
-        "starsGained": 309
+        "sourceRank": 14,
+        "starsGained": 28
       },
       "metadata": {
-        "description": "Multi-platform SDK for integrating GitHub Copilot Agent into apps and services",
-        "language": "Java",
+        "description": "Useful tool to track location or mobile number",
+        "language": "Python",
         "topics": [],
-        "stars": 9337,
-        "forks": 1232,
+        "stars": 13780,
+        "forks": 1839,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
         "topLanguages": [
-          "Java"
+          "Python"
         ]
       },
       "readmeRef": {
         "status": "available",
         "path": "README.md",
         "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/github/copilot-sdk/main/README.md"
+        "rawUrl": "https://raw.githubusercontent.com/HunxByts/GhostTrack/main/README.md"
       },
       "readmeSignals": {
-        "title": "GitHub Copilot CLI SDKs",
-        "summary": "Embed Copilot's agentic workflows in your application with the GitHub Copilot SDK for Python, TypeScript, Go, .NET, Java, and Rust.",
+        "title": "GhostTrack",
+        "summary": "GhostTrack Useful tool to track location or mobile number, so this tool can be called osint or also information gathering",
         "headings": [
-          "GitHub Copilot CLI SDKs",
-          "Available SDKs",
-          "Getting Started",
-          "Architecture",
-          "FAQ",
-          "Do I need a GitHub Copilot subscription to use the SDK?",
-          "How does billing work for SDK usage?",
-          "Does it support BYOK (Bring Your Own Key)?"
+          "GhostTrack",
+          "Instalation on Linux (deb)",
+          "Instalation on Termux",
+          "Usage Tool"
         ],
-        "commands": [
-          "npm install @github/copilot-sdk",
-          "pip install github-copilot-sdk"
-        ],
+        "commands": [],
         "keywords": [
-          "agent",
-          "github copilot cli sdks",
-          "available sdks",
-          "getting started",
-          "architecture"
+          "tool",
+          "ghosttrack",
+          "instalation on linux (deb)",
+          "instalation on termux",
+          "usage tool"
+        ],
+        "score": 80
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://github.com/HunxByts/GhostTrack/blob/main/asset/bn.png",
+        "thumbUrl": "https://github.com/HunxByts/GhostTrack/blob/main/asset/bn.png",
+        "alt": "HunxByts/GhostTrack",
+        "sourceUrl": "https://github.com/HunxByts/GhostTrack/blob/main/asset/bn.png",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "tools",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched tool"
+        ],
+        "signals": [
+          "tool"
+        ]
+      },
+      "rank": {
+        "globalRank": 14,
+        "categoryRank": 14,
+        "score": 74.8
+      }
+    },
+    {
+      "id": "microsoft-pg-durable",
+      "owner": "microsoft",
+      "name": "pg_durable",
+      "url": "https://github.com/microsoft/pg_durable",
+      "avatarUrl": "https://github.com/microsoft.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 15,
+        "starsGained": 316
+      },
+      "metadata": {
+        "description": "PostgreSQL in-database durable execution",
+        "language": "Rust",
+        "topics": [],
+        "stars": 1500,
+        "forks": 33,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Rust"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/microsoft/pg_durable/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Start PostgreSQL",
+        "summary": "Long-running, fault-tolerant SQL functions for teams that already keep their state in Postgres and want to stop stitching together cron jobs, workers, queues, and status tables to make background work reliable. Define the workflow in SQL, let pgdurable checkpoint each step, and r",
+        "headings": [
+          "Durable Execution inside PostgreSQL",
+          "Is this for me?",
+          "Who it's for",
+          "The core idea",
+          "Workloads this is useful for",
+          "What you're probably doing today instead",
+          "Pain points it addresses",
+          "What changes in your architecture"
+        ],
+        "commands": [],
+        "keywords": [
+          "database",
+          "postgres",
+          "durable execution inside postgresql",
+          "is this for me?",
+          "who it's for",
+          "the core idea"
         ],
         "score": 100
       },
       "visual": {
         "kind": "readme_image",
-        "url": "https://raw.githubusercontent.com/github/copilot-sdk/main/assets/RepoHeader_01.png",
-        "thumbUrl": "https://raw.githubusercontent.com/github/copilot-sdk/main/assets/RepoHeader_01.png",
-        "alt": "GitHub Copilot SDK",
-        "sourceUrl": "https://raw.githubusercontent.com/github/copilot-sdk/main/assets/RepoHeader_01.png",
+        "url": "https://raw.githubusercontent.com/microsoft/pg_durable/main/docs/website/workflow-graph.svg",
+        "thumbUrl": "https://raw.githubusercontent.com/microsoft/pg_durable/main/docs/website/workflow-graph.svg",
+        "alt": "A durable function fans out into three parallel queries — count users, count orders, sum revenue — that join into a dashboard step",
+        "sourceUrl": "https://raw.githubusercontent.com/microsoft/pg_durable/main/docs/website/workflow-graph.svg",
         "promptHash": null
       },
       "classification": {
-        "primaryCategoryId": "ai",
+        "primaryCategoryId": "backend",
         "secondaryCategoryIds": [],
-        "confidence": 0.7,
+        "confidence": 0.8,
         "method": "rules",
         "reasons": [
-          "Matched agent"
+          "Matched database",
+          "Matched postgres"
         ],
         "signals": [
-          "agent"
+          "database",
+          "postgres"
         ]
       },
       "rank": {
-        "globalRank": 17,
-        "categoryRank": 17,
-        "score": 86
+        "globalRank": 15,
+        "categoryRank": 15,
+        "score": 90
       }
     }
   ],
@@ -1452,19 +1258,24 @@
       "label": "AI",
       "categoryId": "ai",
       "repoIds": [
-        "nousresearch-hermes-agent",
-        "chopratejas-headroom",
-        "copilotkit-copilotkit",
-        "affaan-m-ecc",
-        "nvidia-cosmos",
-        "panniantong-agent-reach",
         "mvanhorn-last30days-skill",
-        "paddlepaddle-paddleocr",
-        "mempalace-mempalace",
-        "aquasecurity-trivy",
-        "withastro-flue",
-        "github-copilot-sdk",
+        "leonxlnx-taste-skill",
+        "nousresearch-hermes-agent",
+        "yikart-aitoearn",
+        "aaif-goose-goose",
+        "crosstalk-solutions-project-nomad",
+        "ggml-org-llama-cpp",
         "openai-plugins"
+      ],
+      "sort": "score"
+    },
+    {
+      "id": "tools",
+      "type": "category",
+      "label": "Tools",
+      "categoryId": "tools",
+      "repoIds": [
+        "hunxbyts-ghosttrack"
       ],
       "sort": "score"
     },
@@ -1474,7 +1285,17 @@
       "label": "Frontend",
       "categoryId": "frontend",
       "repoIds": [
-        "openclaw-openclaw-windows-node"
+        "ryancodrai-turbovec"
+      ],
+      "sort": "score"
+    },
+    {
+      "id": "backend",
+      "type": "category",
+      "label": "Backend",
+      "categoryId": "backend",
+      "repoIds": [
+        "microsoft-pg-durable"
       ],
       "sort": "score"
     },
@@ -1485,17 +1306,18 @@
       "categoryId": "unclassified",
       "repoIds": [
         "lfnovo-open-notebook",
-        "666ghj-mirofish",
-        "jwasham-coding-interview-university"
+        "opencv-opencv",
+        "tapxworld-chinatextbook",
+        "refactoringhq-tolaria"
       ],
       "sort": "score"
     }
   ],
   "health": {
     "status": "ok",
-    "candidateCount": 17,
-    "enrichedRepoCount": 17,
-    "unclassifiedRepoCount": 3,
+    "candidateCount": 15,
+    "enrichedRepoCount": 15,
+    "unclassifiedRepoCount": 4,
     "warnings": []
   }
 }

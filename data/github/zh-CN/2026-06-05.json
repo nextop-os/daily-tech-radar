@@ -2,8 +2,8 @@
   "schemaVersion": "trendreader.daily.v1",
   "packageId": "github-daily-All-2026-06-05",
   "locale": "zh-CN",
-  "generatedAt": "2026-06-06T10:10:38.216Z",
-  "expiresAt": "2026-06-07T10:10:38.216Z",
+  "generatedAt": "2026-06-08T03:41:09.072Z",
+  "expiresAt": "2026-06-09T03:41:09.072Z",
   "sourceWindow": {
     "since": "daily",
     "language": "All",
@@ -14,12 +14,12 @@
       "id": "github_trending_html",
       "role": "candidate",
       "status": "ok",
-      "itemCount": 17
+      "itemCount": 15
     }
   ],
   "taxonomy": {
     "version": "2026-06-05",
-    "generatedAt": "2026-06-06T10:10:38.216Z",
+    "generatedAt": "2026-06-08T03:41:09.072Z",
     "categories": [
       {
         "id": "ai",
@@ -60,6 +60,242 @@
   },
   "repos": [
     {
+      "id": "mvanhorn-last30days-skill",
+      "owner": "mvanhorn",
+      "name": "last30days-skill",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "avatarUrl": "https://github.com/mvanhorn.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 1,
+        "starsGained": 1111
+      },
+      "metadata": {
+        "description": "一个 AI 智能体技能，可跨 Reddit、X、YouTube、HN、Polymarket 及全网研究任何主题，并综合生成基于事实的摘要。",
+        "language": "Python",
+        "topics": [],
+        "stars": 31576,
+        "forks": 2631,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Python"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/mvanhorn/last30days-skill/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "/last30days",
+        "summary": "由 AI 智能体主导的搜索引擎，根据点赞、关注和真金白银进行评分——而非由编辑决定。",
+        "headings": [
+          "/last30days",
+          "Why this exists",
+          "Sources, scored by the people",
+          "What people actually use it for",
+          "What v3 Changed",
+          "Shareable HTML briefs",
+          "Intelligent search: the killer feature",
+          "Best Takes"
+        ],
+        "commands": [],
+        "keywords": [
+          "ai",
+          "agent",
+          "/last30days",
+          "why this exists",
+          "sources, scored by the people",
+          "what people actually use it for"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "agnes_generated",
+        "url": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/a43ecf210e774fda83e308197265684a.png",
+        "thumbUrl": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/a43ecf210e774fda83e308197265684a.png",
+        "alt": "Generated cover for mvanhorn/last30days-skill",
+        "sourceUrl": null,
+        "promptHash": "sha256:dcec996b1934"
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.8,
+        "method": "rules",
+        "reasons": [
+          "Matched ai",
+          "Matched agent"
+        ],
+        "signals": [
+          "ai",
+          "agent"
+        ]
+      },
+      "rank": {
+        "globalRank": 1,
+        "categoryRank": 1,
+        "score": 118
+      }
+    },
+    {
+      "id": "opencv-opencv",
+      "owner": "opencv",
+      "name": "opencv",
+      "url": "https://github.com/opencv/opencv",
+      "avatarUrl": "https://github.com/opencv.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 2,
+        "starsGained": 65
+      },
+      "metadata": {
+        "description": "开源计算机视觉库",
+        "language": "C++",
+        "topics": [],
+        "stars": 88156,
+        "forks": 56600,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "C++"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/opencv/opencv/master/README.md"
+      },
+      "readmeSignals": {
+        "title": null,
+        "summary": "OpenCV：开源计算机视觉库。",
+        "headings": [
+          "OpenCV: Open Source Computer Vision Library",
+          "Resources",
+          "Contributing",
+          "Additional Resources"
+        ],
+        "commands": [],
+        "keywords": [
+          "opencv: open source computer vision library",
+          "resources",
+          "contributing",
+          "additional resources"
+        ],
+        "score": 80
+      },
+      "visual": {
+        "kind": "agnes_generated",
+        "url": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/d2c5def260e24c0a9cc3113953a5ace1.png",
+        "thumbUrl": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/d2c5def260e24c0a9cc3113953a5ace1.png",
+        "alt": "Generated cover for opencv/opencv",
+        "sourceUrl": null,
+        "promptHash": "sha256:3287fc17e4ef"
+      },
+      "classification": {
+        "primaryCategoryId": "unclassified",
+        "secondaryCategoryIds": [],
+        "confidence": 0.4,
+        "method": "rules",
+        "reasons": [
+          "No taxonomy rule matched with enough confidence"
+        ],
+        "signals": []
+      },
+      "rank": {
+        "globalRank": 2,
+        "categoryRank": 2,
+        "score": 102.5
+      }
+    },
+    {
+      "id": "leonxlnx-taste-skill",
+      "owner": "Leonxlnx",
+      "name": "taste-skill",
+      "url": "https://github.com/Leonxlnx/taste-skill",
+      "avatarUrl": "https://github.com/Leonxlnx.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 3,
+        "starsGained": 1103
+      },
+      "metadata": {
+        "description": "Taste-Skill - 赋予 AI 良好品味。阻止 AI 生成无聊、通用的内容。",
+        "language": "Shell",
+        "topics": [],
+        "stars": 37042,
+        "forks": 2661,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Shell"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/Leonxlnx/taste-skill/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Taste Skill",
+        "summary": "AI 智能体的反平庸前端框架。",
+        "headings": [
+          "Taste Skill",
+          "Disclaimer",
+          "Feedback & Contributions",
+          "Installing",
+          "Updating from the previous version",
+          "Skills",
+          "Image generation skills",
+          "Which one should I use?"
+        ],
+        "commands": [],
+        "keywords": [
+          "ai",
+          "taste skill",
+          "disclaimer",
+          "feedback & contributions",
+          "installing"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/Leonxlnx/taste-skill/main/examples/floria-top.webp",
+        "thumbUrl": "https://raw.githubusercontent.com/Leonxlnx/taste-skill/main/examples/floria-top.webp",
+        "alt": "Leonxlnx/taste-skill",
+        "sourceUrl": "https://raw.githubusercontent.com/Leonxlnx/taste-skill/main/examples/floria-top.webp",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched ai"
+        ],
+        "signals": [
+          "ai"
+        ]
+      },
+      "rank": {
+        "globalRank": 3,
+        "categoryRank": 3,
+        "score": 114
+      }
+    },
+    {
       "id": "nousresearch-hermes-agent",
       "owner": "NousResearch",
       "name": "hermes-agent",
@@ -68,15 +304,15 @@
       "homepageUrl": null,
       "source": {
         "primary": "github_trending_html",
-        "sourceRank": 1,
-        "starsGained": 1845
+        "sourceRank": 4,
+        "starsGained": 1112
       },
       "metadata": {
         "description": "与你共同成长的智能体",
         "language": "Python",
         "topics": [],
-        "stars": 184052,
-        "forks": 31535,
+        "stars": 186167,
+        "forks": 32023,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -92,7 +328,7 @@
       },
       "readmeSignals": {
         "title": "Hermes Agent ☤",
-        "summary": "由 NousResearch 构建的自我进化 AI 智能体。它是唯一内置学习循环的智能体——能从经验中创造技能，在使用中优化技能，主动强化知识记忆，检索过往对话，并构建日益深厚的认知模型。",
+        "summary": "由 NousResearch 打造的自我进化 AI 智能体。它是唯一内置学习循环的智能体——它能从经验中创造技能，在使用中改进技能，通过提示自身来维持知识，搜索自己的过往对话，并构建不断深化的模型。",
         "headings": [
           "Hermes Agent ☤",
           "Quick Install",
@@ -107,21 +343,18 @@
           "pip install -e \".[all,dev]\""
         ],
         "keywords": [
-          "智能体",
-          "Hermes Agent",
-          "快速安装",
-          "Linux",
-          "macOS",
-          "WSL2",
-          "Termux",
-          "Windows"
+          "agent",
+          "hermes agent ☤",
+          "quick install",
+          "linux, macos, wsl2, termux",
+          "windows (native, powershell)"
         ],
         "score": 100
       },
       "visual": {
         "kind": "agnes_generated",
-        "url": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/dba24fc8d0b94ace9d1af2a6cbc96f43.png",
-        "thumbUrl": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/dba24fc8d0b94ace9d1af2a6cbc96f43.png",
+        "url": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/6bbae634144945b7af00dc2f6afa8fdb.png",
+        "thumbUrl": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/6bbae634144945b7af00dc2f6afa8fdb.png",
         "alt": "Generated cover for NousResearch/hermes-agent",
         "sourceUrl": null,
         "promptHash": "sha256:15e7b9fd7f31"
@@ -139,180 +372,9 @@
         ]
       },
       "rank": {
-        "globalRank": 1,
-        "categoryRank": 1,
-        "score": 118
-      }
-    },
-    {
-      "id": "chopratejas-headroom",
-      "owner": "chopratejas",
-      "name": "headroom",
-      "url": "https://github.com/chopratejas/headroom",
-      "avatarUrl": "https://github.com/chopratejas.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 2,
-        "starsGained": 2473
-      },
-      "metadata": {
-        "description": "在数据到达 LLM 之前，压缩工具输出、日志、文件和 RAG 块。减少 60-95% 的 Token，答案不变。库、代理、MCP 服务器。",
-        "language": "Python",
-        "topics": [],
-        "stars": 15033,
-        "forks": 956,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "Python"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/chopratejas/headroom/main/README.md"
-      },
-      "readmeSignals": {
-        "title": "1 — Install",
-        "summary": "减少 60–95% 的 Token · 库 · 代理 · MCP · 6 种算法 · 本地优先 · 可逆压缩",
-        "headings": [
-          "What it does",
-          "How it works (30 seconds)",
-          "Get started (60 seconds)",
-          "1 — Install",
-          "2 — Pick your mode",
-          "or: from headroom import compress      # inline library",
-          "3 — See the savings",
-          "Proof"
-        ],
-        "commands": [
-          "pip install \"headroom-ai[all]\"          # Python",
-          "npm install headroom-ai                 # Node / TypeScript",
-          "pip install \"headroom-ai[all]\"          # Python, everything",
-          "npm install headroom-ai                 # TypeScript / Node",
-          "pip install -e \".[dev]\" && pytest"
-        ],
-        "keywords": [
-          "LLM",
-          "MCP",
-          "功能介绍",
-          "工作原理",
-          "快速入门",
-          "安装指南"
-        ],
-        "score": 100
-      },
-      "visual": {
-        "kind": "readme_image",
-        "url": "https://raw.githubusercontent.com/chopratejas/headroom/main/HeadroomDemo-Fast.gif",
-        "thumbUrl": "https://raw.githubusercontent.com/chopratejas/headroom/main/HeadroomDemo-Fast.gif",
-        "alt": "Headroom in action",
-        "sourceUrl": "https://raw.githubusercontent.com/chopratejas/headroom/main/HeadroomDemo-Fast.gif",
-        "promptHash": null
-      },
-      "classification": {
-        "primaryCategoryId": "ai",
-        "secondaryCategoryIds": [],
-        "confidence": 0.8,
-        "method": "rules",
-        "reasons": [
-          "Matched llm",
-          "Matched mcp"
-        ],
-        "signals": [
-          "llm",
-          "mcp"
-        ]
-      },
-      "rank": {
-        "globalRank": 2,
-        "categoryRank": 2,
-        "score": 116
-      }
-    },
-    {
-      "id": "copilotkit-copilotkit",
-      "owner": "CopilotKit",
-      "name": "CopilotKit",
-      "url": "https://github.com/CopilotKit/CopilotKit",
-      "avatarUrl": "https://github.com/CopilotKit.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 3,
-        "starsGained": 366
-      },
-      "metadata": {
-        "description": "智能体与生成式 UI 的前端技术栈。React + Angular。AG-UI 协议的创造者。",
-        "language": "TypeScript",
-        "topics": [],
-        "stars": 32913,
-        "forks": 4213,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "TypeScript"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/CopilotKit/CopilotKit/main/README.md"
-      },
-      "readmeSignals": {
-        "title": "CopilotKit",
-        "summary": "为 React、Angular、Vue、React Native 等提供生成式 UI、共享状态和人机协作工作流，支持范围超越浏览器。",
-        "headings": [
-          "CopilotKit",
-          "What is CopilotKit",
-          "🧩 Works With Your Stack",
-          "💬 Beyond the Browser: Slack & Microsoft Teams (Discord, Google Chat coming soon...)",
-          "🧠 Self-Learning Agents",
-          "Quick Start",
-          "New projects:",
-          "Existing projects:"
-        ],
-        "commands": [],
-        "keywords": [
-          "智能体",
-          "CopilotKit",
-          "产品定义",
-          "兼容技术栈",
-          "跨平台支持",
-          "Slack",
-          "Microsoft Teams"
-        ],
-        "score": 100
-      },
-      "visual": {
-        "kind": "readme_image",
-        "url": "https://github.com/user-attachments/assets/aeb56c28-c766-44a5-810c-5d999bb6a32a",
-        "thumbUrl": "https://github.com/user-attachments/assets/aeb56c28-c766-44a5-810c-5d999bb6a32a",
-        "alt": "CopilotKit",
-        "sourceUrl": "https://github.com/user-attachments/assets/aeb56c28-c766-44a5-810c-5d999bb6a32a",
-        "promptHash": null
-      },
-      "classification": {
-        "primaryCategoryId": "ai",
-        "secondaryCategoryIds": [],
-        "confidence": 0.7,
-        "method": "rules",
-        "reasons": [
-          "Matched agent"
-        ],
-        "signals": [
-          "agent"
-        ]
-      },
-      "rank": {
-        "globalRank": 3,
-        "categoryRank": 3,
-        "score": 114
+        "globalRank": 4,
+        "categoryRank": 4,
+        "score": 112
       }
     },
     {
@@ -324,15 +386,15 @@
       "homepageUrl": null,
       "source": {
         "primary": "github_trending_html",
-        "sourceRank": 4,
-        "starsGained": 1152
+        "sourceRank": 5,
+        "starsGained": 554
       },
       "metadata": {
         "description": "具有更多灵活性和功能的 Notebook LM 开源实现",
         "language": "TypeScript",
         "topics": [],
-        "stars": 26273,
-        "forks": 3015,
+        "stars": 27394,
+        "forks": 3108,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -348,7 +410,7 @@
       },
       "readmeSignals": {
         "title": null,
-        "summary": "一个开源、注重隐私的 Google Notebook LM 替代方案！加入我们的 Discord 服务器获取帮助、分享工作流想法并提出功能建议！访问我们的网站 » 📚 快速开始 · 📖 用户指南 · ✨ 功能 · 🚀 部署",
+        "summary": "一个专注于隐私、支持多模型的 Notebook LM 完全本地化替代方案！加入我们的 Discord 服务器获取帮助、分享工作流想法并提出功能建议！查看我们的网站 » 📚 开始使用 · 📖 用户指南 · ✨ 功能 · 🚀 部署。",
         "headings": [
           "A private, multi-model, 100% local, full-featured alternative to Notebook LM",
           "🆚 Open Notebook vs Google Notebook LM",
@@ -361,13 +423,10 @@
         ],
         "commands": [],
         "keywords": [
-          "私有化",
-          "多模型",
-          "100% 本地运行",
-          "Notebook LM 替代方案",
-          "Open Notebook vs Google Notebook LM",
-          "技术栈",
-          "快速入门"
+          "a private, multi-model, 100% local, full-featured alternative to notebook lm",
+          "🆚 open notebook vs google notebook lm",
+          "built with",
+          "🚀 quick start (2 minutes)"
         ],
         "score": 100
       },
@@ -390,78 +449,73 @@
         "signals": []
       },
       "rank": {
-        "globalRank": 4,
-        "categoryRank": 4,
-        "score": 112
+        "globalRank": 5,
+        "categoryRank": 5,
+        "score": 110
       }
     },
     {
-      "id": "affaan-m-ecc",
-      "owner": "affaan-m",
-      "name": "ECC",
-      "url": "https://github.com/affaan-m/ECC",
-      "avatarUrl": "https://github.com/affaan-m.png",
+      "id": "yikart-aitoearn",
+      "owner": "yikart",
+      "name": "AiToEarn",
+      "url": "https://github.com/yikart/AiToEarn",
+      "avatarUrl": "https://github.com/yikart.png",
       "homepageUrl": null,
       "source": {
         "primary": "github_trending_html",
-        "sourceRank": 5,
-        "starsGained": 1361
+        "sourceRank": 6,
+        "starsGained": 183
       },
       "metadata": {
-        "description": "智能体框架性能优化系统。针对 Claude Code、Codex、Opencode、Cursor 等提供技能、本能、记忆、安全性和研究优先的开发支持。",
-        "language": "JavaScript",
+        "description": "让我们用 AI 赚钱！",
+        "language": "TypeScript",
         "topics": [],
-        "stars": 208682,
-        "forks": 32004,
+        "stars": 18922,
+        "forks": 2920,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
         "topLanguages": [
-          "JavaScript"
+          "TypeScript"
         ]
       },
       "readmeRef": {
         "status": "available",
         "path": "README.md",
         "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/affaan-m/ECC/main/README.md"
+        "rawUrl": "https://raw.githubusercontent.com/yikart/AiToEarn/main/README.md"
       },
       "readmeSignals": {
-        "title": "ECC",
-        "summary": "182K+ 星标 | 28K+ Fork | 170+ 贡献者 | 12+ 语言生态系统 | 跨框架智能体工作流",
+        "title": "[Aitoearn：OPC（一人公司）的AI内容营销智能体](https://aitoearn.ai)",
+        "summary": "变现 · 发布 · 互动 · 创造 —— 一站式平台。",
         "headings": [
-          "ECC",
-          "The Guides",
-          "What's New",
-          "v2.0.0-rc.1 — Surface Refresh, Operator Workflows, and ECC 2.0 Alpha (Apr 2026)",
-          "v1.9.0 — Selective Install & Language Expansion (Mar 2026)",
-          "v1.8.0 — Harness Performance System (Mar 2026)",
-          "v1.7.0 — Cross-Platform Expansion & Presentation Builder (Feb 2026)",
-          "v1.6.0 — Codex CLI, AgentShield & Marketplace (Feb 2026)"
+          "[Aitoearn：OPC（一人公司）的AI内容营销智能体](https://aitoearn.ai)",
+          "🚀 快速使用 AiToEarn（5 种方式）",
+          "最新动态",
+          "核心功能",
+          "💰 Monetize —— 内容赚钱",
+          "📢 Publish —— 内容发布 Agent",
+          "💬 Engage —— 内容互动 Agent",
+          "🎨 Create —— 内容创作 Agent"
         ],
         "commands": [
-          "npm install        # or: pnpm install | yarn install | bun install",
-          "npm install && bash scripts/sync-ecc-to-codex.sh",
-          "npm install -g opencode",
-          "npm install ecc-universal"
+          "npm install\n\n# 编译 sqlite（better-sqlite3 需要 node-gyp 和本地 Python）"
         ],
         "keywords": [
-          "智能体",
-          "ECC",
-          "使用指南",
+          "ai",
+          "[aitoearn：opc（一人公司）的ai内容营销智能体](https://aitoearn.ai)",
+          "🚀 快速使用 aitoearn（5 种方式）",
           "最新动态",
-          "v2.0.0-rc.1",
-          "界面刷新",
-          "操作员工作流"
+          "核心功能"
         ],
         "score": 100
       },
       "visual": {
         "kind": "readme_image",
-        "url": "https://raw.githubusercontent.com/affaan-m/ECC/main/assets/hero.png",
-        "thumbUrl": "https://raw.githubusercontent.com/affaan-m/ECC/main/assets/hero.png",
-        "alt": "ECC - the harness-native operator system for agentic work",
-        "sourceUrl": "https://raw.githubusercontent.com/affaan-m/ECC/main/assets/hero.png",
+        "url": "https://raw.githubusercontent.com/yikart/AiToEarn/main/presentation/monetize-cn.png",
+        "thumbUrl": "https://raw.githubusercontent.com/yikart/AiToEarn/main/presentation/monetize-cn.png",
+        "alt": "yikart/AiToEarn",
+        "sourceUrl": "https://raw.githubusercontent.com/yikart/AiToEarn/main/presentation/monetize-cn.png",
         "promptHash": null
       },
       "classification": {
@@ -470,185 +524,94 @@
         "confidence": 0.7,
         "method": "rules",
         "reasons": [
-          "Matched agent"
+          "Matched ai"
         ],
         "signals": [
-          "agent"
-        ]
-      },
-      "rank": {
-        "globalRank": 5,
-        "categoryRank": 5,
-        "score": 110
-      }
-    },
-    {
-      "id": "panniantong-agent-reach",
-      "owner": "Panniantong",
-      "name": "Agent-Reach",
-      "url": "https://github.com/Panniantong/Agent-Reach",
-      "avatarUrl": "https://github.com/Panniantong.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 6,
-        "starsGained": 148
-      },
-      "metadata": {
-        "description": "赋予 AI 智能体“眼睛”以洞察整个互联网。读取并搜索 Twitter、Reddit、YouTube、GitHub、Bilibili、小红书——只需一个 CLI，零 API 费用。",
-        "language": "Python",
-        "topics": [],
-        "stars": 21878,
-        "forks": 1883,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "Python"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/Panniantong/Agent-Reach/main/README.md"
-      },
-      "readmeSignals": {
-        "title": "只预览，不实际删除",
-        "summary": "AI 智能体已能帮你写代码、改文档、管项目——但当你让它去网上查找信息时，它往往束手无策：",
-        "headings": [
-          "为什么需要 Agent Reach？",
-          "✅ 在你用之前，你可能想知道",
-          "支持的平台",
-          "快速上手",
-          "装好就能用",
-          "设计理念",
-          "🔌 每个渠道都是可插拔的",
-          "当前选型"
-        ],
-        "commands": [
-          "pip install agent-reach"
-        ],
-        "keywords": [
-          "AI",
-          "智能体",
-          "为何需要 Agent Reach",
-          "使用前须知",
-          "支持平台",
-          "快速上手"
-        ],
-        "score": 100
-      },
-      "visual": {
-        "kind": "readme_image",
-        "url": "https://raw.githubusercontent.com/Panniantong/Agent-Reach/main/docs/wechat-group-qr.jpg",
-        "thumbUrl": "https://raw.githubusercontent.com/Panniantong/Agent-Reach/main/docs/wechat-group-qr.jpg",
-        "alt": "WeChat QR",
-        "sourceUrl": "https://raw.githubusercontent.com/Panniantong/Agent-Reach/main/docs/wechat-group-qr.jpg",
-        "promptHash": null
-      },
-      "classification": {
-        "primaryCategoryId": "ai",
-        "secondaryCategoryIds": [],
-        "confidence": 0.8,
-        "method": "rules",
-        "reasons": [
-          "Matched ai",
-          "Matched agent"
-        ],
-        "signals": [
-          "ai",
-          "agent"
+          "ai"
         ]
       },
       "rank": {
         "globalRank": 6,
         "categoryRank": 6,
-        "score": 102.8
+        "score": 106.3
       }
     },
     {
-      "id": "nvidia-cosmos",
-      "owner": "NVIDIA",
-      "name": "cosmos",
-      "url": "https://github.com/NVIDIA/cosmos",
-      "avatarUrl": "https://github.com/NVIDIA.png",
+      "id": "aaif-goose-goose",
+      "owner": "aaif-goose",
+      "name": "goose",
+      "url": "https://github.com/aaif-goose/goose",
+      "avatarUrl": "https://github.com/aaif-goose.png",
       "homepageUrl": null,
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 7,
-        "starsGained": 479
+        "starsGained": 322
       },
       "metadata": {
-        "description": "NVIDIA Cosmos 是一个开放的世界模型、数据集和工具平台，使开发者能够构建用于机器人、自动驾驶汽车、智能基础设施等的物理 AI。",
-        "language": "Jupyter Notebook",
+        "description": "一个开源、可扩展的 AI 智能体，超越代码建议——安装、执行、编辑和测试任何 LLM。",
+        "language": "Rust",
         "topics": [],
-        "stars": 9532,
-        "forks": 606,
+        "stars": 47595,
+        "forks": 5018,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
         "topLanguages": [
-          "Jupyter Notebook"
+          "Rust"
         ]
       },
       "readmeRef": {
         "status": "available",
         "path": "README.md",
         "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/NVIDIA/cosmos/main/README.md"
+        "rawUrl": "https://raw.githubusercontent.com/aaif-goose/goose/main/README.md"
       },
       "readmeSignals": {
-        "title": "Cosmos",
-        "summary": "简介 Cosmos-3 关键能力 模型架构 模型家族 支持的生成设置 输入与输出 用例 Generator Reasoner 快速入门 Generator with Diffusers Generator with vLLM Omni Reasoner with Transformers Reasoner with vLLM Reasoner with NIM 故障排除",
+        "title": "goose",
+        "summary": "🦆 goose 已迁移！该项目已从 block/goose 移至 Linux Foundation 下的 https://aaif.io/。部分链接和引用仍在更新中——请在此过渡期间保持耐心。",
         "headings": [
-          "Cosmos",
-          "Table of Contents",
-          "Introduction",
-          "Cosmos 3",
-          "Key Capabilities",
-          "Model Architecture",
-          "Model Family",
-          "Supported Generation Settings"
+          "goose",
+          "Get started",
+          "Quick links",
+          "Need help?",
+          "a little goose humor 🪿",
+          "goose around with us"
         ],
-        "commands": [
-          "pip install --torch-backend=auto \\",
-          "pip install --torch-backend=cu130 \\",
-          "pip install --torch-backend=cu128 \\",
-          "pip install --torch-backend=cu130 \"vllm==0.21.0\" \\",
-          "pip install torch",
-          "pip install --torch-backend=auto torch torchvision"
-        ],
+        "commands": [],
         "keywords": [
-          "AI",
-          "模型",
-          "Cosmos",
-          "目录",
-          "简介",
-          "Cosmos 3"
+          "ai",
+          "agent",
+          "llm",
+          "goose",
+          "get started",
+          "quick links",
+          "need help?"
         ],
-        "score": 100
+        "score": 90
       },
       "visual": {
-        "kind": "readme_image",
-        "url": "https://raw.githubusercontent.com/NVIDIA/cosmos/main/cookbooks/cosmos3/cosmos3-model-architecture.png",
-        "thumbUrl": "https://raw.githubusercontent.com/NVIDIA/cosmos/main/cookbooks/cosmos3/cosmos3-model-architecture.png",
-        "alt": "Cosmos 3 model architecture",
-        "sourceUrl": "https://raw.githubusercontent.com/NVIDIA/cosmos/main/cookbooks/cosmos3/cosmos3-model-architecture.png",
-        "promptHash": null
+        "kind": "agnes_generated",
+        "url": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/6f42aacd82af4738bf53b5d9d0d80c51.png",
+        "thumbUrl": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/6f42aacd82af4738bf53b5d9d0d80c51.png",
+        "alt": "Generated cover for aaif-goose/goose",
+        "sourceUrl": null,
+        "promptHash": "sha256:83af2da94885"
       },
       "classification": {
         "primaryCategoryId": "ai",
         "secondaryCategoryIds": [],
-        "confidence": 0.8,
+        "confidence": 0.9,
         "method": "rules",
         "reasons": [
           "Matched ai",
-          "Matched model"
+          "Matched agent",
+          "Matched llm"
         ],
         "signals": [
           "ai",
-          "model"
+          "agent",
+          "llm"
         ]
       },
       "rank": {
@@ -658,23 +621,183 @@
       }
     },
     {
-      "id": "666ghj-mirofish",
-      "owner": "666ghj",
-      "name": "MiroFish",
-      "url": "https://github.com/666ghj/MiroFish",
-      "avatarUrl": "https://github.com/666ghj.png",
+      "id": "crosstalk-solutions-project-nomad",
+      "owner": "Crosstalk-Solutions",
+      "name": "project-nomad",
+      "url": "https://github.com/Crosstalk-Solutions/project-nomad",
+      "avatarUrl": "https://github.com/Crosstalk-Solutions.png",
       "homepageUrl": null,
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 8,
-        "starsGained": 320
+        "starsGained": 309
       },
       "metadata": {
-        "description": "简洁通用的群体智能引擎，预测万物",
+        "description": "Project N.O.M.A.D. 是一个自给自足的离线生存计算机，集成了关键工具、知识和 AI，让你在任何时间、任何地点都能保持知情和赋能。",
+        "language": "TypeScript",
+        "topics": [],
+        "stars": 29792,
+        "forks": 2953,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "TypeScript"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/Crosstalk-Solutions/project-nomad/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Project N.O.M.A.D.",
+        "summary": "Project N.O.M.A.D.：离线媒体、档案和数据节点。",
+        "headings": [
+          "Project N.O.M.A.D.",
+          "Node for Offline Media, Archives, and Data",
+          "Installation & Quickstart",
+          "Quick Install (Debian-based OS Only)",
+          "Advanced Installation",
+          "How It Works",
+          "What's Included",
+          "Device Requirements"
+        ],
+        "commands": [],
+        "keywords": [
+          "ai",
+          "project n.o.m.a.d.",
+          "node for offline media, archives, and data",
+          "installation & quickstart",
+          "quick install (debian-based os only)"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "agnes_generated",
+        "url": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/314986f38f174ebea66f95f08db1ae0e.png",
+        "thumbUrl": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/314986f38f174ebea66f95f08db1ae0e.png",
+        "alt": "Generated cover for Crosstalk-Solutions/project-nomad",
+        "sourceUrl": null,
+        "promptHash": "sha256:0f682c3b1c3b"
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched ai"
+        ],
+        "signals": [
+          "ai"
+        ]
+      },
+      "rank": {
+        "globalRank": 8,
+        "categoryRank": 8,
+        "score": 104
+      }
+    },
+    {
+      "id": "ggml-org-llama-cpp",
+      "owner": "ggml-org",
+      "name": "llama.cpp",
+      "url": "https://github.com/ggml-org/llama.cpp",
+      "avatarUrl": "https://github.com/ggml-org.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 9,
+        "starsGained": 158
+      },
+      "metadata": {
+        "description": "C/C++ 中的 LLM 推理",
+        "language": "C++",
+        "topics": [],
+        "stars": 115393,
+        "forks": 19313,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "C++"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/ggml-org/llama.cpp/master/README.md"
+      },
+      "readmeSignals": {
+        "title": "llama.cpp",
+        "summary": "Hugging Face 缓存迁移：使用 -hf 下载的模型现在存储在标准的 Hugging Face 缓存目录中，以便与其他 HF 工具共享。https://github.com/ggml-org/llama.cpp/discussions/16938 https://github.com/ggml-org/llama.cpp/discussions/15396 反馈 贝",
+        "headings": [
+          "llama.cpp",
+          "Recent API changes",
+          "Hot topics",
+          "Quick start",
+          "Use a local model file",
+          "Or download and run a model directly from Hugging Face",
+          "Launch OpenAI-compatible API server",
+          "Description"
+        ],
+        "commands": [],
+        "keywords": [
+          "llm",
+          "llama.cpp",
+          "recent api changes",
+          "hot topics",
+          "quick start"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://user-images.githubusercontent.com/1991296/230134379-7181e485-c521-4d23-a0d6-f7b3b61ba524.png",
+        "thumbUrl": "https://user-images.githubusercontent.com/1991296/230134379-7181e485-c521-4d23-a0d6-f7b3b61ba524.png",
+        "alt": "llama",
+        "sourceUrl": "https://user-images.githubusercontent.com/1991296/230134379-7181e485-c521-4d23-a0d6-f7b3b61ba524.png",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched llm"
+        ],
+        "signals": [
+          "llm"
+        ]
+      },
+      "rank": {
+        "globalRank": 9,
+        "categoryRank": 9,
+        "score": 97.8
+      }
+    },
+    {
+      "id": "ryancodrai-turbovec",
+      "owner": "RyanCodrai",
+      "name": "turbovec",
+      "url": "https://github.com/RyanCodrai/turbovec",
+      "avatarUrl": "https://github.com/RyanCodrai.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 10,
+        "starsGained": 1554
+      },
+      "metadata": {
+        "description": "基于 TurboQuant 构建的向量索引，使用 Rust 编写并带有 Python 绑定",
         "language": "Python",
         "topics": [],
-        "stars": 64906,
-        "forks": 10097,
+        "stars": 7374,
+        "forks": 713,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -686,36 +809,123 @@
         "status": "available",
         "path": "README.md",
         "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/666ghj/MiroFish/main/README.md"
+        "rawUrl": "https://raw.githubusercontent.com/RyanCodrai/turbovec/main/README.md"
       },
       "readmeSignals": {
-        "title": "Copy the example configuration file",
-        "summary": "简洁通用的群体智能引擎，预测万物 A Simple and Universal Swarm Intelligence Engine, Predicting Anything",
+        "title": "Stage 1: external system narrows to candidate ids.",
+        "summary": "一个包含 1000 万文档的语料库作为 float32 需要 31 GB 的 RAM。turbovec 将其压缩至 4 GB——并且搜索速度比 FAISS 更快。",
         "headings": [
-          "⚡ Overview",
-          "Our Vision",
-          "🌐 Live Demo",
-          "📸 Screenshots",
-          "🎬 Demo Videos",
-          "1. Wuhan University Public Opinion Simulation + MiroFish Project Introduction",
-          "2. Dream of the Red Chamber Lost Ending Simulation",
-          "🔄 Workflow"
+          "Python",
+          "Hybrid retrieval (filtered search)",
+          "Stage 1: external system narrows to candidate ids.",
+          "Stage 2: dense rerank within the candidate set.",
+          "Framework integrations",
+          "Rust",
+          "Recall",
+          "Compression"
         ],
-        "commands": [],
+        "commands": [
+          "pip install turbovec",
+          "pip install turbovec[langchain]",
+          "pip install turbovec[llama-index]",
+          "pip install turbovec[haystack]",
+          "pip install turbovec[agno]",
+          "pip install maturin"
+        ],
         "keywords": [
-          "概览",
-          "愿景",
-          "在线演示",
-          "截图"
+          "ui",
+          "python",
+          "hybrid retrieval (filtered search)",
+          "stage 1: external system narrows to candidate ids.",
+          "stage 2: dense rerank within the candidate set."
         ],
         "score": 100
       },
       "visual": {
         "kind": "readme_image",
-        "url": "https://raw.githubusercontent.com/666ghj/MiroFish/main/static/image/Screenshot/%E8%BF%90%E8%A1%8C%E6%88%AA%E5%9B%BE1.png",
-        "thumbUrl": "https://raw.githubusercontent.com/666ghj/MiroFish/main/static/image/Screenshot/%E8%BF%90%E8%A1%8C%E6%88%AA%E5%9B%BE1.png",
-        "alt": "Screenshot 1",
-        "sourceUrl": "https://raw.githubusercontent.com/666ghj/MiroFish/main/static/image/Screenshot/%E8%BF%90%E8%A1%8C%E6%88%AA%E5%9B%BE1.png",
+        "url": "https://raw.githubusercontent.com/RyanCodrai/turbovec/main/docs/recall_glove.svg",
+        "thumbUrl": "https://raw.githubusercontent.com/RyanCodrai/turbovec/main/docs/recall_glove.svg",
+        "alt": "Recall GloVe d=200",
+        "sourceUrl": "https://raw.githubusercontent.com/RyanCodrai/turbovec/main/docs/recall_glove.svg",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "frontend",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched ui"
+        ],
+        "signals": [
+          "ui"
+        ]
+      },
+      "rank": {
+        "globalRank": 10,
+        "categoryRank": 10,
+        "score": 100
+      }
+    },
+    {
+      "id": "tapxworld-chinatextbook",
+      "owner": "TapXWorld",
+      "name": "ChinaTextbook",
+      "url": "https://github.com/TapXWorld/ChinaTextbook",
+      "avatarUrl": "https://github.com/TapXWorld.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 11,
+        "starsGained": 350
+      },
+      "metadata": {
+        "description": "所有小初高、大学 PDF 教材。",
+        "language": "Roff",
+        "topics": [],
+        "stars": 72603,
+        "forks": 16264,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Roff"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/TapXWorld/ChinaTextbook/master/README.md"
+      },
+      "readmeSignals": {
+        "title": null,
+        "summary": "项目由来：虽然国内教育网站已提供免费资源，但大多数普通人获取信息的途径依然受限。有些人利用这一点，在某站上销售这些带有私人水印的资源。为了应对这种情况，我计划将这些资源集中并开源，以促进义务教育的普及和消除地区间的教育贫困。",
+        "headings": [
+          "项目的由来",
+          "学习数学",
+          "小学数学",
+          "初中数学",
+          "高中数学",
+          "大学数学",
+          "## 问题：如何合并被拆分的文件？",
+          "示例"
+        ],
+        "commands": [],
+        "keywords": [
+          "项目的由来",
+          "学习数学",
+          "小学数学",
+          "初中数学"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/TapXWorld/ChinaTextbook/master/.cache/support-alipay.png",
+        "thumbUrl": "https://raw.githubusercontent.com/TapXWorld/ChinaTextbook/master/.cache/support-alipay.png",
+        "alt": "TapXWorld/ChinaTextbook",
+        "sourceUrl": "https://raw.githubusercontent.com/TapXWorld/ChinaTextbook/master/.cache/support-alipay.png",
         "promptHash": null
       },
       "classification": {
@@ -729,175 +939,9 @@
         "signals": []
       },
       "rank": {
-        "globalRank": 8,
-        "categoryRank": 8,
-        "score": 104
-      }
-    },
-    {
-      "id": "mvanhorn-last30days-skill",
-      "owner": "mvanhorn",
-      "name": "last30days-skill",
-      "url": "https://github.com/mvanhorn/last30days-skill",
-      "avatarUrl": "https://github.com/mvanhorn.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 9,
-        "starsGained": 731
-      },
-      "metadata": {
-        "description": "AI 智能体技能，可在 Reddit、X、YouTube、HN、Polymarket 和全网研究任何主题，然后综合生成基于事实的摘要",
-        "language": "Python",
-        "topics": [],
-        "stars": 28391,
-        "forks": 2403,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "Python"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/mvanhorn/last30days-skill/main/README.md"
-      },
-      "readmeSignals": {
-        "title": "/last30days",
-        "summary": "一个由 AI 智能体主导的搜索引擎，评分依据是投票、点赞和真金白银——而非编辑审核。",
-        "headings": [
-          "/last30days",
-          "Why this exists",
-          "Sources, scored by the people",
-          "What people actually use it for",
-          "What v3 Changed",
-          "Shareable HTML briefs",
-          "Intelligent search: the killer feature",
-          "Best Takes"
-        ],
-        "commands": [],
-        "keywords": [
-          "AI",
-          "智能体",
-          "/last30days",
-          "存在意义",
-          "数据来源",
-          "用户反馈"
-        ],
-        "score": 100
-      },
-      "visual": {
-        "kind": "agnes_generated",
-        "url": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/e0fd5395ae114c7fb6b1851f8ebf8944.png",
-        "thumbUrl": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/e0fd5395ae114c7fb6b1851f8ebf8944.png",
-        "alt": "Generated cover for mvanhorn/last30days-skill",
-        "sourceUrl": null,
-        "promptHash": "sha256:dcec996b1934"
-      },
-      "classification": {
-        "primaryCategoryId": "ai",
-        "secondaryCategoryIds": [],
-        "confidence": 0.8,
-        "method": "rules",
-        "reasons": [
-          "Matched ai",
-          "Matched agent"
-        ],
-        "signals": [
-          "ai",
-          "agent"
-        ]
-      },
-      "rank": {
-        "globalRank": 9,
-        "categoryRank": 9,
-        "score": 102
-      }
-    },
-    {
-      "id": "paddlepaddle-paddleocr",
-      "owner": "PaddlePaddle",
-      "name": "PaddleOCR",
-      "url": "https://github.com/PaddlePaddle/PaddleOCR",
-      "avatarUrl": "https://github.com/PaddlePaddle.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 10,
-        "starsGained": 747
-      },
-      "metadata": {
-        "description": "将任何 PDF 或图像文档转化为 AI 的结构化数据。一款强大、轻量的 OCR 工具包， bridging 图像/PDF 与 LLM 之间的鸿沟。支持 100+ 种语言。",
-        "language": "Python",
-        "topics": [],
-        "stars": 80702,
-        "forks": 10640,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "Python"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/PaddlePaddle/PaddleOCR/main/README.md"
-      },
-      "readmeSignals": {
-        "title": null,
-        "summary": "全球领先的 OCR 工具包与文档 AI 引擎",
-        "headings": [
-          "🚀 Key Features",
-          "📄 Intelligent Document Parsing (LLM-Ready)",
-          "🔍 Universal Text Recognition (Scene OCR)",
-          "🛠️ Developer-Centric Ecosystem",
-          "📣 Recent updates",
-          "🔥 2026.05.28: Release of PaddleOCR 3.6.0",
-          "🚀 Quick Start",
-          "Step 1: Try Online"
-        ],
-        "commands": [],
-        "keywords": [
-          "AI",
-          "LLM",
-          "核心功能",
-          "智能文档解析",
-          "通用文本识别",
-          "开发者生态"
-        ],
-        "score": 100
-      },
-      "visual": {
-        "kind": "readme_image",
-        "url": "https://raw.githubusercontent.com/cuicheng01/PaddleX_doc_images/main/images/paddleocr/README/Arch.jpg",
-        "thumbUrl": "https://raw.githubusercontent.com/cuicheng01/PaddleX_doc_images/main/images/paddleocr/README/Arch.jpg",
-        "alt": "PaddleOCR Architecture",
-        "sourceUrl": "https://raw.githubusercontent.com/cuicheng01/PaddleX_doc_images/main/images/paddleocr/README/Arch.jpg",
-        "promptHash": null
-      },
-      "classification": {
-        "primaryCategoryId": "ai",
-        "secondaryCategoryIds": [],
-        "confidence": 0.8,
-        "method": "rules",
-        "reasons": [
-          "Matched ai",
-          "Matched llm"
-        ],
-        "signals": [
-          "ai",
-          "llm"
-        ]
-      },
-      "rank": {
-        "globalRank": 10,
-        "categoryRank": 10,
-        "score": 100
+        "globalRank": 11,
+        "categoryRank": 11,
+        "score": 98
       }
     },
     {
@@ -909,15 +953,15 @@
       "homepageUrl": null,
       "source": {
         "primary": "github_trending_html",
-        "sourceRank": 11,
-        "starsGained": 49
+        "sourceRank": 12,
+        "starsGained": 262
       },
       "metadata": {
         "description": "OpenAI 插件",
         "language": "JavaScript",
         "topics": [],
-        "stars": 1618,
-        "forks": 251,
+        "stars": 2083,
+        "forks": 273,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -933,108 +977,24 @@
       },
       "readmeSignals": {
         "title": "Plugins",
-        "summary": "该仓库包含精选的 Codex 插件示例集合。",
+        "summary": "此仓库包含精选的 Codex 插件示例。",
         "headings": [
           "Plugins"
         ],
         "commands": [],
         "keywords": [
-          "AI",
-          "插件"
+          "ai",
+          "plugins"
         ],
         "score": 65
       },
       "visual": {
         "kind": "agnes_generated",
-        "url": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/b770922f354e42f699b3192d150e9120.png",
-        "thumbUrl": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/b770922f354e42f699b3192d150e9120.png",
+        "url": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/d8e046620e0c475fb963822df2293778.png",
+        "thumbUrl": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/d8e046620e0c475fb963822df2293778.png",
         "alt": "Generated cover for openai/plugins",
         "sourceUrl": null,
         "promptHash": "sha256:7fb9c749c29e"
-      },
-      "classification": {
-        "primaryCategoryId": "ai",
-        "secondaryCategoryIds": [],
-        "confidence": 0.7,
-        "method": "rules",
-        "reasons": [
-          "Matched ai"
-        ],
-        "signals": [
-          "ai"
-        ]
-      },
-      "rank": {
-        "globalRank": 11,
-        "categoryRank": 11,
-        "score": 82.9
-      }
-    },
-    {
-      "id": "mempalace-mempalace",
-      "owner": "MemPalace",
-      "name": "mempalace",
-      "url": "https://github.com/MemPalace/mempalace",
-      "avatarUrl": "https://github.com/MemPalace.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 12,
-        "starsGained": 227
-      },
-      "metadata": {
-        "description": "基准测试表现最佳的开源 AI 记忆系统。且完全免费。",
-        "language": "Python",
-        "topics": [],
-        "stars": 54025,
-        "forks": 7090,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "Python"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/MemPalace/mempalace/main/README.md"
-      },
-      "readmeSignals": {
-        "title": "MemPalace",
-        "summary": "本地优先的 AI 记忆。原始存储，可插拔后端，在 LongMemEval 上原始召回率高达 96.6%——零 API 调用。",
-        "headings": [
-          "MemPalace",
-          "What it is",
-          "Install",
-          "Docker",
-          "Build the image (CPU; bundles the `extract` + `spellcheck` extras)",
-          "MCP server over stdio — note the `-i` flag (JSON-RPC needs stdin)",
-          "Run any CLI command instead (mount the host directory you want to mine)",
-          "Storage backends"
-        ],
-        "commands": [
-          "pip install mempalace",
-          "pip install mempalace[pgvector]",
-          "pip install -e \".[dev]\""
-        ],
-        "keywords": [
-          "AI",
-          "MemPalace",
-          "产品定义",
-          "安装",
-          "Docker"
-        ],
-        "score": 100
-      },
-      "visual": {
-        "kind": "agnes_generated",
-        "url": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/ee90c5dc31c54273b53c6efa6da91e10.png",
-        "thumbUrl": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/ee90c5dc31c54273b53c6efa6da91e10.png",
-        "alt": "Generated cover for MemPalace/mempalace",
-        "sourceUrl": null,
-        "promptHash": "sha256:446e08ca2faa"
       },
       "classification": {
         "primaryCategoryId": "ai",
@@ -1055,23 +1015,23 @@
       }
     },
     {
-      "id": "withastro-flue",
-      "owner": "withastro",
-      "name": "flue",
-      "url": "https://github.com/withastro/flue",
-      "avatarUrl": "https://github.com/withastro.png",
+      "id": "refactoringhq-tolaria",
+      "owner": "refactoringhq",
+      "name": "tolaria",
+      "url": "https://github.com/refactoringhq/tolaria",
+      "avatarUrl": "https://github.com/refactoringhq.png",
       "homepageUrl": null,
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 13,
-        "starsGained": 126
+        "starsGained": 245
       },
       "metadata": {
-        "description": "沙盒智能体框架。",
+        "description": "用于管理 markdown 知识库的桌面应用",
         "language": "TypeScript",
         "topics": [],
-        "stars": 4636,
-        "forks": 246,
+        "stars": 12972,
+        "forks": 914,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -1083,276 +1043,36 @@
         "status": "available",
         "path": "README.md",
         "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/withastro/flue/main/README.md"
+        "rawUrl": "https://raw.githubusercontent.com/refactoringhq/tolaria/main/README.md"
       },
       "readmeSignals": {
-        "title": "Flue",
-        "summary": "实验性项目 — Flue 正在积极开发中。API 可能会发生变化。寻找 v0.0.x 版本？https://github.com/withastro/flue/tree/v0.0.x",
+        "title": "💧 Tolaria",
+        "summary": "Tolaria 是一款面向 macOS、Windows 和 Linux 的桌面应用，用于管理 markdown 知识库。人们将其用于各种用例：",
         "headings": [
-          "Flue",
-          "Packages",
-          "Examples",
-          "Quickstart",
-          "Support Agent",
-          "Issue Triage (CI)",
-          "Coding Agent (Remote Sandbox)",
-          "Remote MCP Tools"
-        ],
-        "commands": [
-          "npm install --save-dev wrangler"
-        ],
-        "keywords": [
-          "智能体",
-          "Flue",
-          "包管理",
-          "示例",
-          "快速入门"
-        ],
-        "score": 100
-      },
-      "visual": {
-        "kind": "agnes_generated",
-        "url": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/005d9343d1fd4d4abf94963d5bd47950.png",
-        "thumbUrl": "https://storage.googleapis.com/agnes-aigc-test/images/text-to-image/2026/06/005d9343d1fd4d4abf94963d5bd47950.png",
-        "alt": "Generated cover for withastro/flue",
-        "sourceUrl": null,
-        "promptHash": "sha256:4758cb0b325a"
-      },
-      "classification": {
-        "primaryCategoryId": "ai",
-        "secondaryCategoryIds": [],
-        "confidence": 0.7,
-        "method": "rules",
-        "reasons": [
-          "Matched agent"
-        ],
-        "signals": [
-          "agent"
-        ]
-      },
-      "rank": {
-        "globalRank": 13,
-        "categoryRank": 13,
-        "score": 86.6
-      }
-    },
-    {
-      "id": "openclaw-openclaw-windows-node",
-      "owner": "openclaw",
-      "name": "openclaw-windows-node",
-      "url": "https://github.com/openclaw/openclaw-windows-node",
-      "avatarUrl": "https://github.com/openclaw.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 14,
-        "starsGained": 326
-      },
-      "metadata": {
-        "description": "OpenClaw 的 Windows 配套套件：系统托盘应用、共享库、Node 节点和 PowerToys 命令调色板扩展",
-        "language": "C#",
-        "topics": [],
-        "stars": 1659,
-        "forks": 186,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "C#"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/openclaw/openclaw-windows-node/master/README.md"
-      },
-      "readmeSignals": {
-        "title": "🦞 OpenClaw Windows Hub",
-        "summary": "为 https://openclaw.ai 打造的原生 Windows 配套套件——一款 AI 驱动的个人助手。",
-        "headings": [
-          "🦞 OpenClaw Windows Hub",
-          "Projects",
-          "🚀 Quick Start",
-          "Prerequisites",
-          "Build",
-          "Check prerequisites",
-          "Build all projects",
-          "Build specific project"
+          "💧 Tolaria",
+          "Walkthroughs",
+          "Principles",
+          "Installation",
+          "Homebrew",
+          "Download from releases",
+          "Getting started",
+          "Open source and local setup"
         ],
         "commands": [],
         "keywords": [
-          "UI",
-          "OpenClaw Windows Hub",
-          "项目列表",
-          "快速开始",
-          "前置条件"
+          "💧 tolaria",
+          "walkthroughs",
+          "principles",
+          "installation"
         ],
         "score": 100
       },
       "visual": {
         "kind": "readme_image",
-        "url": "https://raw.githubusercontent.com/openclaw/openclaw-windows-node/master/docs/images/openclawwindows1.png",
-        "thumbUrl": "https://raw.githubusercontent.com/openclaw/openclaw-windows-node/master/docs/images/openclawwindows1.png",
-        "alt": "OpenClaw Windows Hub tray menu",
-        "sourceUrl": "https://raw.githubusercontent.com/openclaw/openclaw-windows-node/master/docs/images/openclawwindows1.png",
-        "promptHash": null
-      },
-      "classification": {
-        "primaryCategoryId": "frontend",
-        "secondaryCategoryIds": [],
-        "confidence": 0.7,
-        "method": "rules",
-        "reasons": [
-          "Matched ui"
-        ],
-        "signals": [
-          "ui"
-        ]
-      },
-      "rank": {
-        "globalRank": 14,
-        "categoryRank": 14,
-        "score": 92
-      }
-    },
-    {
-      "id": "aquasecurity-trivy",
-      "owner": "aquasecurity",
-      "name": "trivy",
-      "url": "https://github.com/aquasecurity/trivy",
-      "avatarUrl": "https://github.com/aquasecurity.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 15,
-        "starsGained": 207
-      },
-      "metadata": {
-        "description": "在容器、Kubernetes、代码仓库、云环境等中查找漏洞、配置错误、密钥和 SBOM",
-        "language": "Go",
-        "topics": [],
-        "stars": 35907,
-        "forks": 448,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "Go"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/aquasecurity/trivy/main/README.md"
-      },
-      "readmeSignals": {
-        "title": null,
-        "summary": "Trivy 发音 是一个全面且 versatile 的安全扫描器。Trivy 拥有多种扫描器来查找安全问题，并针对可发现这些问题的目标进行扫描。",
-        "headings": [
-          "Quick Start",
-          "Get Trivy",
-          "Canary builds",
-          "General usage",
-          "FAQ",
-          "How to pronounce the name \"Trivy\"?",
-          "Want more? Check out Aqua",
-          "Community"
-        ],
-        "commands": [],
-        "keywords": [
-          "AI",
-          "快速开始",
-          "获取 Trivy",
-          "Canary 构建",
-          "常规用法"
-        ],
-        "score": 100
-      },
-      "visual": {
-        "kind": "readme_image",
-        "url": "https://raw.githubusercontent.com/aquasecurity/trivy/main/docs/imgs/trivy-k8s.png",
-        "thumbUrl": "https://raw.githubusercontent.com/aquasecurity/trivy/main/docs/imgs/trivy-k8s.png",
-        "alt": "k8s summary",
-        "sourceUrl": "https://raw.githubusercontent.com/aquasecurity/trivy/main/docs/imgs/trivy-k8s.png",
-        "promptHash": null
-      },
-      "classification": {
-        "primaryCategoryId": "ai",
-        "secondaryCategoryIds": [],
-        "confidence": 0.7,
-        "method": "rules",
-        "reasons": [
-          "Matched ai"
-        ],
-        "signals": [
-          "ai"
-        ]
-      },
-      "rank": {
-        "globalRank": 15,
-        "categoryRank": 15,
-        "score": 90
-      }
-    },
-    {
-      "id": "jwasham-coding-interview-university",
-      "owner": "jwasham",
-      "name": "coding-interview-university",
-      "url": "https://github.com/jwasham/coding-interview-university",
-      "avatarUrl": "https://github.com/jwasham.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 16,
-        "starsGained": 745
-      },
-      "metadata": {
-        "description": "成为软件工程师的完整计算机科学学习计划",
-        "language": "",
-        "topics": [],
-        "stars": 350564,
-        "forks": 83308,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": []
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/jwasham/coding-interview-university/main/README.md"
-      },
-      "readmeSignals": {
-        "title": "Coding Interview University",
-        "summary": "我最初创建这个只是为了列一个成为软件工程师的学习主题待办清单，但它发展成了今天这个庞大的列表。完成这个学习计划后，https://startupnextdoor.com/我已被亚马逊收购/?src=ciu！你可能不需要再学习其他内容了。",
-        "headings": [
-          "Coding Interview University",
-          "What is it?",
-          "Table of Contents",
-          "The Study Plan",
-          "Topics of Study",
-          "Getting the Job",
-          "Optional Extra Topics & Resources",
-          "Why use it?"
-        ],
-        "commands": [],
-        "keywords": [
-          "Coding Interview University",
-          "什么是它",
-          "目录",
-          "学习计划"
-        ],
-        "score": 100
-      },
-      "visual": {
-        "kind": "readme_image",
-        "url": "https://d3j2pkmjtin6ou.cloudfront.net/coding-at-the-whiteboard-silicon-valley.png",
-        "thumbUrl": "https://d3j2pkmjtin6ou.cloudfront.net/coding-at-the-whiteboard-silicon-valley.png",
-        "alt": "Coding at the whiteboard - from HBO's Silicon Valley",
-        "sourceUrl": "https://d3j2pkmjtin6ou.cloudfront.net/coding-at-the-whiteboard-silicon-valley.png",
+        "url": "https://github.com/user-attachments/assets/8aeafb0a-b236-43c2-a083-ec111f903c38",
+        "thumbUrl": "https://github.com/user-attachments/assets/8aeafb0a-b236-43c2-a083-ec111f903c38",
+        "alt": "1776506856823-CleanShot_2026-04-18_at_12 06 57_2x",
+        "sourceUrl": "https://github.com/user-attachments/assets/8aeafb0a-b236-43c2-a083-ec111f903c38",
         "promptHash": null
       },
       "classification": {
@@ -1366,92 +1086,168 @@
         "signals": []
       },
       "rank": {
-        "globalRank": 16,
-        "categoryRank": 16,
-        "score": 88
+        "globalRank": 13,
+        "categoryRank": 13,
+        "score": 94
       }
     },
     {
-      "id": "github-copilot-sdk",
-      "owner": "github",
-      "name": "copilot-sdk",
-      "url": "https://github.com/github/copilot-sdk",
-      "avatarUrl": "https://github.com/github.png",
+      "id": "hunxbyts-ghosttrack",
+      "owner": "HunxByts",
+      "name": "GhostTrack",
+      "url": "https://github.com/HunxByts/GhostTrack",
+      "avatarUrl": "https://github.com/HunxByts.png",
       "homepageUrl": null,
       "source": {
         "primary": "github_trending_html",
-        "sourceRank": 17,
-        "starsGained": 309
+        "sourceRank": 14,
+        "starsGained": 28
       },
       "metadata": {
-        "description": "用于将 GitHub Copilot Agent 集成到应用和服务中的多平台 SDK",
-        "language": "Java",
+        "description": "用于追踪位置或手机号码的实用工具",
+        "language": "Python",
         "topics": [],
-        "stars": 9337,
-        "forks": 1232,
+        "stars": 13780,
+        "forks": 1839,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
         "topLanguages": [
-          "Java"
+          "Python"
         ]
       },
       "readmeRef": {
         "status": "available",
         "path": "README.md",
         "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/github/copilot-sdk/main/README.md"
+        "rawUrl": "https://raw.githubusercontent.com/HunxByts/GhostTrack/main/README.md"
       },
       "readmeSignals": {
-        "title": "GitHub Copilot CLI SDKs",
-        "summary": "使用 GitHub Copilot SDK（支持 Python、TypeScript、Go、.NET、Java 和 Rust）将 Copilot 的智能体工作流嵌入您的应用程序中。",
+        "title": "GhostTrack",
+        "summary": "GhostTrack 是一款有用的工具，可追踪位置或手机号码，因此该工具可被称为 OSINT（开源情报）或信息收集。",
         "headings": [
-          "GitHub Copilot CLI SDKs",
-          "Available SDKs",
-          "Getting Started",
-          "Architecture",
-          "FAQ",
-          "Do I need a GitHub Copilot subscription to use the SDK?",
-          "How does billing work for SDK usage?",
-          "Does it support BYOK (Bring Your Own Key)?"
+          "GhostTrack",
+          "Instalation on Linux (deb)",
+          "Instalation on Termux",
+          "Usage Tool"
         ],
-        "commands": [
-          "npm install @github/copilot-sdk",
-          "pip install github-copilot-sdk"
-        ],
+        "commands": [],
         "keywords": [
-          "智能体",
-          "GitHub Copilot CLI SDKs",
-          "可用 SDK",
-          "快速开始",
-          "架构"
+          "tool",
+          "ghosttrack",
+          "instalation on linux (deb)",
+          "instalation on termux",
+          "usage tool"
+        ],
+        "score": 80
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://github.com/HunxByts/GhostTrack/blob/main/asset/bn.png",
+        "thumbUrl": "https://github.com/HunxByts/GhostTrack/blob/main/asset/bn.png",
+        "alt": "HunxByts/GhostTrack",
+        "sourceUrl": "https://github.com/HunxByts/GhostTrack/blob/main/asset/bn.png",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "tools",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched tool"
+        ],
+        "signals": [
+          "tool"
+        ]
+      },
+      "rank": {
+        "globalRank": 14,
+        "categoryRank": 14,
+        "score": 74.8
+      }
+    },
+    {
+      "id": "microsoft-pg-durable",
+      "owner": "microsoft",
+      "name": "pg_durable",
+      "url": "https://github.com/microsoft/pg_durable",
+      "avatarUrl": "https://github.com/microsoft.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 15,
+        "starsGained": 316
+      },
+      "metadata": {
+        "description": "PostgreSQL 中的数据库内持久执行",
+        "language": "Rust",
+        "topics": [],
+        "stars": 1500,
+        "forks": 33,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Rust"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/microsoft/pg_durable/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Start PostgreSQL",
+        "summary": "针对那些已将状态保存在 Postgres 中并希望停止拼接 cron 作业、工作者、队列和状态表以使后台工作可靠的团队的长运行、容错 SQL 函数。在 SQL 中定义工作流，让 pgdurable 检查每个步骤的检查点，并重新",
+        "headings": [
+          "Durable Execution inside PostgreSQL",
+          "Is this for me?",
+          "Who it's for",
+          "The core idea",
+          "Workloads this is useful for",
+          "What you're probably doing today instead",
+          "Pain points it addresses",
+          "What changes in your architecture"
+        ],
+        "commands": [],
+        "keywords": [
+          "database",
+          "postgres",
+          "durable execution inside postgresql",
+          "is this for me?",
+          "who it's for",
+          "the core idea"
         ],
         "score": 100
       },
       "visual": {
         "kind": "readme_image",
-        "url": "https://raw.githubusercontent.com/github/copilot-sdk/main/assets/RepoHeader_01.png",
-        "thumbUrl": "https://raw.githubusercontent.com/github/copilot-sdk/main/assets/RepoHeader_01.png",
-        "alt": "GitHub Copilot SDK",
-        "sourceUrl": "https://raw.githubusercontent.com/github/copilot-sdk/main/assets/RepoHeader_01.png",
+        "url": "https://raw.githubusercontent.com/microsoft/pg_durable/main/docs/website/workflow-graph.svg",
+        "thumbUrl": "https://raw.githubusercontent.com/microsoft/pg_durable/main/docs/website/workflow-graph.svg",
+        "alt": "A durable function fans out into three parallel queries — count users, count orders, sum revenue — that join into a dashboard step",
+        "sourceUrl": "https://raw.githubusercontent.com/microsoft/pg_durable/main/docs/website/workflow-graph.svg",
         "promptHash": null
       },
       "classification": {
-        "primaryCategoryId": "ai",
+        "primaryCategoryId": "backend",
         "secondaryCategoryIds": [],
-        "confidence": 0.7,
+        "confidence": 0.8,
         "method": "rules",
         "reasons": [
-          "Matched agent"
+          "Matched database",
+          "Matched postgres"
         ],
         "signals": [
-          "agent"
+          "database",
+          "postgres"
         ]
       },
       "rank": {
-        "globalRank": 17,
-        "categoryRank": 17,
-        "score": 86
+        "globalRank": 15,
+        "categoryRank": 15,
+        "score": 90
       }
     }
   ],
@@ -1462,19 +1258,24 @@
       "label": "AI",
       "categoryId": "ai",
       "repoIds": [
-        "nousresearch-hermes-agent",
-        "chopratejas-headroom",
-        "copilotkit-copilotkit",
-        "affaan-m-ecc",
-        "nvidia-cosmos",
-        "panniantong-agent-reach",
         "mvanhorn-last30days-skill",
-        "paddlepaddle-paddleocr",
-        "mempalace-mempalace",
-        "aquasecurity-trivy",
-        "withastro-flue",
-        "github-copilot-sdk",
+        "leonxlnx-taste-skill",
+        "nousresearch-hermes-agent",
+        "yikart-aitoearn",
+        "aaif-goose-goose",
+        "crosstalk-solutions-project-nomad",
+        "ggml-org-llama-cpp",
         "openai-plugins"
+      ],
+      "sort": "score"
+    },
+    {
+      "id": "tools",
+      "type": "category",
+      "label": "工具",
+      "categoryId": "tools",
+      "repoIds": [
+        "hunxbyts-ghosttrack"
       ],
       "sort": "score"
     },
@@ -1484,7 +1285,17 @@
       "label": "前端",
       "categoryId": "frontend",
       "repoIds": [
-        "openclaw-openclaw-windows-node"
+        "ryancodrai-turbovec"
+      ],
+      "sort": "score"
+    },
+    {
+      "id": "backend",
+      "type": "category",
+      "label": "后端",
+      "categoryId": "backend",
+      "repoIds": [
+        "microsoft-pg-durable"
       ],
       "sort": "score"
     },
@@ -1495,17 +1306,18 @@
       "categoryId": "unclassified",
       "repoIds": [
         "lfnovo-open-notebook",
-        "666ghj-mirofish",
-        "jwasham-coding-interview-university"
+        "opencv-opencv",
+        "tapxworld-chinatextbook",
+        "refactoringhq-tolaria"
       ],
       "sort": "score"
     }
   ],
   "health": {
     "status": "ok",
-    "candidateCount": 17,
-    "enrichedRepoCount": 17,
-    "unclassifiedRepoCount": 3,
+    "candidateCount": 15,
+    "enrichedRepoCount": 15,
+    "unclassifiedRepoCount": 4,
     "warnings": []
   }
 }
