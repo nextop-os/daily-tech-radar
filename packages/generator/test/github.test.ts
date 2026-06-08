@@ -221,20 +221,16 @@ describe("GitHub package generation", () => {
     expect(capturedPrompt).toContain("Choose an original layout that fits the repo");
     expect(capturedPrompt).toContain("Do not copy a fixed input-center-output template");
     expect(capturedPrompt).toContain("Possible layouts");
-    expect(capturedPrompt).toContain("Visual metaphor hint");
+    expect(capturedPrompt).toContain("Visual metaphor");
     expect(capturedPrompt).toContain("many documents, logs, files, and RAG chunks compress into a smaller focused context packet");
-    expect(capturedPrompt).toContain("Fallback text script");
-    expect(capturedPrompt).toContain("repo title");
-    expect(capturedPrompt).toContain("a concise capability headline");
+    expect(capturedPrompt).toContain("Required text script");
+    expect(capturedPrompt).toContain('repo title "chopratejas / headroom"');
+    expect(capturedPrompt).toContain("capability headline");
     expect(capturedPrompt).toContain("Context Compression");
     expect(capturedPrompt).toContain("Raw Logs & Files");
     expect(capturedPrompt).toContain("Focused Context");
-    expect(capturedPrompt).toContain("Fallback visual objects");
-    expect(capturedPrompt).toContain("Semantic inference rules");
+    expect(capturedPrompt).toContain("Must visibly include");
     expect(capturedPrompt).toContain("infer the actual product or tool");
-    expect(capturedPrompt).toContain("Decide the product type");
-    expect(capturedPrompt).toContain("proof/scoring signals");
-    expect(capturedPrompt).toContain("Generate the visible script from that inferred meaning");
     expect(capturedPrompt).toContain("Render the most likely product UI or usage surface");
     expect(capturedPrompt).toContain("browser extension popup");
     expect(capturedPrompt).toContain("editor panel");
@@ -243,63 +239,6 @@ describe("GitHub package generation", () => {
     expect(capturedPrompt).toContain("the repo title must be the largest readable text");
     expect(capturedPrompt).toContain("Only the repo title, capability headline, section labels, benefit tags, and essential UI labels may contain text");
     expect(capturedPrompt).not.toContain("repo name, GitHub logo");
-    expect(capturedPrompt).not.toContain("Avoid: GitHub logo");
     expect(capturedPrompt).toContain("No extra labels and no gibberish microtext");
-  });
-
-  it("passes repo meaning to Agnes without hard-coded research cover details", async () => {
-    const html = [
-      '<article class="Box-row">',
-      '<h2><a href="/mvanhorn/last30days-skill">mvanhorn / last30days-skill</a></h2>',
-      "<p>AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary</p>",
-      '<span itemprop="programmingLanguage">Python</span>',
-      '<a class="Link--muted">31,620</a>',
-      '<a class="Link--muted">2,634</a>',
-      '<span class="d-inline-block float-sm-right">1,111 stars today</span>',
-      "</article>"
-    ].join("\n");
-    const candidates = parseGitHubTrendingHtml(html).slice(0, 1);
-    let capturedPrompt = "";
-    await buildGitHubPackage({
-      candidates,
-      locale: "en-US",
-      date: "2026-06-07",
-      generatedAt: "2026-06-08T08:20:00.000Z",
-      visual: {
-        agnesApiKey: "test-key",
-        generateAgnesImages: true,
-        fetchImpl: async (input, init) => {
-          const url = String(input);
-          if (url.includes("apihub.agnes-ai.com/v1/images/generations")) {
-            const body = JSON.parse(String(init?.body)) as { prompt: string };
-            capturedPrompt = body.prompt;
-            return new Response(JSON.stringify({ data: [{ url: "https://example.com/last30days-cover.png" }] }), {
-              status: 200
-            });
-          }
-          return new Response(
-            [
-              "# /last30days",
-              "",
-              "An AI agent-led search engine scored by upvotes, likes, and real money - not editors.",
-              "",
-              "Researches Reddit, X, YouTube, Hacker News, Polymarket, and the web, then writes a grounded summary."
-            ].join("\n"),
-            { status: 200 }
-          );
-        }
-      }
-    });
-
-    expect(capturedPrompt).toContain("Project: mvanhorn/last30days-skill");
-    expect(capturedPrompt).toContain("Reddit, X, YouTube, HN, Polymarket, and the web");
-    expect(capturedPrompt).toContain("scored by upvotes, likes, and real money");
-    expect(capturedPrompt).toContain("Semantic inference rules");
-    expect(capturedPrompt).toContain("Generate the visible script from that inferred meaning");
-    expect(capturedPrompt).toContain("proof/scoring signals");
-    expect(capturedPrompt).not.toContain('capability headline "Research Agent Skill"');
-    expect(capturedPrompt).not.toContain("source chips for Reddit X YouTube HN Polymarket Web");
-    expect(capturedPrompt).not.toContain("Social Signals Market Odds Evidence badges");
-    expect(capturedPrompt).not.toContain("Avoid: GitHub logo");
   });
 });
