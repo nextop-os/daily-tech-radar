@@ -224,12 +224,15 @@ describe("GitHub package generation", () => {
     expect(capturedPrompt).toContain("Visual metaphor");
     expect(capturedPrompt).toContain("many documents, logs, files, and RAG chunks compress into a smaller focused context packet");
     expect(capturedPrompt).toContain("Required text script");
+    expect(capturedPrompt).toContain('repo title "chopratejas / headroom"');
+    expect(capturedPrompt).toContain("capability headline");
     expect(capturedPrompt).toContain("Context Compression");
     expect(capturedPrompt).toContain("Raw Logs & Files");
     expect(capturedPrompt).toContain("Focused Context");
     expect(capturedPrompt).toContain("Must visibly include");
-    expect(capturedPrompt).toContain("Project/repository names are metadata only");
-    expect(capturedPrompt).toContain("Only the headline, section labels, and benefit tags may contain text");
+    expect(capturedPrompt).toContain("the repo title must be the largest readable text");
+    expect(capturedPrompt).toContain("Only the repo title, capability headline, section labels, and benefit tags may contain text");
+    expect(capturedPrompt).not.toContain("repo name, GitHub logo");
     expect(capturedPrompt).toContain("No extra labels and no gibberish microtext");
   });
 });

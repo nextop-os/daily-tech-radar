@@ -387,18 +387,18 @@ function buildAgnesCoverPrompt(
     `README summary: ${summary ?? candidate.description}`,
     `Functional story: ${workflow}.`,
     `Visual metaphor: ${visualMetaphor}.`,
-    `Required text script: headline "${visualScript.headline}", section labels "${visualScript.sections.join(" / ")}", benefit tags "${visualScript.benefits.join(" / ")}".`,
+    `Required text script: repo title "${candidate.owner} / ${candidate.name}", capability headline "${visualScript.headline}", section labels "${visualScript.sections.join(" / ")}", benefit tags "${visualScript.benefits.join(" / ")}".`,
     `Must visibly include: ${visualScript.objects.join(", ")}.`,
-    "Project/repository names are metadata only and must not appear in the image.",
+    "Make the repository identity obvious at thumbnail size: the repo title must be the largest readable text, and the capability headline must sit directly beneath it.",
     "Choose an original layout that fits the repo. Do not copy a fixed input-center-output template and do not imitate any supplied reference image structure.",
     "Possible layouts: process flow, before-and-after comparison, modular feature map, architecture cutaway, hub-and-spoke capability map, layered stack, dashboard collage, pipeline journey, comic-style explanation panels, or another clear infographic composition.",
-    "The poster should explain the specific repo: what problem it solves, what source material or user action starts it, what transformation happens, and what useful outcome appears.",
+    "The poster should explain the specific repo: what problem it solves, what source material or user action starts it, what transformation happens, and what useful outcome appears. Use the repo title and capability headline to anchor that story.",
     "Use a memorable central visual metaphor when helpful: compression machine, parser, agent control room, automation conveyor, memory graph, creative engine, API toolkit, or another metaphor implied by the repo.",
     "Use large icons, clean illustrations, charts, documents, app windows, database blocks, terminal cards, agent/tool nodes, arrows, callouts, numbered badges, or benefit cards as needed, but only if they clarify the function.",
     "Style: bright educational infographic poster, playful but professional, thick rounded strokes, glossy icons, white background, vibrant accent colors, high information density, crisp hierarchy, delightful small decorations.",
     "Typography: use the required text script as large readable labels. Keep every text element short, high-contrast, typo-free, and important to comprehension.",
-    "Only the headline, section labels, and benefit tags may contain text. All app windows, charts, cards, buttons, terminals, and documents must use blank placeholder bars, icons, shapes, or charts with no letters.",
-    "Avoid: repo name, GitHub logo, copied GitHub UI, README screenshot, long paragraphs, small body text, code snippets, lorem ipsum, fake UI microcopy, generic sci-fi cube, plain abstract gradient, mascot-only image, dark screenshot banner.",
+    "Only the repo title, capability headline, section labels, and benefit tags may contain text. All app windows, charts, cards, buttons, terminals, and documents must use blank placeholder bars, icons, shapes, or charts with no letters.",
+    "Avoid: GitHub logo, copied GitHub UI, README screenshot, long paragraphs, small body text, code snippets, lorem ipsum, fake UI microcopy, generic sci-fi cube, plain abstract gradient, mascot-only image, dark screenshot banner.",
     "No extra labels and no gibberish microtext. If text cannot be rendered cleanly, replace it with blank grey placeholder lines."
   ].join("\n");
 }
