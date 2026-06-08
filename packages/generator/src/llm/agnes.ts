@@ -11,6 +11,23 @@ export function parseJsonObject(content: string): unknown {
   return JSON.parse(raw);
 }
 
+function extractArrayField(parsed: unknown, keys: string[]): unknown[] | undefined {
+  if (Array.isArray(parsed)) {
+    return parsed;
+  }
+  if (!parsed || typeof parsed !== "object") {
+    return undefined;
+  }
+  const record = parsed as Record<string, unknown>;
+  for (const key of keys) {
+    const value = record[key];
+    if (Array.isArray(value)) {
+      return value;
+    }
+  }
+  return undefined;
+}
+
 function fallbackKeywords(post: ProductHuntPost): string[] {
   const topicNames = post.topics?.edges?.flatMap((edge) => (edge.node?.name ? [edge.node.name] : [])) ?? [];
   if (topicNames.length > 0) {
@@ -85,10 +102,7 @@ export async function localizeProductHuntPosts(options: {
   }
 
   const parsed = parseJsonObject(content);
-  const items = Array.isArray(parsed)
-    ? parsed
-    : ((parsed as { items?: unknown[]; posts?: unknown[] }).items ??
-      (parsed as { items?: unknown[]; posts?: unknown[] }).posts);
+  const items = extractArrayField(parsed, ["items", "posts", "localizations"]);
   if (!Array.isArray(items)) {
     throw new Error("Agnes localization JSON must be an array or an object with items");
   }
@@ -177,12 +191,9 @@ export async function localizeGitHubRepos(options: {
   }
 
   const parsed = parseJsonObject(content);
-  const items = Array.isArray(parsed)
-    ? parsed
-    : ((parsed as { items?: unknown[]; repos?: unknown[] }).items ??
-      (parsed as { items?: unknown[]; repos?: unknown[] }).repos);
+  const items = extractArrayField(parsed, ["items", "repos", "repositories", "localizations"]);
   if (!Array.isArray(items)) {
-    throw new Error("Agnes GitHub localization JSON must be an array or an object with items");
+    return fallbackGitHubRepoLocalizations(repos);
   }
 
   const fallback = new Map(fallbackGitHubRepoLocalizations(repos).map((item) => [item.id, item]));

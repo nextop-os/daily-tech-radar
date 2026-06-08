@@ -92,7 +92,7 @@ describe("Product Hunt generation", () => {
     ]);
   });
 
-  it("accepts Agnes GitHub localizations wrapped in a repos array", async () => {
+  it("accepts Agnes GitHub localizations wrapped in a repositories array", async () => {
     const fetchImpl = async () =>
       new Response(
         JSON.stringify({
@@ -100,7 +100,7 @@ describe("Product Hunt generation", () => {
             {
               message: {
                 content: JSON.stringify({
-                  repos: [
+                  repositories: [
                     {
                       id: "github-headroom",
                       descriptionZh: "压缩代理上下文。",
@@ -179,6 +179,88 @@ describe("Product Hunt generation", () => {
         descriptionZh: "压缩代理上下文。",
         summaryZh: "在工具输出进入 LLM 前进行压缩，让上下文保持聚焦。",
         keywordsZh: ["上下文压缩", "代理工具"]
+      }
+    ]);
+  });
+
+  it("falls back when Agnes GitHub localizations have an unknown shape", async () => {
+    const fetchImpl = async () =>
+      new Response(
+        JSON.stringify({
+          choices: [
+            {
+              message: {
+                content: JSON.stringify({ result: "not a localization array" })
+              }
+            }
+          ]
+        }),
+        { status: 200 }
+      );
+
+    await expect(
+      localizeGitHubRepos({
+        repos: [
+          {
+            id: "github-headroom",
+            owner: "chopratejas",
+            name: "headroom",
+            url: "https://github.com/chopratejas/headroom",
+            source: {
+              primary: "github_trending_html",
+              sourceRank: 1,
+              starsGained: 2503
+            },
+            metadata: {
+              description: "Compress context.",
+              language: "Python",
+              topics: [],
+              stars: 14201,
+              forks: 420,
+              license: null,
+              defaultBranch: null,
+              pushedAt: null,
+              topLanguages: ["Python"]
+            },
+            readmeRef: {
+              status: "missing"
+            },
+            readmeSignals: {
+              title: "Headroom",
+              summary: "Compress tool outputs before they reach the LLM.",
+              headings: [],
+              commands: [],
+              keywords: ["agent", "context"],
+              score: 80
+            },
+            visual: {
+              kind: "repository_avatar",
+              url: "https://github.com/chopratejas.png"
+            },
+            classification: {
+              primaryCategoryId: "ai",
+              secondaryCategoryIds: [],
+              confidence: 0.7,
+              method: "rules",
+              reasons: ["Matched agent"],
+              signals: ["agent"]
+            },
+            rank: {
+              globalRank: 1,
+              categoryRank: 1,
+              score: 118
+            }
+          }
+        ],
+        apiKey: "test-key",
+        fetchImpl: fetchImpl as typeof fetch
+      })
+    ).resolves.toEqual([
+      {
+        id: "github-headroom",
+        descriptionZh: "Compress context.",
+        summaryZh: "Compress tool outputs before they reach the LLM.",
+        keywordsZh: ["agent", "context"]
       }
     ]);
   });
