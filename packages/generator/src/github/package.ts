@@ -401,7 +401,7 @@ function buildAgnesCoverPrompt(
     "Style: bright educational infographic poster, playful but professional, thick rounded strokes, glossy icons, white background, vibrant accent colors, high information density, crisp hierarchy, delightful small decorations.",
     "Typography: use the required text script as large readable labels. Keep every text element short, high-contrast, typo-free, and important to comprehension.",
     "Only the repo title, capability headline, section labels, benefit tags, and essential UI labels may contain text. Essential UI labels must be short, meaningful, and tied to the repo's capability; avoid fake filler text.",
-    "Avoid: GitHub logo, copied GitHub UI, README screenshot, long paragraphs, small body text, code snippets, lorem ipsum, fake UI microcopy, generic sci-fi cube, plain abstract gradient, mascot-only image, dark screenshot banner.",
+    "Avoid: copied GitHub UI, README screenshot, long paragraphs, small body text, code snippets, lorem ipsum, fake UI microcopy, generic sci-fi cube, plain abstract gradient, mascot-only image, dark screenshot banner.",
     "No extra labels and no gibberish microtext. If text cannot be rendered cleanly, replace it with blank grey placeholder lines."
   ].join("\n");
 }
@@ -418,6 +418,9 @@ function visualMetaphorForRepo(candidate: CandidateRepo, summary: string | null 
   }
 
   if (/(agent|workflow|automation|mcp|tool use)/.test(text)) {
+    if (/(reddit|youtube|hacker news|\bhn\b|polymarket|social|research|summary|grounded|upvotes?|likes?|money|market|last30days)/.test(text)) {
+      return "an agent skill search surface gathers Reddit, X, YouTube, HN, Polymarket, and web evidence, ranks social and market signals, then writes a grounded brief";
+    }
     return "a user task enters an agent workspace, tools are selected and executed, and completed action cards are produced";
   }
 
@@ -470,6 +473,21 @@ function visualScriptForRepo(candidate: CandidateRepo, categoryId: string, summa
   }
 
   if (/(agent|workflow|automation|mcp|tool use)/.test(text)) {
+    if (/(reddit|youtube|hacker news|\bhn\b|polymarket|social|research|summary|grounded|upvotes?|likes?|money|market|last30days)/.test(text)) {
+      return {
+        benefits: ["Social Signals", "Market Odds", "Grounded Brief"],
+        headline: "Research Agent Skill",
+        objects: [
+          "agent skill card",
+          "search command bar",
+          "source chips for Reddit X YouTube HN Polymarket Web",
+          "ranked evidence cards",
+          "vote like and money badges",
+          "grounded brief panel"
+        ],
+        sections: ["Search Topic", "Rank Signals", "Brief"]
+      };
+    }
     return {
       benefits: ["Tool Planning", "Auto Execute", "Workflow Done"],
       headline: "AI Agent Workflow",
