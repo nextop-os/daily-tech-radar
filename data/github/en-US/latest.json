@@ -1,9 +1,9 @@
 {
   "schemaVersion": "trendreader.daily.v1",
-  "packageId": "github-daily-All-2026-06-06",
+  "packageId": "github-daily-All-2026-06-07",
   "locale": "en-US",
-  "generatedAt": "2026-06-08T10:38:11.664Z",
-  "expiresAt": "2026-06-09T10:38:11.664Z",
+  "generatedAt": "2026-06-08T12:43:33.056Z",
+  "expiresAt": "2026-06-09T12:43:33.056Z",
   "sourceWindow": {
     "since": "daily",
     "language": "All",
@@ -14,12 +14,12 @@
       "id": "github_trending_html",
       "role": "candidate",
       "status": "ok",
-      "itemCount": 15
+      "itemCount": 16
     }
   ],
   "taxonomy": {
-    "version": "2026-06-06",
-    "generatedAt": "2026-06-08T10:38:11.664Z",
+    "version": "2026-06-07",
+    "generatedAt": "2026-06-08T12:43:33.056Z",
     "categories": [
       {
         "id": "ai",
@@ -69,14 +69,14 @@
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 1,
-        "starsGained": 1111
+        "starsGained": 3558
       },
       "metadata": {
         "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
         "language": "Python",
         "topics": [],
-        "stars": 32789,
-        "forks": 2696,
+        "stars": 33102,
+        "forks": 2721,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -116,8 +116,8 @@
       },
       "visual": {
         "kind": "agnes_generated",
-        "url": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/11fe53e1740c4aeb8894a1103b176384.png",
-        "thumbUrl": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/11fe53e1740c4aeb8894a1103b176384.png",
+        "url": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/94730d0d4bf74d8bb93db5edb583387a.png",
+        "thumbUrl": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/94730d0d4bf74d8bb93db5edb583387a.png",
         "alt": "Generated cover for mvanhorn/last30days-skill",
         "sourceUrl": null,
         "promptHash": "sha256:810b5e5e76a9"
@@ -143,644 +143,6 @@
       }
     },
     {
-      "id": "opencv-opencv",
-      "owner": "opencv",
-      "name": "opencv",
-      "url": "https://github.com/opencv/opencv",
-      "avatarUrl": "https://github.com/opencv.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 2,
-        "starsGained": 65
-      },
-      "metadata": {
-        "description": "Open Source Computer Vision Library",
-        "language": "C++",
-        "topics": [],
-        "stars": 88305,
-        "forks": 56612,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "C++"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/opencv/opencv/master/README.md"
-      },
-      "readmeSignals": {
-        "title": null,
-        "summary": "OpenCV: Open Source Computer Vision Library Homepage: Courses: Docs: Q&A forum: previous forum read only: Issue tracking: Additional OpenCV functionality: Donate to OpenCV: Please read the https://github.com/opencv/opencv/wiki/Howtocontribute before starting work on a pull request. One pull request per issue; Choose the right base branch; Include tests and documentation; Clean up \"oops\" commits before submitting; Follow the https://github.com/opencv/opencv/wiki/CodingStyleGuide.",
-        "headings": [
-          "OpenCV: Open Source Computer Vision Library",
-          "Resources",
-          "Contributing",
-          "Additional Resources"
-        ],
-        "commands": [],
-        "keywords": [
-          "opencv: open source computer vision library",
-          "resources",
-          "contributing",
-          "additional resources"
-        ],
-        "score": 80
-      },
-      "visual": {
-        "kind": "agnes_generated",
-        "url": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/8729d028ba7948f196e50f0b8b5de396.png",
-        "thumbUrl": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/8729d028ba7948f196e50f0b8b5de396.png",
-        "alt": "Generated cover for opencv/opencv",
-        "sourceUrl": null,
-        "promptHash": "sha256:8a2fdf0f9ee7"
-      },
-      "classification": {
-        "primaryCategoryId": "unclassified",
-        "secondaryCategoryIds": [],
-        "confidence": 0.4,
-        "method": "rules",
-        "reasons": [
-          "No taxonomy rule matched with enough confidence"
-        ],
-        "signals": []
-      },
-      "rank": {
-        "globalRank": 2,
-        "categoryRank": 2,
-        "score": 102.5
-      }
-    },
-    {
-      "id": "leonxlnx-taste-skill",
-      "owner": "Leonxlnx",
-      "name": "taste-skill",
-      "url": "https://github.com/Leonxlnx/taste-skill",
-      "avatarUrl": "https://github.com/Leonxlnx.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 3,
-        "starsGained": 1103
-      },
-      "metadata": {
-        "description": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop",
-        "language": "Shell",
-        "topics": [],
-        "stars": 37875,
-        "forks": 2701,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "Shell"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/Leonxlnx/taste-skill/main/README.md"
-      },
-      "readmeSignals": {
-        "title": "Taste Skill",
-        "summary": "The Anti-Slop Frontend Framework for AI Agents Portable Agent Skills that upgrade AI-built interfaces: stronger layout, typography, motion, and spacing instead of boilerplate-looking UIs. This repo also includes image-generation skills for reference boards web, mobile, brand kits. Pair them with ChatGPT Images or similar generators, then hand the frames to Codex, Cursor, or Claude Code for implementation. Taste Skill has no official token, coin, or crypto project. Any token using my name, image, or project is unaffiliated and not endorsed by me. Disclaimer · Install · Skills · Settings · Examples · Sponsor · Research · FAQ · License",
-        "headings": [
-          "Taste Skill",
-          "Disclaimer",
-          "Feedback & Contributions",
-          "Installing",
-          "Updating from the previous version",
-          "Skills",
-          "Image generation skills",
-          "Which one should I use?"
-        ],
-        "commands": [],
-        "keywords": [
-          "ai",
-          "taste skill",
-          "disclaimer",
-          "feedback & contributions",
-          "installing"
-        ],
-        "score": 100
-      },
-      "visual": {
-        "kind": "readme_image",
-        "url": "https://raw.githubusercontent.com/Leonxlnx/taste-skill/main/examples/floria-top.webp",
-        "thumbUrl": "https://raw.githubusercontent.com/Leonxlnx/taste-skill/main/examples/floria-top.webp",
-        "alt": "Leonxlnx/taste-skill",
-        "sourceUrl": "https://raw.githubusercontent.com/Leonxlnx/taste-skill/main/examples/floria-top.webp",
-        "promptHash": null
-      },
-      "classification": {
-        "primaryCategoryId": "ai",
-        "secondaryCategoryIds": [],
-        "confidence": 0.7,
-        "method": "rules",
-        "reasons": [
-          "Matched ai"
-        ],
-        "signals": [
-          "ai"
-        ]
-      },
-      "rank": {
-        "globalRank": 3,
-        "categoryRank": 3,
-        "score": 114
-      }
-    },
-    {
-      "id": "nousresearch-hermes-agent",
-      "owner": "NousResearch",
-      "name": "hermes-agent",
-      "url": "https://github.com/NousResearch/hermes-agent",
-      "avatarUrl": "https://github.com/NousResearch.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 4,
-        "starsGained": 1112
-      },
-      "metadata": {
-        "description": "The agent that grows with you",
-        "language": "Python",
-        "topics": [],
-        "stars": 186721,
-        "forks": 32120,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "Python"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/NousResearch/hermes-agent/main/README.md"
-      },
-      "readmeSignals": {
-        "title": "Hermes Agent ☤",
-        "summary": "The self-improving AI agent built by https://nousresearch.com. It's the only agent with a built-in learning loop — it creates skills from experience, improves them during use, nudges itself to persist knowledge, searches its own past conversations, and builds a deepening model of who you are across sessions. Run it on a $5 VPS, a GPU cluster, or serverless infrastructure that costs nearly nothing when idle. It's not tied to your laptop — talk to it from Telegram while it works on a cloud VM. Use any model you want — https://portal.nousresearch.com, https://openrouter.ai 200+ models, https://novita.ai AI-native cloud for Model API, Agent Sandbox, and GPU Cloud, https://build.nvidia.com Nemotr",
-        "headings": [
-          "Hermes Agent ☤",
-          "Quick Install",
-          "Linux, macOS, WSL2, Termux",
-          "Windows (native, PowerShell)",
-          "Getting Started",
-          "Skip the API-key collection — Nous Portal",
-          "CLI vs Messaging Quick Reference",
-          "Documentation"
-        ],
-        "commands": [
-          "pip install -e \".[all,dev]\""
-        ],
-        "keywords": [
-          "agent",
-          "hermes agent ☤",
-          "quick install",
-          "linux, macos, wsl2, termux",
-          "windows (native, powershell)"
-        ],
-        "score": 100
-      },
-      "visual": {
-        "kind": "agnes_generated",
-        "url": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/398e4d9ef22d4bd391ea12392d28e4d1.png",
-        "thumbUrl": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/398e4d9ef22d4bd391ea12392d28e4d1.png",
-        "alt": "Generated cover for NousResearch/hermes-agent",
-        "sourceUrl": null,
-        "promptHash": "sha256:0883b990f892"
-      },
-      "classification": {
-        "primaryCategoryId": "ai",
-        "secondaryCategoryIds": [],
-        "confidence": 0.7,
-        "method": "rules",
-        "reasons": [
-          "Matched agent"
-        ],
-        "signals": [
-          "agent"
-        ]
-      },
-      "rank": {
-        "globalRank": 4,
-        "categoryRank": 4,
-        "score": 112
-      }
-    },
-    {
-      "id": "lfnovo-open-notebook",
-      "owner": "lfnovo",
-      "name": "open-notebook",
-      "url": "https://github.com/lfnovo/open-notebook",
-      "avatarUrl": "https://github.com/lfnovo.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 5,
-        "starsGained": 554
-      },
-      "metadata": {
-        "description": "An Open Source implementation of Notebook LM with more flexibility and features",
-        "language": "TypeScript",
-        "topics": [],
-        "stars": 27715,
-        "forks": 3134,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "TypeScript"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/lfnovo/open-notebook/main/README.md"
-      },
-      "readmeSignals": {
-        "title": null,
-        "summary": "An open source, privacy-focused alternative to Google's Notebook LM! Join our Discord server for help, to share workflow ideas, and suggest features! Checkout our website » 📚 Get Started · 📖 User Guide · ✨ Features · 🚀 Deploy Deutsch | Español | français | 日本語 | 한국어 | Português | Русский | 中文 A private, multi-model, 100% local, full-featured alternative to Notebook LM In a world dominated by Artificial Intelligence, having the ability to think 🧠 and acquire new knowledge 💡, is a skill that should not be a privilege for a few, nor restricted to a single provider.",
-        "headings": [
-          "A private, multi-model, 100% local, full-featured alternative to Notebook LM",
-          "🆚 Open Notebook vs Google Notebook LM",
-          "Built With",
-          "🚀 Quick Start (2 Minutes)",
-          "Prerequisites",
-          "Step 1: Get docker-compose.yml",
-          "Step 2: Set Your Encryption Key",
-          "Step 3: Start Services"
-        ],
-        "commands": [],
-        "keywords": [
-          "a private, multi-model, 100% local, full-featured alternative to notebook lm",
-          "🆚 open notebook vs google notebook lm",
-          "built with",
-          "🚀 quick start (2 minutes)"
-        ],
-        "score": 100
-      },
-      "visual": {
-        "kind": "readme_image",
-        "url": "https://raw.githubusercontent.com/lfnovo/open-notebook/main/docs/assets/asset_list.png",
-        "thumbUrl": "https://raw.githubusercontent.com/lfnovo/open-notebook/main/docs/assets/asset_list.png",
-        "alt": "New Notebook",
-        "sourceUrl": "https://raw.githubusercontent.com/lfnovo/open-notebook/main/docs/assets/asset_list.png",
-        "promptHash": null
-      },
-      "classification": {
-        "primaryCategoryId": "unclassified",
-        "secondaryCategoryIds": [],
-        "confidence": 0.4,
-        "method": "rules",
-        "reasons": [
-          "No taxonomy rule matched with enough confidence"
-        ],
-        "signals": []
-      },
-      "rank": {
-        "globalRank": 5,
-        "categoryRank": 5,
-        "score": 110
-      }
-    },
-    {
-      "id": "yikart-aitoearn",
-      "owner": "yikart",
-      "name": "AiToEarn",
-      "url": "https://github.com/yikart/AiToEarn",
-      "avatarUrl": "https://github.com/yikart.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 6,
-        "starsGained": 183
-      },
-      "metadata": {
-        "description": "Let's use AI to Earn!",
-        "language": "TypeScript",
-        "topics": [],
-        "stars": 19247,
-        "forks": 2957,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "TypeScript"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/yikart/AiToEarn/main/README.md"
-      },
-      "readmeSignals": {
-        "title": "[Aitoearn：OPC（一人公司）的AI内容营销智能体](https://aitoearn.ai)",
-        "summary": "Monetize · Publish · Engage · Create —— 一站式平台。 AiToEarn 通过 AI Agent自动化，帮助 OPC（一人公司）、创作者、品牌与企业在全球主流平台上构建、分发并变现内容。 支持渠道： 抖音、小红书（Rednote）、快手、哔哩哔哩、视频号、TikTok、YouTube、Facebook、Instagram、Threads、Twitter（X）、Pinterest、LinkedIn | 方式 | 适合谁 | 需要部署吗 | | use-web | 所有用户 | ❌ 不需要 | | use-in-openclaw | 龙虾用户 | ❌ 不需要 | | use-in-claude | AI 工具用户 | ❌ 不需要 | | use-docker | 想私有化部署的团队 | ✅ 需要服务器 | | use-source | 开发者 | ✅ 需要开发环境 | 💡 方式 ②③④ 都需要先获取 API Key，请先看 get-api-key。 2026-05-21: https://github.com/yikart/AiToEarn/releases/tag/v2.4.0 — 草稿生成新增支持 HappyHorse 1.0 和 Seedance 2.0，增强视频/图文草稿批量生成、多模型选择、参考图片/视频、目标平台限制与文案提示词；带来全新界面风格，并增强 Twitter/X 探索与互动能力。 2026-04-20: OpenClaw（龙虾）新增 AiToEarn 赚钱支持，可在龙虾中直接接收并执行内容变现任务。 2026-03-2",
-        "headings": [
-          "[Aitoearn：OPC（一人公司）的AI内容营销智能体](https://aitoearn.ai)",
-          "🚀 快速使用 AiToEarn（5 种方式）",
-          "最新动态",
-          "核心功能",
-          "💰 Monetize —— 内容赚钱",
-          "📢 Publish —— 内容发布 Agent",
-          "💬 Engage —— 内容互动 Agent",
-          "🎨 Create —— 内容创作 Agent"
-        ],
-        "commands": [
-          "npm install\n\n# 编译 sqlite（better-sqlite3 需要 node-gyp 和本地 Python）"
-        ],
-        "keywords": [
-          "ai",
-          "[aitoearn：opc（一人公司）的ai内容营销智能体](https://aitoearn.ai)",
-          "🚀 快速使用 aitoearn（5 种方式）",
-          "最新动态",
-          "核心功能"
-        ],
-        "score": 100
-      },
-      "visual": {
-        "kind": "readme_image",
-        "url": "https://raw.githubusercontent.com/yikart/AiToEarn/main/presentation/monetize-cn.png",
-        "thumbUrl": "https://raw.githubusercontent.com/yikart/AiToEarn/main/presentation/monetize-cn.png",
-        "alt": "yikart/AiToEarn",
-        "sourceUrl": "https://raw.githubusercontent.com/yikart/AiToEarn/main/presentation/monetize-cn.png",
-        "promptHash": null
-      },
-      "classification": {
-        "primaryCategoryId": "ai",
-        "secondaryCategoryIds": [],
-        "confidence": 0.7,
-        "method": "rules",
-        "reasons": [
-          "Matched ai"
-        ],
-        "signals": [
-          "ai"
-        ]
-      },
-      "rank": {
-        "globalRank": 6,
-        "categoryRank": 6,
-        "score": 106.3
-      }
-    },
-    {
-      "id": "aaif-goose-goose",
-      "owner": "aaif-goose",
-      "name": "goose",
-      "url": "https://github.com/aaif-goose/goose",
-      "avatarUrl": "https://github.com/aaif-goose.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 7,
-        "starsGained": 322
-      },
-      "metadata": {
-        "description": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM",
-        "language": "Rust",
-        "topics": [],
-        "stars": 47803,
-        "forks": 5036,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "Rust"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/aaif-goose/goose/main/README.md"
-      },
-      "readmeSignals": {
-        "title": "goose",
-        "summary": "your native open source AI agent — desktop app, CLI, and API — for code, workflows, and everything in between goose is a general-purpose AI agent that runs on your machine. Not just for code — use it for research, writing, automation, data analysis, or anything you need to get done. A native desktop app for macOS, Linux, and Windows. A full CLI for terminal workflows. An API to embed it anywhere. Built in Rust for performance and portability. goose works with 15+ providers — Anthropic, OpenAI, Google, Ollama, OpenRouter, Azure, Bedrock, and more. Use API keys or your existing Claude, ChatGPT, or Gemini subscriptions via https://goose-docs.ai/docs/guides/acp-providers. Connect to 70+ extensio",
-        "headings": [
-          "goose",
-          "Get started",
-          "Quick links",
-          "Need help?",
-          "a little goose humor 🪿",
-          "goose around with us"
-        ],
-        "commands": [],
-        "keywords": [
-          "ai",
-          "agent",
-          "llm",
-          "goose",
-          "get started",
-          "quick links",
-          "need help?"
-        ],
-        "score": 90
-      },
-      "visual": {
-        "kind": "agnes_generated",
-        "url": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/56ea69c0226f4898aafb6305255dd39a.png",
-        "thumbUrl": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/56ea69c0226f4898aafb6305255dd39a.png",
-        "alt": "Generated cover for aaif-goose/goose",
-        "sourceUrl": null,
-        "promptHash": "sha256:6f03df0a0ee9"
-      },
-      "classification": {
-        "primaryCategoryId": "ai",
-        "secondaryCategoryIds": [],
-        "confidence": 0.9,
-        "method": "rules",
-        "reasons": [
-          "Matched ai",
-          "Matched agent",
-          "Matched llm"
-        ],
-        "signals": [
-          "ai",
-          "agent",
-          "llm"
-        ]
-      },
-      "rank": {
-        "globalRank": 7,
-        "categoryRank": 7,
-        "score": 106
-      }
-    },
-    {
-      "id": "crosstalk-solutions-project-nomad",
-      "owner": "Crosstalk-Solutions",
-      "name": "project-nomad",
-      "url": "https://github.com/Crosstalk-Solutions/project-nomad",
-      "avatarUrl": "https://github.com/Crosstalk-Solutions.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 8,
-        "starsGained": 309
-      },
-      "metadata": {
-        "description": "Project N.O.M.A.D, is a self-contained, offline survival computer packed with critical tools, knowledge, and AI to keep you informed and empowered—anytime, anywhere.",
-        "language": "TypeScript",
-        "topics": [],
-        "stars": 29938,
-        "forks": 2968,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "TypeScript"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/Crosstalk-Solutions/project-nomad/main/README.md"
-      },
-      "readmeSignals": {
-        "title": "Project N.O.M.A.D.",
-        "summary": "Project N.O.M.A.D. Node for Offline Media, Archives, and Data Project N.O.M.A.D. is a self-contained, offline-first knowledge and education server packed with critical tools, knowledge, and AI to keep you informed and empowered—anytime, anywhere. Installation & Quickstart Project N.O.M.A.D. can be installed on any Debian-based operating system we recommend Ubuntu. Installation is completely terminal-based, and all tools and resources are designed to be accessed through the browser, so there's no need for a desktop environment if you'd rather setup N.O.M.A.D. as a \"server\" and access it through other clients.",
-        "headings": [
-          "Project N.O.M.A.D.",
-          "Node for Offline Media, Archives, and Data",
-          "Installation & Quickstart",
-          "Quick Install (Debian-based OS Only)",
-          "Advanced Installation",
-          "How It Works",
-          "What's Included",
-          "Device Requirements"
-        ],
-        "commands": [],
-        "keywords": [
-          "ai",
-          "project n.o.m.a.d.",
-          "node for offline media, archives, and data",
-          "installation & quickstart",
-          "quick install (debian-based os only)"
-        ],
-        "score": 100
-      },
-      "visual": {
-        "kind": "agnes_generated",
-        "url": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/940085dcc393426bbfde94f5a332bd3e.png",
-        "thumbUrl": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/940085dcc393426bbfde94f5a332bd3e.png",
-        "alt": "Generated cover for Crosstalk-Solutions/project-nomad",
-        "sourceUrl": null,
-        "promptHash": "sha256:37c85475d787"
-      },
-      "classification": {
-        "primaryCategoryId": "ai",
-        "secondaryCategoryIds": [],
-        "confidence": 0.7,
-        "method": "rules",
-        "reasons": [
-          "Matched ai"
-        ],
-        "signals": [
-          "ai"
-        ]
-      },
-      "rank": {
-        "globalRank": 8,
-        "categoryRank": 8,
-        "score": 104
-      }
-    },
-    {
-      "id": "ggml-org-llama-cpp",
-      "owner": "ggml-org",
-      "name": "llama.cpp",
-      "url": "https://github.com/ggml-org/llama.cpp",
-      "avatarUrl": "https://github.com/ggml-org.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 9,
-        "starsGained": 158
-      },
-      "metadata": {
-        "description": "LLM inference in C/C++",
-        "language": "C++",
-        "topics": [],
-        "stars": 115536,
-        "forks": 19336,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "C++"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/ggml-org/llama.cpp/master/README.md"
-      },
-      "readmeSignals": {
-        "title": "llama.cpp",
-        "summary": "Hugging Face cache migration: models downloaded with -hf are now stored in the standard Hugging Face cache directory, enabling sharing with other HF tools. https://github.com/ggml-org/llama.cpp/discussions/16938 https://github.com/ggml-org/llama.cpp/discussions/15396 FEEDBACK Better packaging for llama.cpp to support downstream consumers 🤗https://github.com/ggml-org/llama.cpp/discussions/15313 Support for the gpt-oss model with native MXFP4 format has been added | https://github.com/ggml-org/llama.cpp/pull/15091 | https://blogs.nvidia.com/blog/rtx-ai-garage-openai-oss | https://github.com/ggml-org/llama.cpp/discussions/15095 Multimodal support arrived in llama-server: https://github.com/ggm",
-        "headings": [
-          "llama.cpp",
-          "Recent API changes",
-          "Hot topics",
-          "Quick start",
-          "Use a local model file",
-          "Or download and run a model directly from Hugging Face",
-          "Launch OpenAI-compatible API server",
-          "Description"
-        ],
-        "commands": [],
-        "keywords": [
-          "llm",
-          "llama.cpp",
-          "recent api changes",
-          "hot topics",
-          "quick start"
-        ],
-        "score": 100
-      },
-      "visual": {
-        "kind": "readme_image",
-        "url": "https://user-images.githubusercontent.com/1991296/230134379-7181e485-c521-4d23-a0d6-f7b3b61ba524.png",
-        "thumbUrl": "https://user-images.githubusercontent.com/1991296/230134379-7181e485-c521-4d23-a0d6-f7b3b61ba524.png",
-        "alt": "llama",
-        "sourceUrl": "https://user-images.githubusercontent.com/1991296/230134379-7181e485-c521-4d23-a0d6-f7b3b61ba524.png",
-        "promptHash": null
-      },
-      "classification": {
-        "primaryCategoryId": "ai",
-        "secondaryCategoryIds": [],
-        "confidence": 0.7,
-        "method": "rules",
-        "reasons": [
-          "Matched llm"
-        ],
-        "signals": [
-          "llm"
-        ]
-      },
-      "rank": {
-        "globalRank": 9,
-        "categoryRank": 9,
-        "score": 97.8
-      }
-    },
-    {
       "id": "ryancodrai-turbovec",
       "owner": "RyanCodrai",
       "name": "turbovec",
@@ -789,15 +151,15 @@
       "homepageUrl": null,
       "source": {
         "primary": "github_trending_html",
-        "sourceRank": 10,
-        "starsGained": 1554
+        "sourceRank": 2,
+        "starsGained": 1730
       },
       "metadata": {
         "description": "A vector index built on TurboQuant, written in Rust with Python bindings",
         "language": "Python",
         "topics": [],
-        "stars": 7823,
-        "forks": 744,
+        "stars": 8006,
+        "forks": 755,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -862,139 +224,70 @@
         ]
       },
       "rank": {
-        "globalRank": 10,
-        "categoryRank": 10,
-        "score": 100
+        "globalRank": 2,
+        "categoryRank": 2,
+        "score": 116
       }
     },
     {
-      "id": "tapxworld-chinatextbook",
-      "owner": "TapXWorld",
-      "name": "ChinaTextbook",
-      "url": "https://github.com/TapXWorld/ChinaTextbook",
-      "avatarUrl": "https://github.com/TapXWorld.png",
+      "id": "google-skills",
+      "owner": "google",
+      "name": "skills",
+      "url": "https://github.com/google/skills",
+      "avatarUrl": "https://github.com/google.png",
       "homepageUrl": null,
       "source": {
         "primary": "github_trending_html",
-        "sourceRank": 11,
-        "starsGained": 350
+        "sourceRank": 3,
+        "starsGained": 481
       },
       "metadata": {
-        "description": "所有小初高、大学PDF教材。",
-        "language": "Roff",
+        "description": "Agent Skills for Google products and technologies",
+        "language": "Python",
         "topics": [],
-        "stars": 72814,
-        "forks": 16304,
+        "stars": 12104,
+        "forks": 952,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
         "topLanguages": [
-          "Roff"
+          "Python"
         ]
       },
       "readmeRef": {
         "status": "available",
         "path": "README.md",
         "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/TapXWorld/ChinaTextbook/master/README.md"
+        "rawUrl": "https://raw.githubusercontent.com/google/skills/main/README.md"
       },
       "readmeSignals": {
-        "title": null,
-        "summary": "项目的由来 虽然国内教育网站已提供免费资源，但大多数普通人获取信息的途径依然受限。有些人利用这一点，在某站上销售这些带有私人水印的资源。为了应对这种情况，我计划将这些资源集中并开源，以促进义务教育的普及和消除地区间的教育贫困。 大学数学 https://github.com/TapXWorld/ChinaTextbook/tree/master/%E5%A4%A7%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%90%8C%E6%B5%8E%E5%A4%A7%E5%AD%A6%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%E7%AC%AC%E4%B8%83%E7%89%88 https://github.com/TapXWorld/ChinaTextbook/tree/master/%E5%A4%A7%E5%AD%A6/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0 https://github.com/TapXWorld/ChinaTextbook/tree/master/%E5%A4%A7%E5%AD%A6/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6 https://github.com/TapXWorld/ChinaTextbook/tree/master/%E5%A4%A7%E5%AD%A6/%E6%A6%82%E7%8E%87%E8%AE%BA",
+        "title": "Agent Skills",
+        "summary": "This repository contains https://agentskills.io/home for Google products and technologies, including https://cloud.google.com. From the npx install command, you can select the specific skills from this repo to install. ./skills/cloud/gemini-api ./skills/cloud/gemini-api ./skills/cloud/gemini-agents-api ./skills/cloud/agent-platform-skill-registry ./skills/cloud/alloydb-basics ./skills/cloud/bigquery-basics ./skills/cloud/cloud-run-basics ./skills/cloud/cloud-sql-basics ./skills/cloud/firebase-basics ./skills/cloud/gke-basics ./skills/cloud/google-cloud-recipe-onboarding ./skills/cloud/google-cloud-recipe-auth ./skills/cloud/google-cloud-networking-observability Google Cloud Well-Architected ",
         "headings": [
-          "项目的由来",
-          "学习数学",
-          "小学数学",
-          "初中数学",
-          "高中数学",
-          "大学数学",
-          "## 问题：如何合并被拆分的文件？",
-          "示例"
+          "Agent Skills",
+          "Installation",
+          "Available Skills",
+          "Support",
+          "Contributing",
+          "License"
         ],
         "commands": [],
         "keywords": [
-          "项目的由来",
-          "学习数学",
-          "小学数学",
-          "初中数学"
+          "agent",
+          "agent skills",
+          "installation",
+          "available skills",
+          "support"
         ],
-        "score": 100
-      },
-      "visual": {
-        "kind": "readme_image",
-        "url": "https://raw.githubusercontent.com/TapXWorld/ChinaTextbook/master/.cache/support-alipay.png",
-        "thumbUrl": "https://raw.githubusercontent.com/TapXWorld/ChinaTextbook/master/.cache/support-alipay.png",
-        "alt": "TapXWorld/ChinaTextbook",
-        "sourceUrl": "https://raw.githubusercontent.com/TapXWorld/ChinaTextbook/master/.cache/support-alipay.png",
-        "promptHash": null
-      },
-      "classification": {
-        "primaryCategoryId": "unclassified",
-        "secondaryCategoryIds": [],
-        "confidence": 0.4,
-        "method": "rules",
-        "reasons": [
-          "No taxonomy rule matched with enough confidence"
-        ],
-        "signals": []
-      },
-      "rank": {
-        "globalRank": 11,
-        "categoryRank": 11,
-        "score": 98
-      }
-    },
-    {
-      "id": "openai-plugins",
-      "owner": "openai",
-      "name": "plugins",
-      "url": "https://github.com/openai/plugins",
-      "avatarUrl": "https://github.com/openai.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 12,
-        "starsGained": 262
-      },
-      "metadata": {
-        "description": "OpenAI Plugins",
-        "language": "JavaScript",
-        "topics": [],
-        "stars": 2179,
-        "forks": 276,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "JavaScript"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/openai/plugins/main/README.md"
-      },
-      "readmeSignals": {
-        "title": "Plugins",
-        "summary": "This repository contains a curated collection of Codex plugin examples. Each plugin lives under plugins/ / with a required .codex-plugin/plugin.json manifest and optional companion surfaces such as skills/, .app.json, .mcp.json, plugin-level agents/, commands/, hooks.json, assets/, and other supporting files. Highlighted richer examples in this repo include: plugins/figma for usefigma, Code to Canvas, Code Connect, and design system rules plugins/notion for planning, research, meetings, and knowledge capture plugins/build-ios-apps for SwiftUI implementation, refactors, performance, and debugging plugins/build-macos-apps for macOS SwiftUI/AppKit workflows, build/run/debug loops, and packaging",
-        "headings": [
-          "Plugins"
-        ],
-        "commands": [],
-        "keywords": [
-          "ai",
-          "plugins"
-        ],
-        "score": 65
+        "score": 90
       },
       "visual": {
         "kind": "agnes_generated",
-        "url": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/de24bfde18f74f0899449d5148347974.png",
-        "thumbUrl": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/de24bfde18f74f0899449d5148347974.png",
-        "alt": "Generated cover for openai/plugins",
+        "url": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/683f831c288848f3b33f4d48f33a5be4.png",
+        "thumbUrl": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/683f831c288848f3b33f4d48f33a5be4.png",
+        "alt": "Generated cover for google/skills",
         "sourceUrl": null,
-        "promptHash": "sha256:9c6fcc3b71a3"
+        "promptHash": "sha256:0d9d955cb053"
       },
       "classification": {
         "primaryCategoryId": "ai",
@@ -1002,16 +295,16 @@
         "confidence": 0.7,
         "method": "rules",
         "reasons": [
-          "Matched ai"
+          "Matched agent"
         ],
         "signals": [
-          "ai"
+          "agent"
         ]
       },
       "rank": {
-        "globalRank": 12,
-        "categoryRank": 12,
-        "score": 96
+        "globalRank": 3,
+        "categoryRank": 3,
+        "score": 114
       }
     },
     {
@@ -1023,15 +316,15 @@
       "homepageUrl": null,
       "source": {
         "primary": "github_trending_html",
-        "sourceRank": 13,
-        "starsGained": 245
+        "sourceRank": 4,
+        "starsGained": 649
       },
       "metadata": {
         "description": "Desktop app to manage markdown knowledge bases",
         "language": "TypeScript",
         "topics": [],
-        "stars": 13176,
-        "forks": 925,
+        "stars": 13249,
+        "forks": 929,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -1086,29 +379,29 @@
         "signals": []
       },
       "rank": {
-        "globalRank": 13,
-        "categoryRank": 13,
-        "score": 94
+        "globalRank": 4,
+        "categoryRank": 4,
+        "score": 112
       }
     },
     {
-      "id": "hunxbyts-ghosttrack",
-      "owner": "HunxByts",
-      "name": "GhostTrack",
-      "url": "https://github.com/HunxByts/GhostTrack",
-      "avatarUrl": "https://github.com/HunxByts.png",
+      "id": "panniantong-agent-reach",
+      "owner": "Panniantong",
+      "name": "Agent-Reach",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "avatarUrl": "https://github.com/Panniantong.png",
       "homepageUrl": null,
       "source": {
         "primary": "github_trending_html",
-        "sourceRank": 14,
-        "starsGained": 28
+        "sourceRank": 5,
+        "starsGained": 961
       },
       "metadata": {
-        "description": "Useful tool to track location or mobile number",
+        "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
         "language": "Python",
         "topics": [],
-        "stars": 13907,
-        "forks": 1850,
+        "stars": 23607,
+        "forks": 1991,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -1120,33 +413,605 @@
         "status": "available",
         "path": "README.md",
         "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/HunxByts/GhostTrack/main/README.md"
+        "rawUrl": "https://raw.githubusercontent.com/Panniantong/Agent-Reach/main/README.md"
       },
       "readmeSignals": {
-        "title": "GhostTrack",
-        "summary": "GhostTrack Useful tool to track location or mobile number, so this tool can be called osint or also information gathering on the IP Track menu, you can combo with the seeker tool to get the target IP :zap: Install Seeker : Get Seeker on this menu you can search for information from the target phone number on this menu you can search for information from the target username on social media",
+        "title": "只预览，不实际删除",
+        "summary": "AI Agent 已经能帮你写代码、改文档、管项目——但你让它去网上找点东西，它就抓瞎了： 📺 \"帮我看看这个 YouTube 教程讲了什么\" → 看不了，拿不到字幕 🐦 \"帮我搜一下推特上大家怎么评价这个产品\" → 搜不了，Twitter API 要付费 📖 \"去 Reddit 上看看有没有人遇到过同样的 bug\" → 403 被封，服务器 IP 被拒 📕 \"帮我看看小红书上这个品的口碑\" → 打不开，必须登录才能看 📺 \"B站上有个技术视频，帮我总结一下\" → 连不上，海外/服务器 IP 被屏蔽 🔍 \"帮我在网上搜一下最新的 LLM 框架对比\" → 没有好用的搜索，要么付费要么质量差 🌐 \"帮我看看这个网页写了啥\" → 抓回来一堆 HTML 标签，根本没法读 📦 \"这个 GitHub 仓库是干嘛的？Issue 里说了什么？\" → 能用，但认证配置很麻烦 📡 \"帮我订阅这几个 RSS 源，有更新告诉我\" → 要自己装库写代码 每个平台都有自己的门槛——要付费的 API、要绕过的封锁、要登录的账号、要清洗的数据。你要一个一个去踩坑、装工具、调配置，光是让 Agent 能读个推特就得折腾半天。 复制给你的 Agent，几分钟后它就能读推特、搜 Reddit、看 YouTube、刷小红书了。",
         "headings": [
-          "GhostTrack",
-          "Instalation on Linux (deb)",
-          "Instalation on Termux",
-          "Usage Tool"
+          "为什么需要 Agent Reach？",
+          "✅ 在你用之前，你可能想知道",
+          "支持的平台",
+          "快速上手",
+          "装好就能用",
+          "设计理念",
+          "🔌 每个渠道都是可插拔的",
+          "当前选型"
         ],
-        "commands": [],
+        "commands": [
+          "pip install agent-reach"
+        ],
         "keywords": [
-          "tool",
-          "ghosttrack",
-          "instalation on linux (deb)",
-          "instalation on termux",
-          "usage tool"
+          "ai",
+          "agent",
+          "为什么需要 agent reach？",
+          "✅ 在你用之前，你可能想知道",
+          "支持的平台",
+          "快速上手"
         ],
-        "score": 80
+        "score": 100
       },
       "visual": {
         "kind": "readme_image",
-        "url": "https://raw.githubusercontent.com/HunxByts/GhostTrack/main/asset/bn.png",
-        "thumbUrl": "https://raw.githubusercontent.com/HunxByts/GhostTrack/main/asset/bn.png",
-        "alt": "HunxByts/GhostTrack",
-        "sourceUrl": "https://raw.githubusercontent.com/HunxByts/GhostTrack/main/asset/bn.png",
+        "url": "https://raw.githubusercontent.com/Panniantong/Agent-Reach/main/docs/wechat-group-qr.jpg",
+        "thumbUrl": "https://raw.githubusercontent.com/Panniantong/Agent-Reach/main/docs/wechat-group-qr.jpg",
+        "alt": "WeChat QR",
+        "sourceUrl": "https://raw.githubusercontent.com/Panniantong/Agent-Reach/main/docs/wechat-group-qr.jpg",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.8,
+        "method": "rules",
+        "reasons": [
+          "Matched ai",
+          "Matched agent"
+        ],
+        "signals": [
+          "ai",
+          "agent"
+        ]
+      },
+      "rank": {
+        "globalRank": 5,
+        "categoryRank": 5,
+        "score": 110
+      }
+    },
+    {
+      "id": "danielmiessler-personal-ai-infrastructure",
+      "owner": "danielmiessler",
+      "name": "Personal_AI_Infrastructure",
+      "url": "https://github.com/danielmiessler/Personal_AI_Infrastructure",
+      "avatarUrl": "https://github.com/danielmiessler.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 6,
+        "starsGained": 337
+      },
+      "metadata": {
+        "description": "Agentic AI Infrastructure for magnifying HUMAN capabilities.",
+        "language": "TypeScript",
+        "topics": [],
+        "stars": 15228,
+        "forks": 2146,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "TypeScript"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/danielmiessler/Personal_AI_Infrastructure/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Personal AI Infrastructure",
+        "summary": "-installation Releases/v5.0.0/ Releases/v5.0.0/.claude/PAI/ALGORITHM/v6.3.0.md Releases/v5.0.0/.claude/PAI/PULSE/ https://github.com/danielmiessler/PersonalAIInfrastructure/graphs/contributors Overview: what-pai-is · principles · features Get Started: -installation · Releases/ · Packs/ Resources: -faq · -roadmap · -community · -contributing AI should magnify everyone—not just the top 1%. PAI is a Life Operating System. It captures who you are, what you care about, and where you're trying to go — and then helps you get there using AI that knows you. Three layers stack on top of each other:",
+        "headings": [
+          "Personal AI Infrastructure",
+          "AI should magnify everyone—not just the top 1%.",
+          "What PAI Is",
+          "Principles",
+          "Humans first, tech second",
+          "A Life OS, not an agent harness",
+          "Ideal State drives everything",
+          "A single Digital Assistant will be everyone's interface to AI"
+        ],
+        "commands": [],
+        "keywords": [
+          "ai",
+          "agent",
+          "personal ai infrastructure",
+          "ai should magnify everyone—not just the top 1%.",
+          "what pai is",
+          "principles"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=24&pause=1000&color=60A5FA&center=true&vCenter=true&width=600&lines=Everyone+needs+access+to+the+best+AI.;AI+should+magnify+everyone.;Your+Life+Operating+System.",
+        "thumbUrl": "https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=24&pause=1000&color=60A5FA&center=true&vCenter=true&width=600&lines=Everyone+needs+access+to+the+best+AI.;AI+should+magnify+everyone.;Your+Life+Operating+System.",
+        "alt": "Typing SVG",
+        "sourceUrl": "https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=24&pause=1000&color=60A5FA&center=true&vCenter=true&width=600&lines=Everyone+needs+access+to+the+best+AI.;AI+should+magnify+everyone.;Your+Life+Operating+System.",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.8,
+        "method": "rules",
+        "reasons": [
+          "Matched ai",
+          "Matched agent"
+        ],
+        "signals": [
+          "ai",
+          "agent"
+        ]
+      },
+      "rank": {
+        "globalRank": 6,
+        "categoryRank": 6,
+        "score": 108
+      }
+    },
+    {
+      "id": "santifer-career-ops",
+      "owner": "santifer",
+      "name": "career-ops",
+      "url": "https://github.com/santifer/career-ops",
+      "avatarUrl": "https://github.com/santifer.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 7,
+        "starsGained": 665
+      },
+      "metadata": {
+        "description": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing.",
+        "language": "JavaScript",
+        "topics": [],
+        "stars": 50020,
+        "forks": 10295,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "JavaScript"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/santifer/career-ops/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Career-Ops",
+        "summary": "README.md | README.es.md | README.pt-BR.md | README.ko-KR.md | README.ja.md | README.cn.md | README.zh-TW.md | README.ua.md | README.ru.md I spent months applying to jobs the hard way. So I engineered the system I wish I had. Companies use AI to filter candidates. I just gave candidates AI to choose companies. Now it's open source. 740+ job listings evaluated · 100+ personalized CVs · 1 dream role landed Career-Ops https://career-ops.org, also known as careerops turns any AI coding CLI into a full job search command center. Instead of manually tracking applications in a spreadsheet, you get an AI-powered pipeline that:",
+        "headings": [
+          "Career-Ops",
+          "What Is This",
+          "Features",
+          "Quick Start",
+          "1. Clone and install",
+          "2. Check setup",
+          "3. Configure",
+          "4. Add your CV"
+        ],
+        "commands": [
+          "npm install\nnpx playwright install chromium   # Required for PDF generation",
+          "npm install -g @google/gemini-cli",
+          "npm install\n\n# 3. Evaluate a job description"
+        ],
+        "keywords": [
+          "ai",
+          "career-ops",
+          "what is this",
+          "features",
+          "quick start"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/santifer/career-ops/main/docs/press/producthunt.svg",
+        "thumbUrl": "https://raw.githubusercontent.com/santifer/career-ops/main/docs/press/producthunt.svg",
+        "alt": "Career-Ops on Claude | Product Hunt",
+        "sourceUrl": "https://raw.githubusercontent.com/santifer/career-ops/main/docs/press/producthunt.svg",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched ai"
+        ],
+        "signals": [
+          "ai"
+        ]
+      },
+      "rank": {
+        "globalRank": 7,
+        "categoryRank": 7,
+        "score": 106
+      }
+    },
+    {
+      "id": "phuryn-pm-skills",
+      "owner": "phuryn",
+      "name": "pm-skills",
+      "url": "https://github.com/phuryn/pm-skills",
+      "avatarUrl": "https://github.com/phuryn.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 8,
+        "starsGained": 112
+      },
+      "metadata": {
+        "description": "PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.",
+        "language": "",
+        "topics": [],
+        "stars": 12376,
+        "forks": 1481,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": []
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/phuryn/pm-skills/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "PM Skills Marketplace: The AI Operating System for Better Product Decisions",
+        "summary": "PM Skills Marketplace: The AI Operating System for Better Product Decisions 68 PM skills and 42 chained workflows across 9 plugins. Claude Code, Cowork, and more. From discovery to strategy, execution, launch, growth, and shipping AI-built code. Designed for Claude Code and Cowork. Skills compatible with other AI assistants. New idea? → /discover Need strategic clarity? → /strategy Writing a PRD? → /write-prd Planning a launch? → /plan-launch Defining metrics? → /north-star Generic AI gives you text. PM Skills Marketplace gives you structure. Each skill encodes a proven PM framework — discovery, assumption mapping, prioritization, strategy — and walks you through it step by step. You get the",
+        "headings": [
+          "PM Skills Marketplace: The AI Operating System for Better Product Decisions",
+          "Start Here",
+          "Why PM Skills Marketplace?",
+          "How It Works (Skills, Commands, Plugins)",
+          "Installation",
+          "Claude Cowork (recommended for non-developers)",
+          "Claude Code (CLI)",
+          "Step 1: Add the marketplace"
+        ],
+        "commands": [],
+        "keywords": [
+          "agent",
+          "pm skills marketplace: the ai operating system for better product decisions",
+          "start here",
+          "why pm skills marketplace?",
+          "how it works (skills, commands, plugins)"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/phuryn/pm-skills/main/.docs/images/plugins.png",
+        "thumbUrl": "https://raw.githubusercontent.com/phuryn/pm-skills/main/.docs/images/plugins.png",
+        "alt": "PM Skills marketplace: skills, commands, and all 9 plugins at a glance",
+        "sourceUrl": "https://raw.githubusercontent.com/phuryn/pm-skills/main/.docs/images/plugins.png",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched agent"
+        ],
+        "signals": [
+          "agent"
+        ]
+      },
+      "rank": {
+        "globalRank": 8,
+        "categoryRank": 8,
+        "score": 95.2
+      }
+    },
+    {
+      "id": "openai-plugins",
+      "owner": "openai",
+      "name": "plugins",
+      "url": "https://github.com/openai/plugins",
+      "avatarUrl": "https://github.com/openai.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 9,
+        "starsGained": 296
+      },
+      "metadata": {
+        "description": "OpenAI Plugins",
+        "language": "JavaScript",
+        "topics": [],
+        "stars": 2197,
+        "forks": 278,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "JavaScript"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/openai/plugins/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Plugins",
+        "summary": "This repository contains a curated collection of Codex plugin examples. Each plugin lives under plugins/ / with a required .codex-plugin/plugin.json manifest and optional companion surfaces such as skills/, .app.json, .mcp.json, plugin-level agents/, commands/, hooks.json, assets/, and other supporting files. Highlighted richer examples in this repo include: plugins/figma for usefigma, Code to Canvas, Code Connect, and design system rules plugins/notion for planning, research, meetings, and knowledge capture plugins/build-ios-apps for SwiftUI implementation, refactors, performance, and debugging plugins/build-macos-apps for macOS SwiftUI/AppKit workflows, build/run/debug loops, and packaging",
+        "headings": [
+          "Plugins"
+        ],
+        "commands": [],
+        "keywords": [
+          "ai",
+          "plugins"
+        ],
+        "score": 65
+      },
+      "visual": {
+        "kind": "agnes_generated",
+        "url": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/064d39eba2bb4082acf004eada90baa6.png",
+        "thumbUrl": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/064d39eba2bb4082acf004eada90baa6.png",
+        "alt": "Generated cover for openai/plugins",
+        "sourceUrl": null,
+        "promptHash": "sha256:9c6fcc3b71a3"
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched ai"
+        ],
+        "signals": [
+          "ai"
+        ]
+      },
+      "rank": {
+        "globalRank": 9,
+        "categoryRank": 9,
+        "score": 102
+      }
+    },
+    {
+      "id": "andyyyy64-whichllm",
+      "owner": "Andyyyy64",
+      "name": "whichllm",
+      "url": "https://github.com/Andyyyy64/whichllm",
+      "avatarUrl": "https://github.com/Andyyyy64.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 10,
+        "starsGained": 103
+      },
+      "metadata": {
+        "description": "Find the local LLM that actually runs and performs best on your hardware. Ranked by real, recency-aware benchmarks, not parameter count. One command, run it instantly.",
+        "language": "Python",
+        "topics": [],
+        "stars": 3182,
+        "forks": 190,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Python"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/Andyyyy64/whichllm/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "whichllm",
+        "summary": "Find the best local LLM that actually runs on your hardware. Auto-detects your GPU/CPU/RAM and ranks the top models from HuggingFace that fit your system. Run the recommendation command once, with no project setup. After install, run whichllm directly. For one-off runs, replace whichllm with uvx whichllm@latest. The 32B model fits your card fine — whichllm still ranks the 27B 1, because it scores higher on real benchmarks and is a newer generation. A size-only \"what fits?\" tool would hand you the bigger one. That gap is the whole point of whichllm. Note 3: a MoE model at 102 t/s — speed is ranked on active params, quality on total.",
+        "headings": [
+          "whichllm",
+          "Quick start",
+          "Common workflows",
+          "Best models for this machine",
+          "Pretend you have a specific GPU",
+          "Compare upgrade candidates",
+          "Find the GPU needed for a model",
+          "Start a chat with a model"
+        ],
+        "commands": [
+          "pip install whichllm"
+        ],
+        "keywords": [
+          "llm",
+          "whichllm",
+          "quick start",
+          "common workflows",
+          "best models for this machine"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/Andyyyy64/whichllm/main/assets/demo.gif",
+        "thumbUrl": "https://raw.githubusercontent.com/Andyyyy64/whichllm/main/assets/demo.gif",
+        "alt": "demo",
+        "sourceUrl": "https://raw.githubusercontent.com/Andyyyy64/whichllm/main/assets/demo.gif",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched llm"
+        ],
+        "signals": [
+          "llm"
+        ]
+      },
+      "rank": {
+        "globalRank": 10,
+        "categoryRank": 10,
+        "score": 90.3
+      }
+    },
+    {
+      "id": "mempalace-mempalace",
+      "owner": "MemPalace",
+      "name": "mempalace",
+      "url": "https://github.com/MemPalace/mempalace",
+      "avatarUrl": "https://github.com/MemPalace.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 11,
+        "starsGained": 452
+      },
+      "metadata": {
+        "description": "The best-benchmarked open-source AI memory system. And it's free.",
+        "language": "Python",
+        "topics": [],
+        "stars": 54698,
+        "forks": 7142,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Python"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/MemPalace/mempalace/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "MemPalace",
+        "summary": "Local-first AI memory. Verbatim storage, pluggable backend, 96.6% R@5 raw on LongMemEval — zero API calls. MemPalace stores your conversation history as verbatim text and retrieves it with semantic search. It does not summarize, extract, or paraphrase. The index is structured — people and projects become wings, topics become rooms, and original content lives in drawers — so searches can be scoped rather than run against a flat corpus. The retrieval layer is pluggable. The current default is ChromaDB; the interface is defined in mempalace/backends/base.py and alternative backends can be dropped in without touching the rest of the system.",
+        "headings": [
+          "MemPalace",
+          "What it is",
+          "Install",
+          "Docker",
+          "Build the image (CPU; bundles the `extract` + `spellcheck` extras)",
+          "MCP server over stdio — note the `-i` flag (JSON-RPC needs stdin)",
+          "Run any CLI command instead (mount the host directory you want to mine)",
+          "Storage backends"
+        ],
+        "commands": [
+          "pip install mempalace",
+          "pip install mempalace[pgvector]",
+          "pip install -e \".[dev]\""
+        ],
+        "keywords": [
+          "ai",
+          "mempalace",
+          "what it is",
+          "install",
+          "docker"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "agnes_generated",
+        "url": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/82b6446b6f65456aa53a06e7d639ab61.png",
+        "thumbUrl": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/82b6446b6f65456aa53a06e7d639ab61.png",
+        "alt": "Generated cover for MemPalace/mempalace",
+        "sourceUrl": null,
+        "promptHash": "sha256:a0eb7430204a"
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched ai"
+        ],
+        "signals": [
+          "ai"
+        ]
+      },
+      "rank": {
+        "globalRank": 11,
+        "categoryRank": 11,
+        "score": 98
+      }
+    },
+    {
+      "id": "roboflow-supervision",
+      "owner": "roboflow",
+      "name": "supervision",
+      "url": "https://github.com/roboflow/supervision",
+      "avatarUrl": "https://github.com/roboflow.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 12,
+        "starsGained": 957
+      },
+      "metadata": {
+        "description": "We write your reusable computer vision tools. 💜",
+        "language": "Python",
+        "topics": [],
+        "stars": 41972,
+        "forks": 3762,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Python"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/roboflow/supervision/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "5",
+        "summary": "We write your reusable computer vision tools. Whether you need to load your dataset from your hard drive, draw detections on an image or video, or count how many detections are in a zone. You can count on us! 🤝 Pip install the supervision package in a https://www.python.org/ environment. Read more about conda, mamba, and installing from source in our https://roboflow.github.io/supervision/. Supervision was designed to be model agnostic. Just plug in any classification, detection, or segmentation model. For your convenience, we have created https://supervision.roboflow.com/latest/detection/core/detections for the most popular libraries like Ultralytics, Transformers, or MMDetection.",
+        "headings": [
+          "👋 hello",
+          "💻 install",
+          "🔥 quickstart",
+          "models",
+          "5",
+          "annotators",
+          "datasets",
+          "🎬 tutorials"
+        ],
+        "commands": [
+          "pip install supervision"
+        ],
+        "keywords": [
+          "tool",
+          "👋 hello",
+          "💻 install",
+          "🔥 quickstart",
+          "models"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://github.com/SkalskiP/SkalskiP/assets/26109316/a742823d-c158-407d-b30f-063a5d11b4e1",
+        "thumbUrl": "https://github.com/SkalskiP/SkalskiP/assets/26109316/a742823d-c158-407d-b30f-063a5d11b4e1",
+        "alt": "Dwell Time Analysis with Computer Vision | Real-Time Stream Processing",
+        "sourceUrl": "https://github.com/SkalskiP/SkalskiP/assets/26109316/a742823d-c158-407d-b30f-063a5d11b4e1",
         "promptHash": null
       },
       "classification": {
@@ -1162,29 +1027,269 @@
         ]
       },
       "rank": {
-        "globalRank": 14,
-        "categoryRank": 14,
-        "score": 74.8
+        "globalRank": 12,
+        "categoryRank": 12,
+        "score": 96
       }
     },
     {
-      "id": "microsoft-pg-durable",
-      "owner": "microsoft",
-      "name": "pg_durable",
-      "url": "https://github.com/microsoft/pg_durable",
-      "avatarUrl": "https://github.com/microsoft.png",
+      "id": "copilotkit-copilotkit",
+      "owner": "CopilotKit",
+      "name": "CopilotKit",
+      "url": "https://github.com/CopilotKit/CopilotKit",
+      "avatarUrl": "https://github.com/CopilotKit.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 13,
+        "starsGained": 578
+      },
+      "metadata": {
+        "description": "The Frontend Stack for Agents & Generative UI. React, Angular, Mobile, Slack, and more. Makers of the AG-UI Protocol",
+        "language": "TypeScript",
+        "topics": [],
+        "stars": 33908,
+        "forks": 4289,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "TypeScript"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/CopilotKit/CopilotKit/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "CopilotKit",
+        "summary": "Generative UI, shared state, and human-in-the-loop workflows for React, Angular, Vue, React Native — and beyond the browser. CopilotKit is a best-in-class SDK for building full-stack agentic applications, Generative UI, and chat applications. What started as a React library is now a multi-platform agentic framework: the same agent can power your web app, your mobile app, and your team's Slack workspace. We are the company behind the https://github.com/ag-ui-protocol/ag-ui - adopted by Google, LangChain, AWS, Microsoft, Mastra, PydanticAI, and more! Chat UI – A fully customizable chat interface that supports message streaming, tool calls, and agent responses. Backend Tool Rendering – Enables ",
+        "headings": [
+          "CopilotKit",
+          "What is CopilotKit",
+          "🧩 Works With Your Stack",
+          "💬 Beyond the Browser: Slack & Microsoft Teams (Discord, Google Chat coming soon...)",
+          "🧠 Self-Learning Agents",
+          "Quick Start",
+          "New projects:",
+          "Existing projects:"
+        ],
+        "commands": [],
+        "keywords": [
+          "agent",
+          "copilotkit",
+          "what is copilotkit",
+          "🧩 works with your stack",
+          "💬 beyond the browser: slack & microsoft teams (discord, google chat coming soon...)"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://github.com/user-attachments/assets/aeb56c28-c766-44a5-810c-5d999bb6a32a",
+        "thumbUrl": "https://github.com/user-attachments/assets/aeb56c28-c766-44a5-810c-5d999bb6a32a",
+        "alt": "CopilotKit",
+        "sourceUrl": "https://github.com/user-attachments/assets/aeb56c28-c766-44a5-810c-5d999bb6a32a",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched agent"
+        ],
+        "signals": [
+          "agent"
+        ]
+      },
+      "rank": {
+        "globalRank": 13,
+        "categoryRank": 13,
+        "score": 94
+      }
+    },
+    {
+      "id": "tapxworld-chinatextbook",
+      "owner": "TapXWorld",
+      "name": "ChinaTextbook",
+      "url": "https://github.com/TapXWorld/ChinaTextbook",
+      "avatarUrl": "https://github.com/TapXWorld.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 14,
+        "starsGained": 593
+      },
+      "metadata": {
+        "description": "所有小初高、大学PDF教材。",
+        "language": "Roff",
+        "topics": [],
+        "stars": 72853,
+        "forks": 16311,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Roff"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/TapXWorld/ChinaTextbook/master/README.md"
+      },
+      "readmeSignals": {
+        "title": null,
+        "summary": "项目的由来 虽然国内教育网站已提供免费资源，但大多数普通人获取信息的途径依然受限。有些人利用这一点，在某站上销售这些带有私人水印的资源。为了应对这种情况，我计划将这些资源集中并开源，以促进义务教育的普及和消除地区间的教育贫困。 大学数学 https://github.com/TapXWorld/ChinaTextbook/tree/master/%E5%A4%A7%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%90%8C%E6%B5%8E%E5%A4%A7%E5%AD%A6%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%E7%AC%AC%E4%B8%83%E7%89%88 https://github.com/TapXWorld/ChinaTextbook/tree/master/%E5%A4%A7%E5%AD%A6/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0 https://github.com/TapXWorld/ChinaTextbook/tree/master/%E5%A4%A7%E5%AD%A6/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6 https://github.com/TapXWorld/ChinaTextbook/tree/master/%E5%A4%A7%E5%AD%A6/%E6%A6%82%E7%8E%87%E8%AE%BA",
+        "headings": [
+          "项目的由来",
+          "学习数学",
+          "小学数学",
+          "初中数学",
+          "高中数学",
+          "大学数学",
+          "## 问题：如何合并被拆分的文件？",
+          "示例"
+        ],
+        "commands": [],
+        "keywords": [
+          "项目的由来",
+          "学习数学",
+          "小学数学",
+          "初中数学"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/TapXWorld/ChinaTextbook/master/.cache/support-alipay.png",
+        "thumbUrl": "https://raw.githubusercontent.com/TapXWorld/ChinaTextbook/master/.cache/support-alipay.png",
+        "alt": "TapXWorld/ChinaTextbook",
+        "sourceUrl": "https://raw.githubusercontent.com/TapXWorld/ChinaTextbook/master/.cache/support-alipay.png",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "unclassified",
+        "secondaryCategoryIds": [],
+        "confidence": 0.4,
+        "method": "rules",
+        "reasons": [
+          "No taxonomy rule matched with enough confidence"
+        ],
+        "signals": []
+      },
+      "rank": {
+        "globalRank": 14,
+        "categoryRank": 14,
+        "score": 92
+      }
+    },
+    {
+      "id": "luongnv89-claude-howto",
+      "owner": "luongnv89",
+      "name": "claude-howto",
+      "url": "https://github.com/luongnv89/claude-howto",
+      "avatarUrl": "https://github.com/luongnv89.png",
       "homepageUrl": null,
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 15,
-        "starsGained": 316
+        "starsGained": 154
       },
       "metadata": {
-        "description": "PostgreSQL in-database durable execution",
+        "description": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
+        "language": "Python",
+        "topics": [],
+        "stars": 35498,
+        "forks": 4326,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Python"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/luongnv89/claude-howto/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Master Claude Code in a Weekend",
+        "summary": "🌐 Language / Ngôn ngữ / 语言 / Мова: README.md | vi/README.md | zh/README.md | uk/README.md | ja/README.md Go from typing claude to orchestrating agents, hooks, skills, and MCP servers — with visual tutorials, copy-paste templates, and a guided learning path. get-started-in-15-minutes | not-sure-where-to-start | CATALOG.md the-problem how-claude-how-to-fixes-this how-it-works not-sure-where-to-start get-started-in-15-minutes what-can-you-build-with-this faq contributing license You installed Claude Code. You ran a few prompts. Now what? The official docs describe features — but don't show you how to combine them. You know slash commands exist, but not how to chain them with hooks, memory, and",
+        "headings": [
+          "Master Claude Code in a Weekend",
+          "Table of Contents",
+          "The Problem",
+          "How Claude How To Fixes This",
+          "What you get:",
+          "How It Works",
+          "1. Find your level",
+          "2. Follow the guided path"
+        ],
+        "commands": [
+          "npm install -g @anthropic-ai/claude-code",
+          "pip install -r requirements-dev.txt"
+        ],
+        "keywords": [
+          "agent",
+          "master claude code in a weekend",
+          "table of contents",
+          "the problem",
+          "how claude how to fixes this"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "agnes_generated",
+        "url": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/9b6206bb52c24215b85c3152a604ed4b.png",
+        "thumbUrl": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/9b6206bb52c24215b85c3152a604ed4b.png",
+        "alt": "Generated cover for luongnv89/claude-howto",
+        "sourceUrl": null,
+        "promptHash": "sha256:2e7537c72fb3"
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched agent"
+        ],
+        "signals": [
+          "agent"
+        ]
+      },
+      "rank": {
+        "globalRank": 15,
+        "categoryRank": 15,
+        "score": 85.4
+      }
+    },
+    {
+      "id": "aaif-goose-goose",
+      "owner": "aaif-goose",
+      "name": "goose",
+      "url": "https://github.com/aaif-goose/goose",
+      "avatarUrl": "https://github.com/aaif-goose.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 16,
+        "starsGained": 699
+      },
+      "metadata": {
+        "description": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM",
         "language": "Rust",
         "topics": [],
-        "stars": 1610,
-        "forks": 37,
+        "stars": 47857,
+        "forks": 5045,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -1196,58 +1301,59 @@
         "status": "available",
         "path": "README.md",
         "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/microsoft/pg_durable/main/README.md"
+        "rawUrl": "https://raw.githubusercontent.com/aaif-goose/goose/main/README.md"
       },
       "readmeSignals": {
-        "title": "Start PostgreSQL",
-        "summary": "Long-running, fault-tolerant SQL functions for teams that already keep their state in Postgres and want to stop stitching together cron jobs, workers, queues, and status tables to make background work reliable. Define the workflow in SQL, let pgdurable checkpoint each step, and resume after crashes, restarts, or failed steps. Durable execution is now a standard industry pattern, and pgdurable brings it inside Postgres with no extra service infrastructure required. Part of our mission to bring compute close to data. Try pgdurable now in Azure HorizonDB , Microsoft's new PostgreSQL cloud service engineered for performance and built with pgdurable inside",
+        "title": "goose",
+        "summary": "your native open source AI agent — desktop app, CLI, and API — for code, workflows, and everything in between goose is a general-purpose AI agent that runs on your machine. Not just for code — use it for research, writing, automation, data analysis, or anything you need to get done. A native desktop app for macOS, Linux, and Windows. A full CLI for terminal workflows. An API to embed it anywhere. Built in Rust for performance and portability. goose works with 15+ providers — Anthropic, OpenAI, Google, Ollama, OpenRouter, Azure, Bedrock, and more. Use API keys or your existing Claude, ChatGPT, or Gemini subscriptions via https://goose-docs.ai/docs/guides/acp-providers. Connect to 70+ extensio",
         "headings": [
-          "Durable Execution inside PostgreSQL",
-          "Is this for me?",
-          "Who it's for",
-          "The core idea",
-          "Workloads this is useful for",
-          "What you're probably doing today instead",
-          "Pain points it addresses",
-          "What changes in your architecture"
+          "goose",
+          "Get started",
+          "Quick links",
+          "Need help?",
+          "a little goose humor 🪿",
+          "goose around with us"
         ],
         "commands": [],
         "keywords": [
-          "database",
-          "postgres",
-          "durable execution inside postgresql",
-          "is this for me?",
-          "who it's for",
-          "the core idea"
+          "ai",
+          "agent",
+          "llm",
+          "goose",
+          "get started",
+          "quick links",
+          "need help?"
         ],
-        "score": 100
+        "score": 90
       },
       "visual": {
-        "kind": "readme_image",
-        "url": "https://raw.githubusercontent.com/microsoft/pg_durable/main/docs/website/workflow-graph.svg",
-        "thumbUrl": "https://raw.githubusercontent.com/microsoft/pg_durable/main/docs/website/workflow-graph.svg",
-        "alt": "A durable function fans out into three parallel queries — count users, count orders, sum revenue — that join into a dashboard step",
-        "sourceUrl": "https://raw.githubusercontent.com/microsoft/pg_durable/main/docs/website/workflow-graph.svg",
-        "promptHash": null
+        "kind": "agnes_generated",
+        "url": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/21369a60269a42cc87be00b74d529e30.png",
+        "thumbUrl": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/21369a60269a42cc87be00b74d529e30.png",
+        "alt": "Generated cover for aaif-goose/goose",
+        "sourceUrl": null,
+        "promptHash": "sha256:6f03df0a0ee9"
       },
       "classification": {
-        "primaryCategoryId": "backend",
+        "primaryCategoryId": "ai",
         "secondaryCategoryIds": [],
-        "confidence": 0.8,
+        "confidence": 0.9,
         "method": "rules",
         "reasons": [
-          "Matched database",
-          "Matched postgres"
+          "Matched ai",
+          "Matched agent",
+          "Matched llm"
         ],
         "signals": [
-          "database",
-          "postgres"
+          "ai",
+          "agent",
+          "llm"
         ]
       },
       "rank": {
-        "globalRank": 15,
-        "categoryRank": 15,
-        "score": 90
+        "globalRank": 16,
+        "categoryRank": 16,
+        "score": 88
       }
     }
   ],
@@ -1259,13 +1365,17 @@
       "categoryId": "ai",
       "repoIds": [
         "mvanhorn-last30days-skill",
-        "leonxlnx-taste-skill",
-        "nousresearch-hermes-agent",
-        "yikart-aitoearn",
+        "google-skills",
+        "panniantong-agent-reach",
+        "danielmiessler-personal-ai-infrastructure",
+        "santifer-career-ops",
+        "openai-plugins",
+        "mempalace-mempalace",
+        "phuryn-pm-skills",
+        "copilotkit-copilotkit",
+        "andyyyy64-whichllm",
         "aaif-goose-goose",
-        "crosstalk-solutions-project-nomad",
-        "ggml-org-llama-cpp",
-        "openai-plugins"
+        "luongnv89-claude-howto"
       ],
       "sort": "score"
     },
@@ -1275,7 +1385,7 @@
       "label": "Tools",
       "categoryId": "tools",
       "repoIds": [
-        "hunxbyts-ghosttrack"
+        "roboflow-supervision"
       ],
       "sort": "score"
     },
@@ -1290,34 +1400,22 @@
       "sort": "score"
     },
     {
-      "id": "backend",
-      "type": "category",
-      "label": "Backend",
-      "categoryId": "backend",
-      "repoIds": [
-        "microsoft-pg-durable"
-      ],
-      "sort": "score"
-    },
-    {
       "id": "unclassified",
       "type": "review",
       "label": "Needs Review",
       "categoryId": "unclassified",
       "repoIds": [
-        "lfnovo-open-notebook",
-        "opencv-opencv",
-        "tapxworld-chinatextbook",
-        "refactoringhq-tolaria"
+        "refactoringhq-tolaria",
+        "tapxworld-chinatextbook"
       ],
       "sort": "score"
     }
   ],
   "health": {
     "status": "ok",
-    "candidateCount": 15,
-    "enrichedRepoCount": 15,
-    "unclassifiedRepoCount": 4,
+    "candidateCount": 16,
+    "enrichedRepoCount": 16,
+    "unclassifiedRepoCount": 2,
     "warnings": []
   }
 }
