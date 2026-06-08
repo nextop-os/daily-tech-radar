@@ -408,6 +408,8 @@ function buildAgnesCoverPrompt(
 
 function visualMetaphorForRepo(candidate: CandidateRepo, summary: string | null | undefined) {
   const text = `${candidate.name} ${candidate.description} ${summary ?? ""}`.toLowerCase();
+  const researchSources = researchSourcesForText(text);
+  const researchSignals = researchSignalsForText(text);
 
   if (/(compress|compression|context|rag|logs?|tool outputs?|chunks?)/.test(text)) {
     return "many documents, logs, files, and RAG chunks compress into a smaller focused context packet that feeds an AI agent answer panel";
@@ -418,8 +420,8 @@ function visualMetaphorForRepo(candidate: CandidateRepo, summary: string | null 
   }
 
   if (/(agent|workflow|automation|mcp|tool use)/.test(text)) {
-    if (/(reddit|youtube|hacker news|\bhn\b|polymarket|social|research|summary|grounded|upvotes?|likes?|money|market|last30days)/.test(text)) {
-      return "an agent skill search surface gathers Reddit, X, YouTube, HN, Polymarket, and web evidence, ranks social and market signals, then writes a grounded brief";
+    if (isResearchAgentText(text)) {
+      return `an agent skill search surface gathers ${researchSources.join(", ")} evidence, ranks ${researchSignals.join(" and ")} signals, then writes a grounded brief`;
     }
     return "a user task enters an agent workspace, tools are selected and executed, and completed action cards are produced";
   }
@@ -445,6 +447,8 @@ function visualMetaphorForRepo(candidate: CandidateRepo, summary: string | null 
 
 function visualScriptForRepo(candidate: CandidateRepo, categoryId: string, summary: string | null | undefined) {
   const text = `${candidate.name} ${candidate.description} ${summary ?? ""}`.toLowerCase();
+  const researchSources = researchSourcesForText(text);
+  const researchSignals = researchSignalsForText(text);
 
   if (/(compress|compression|context|rag|logs?|tool outputs?|chunks?)/.test(text)) {
     return {
@@ -473,16 +477,16 @@ function visualScriptForRepo(candidate: CandidateRepo, categoryId: string, summa
   }
 
   if (/(agent|workflow|automation|mcp|tool use)/.test(text)) {
-    if (/(reddit|youtube|hacker news|\bhn\b|polymarket|social|research|summary|grounded|upvotes?|likes?|money|market|last30days)/.test(text)) {
+    if (isResearchAgentText(text)) {
       return {
-        benefits: ["Social Signals", "Market Odds", "Grounded Brief"],
+        benefits: [...researchSignals, "Grounded Brief"],
         headline: "Research Agent Skill",
         objects: [
           "agent skill card",
           "search command bar",
-          "source chips for Reddit X YouTube HN Polymarket Web",
+          `source chips for ${researchSources.join(" ")}`,
           "ranked evidence cards",
-          "vote like and money badges",
+          `${researchSignals.join(" ")} badges`,
           "grounded brief panel"
         ],
         sections: ["Search Topic", "Rank Signals", "Brief"]
@@ -538,6 +542,50 @@ function visualScriptForRepo(candidate: CandidateRepo, categoryId: string, summa
     objects: ["input cards", "capability engine", "workflow arrows", "dashboard panels", "result tiles"],
     sections: ["Inputs", "Engine", "Outputs"]
   };
+}
+
+function isResearchAgentText(text: string) {
+  return (
+    /(research|search|sources?|synthesis|synthesize|summary|brief|grounded|evidence)/.test(text) &&
+    /(agent|skill|workflow|automation|tool|search)/.test(text)
+  );
+}
+
+function researchSourcesForText(text: string) {
+  const sources: string[] = [];
+  if (/\breddit\b/.test(text)) {
+    sources.push("Reddit");
+  }
+  if (/(^|[^a-z])x([^a-z]|$)|twitter/.test(text)) {
+    sources.push("X");
+  }
+  if (/\byoutube\b/.test(text)) {
+    sources.push("YouTube");
+  }
+  if (/(hacker news|\bhn\b)/.test(text)) {
+    sources.push("HN");
+  }
+  if (/\bpolymarket\b/.test(text)) {
+    sources.push("Polymarket");
+  }
+  if (/\bweb\b|internet|search/.test(text)) {
+    sources.push("Web");
+  }
+  return sources.length > 0 ? sources : ["source"];
+}
+
+function researchSignalsForText(text: string) {
+  const signals: string[] = [];
+  if (/(upvotes?|likes?|stars?|comments?|social)/.test(text)) {
+    signals.push("Social Signals");
+  }
+  if (/(money|market|odds|polymarket|prediction)/.test(text)) {
+    signals.push("Market Odds");
+  }
+  if (/(citations?|grounded|evidence|sources?)/.test(text)) {
+    signals.push("Evidence");
+  }
+  return signals.length > 0 ? signals : ["Ranked Signals"];
 }
 
 function workflowForCategory(categoryId: string) {

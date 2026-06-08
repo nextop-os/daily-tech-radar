@@ -243,7 +243,7 @@ describe("GitHub package generation", () => {
     expect(capturedPrompt).toContain("No extra labels and no gibberish microtext");
   });
 
-  it("prompts research agent skills with social signal and grounded brief concepts", async () => {
+  it("infers research agent cover concepts from repo text", async () => {
     const html = [
       '<article class="Box-row">',
       '<h2><a href="/mvanhorn/last30days-skill">mvanhorn / last30days-skill</a></h2>',
@@ -289,10 +289,10 @@ describe("GitHub package generation", () => {
 
     expect(capturedPrompt).toContain('repo title "mvanhorn / last30days-skill"');
     expect(capturedPrompt).toContain('capability headline "Research Agent Skill"');
-    expect(capturedPrompt).toContain('benefit tags "Social Signals / Market Odds / Grounded Brief"');
+    expect(capturedPrompt).toContain('benefit tags "Social Signals / Market Odds / Evidence / Grounded Brief"');
     expect(capturedPrompt).toContain("agent skill card");
     expect(capturedPrompt).toContain("source chips for Reddit X YouTube HN Polymarket Web");
-    expect(capturedPrompt).toContain("vote like and money badges");
+    expect(capturedPrompt).toContain("Social Signals Market Odds Evidence badges");
     expect(capturedPrompt).toContain("grounded brief panel");
     expect(capturedPrompt).not.toContain("Avoid: GitHub logo");
   });
