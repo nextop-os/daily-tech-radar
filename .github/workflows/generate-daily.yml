@@ -6,9 +6,10 @@ on:
       source:
         description: Source to generate.
         required: false
-        default: producthunt
+        default: all
         type: choice
         options:
+          - all
           - producthunt
           - github
       date:
@@ -27,7 +28,7 @@ permissions:
 
 jobs:
   producthunt:
-    if: github.event_name == 'schedule' || inputs.source == 'producthunt'
+    if: github.event_name == 'schedule' || inputs.source == 'all' || inputs.source == 'producthunt'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -77,7 +78,7 @@ jobs:
 
   github:
     needs: producthunt
-    if: always() && (github.event_name == 'schedule' || inputs.source == 'github')
+    if: always() && (github.event_name == 'schedule' || inputs.source == 'all' || inputs.source == 'github')
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
