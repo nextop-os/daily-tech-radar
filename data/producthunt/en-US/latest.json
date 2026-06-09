@@ -4,78 +4,24 @@
   "locale": "en-US",
   "date": "2026-06-08",
   "sourceTimezone": "UTC",
-  "generatedAt": "2026-06-09T03:41:51.106Z",
+  "generatedAt": "2026-06-09T11:32:36.581Z",
   "items": [
     {
       "rank": 1,
-      "id": "1152642",
-      "name": "Browse.sh",
-      "tagline": "Give your agents muscle memory for automating the web",
-      "description": "browse.sh — an open catalog of browser automation skills for any website. Find reusable SKILL.md recipes that teach AI agents to complete tasks online, and install them with the browse CLI.",
-      "keywords": [
-        "browser automation",
-        "AI agents",
-        "open catalog"
-      ],
-      "metrics": {
-        "votes": 364,
-        "comments": 49
-      },
-      "links": {
-        "homepage": "https://www.producthunt.com/r/INE5ILTLAZIF32?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
-        "source": "https://www.producthunt.com/products/browserbase?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
-      },
-      "assets": {
-        "icon": "https://ph-files.imgix.net/1b8154c7-3bd8-4972-b306-df4e53b04bb0.png?auto=format",
-        "thumbnail": "https://ph-files.imgix.net/1b8154c7-3bd8-4972-b306-df4e53b04bb0.png?auto=format",
-        "media": [
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/ed2d3a5b-7266-4d97-8b8b-c22946131266.jpeg?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/ba8a0fe8-c0c8-48d8-b7c9-c22177b28bac.jpeg?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/cdcffbd9-90aa-4c05-b1ae-11b886a9aa33.jpeg?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/0dca63fe-78bd-40f2-ab14-264c56ff757e.jpeg?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "video",
-            "url": "https://ph-files.imgix.net/edcdd1e0-ba49-4a33-a642-9c0cf03f1a7b.jpeg?auto=format",
-            "videoUrl": null
-          }
-        ]
-      },
-      "raw": {
-        "slug": "browse-sh",
-        "featuredAt": "2026-06-08T07:01:00Z",
-        "createdAt": "2026-06-08T07:01:00Z"
-      }
-    },
-    {
-      "rank": 2,
       "id": "1158759",
       "name": "Honen",
       "tagline": "Automated teaching + learning infrastructure for any company",
       "description": "Create employee training that keeps up with your company. Honen turns team knowledge into interactive AI-led courses in seconds, complete with adaptive lessons, simulations, and learner insights. When your docs, tools, or processes change, courses update automatically.",
       "keywords": [
-        "employee training",
-        "AI courses",
+        "AI training",
+        "employee onboarding",
+        "corporate learning",
+        "automated courses",
         "knowledge management"
       ],
       "metrics": {
-        "votes": 355,
-        "comments": 45
+        "votes": 472,
+        "comments": 105
       },
       "links": {
         "homepage": "https://www.producthunt.com/r/KGWER5KAKVLXHX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
@@ -119,6 +65,64 @@
       }
     },
     {
+      "rank": 2,
+      "id": "1152642",
+      "name": "Browse.sh",
+      "tagline": "Give your agents muscle memory for automating the web",
+      "description": "browse.sh — an open catalog of browser automation skills for any website. Find reusable SKILL.md recipes that teach AI agents to complete tasks online, and install them with the browse CLI.",
+      "keywords": [
+        "browser automation",
+        "AI agents",
+        "web scraping",
+        "open source",
+        "CLI tools"
+      ],
+      "metrics": {
+        "votes": 425,
+        "comments": 48
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/INE5ILTLAZIF32?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/browserbase?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/1b8154c7-3bd8-4972-b306-df4e53b04bb0.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/1b8154c7-3bd8-4972-b306-df4e53b04bb0.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/ed2d3a5b-7266-4d97-8b8b-c22946131266.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/ba8a0fe8-c0c8-48d8-b7c9-c22177b28bac.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/cdcffbd9-90aa-4c05-b1ae-11b886a9aa33.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/0dca63fe-78bd-40f2-ab14-264c56ff757e.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/edcdd1e0-ba49-4a33-a642-9c0cf03f1a7b.jpeg?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "browse-sh",
+        "featuredAt": "2026-06-08T07:01:00Z",
+        "createdAt": "2026-06-08T07:01:00Z"
+      }
+    },
+    {
       "rank": 3,
       "id": "1165495",
       "name": "Vaani",
@@ -126,12 +130,14 @@
       "description": "Vaani is a voice-preserving AI dubbing tool to help you dub in 40+ languages, in one go, at a fraction of the cost of a traditional dub session. Where other tools give you a generic AI voice and lips that drift off-beat, Vaani clones your voice, preserves your music, and holds the meaning across languages, with frame-accurate lip sync. Built for anyone creating videos, from creators and brands to media companies, OTTs and studios.",
       "keywords": [
         "AI dubbing",
-        "lip-sync",
-        "voice cloning"
+        "lip sync",
+        "voice cloning",
+        "video localization",
+        "multilingual content"
       ],
       "metrics": {
-        "votes": 290,
-        "comments": 22
+        "votes": 319,
+        "comments": 24
       },
       "links": {
         "homepage": "https://www.producthunt.com/r/PYMO5672CRDMQX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
@@ -198,11 +204,13 @@
       "keywords": [
         "clipboard manager",
         "macOS",
-        "screenshot history"
+        "screenshot history",
+        "productivity",
+        "local-first"
       ],
       "metrics": {
-        "votes": 240,
-        "comments": 26
+        "votes": 268,
+        "comments": 35
       },
       "links": {
         "homepage": "https://www.producthunt.com/r/OUDBSD6IBWNFYL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
@@ -254,10 +262,12 @@
       "keywords": [
         "vintage OS",
         "emulation",
-        "Linux VM"
+        "Linux VM",
+        "tech history",
+        "virtualization"
       ],
       "metrics": {
-        "votes": 176,
+        "votes": 186,
         "comments": 10
       },
       "links": {
@@ -394,12 +404,14 @@
       "description": "Most pet apps are clinical trackers. Tamadoggo is a living journal, a warm place to hold every walk, meal, vet visit and milestone. What stands out: gentle AI that never nags or diagnoses. It surfaces patterns across the timeline, gives breed and age-aware suggestions, scans a vet doc (photo or PDF) into auto-filled records, and writes a warm monthly letter. Each pet gets a \"Crib\", an illustrated home for their whole life. The free tier is also genuinely complete. PRO adds the AI magic.",
       "keywords": [
         "pet journal",
+        "pet health",
         "AI insights",
-        "pet health"
+        "pet care",
+        "lifestyle app"
       ],
       "metrics": {
-        "votes": 167,
-        "comments": 23
+        "votes": 178,
+        "comments": 25
       },
       "links": {
         "homepage": "https://www.producthunt.com/r/B6X2J7ZBCZZCG7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
@@ -465,11 +477,13 @@
       "description": "ntsc-rs is a free, open-source VHS and analog TV video effect. Use it online in your browser, as a standalone application, or as a plugin for DaVinci Resolve, After Effects, and more.",
       "keywords": [
         "VHS effect",
-        "video emulation",
-        "open-source"
+        "video editing",
+        "retro filter",
+        "open source",
+        "DaVinci Resolve"
       ],
       "metrics": {
-        "votes": 145,
+        "votes": 160,
         "comments": 9
       },
       "links": {
@@ -526,12 +540,14 @@
       "description": "\"Sigma File Manager\" is a free, open-source, quickly evolving, modern file manager (explorer / browser) app for Windows and Linux (Mac is supported but the build is not provided yet, can be built from source). - aleksey-hoffman/sigma-file-manager",
       "keywords": [
         "file manager",
-        "open-source",
-        "cross-platform"
+        "open source",
+        "cross-platform",
+        "Linux",
+        "Windows"
       ],
       "metrics": {
-        "votes": 130,
-        "comments": 14
+        "votes": 137,
+        "comments": 15
       },
       "links": {
         "homepage": "https://www.producthunt.com/r/XFCSIE5NJAAMVU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",

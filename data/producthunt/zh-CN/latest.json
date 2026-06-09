@@ -4,78 +4,24 @@
   "locale": "zh-CN",
   "date": "2026-06-08",
   "sourceTimezone": "UTC",
-  "generatedAt": "2026-06-09T03:41:51.106Z",
+  "generatedAt": "2026-06-09T11:32:36.581Z",
   "items": [
     {
       "rank": 1,
-      "id": "1152642",
-      "name": "Browse.sh",
-      "tagline": "赋予 AI 代理自动化浏览网页的肌肉记忆",
-      "description": "browse.sh 是一个开放的浏览器自动化技能目录，适用于任何网站。您可以找到可复用的 SKILL.md 配方，教 AI 代理在线完成任务，并通过 browse CLI 一键安装。",
-      "keywords": [
-        "浏览器自动化",
-        "AI 代理",
-        "开放目录"
-      ],
-      "metrics": {
-        "votes": 364,
-        "comments": 49
-      },
-      "links": {
-        "homepage": "https://www.producthunt.com/r/INE5ILTLAZIF32?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
-        "source": "https://www.producthunt.com/products/browserbase?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
-      },
-      "assets": {
-        "icon": "https://ph-files.imgix.net/1b8154c7-3bd8-4972-b306-df4e53b04bb0.png?auto=format",
-        "thumbnail": "https://ph-files.imgix.net/1b8154c7-3bd8-4972-b306-df4e53b04bb0.png?auto=format",
-        "media": [
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/ed2d3a5b-7266-4d97-8b8b-c22946131266.jpeg?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/ba8a0fe8-c0c8-48d8-b7c9-c22177b28bac.jpeg?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/cdcffbd9-90aa-4c05-b1ae-11b886a9aa33.jpeg?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "image",
-            "url": "https://ph-files.imgix.net/0dca63fe-78bd-40f2-ab14-264c56ff757e.jpeg?auto=format",
-            "videoUrl": null
-          },
-          {
-            "type": "video",
-            "url": "https://ph-files.imgix.net/edcdd1e0-ba49-4a33-a642-9c0cf03f1a7b.jpeg?auto=format",
-            "videoUrl": null
-          }
-        ]
-      },
-      "raw": {
-        "slug": "browse-sh",
-        "featuredAt": "2026-06-08T07:01:00Z",
-        "createdAt": "2026-06-08T07:01:00Z"
-      }
-    },
-    {
-      "rank": 2,
       "id": "1158759",
       "name": "Honen",
-      "tagline": "为任何公司打造自动化的教学与学习基础设施",
-      "description": "创建能跟上公司节奏的员工培训。Honen 将团队知识转化为互动式 AI 主导的课程，只需几秒钟即可完成，包含自适应课程、模拟演练和学习者洞察。当文档、工具或流程更新时，课程也会自动同步。",
+      "tagline": "面向任何企业的自动化教学与学习基础设施",
+      "description": "创建能跟上公司步伐的员工培训。Honen 将团队知识转化为互动式 AI 主导的课程，仅需数秒即可完成，包含自适应课程、模拟练习和学习者洞察。当文档、工具或流程发生变化时，课程会自动更新。",
       "keywords": [
-        "员工培训",
-        "AI 课程",
+        "AI培训",
+        "员工入职",
+        "企业学习",
+        "自动化课程",
         "知识管理"
       ],
       "metrics": {
-        "votes": 355,
-        "comments": 45
+        "votes": 472,
+        "comments": 105
       },
       "links": {
         "homepage": "https://www.producthunt.com/r/KGWER5KAKVLXHX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
@@ -119,19 +65,79 @@
       }
     },
     {
+      "rank": 2,
+      "id": "1152642",
+      "name": "Browse.sh",
+      "tagline": "赋予 AI 代理自动化浏览网页的肌肉记忆",
+      "description": "browse.sh 是一个开放的浏览器自动化技能目录，适用于任何网站。查找可复用的 SKILL.md 配方，教 AI 代理在线完成任务，并通过 browse CLI 一键安装。",
+      "keywords": [
+        "浏览器自动化",
+        "AI代理",
+        "网页抓取",
+        "开源",
+        "命令行工具"
+      ],
+      "metrics": {
+        "votes": 425,
+        "comments": 48
+      },
+      "links": {
+        "homepage": "https://www.producthunt.com/r/INE5ILTLAZIF32?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
+        "source": "https://www.producthunt.com/products/browserbase?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29"
+      },
+      "assets": {
+        "icon": "https://ph-files.imgix.net/1b8154c7-3bd8-4972-b306-df4e53b04bb0.png?auto=format",
+        "thumbnail": "https://ph-files.imgix.net/1b8154c7-3bd8-4972-b306-df4e53b04bb0.png?auto=format",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/ed2d3a5b-7266-4d97-8b8b-c22946131266.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/ba8a0fe8-c0c8-48d8-b7c9-c22177b28bac.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/cdcffbd9-90aa-4c05-b1ae-11b886a9aa33.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "image",
+            "url": "https://ph-files.imgix.net/0dca63fe-78bd-40f2-ab14-264c56ff757e.jpeg?auto=format",
+            "videoUrl": null
+          },
+          {
+            "type": "video",
+            "url": "https://ph-files.imgix.net/edcdd1e0-ba49-4a33-a642-9c0cf03f1a7b.jpeg?auto=format",
+            "videoUrl": null
+          }
+        ]
+      },
+      "raw": {
+        "slug": "browse-sh",
+        "featuredAt": "2026-06-08T07:01:00Z",
+        "createdAt": "2026-06-08T07:01:00Z"
+      }
+    },
+    {
       "rank": 3,
       "id": "1165495",
       "name": "Vaani",
       "tagline": "为创作者、品牌和工作室提供口型同步的 AI 配音",
-      "description": "Vaani 是一款保留原声的 AI 配音工具，助您一次性以极低成本将视频配音至 40 多种语言。与其他工具不同，Vaani 能克隆您的声音，保留背景音乐，跨语言保持语义，并实现帧级精准的口型同步。专为视频创作者、品牌、媒体公司、OTT 和工作室打造。",
+      "description": "Vaani 是一款保留原声的 AI 配音工具，可一次性将视频配音至 40 多种语言，成本仅为传统配音的一小部分。与其他工具不同，Vaani 能克隆你的声音，保留背景音乐，跨语言保持含义，并实现帧级精准口型同步。专为视频创作者、品牌、媒体公司、OTT 平台和工作室打造。",
       "keywords": [
-        "AI 配音",
+        "AI配音",
         "口型同步",
-        "声音克隆"
+        "声音克隆",
+        "视频本地化",
+        "多语言内容"
       ],
       "metrics": {
-        "votes": 290,
-        "comments": 22
+        "votes": 319,
+        "comments": 24
       },
       "links": {
         "homepage": "https://www.producthunt.com/r/PYMO5672CRDMQX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
@@ -196,13 +202,15 @@
       "tagline": "macOS 剪贴板管理器",
       "description": "Supaste 是一款本地优先的剪贴板和截图历史应用，专为 Mac 设计。在美观的可搜索时间线中保存复制的文本、链接、图片、文件、代码、颜色和截图。",
       "keywords": [
-        "剪贴板管理",
+        "剪贴板管理器",
         "macOS",
-        "截图历史"
+        "截图历史",
+        "生产力工具",
+        "本地优先"
       ],
       "metrics": {
-        "votes": 240,
-        "comments": 26
+        "votes": 268,
+        "comments": 35
       },
       "links": {
         "homepage": "https://www.producthunt.com/r/OUDBSD6IBWNFYL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
@@ -249,15 +257,17 @@
       "rank": 5,
       "id": "1166174",
       "name": "The Virtual OS Museum",
-      "tagline": "在桌面上重温经典操作系统",
-      "description": "单个 Linux 虚拟机中预装了超过 1,700 个操作系统，时间跨度从 1948 年至今。捆绑了 QEMU、VirtualBox 和 UTM。提供 Windows 和 Linux 的一键启动器。",
+      "tagline": "在你的桌面上重温经典操作系统",
+      "description": "单个 Linux 虚拟机中预装了超过 1,700 个操作系统，时间跨度从 1948 年至今。捆绑了 QEMU、VirtualBox 和 UTM。为 Windows 和 Linux 提供一键启动器。",
       "keywords": [
         "经典操作系统",
         "模拟器",
-        "Linux 虚拟机"
+        "Linux虚拟机",
+        "科技历史",
+        "虚拟化"
       ],
       "metrics": {
-        "votes": 176,
+        "votes": 186,
         "comments": 10
       },
       "links": {
@@ -390,16 +400,18 @@
       "rank": 6,
       "id": "1165846",
       "name": "Tamadoggo",
-      "tagline": "记录宠物生活的日记，附带 AI 洞察",
-      "description": "大多数宠物应用是临床式的追踪器，而 Tamadoggo 是一本充满温情的生活日记，记录每一次散步、用餐、兽医就诊和里程碑。其亮点在于温和的 AI，从不催促或诊断，而是梳理时间线中的模式，提供符合品种和年龄的建议，将兽医文档（照片或 PDF）自动填入记录，并撰写温暖的月度信件。每只宠物都有一个“摇篮”，作为其生活的插图家园。免费版本功能完整，PRO 版增加 AI 高级功能。",
+      "tagline": "记录宠物生活的动态日记，附带 AI 洞察",
+      "description": "大多数宠物应用是临床式的追踪器，而 Tamadoggo 是一本充满温情的动态日记，用于记录每一次散步、用餐、兽医就诊和里程碑事件。其亮点在于温和的 AI，从不唠叨或诊断。它会在时间线中揭示模式，提供针对品种和年龄的建议，将兽医文档（照片或 PDF）扫描并自动填充记录，并撰写温暖的月度信件。每只宠物都有一个“摇篮”，作为其完整生活的插图家园。免费版本功能完整，PRO 版增加 AI 魔法功能。",
       "keywords": [
         "宠物日记",
-        "AI 洞察",
-        "宠物健康"
+        "宠物健康",
+        "AI洞察",
+        "宠物护理",
+        "生活方式应用"
       ],
       "metrics": {
-        "votes": 167,
-        "comments": 23
+        "votes": 178,
+        "comments": 25
       },
       "links": {
         "homepage": "https://www.producthunt.com/r/B6X2J7ZBCZZCG7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
@@ -461,15 +473,17 @@
       "rank": 7,
       "id": "1166184",
       "name": "NTSC-RS",
-      "tagline": "开源模拟模拟电视和 VHS 伪影的视频效果",
+      "tagline": "开源视频模拟，重现模拟电视和 VHS 伪影效果",
       "description": "ntsc-rs 是一款免费、开源的 VHS 和模拟电视视频效果工具。可在浏览器中在线使用，作为独立应用程序运行，或作为 DaVinci Resolve、After Effects 等软件的插件使用。",
       "keywords": [
-        "VHS 效果",
-        "视频模拟",
-        "开源"
+        "VHS效果",
+        "视频编辑",
+        "复古滤镜",
+        "开源",
+        "达芬奇"
       ],
       "metrics": {
-        "votes": 145,
+        "votes": 160,
         "comments": 9
       },
       "links": {
@@ -523,15 +537,17 @@
       "id": "1161635",
       "name": "Sigma File Manager",
       "tagline": "免费、开源、跨平台的现代文件管理器应用",
-      "description": "Sigma File Manager 是一款免费、开源、快速迭代的现代文件管理器（资源管理器/浏览器）应用，支持 Windows 和 Linux（Mac 支持开发中，可从源码构建）。由 aleksey-hoffman/sigma-file-manager 维护。",
+      "description": "Sigma File Manager 是一款免费、开源、快速迭代的现代文件管理器（资源管理器/浏览器）应用，适用于 Windows 和 Linux（Mac 支持但尚未提供构建包，可从源代码构建）。",
       "keywords": [
         "文件管理器",
         "开源",
-        "跨平台"
+        "跨平台",
+        "Linux",
+        "Windows"
       ],
       "metrics": {
-        "votes": 130,
-        "comments": 14
+        "votes": 137,
+        "comments": 15
       },
       "links": {
         "homepage": "https://www.producthunt.com/r/XFCSIE5NJAAMVU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+local+%28ID%3A+284519%29",
