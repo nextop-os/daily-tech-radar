@@ -2,8 +2,8 @@
   "schemaVersion": "trendreader.daily.v1",
   "packageId": "github-daily-All-2026-06-08",
   "locale": "zh-CN",
-  "generatedAt": "2026-06-09T03:36:48.193Z",
-  "expiresAt": "2026-06-10T03:36:48.193Z",
+  "generatedAt": "2026-06-09T11:33:10.209Z",
+  "expiresAt": "2026-06-10T11:33:10.209Z",
   "sourceWindow": {
     "since": "daily",
     "language": "All",
@@ -19,7 +19,7 @@
   ],
   "taxonomy": {
     "version": "2026-06-08",
-    "generatedAt": "2026-06-09T03:36:48.193Z",
+    "generatedAt": "2026-06-09T11:33:10.209Z",
     "categories": [
       {
         "id": "ai",
@@ -75,8 +75,8 @@
         "description": "AI 智能体技能，可跨 Reddit、X、YouTube、HN、Polymarket 及全网研究任何主题，并生成基于事实的摘要",
         "language": "Python",
         "topics": [],
-        "stars": 34964,
-        "forks": 2856,
+        "stars": 36056,
+        "forks": 2939,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -92,7 +92,7 @@
       },
       "readmeSignals": {
         "title": "/last30days",
-        "summary": "由 AI 智能体主导的搜索引擎，依据点赞、喜爱和真金白银进行评分，而非编辑审核。该 README 记录了当前的 v3 流水线。运行时技能规范位于 skills/last30days/SKILL.md，这是最新命令和设置行为的权威来源。推荐使用 Claude Code，可通过市场自动更新：Codex、Cursor、Copilot、Gemini CLI 或 50 多个 https://agentskills.io 托管平台。使用 -g 全局安装供用户所有项目使用，也可按项目范围安装。详见 claude.ai 网页版、OpenClaw 或下方的手动安装部分。",
+        "summary": "由 AI 智能体主导的搜索引擎，依据点赞数、收藏数和真实资金进行评分，而非编辑审核。此 README 追踪当前 v3 管道。运行时技能规范位于 skills/last30days/SKILL.md，是最新命令和设置行为的权威来源。推荐使用 Claude Code，可通过市场自动更新：Codex、Cursor、Copilot、Gemini CLI 或 50 多个 https://agentskills.io 托管平台。使用 -g 全局安装供用户所有项目使用，也可按项目范围安装。更多安装选项见 claude.ai 网页、OpenClaw 或下方安装部分的手动安装。",
         "headings": [
           "/last30days",
           "Why this exists",
@@ -105,19 +105,20 @@
         ],
         "commands": [],
         "keywords": [
-          "ai",
-          "agent",
-          "/last30days",
-          "why this exists",
-          "sources, scored by the people",
-          "what people actually use it for"
+          "AI",
+          "智能体",
+          "全网研究",
+          "事实摘要",
+          "社区评分",
+          "Claude Code",
+          "技能市场"
         ],
         "score": 100
       },
       "visual": {
         "kind": "agnes_generated",
-        "url": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/204eb8541d704e858bc8ac4991b988a7.png",
-        "thumbUrl": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/204eb8541d704e858bc8ac4991b988a7.png",
+        "url": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/f9532f8224e04c949a1ad87c1aec147e.png",
+        "thumbUrl": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/f9532f8224e04c949a1ad87c1aec147e.png",
         "alt": "Generated cover for mvanhorn/last30days-skill",
         "sourceUrl": null,
         "promptHash": "sha256:810b5e5e76a9"
@@ -155,11 +156,11 @@
         "starsGained": 1729
       },
       "metadata": {
-        "description": "基于 TurboQuant 构建的向量索引，使用 Rust 编写并提供 Python 绑定",
+        "description": "基于 TurboQuant 构建的向量索引，使用 Rust 编写并带有 Python 绑定",
         "language": "Python",
         "topics": [],
-        "stars": 9095,
-        "forks": 820,
+        "stars": 9704,
+        "forks": 839,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -175,7 +176,7 @@
       },
       "readmeSignals": {
         "title": "Stage 1: external system narrows to candidate ids.",
-        "summary": "1000 万文档的语料库以 float32 格式需占用 31 GB 内存，而 turbovec 仅需 4 GB 即可容纳，且搜索速度优于 FAISS。turbovec 是一个带有 Python 绑定的 Rust 向量索引，基于 Google Research 的 https://arxiv.org/abs/2504.19874 算法构建——这是一种数据无关的量化器，在失真方面符合香农下界，无需代码本训练或单独的训练阶段。支持在线摄入：添加向量即被索引，无需训练步骤、参数调整或随语料库增长而重建。性能超越 FAISS：手写 NEON ARM 和 AVX-512BW x86 内核在 ARM 上比 FAISS IndexPQFastScan 快 12–20%，在 x86 上持平或超越。支持搜索时过滤：可传入 ID 白名单或槽位位掩码。",
+        "summary": "1000 万文档语料库以 float32 格式需占用 31 GB 内存，而 turbovec 仅需 4 GB 即可容纳，且搜索速度比 FAISS 更快。turbovec 是一个带有 Python 绑定的 Rust 向量索引，基于 Google Research 的 https://arxiv.org/abs/2504.19874 算法构建——这是一种数据无关的量化器，匹配香农失真下界，无需代码本训练或单独的训练阶段。支持在线摄入：添加向量即被索引，无需训练步骤、参数调整或语料库增长时的重建。性能超越 FAISS：手写 NEON ARM 和 AVX-512BW x86 内核在 ARM 上比 FAISS IndexPQFastScan 快 12–20%，在 x86 上持平或超越。支持搜索时过滤：可传入 ID 白名单或槽位位掩码。",
         "headings": [
           "Python",
           "Hybrid retrieval (filtered search)",
@@ -195,11 +196,13 @@
           "pip install maturin"
         ],
         "keywords": [
-          "ui",
-          "python",
-          "hybrid retrieval (filtered search)",
-          "stage 1: external system narrows to candidate ids.",
-          "stage 2: dense rerank within the candidate set."
+          "向量索引",
+          "Rust",
+          "Python 绑定",
+          "TurboQuant",
+          "低内存占用",
+          "高性能搜索",
+          "在线索引"
         ],
         "score": 100
       },
@@ -230,727 +233,6 @@
       }
     },
     {
-      "id": "google-skills",
-      "owner": "google",
-      "name": "skills",
-      "url": "https://github.com/google/skills",
-      "avatarUrl": "https://github.com/google.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 3,
-        "starsGained": 461
-      },
-      "metadata": {
-        "description": "Google 产品及技术的智能体技能",
-        "language": "Python",
-        "topics": [],
-        "stars": 12532,
-        "forks": 971,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "Python"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/google/skills/main/README.md"
-      },
-      "readmeSignals": {
-        "title": "Agent Skills",
-        "summary": "此仓库包含 https://agentskills.io/home 中 Google 产品及技术的技能，包括 https://cloud.google.com。通过 npx 安装命令，您可以从本仓库中选择特定技能进行安装。示例技能路径包括：./skills/cloud/gemini-api、./skills/cloud/gemini-agents-api、./skills/cloud/bigquery-basics、./skills/cloud/cloud-run-basics、./skills/cloud/firebase-basics 等。涵盖 Google Cloud 架构最佳实践。",
-        "headings": [
-          "Agent Skills",
-          "Installation",
-          "Available Skills",
-          "Support",
-          "Contributing",
-          "License"
-        ],
-        "commands": [],
-        "keywords": [
-          "agent",
-          "agent skills",
-          "installation",
-          "available skills",
-          "support"
-        ],
-        "score": 90
-      },
-      "visual": {
-        "kind": "agnes_generated",
-        "url": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/914fcda0a87e41beb4a0b0bce9dbf10f.png",
-        "thumbUrl": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/914fcda0a87e41beb4a0b0bce9dbf10f.png",
-        "alt": "Generated cover for google/skills",
-        "sourceUrl": null,
-        "promptHash": "sha256:0d9d955cb053"
-      },
-      "classification": {
-        "primaryCategoryId": "ai",
-        "secondaryCategoryIds": [],
-        "confidence": 0.7,
-        "method": "rules",
-        "reasons": [
-          "Matched agent"
-        ],
-        "signals": [
-          "agent"
-        ]
-      },
-      "rank": {
-        "globalRank": 3,
-        "categoryRank": 3,
-        "score": 114
-      }
-    },
-    {
-      "id": "refactoringhq-tolaria",
-      "owner": "refactoringhq",
-      "name": "tolaria",
-      "url": "https://github.com/refactoringhq/tolaria",
-      "avatarUrl": "https://github.com/refactoringhq.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 4,
-        "starsGained": 651
-      },
-      "metadata": {
-        "description": "用于管理 Markdown 知识库的桌面应用程序",
-        "language": "TypeScript",
-        "topics": [],
-        "stars": 13684,
-        "forks": 959,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "TypeScript"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/refactoringhq/tolaria/main/README.md"
-      },
-      "readmeSignals": {
-        "title": "💧 Tolaria",
-        "summary": "Tolaria 是一款适用于 macOS、Windows 和 Linux 的桌面应用，用于管理 Markdown 知识库。人们将其用于多种用途：运营第二大脑和个人知识管理、作为 AI 上下文整理公司文档、存储 OpenClaw/助手记忆和程序。作者本人使用它来管理包含 10,000 多条笔记的大型工作区，这些笔记源于其 https://refactoring.fm/ 工作及个人日记。提供简短的 Loom 视频 walkthroughs 供参考。",
-        "headings": [
-          "💧 Tolaria",
-          "Walkthroughs",
-          "Principles",
-          "Installation",
-          "Homebrew",
-          "Download from releases",
-          "Getting started",
-          "Open source and local setup"
-        ],
-        "commands": [],
-        "keywords": [
-          "💧 tolaria",
-          "walkthroughs",
-          "principles",
-          "installation"
-        ],
-        "score": 100
-      },
-      "visual": {
-        "kind": "readme_image",
-        "url": "https://github.com/user-attachments/assets/8aeafb0a-b236-43c2-a083-ec111f903c38",
-        "thumbUrl": "https://github.com/user-attachments/assets/8aeafb0a-b236-43c2-a083-ec111f903c38",
-        "alt": "1776506856823-CleanShot_2026-04-18_at_12 06 57_2x",
-        "sourceUrl": "https://github.com/user-attachments/assets/8aeafb0a-b236-43c2-a083-ec111f903c38",
-        "promptHash": null
-      },
-      "classification": {
-        "primaryCategoryId": "unclassified",
-        "secondaryCategoryIds": [],
-        "confidence": 0.4,
-        "method": "rules",
-        "reasons": [
-          "No taxonomy rule matched with enough confidence"
-        ],
-        "signals": []
-      },
-      "rank": {
-        "globalRank": 4,
-        "categoryRank": 4,
-        "score": 112
-      }
-    },
-    {
-      "id": "panniantong-agent-reach",
-      "owner": "Panniantong",
-      "name": "Agent-Reach",
-      "url": "https://github.com/Panniantong/Agent-Reach",
-      "avatarUrl": "https://github.com/Panniantong.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 5,
-        "starsGained": 679
-      },
-      "metadata": {
-        "description": "赋予 AI 智能体‘眼睛’以浏览整个互联网。通过一个 CLI 读取和搜索 Twitter、Reddit、YouTube、GitHub、Bilibili、小红书等平台，零 API 费用。",
-        "language": "Python",
-        "topics": [],
-        "stars": 24438,
-        "forks": 2047,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "Python"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/Panniantong/Agent-Reach/main/README.md"
-      },
-      "readmeSignals": {
-        "title": "只预览，不实际删除",
-        "summary": "AI 智能体通常难以直接访问网络内容：无法观看 YouTube 字幕、无法免费搜索 Twitter、Reddit 常返回 403 错误、小红书需登录、B 站可能因 IP 被屏蔽、GitHub 认证配置麻烦、RSS 需自行搭建。每个平台都有门槛。Agent-Reach 解决了这些问题，让智能体几分钟内即可读取推特、搜索 Reddit、观看 YouTube、浏览小红书，无需处理付费 API、封锁绕过或登录配置。",
-        "headings": [
-          "为什么需要 Agent Reach？",
-          "✅ 在你用之前，你可能想知道",
-          "支持的平台",
-          "快速上手",
-          "装好就能用",
-          "设计理念",
-          "🔌 每个渠道都是可插拔的",
-          "当前选型"
-        ],
-        "commands": [
-          "pip install agent-reach"
-        ],
-        "keywords": [
-          "ai",
-          "agent",
-          "为什么需要 agent reach？",
-          "✅ 在你用之前，你可能想知道",
-          "支持的平台",
-          "快速上手"
-        ],
-        "score": 100
-      },
-      "visual": {
-        "kind": "readme_image",
-        "url": "https://raw.githubusercontent.com/Panniantong/Agent-Reach/main/docs/wechat-group-qr.jpg",
-        "thumbUrl": "https://raw.githubusercontent.com/Panniantong/Agent-Reach/main/docs/wechat-group-qr.jpg",
-        "alt": "WeChat QR",
-        "sourceUrl": "https://raw.githubusercontent.com/Panniantong/Agent-Reach/main/docs/wechat-group-qr.jpg",
-        "promptHash": null
-      },
-      "classification": {
-        "primaryCategoryId": "ai",
-        "secondaryCategoryIds": [],
-        "confidence": 0.8,
-        "method": "rules",
-        "reasons": [
-          "Matched ai",
-          "Matched agent"
-        ],
-        "signals": [
-          "ai",
-          "agent"
-        ]
-      },
-      "rank": {
-        "globalRank": 5,
-        "categoryRank": 5,
-        "score": 110
-      }
-    },
-    {
-      "id": "danielmiessler-personal-ai-infrastructure",
-      "owner": "danielmiessler",
-      "name": "Personal_AI_Infrastructure",
-      "url": "https://github.com/danielmiessler/Personal_AI_Infrastructure",
-      "avatarUrl": "https://github.com/danielmiessler.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 6,
-        "starsGained": 62
-      },
-      "metadata": {
-        "description": "用于放大人类能力的 Agentic AI 基础设施",
-        "language": "TypeScript",
-        "topics": [],
-        "stars": 15498,
-        "forks": 2162,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "TypeScript"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/danielmiessler/Personal_AI_Infrastructure/main/README.md"
-      },
-      "readmeSignals": {
-        "title": "Personal AI Infrastructure",
-        "summary": "AI 应放大每个人的能力，而不仅仅是前 1%。PAI（Personal AI Infrastructure）是一个生活操作系统，它捕捉你是谁、你关心什么以及你想去哪里，然后利用了解你的 AI 帮助你实现目标。它由三层堆叠而成：算法、脉冲和记忆。提供安装、发布、Packs 资源、常见问题、路线图和社区贡献指南。",
-        "headings": [
-          "Personal AI Infrastructure",
-          "AI should magnify everyone—not just the top 1%.",
-          "What PAI Is",
-          "Principles",
-          "Humans first, tech second",
-          "A Life OS, not an agent harness",
-          "Ideal State drives everything",
-          "A single Digital Assistant will be everyone's interface to AI"
-        ],
-        "commands": [],
-        "keywords": [
-          "ai",
-          "agent",
-          "personal ai infrastructure",
-          "ai should magnify everyone—not just the top 1%.",
-          "what pai is",
-          "principles"
-        ],
-        "score": 100
-      },
-      "visual": {
-        "kind": "readme_image",
-        "url": "https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=24&pause=1000&color=60A5FA&center=true&vCenter=true&width=600&lines=Everyone+needs+access+to+the+best+AI.;AI+should+magnify+everyone.;Your+Life+Operating+System.",
-        "thumbUrl": "https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=24&pause=1000&color=60A5FA&center=true&vCenter=true&width=600&lines=Everyone+needs+access+to+the+best+AI.;AI+should+magnify+everyone.;Your+Life+Operating+System.",
-        "alt": "Typing SVG",
-        "sourceUrl": "https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=24&pause=1000&color=60A5FA&center=true&vCenter=true&width=600&lines=Everyone+needs+access+to+the+best+AI.;AI+should+magnify+everyone.;Your+Life+Operating+System.",
-        "promptHash": null
-      },
-      "classification": {
-        "primaryCategoryId": "ai",
-        "secondaryCategoryIds": [],
-        "confidence": 0.8,
-        "method": "rules",
-        "reasons": [
-          "Matched ai",
-          "Matched agent"
-        ],
-        "signals": [
-          "ai",
-          "agent"
-        ]
-      },
-      "rank": {
-        "globalRank": 6,
-        "categoryRank": 6,
-        "score": 94.2
-      }
-    },
-    {
-      "id": "santifer-career-ops",
-      "owner": "santifer",
-      "name": "career-ops",
-      "url": "https://github.com/santifer/career-ops",
-      "avatarUrl": "https://github.com/santifer.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 7,
-        "starsGained": 308
-      },
-      "metadata": {
-        "description": "基于 Claude Code 构建的 AI 驱动求职系统。包含 14 种技能模式、Go 仪表盘、PDF 生成和批处理功能。",
-        "language": "JavaScript",
-        "topics": [],
-        "stars": 50669,
-        "forks": 10345,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "JavaScript"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/santifer/career-ops/main/README.md"
-      },
-      "readmeSignals": {
-        "title": "Career-Ops",
-        "summary": "作者花费数月艰难求职，因此构建了这套系统。当公司使用 AI 筛选候选人时，他赋予候选人 AI 来选择公司。Career-Ops 将任何 AI 编码 CLI 转变为完整的求职指挥中心。替代手动在电子表格中跟踪申请，它提供 AI 驱动的管道，自动评估职位、生成个性化简历，并帮助找到梦想工作。支持多语言 README。",
-        "headings": [
-          "Career-Ops",
-          "What Is This",
-          "Features",
-          "Quick Start",
-          "1. Clone and install",
-          "2. Check setup",
-          "3. Configure",
-          "4. Add your CV"
-        ],
-        "commands": [
-          "npm install\nnpx playwright install chromium   # Required for PDF generation",
-          "npm install -g @google/gemini-cli",
-          "npm install\n\n# 3. Evaluate a job description"
-        ],
-        "keywords": [
-          "ai",
-          "career-ops",
-          "what is this",
-          "features",
-          "quick start"
-        ],
-        "score": 100
-      },
-      "visual": {
-        "kind": "readme_image",
-        "url": "https://raw.githubusercontent.com/santifer/career-ops/main/docs/press/producthunt.svg",
-        "thumbUrl": "https://raw.githubusercontent.com/santifer/career-ops/main/docs/press/producthunt.svg",
-        "alt": "Career-Ops on Claude | Product Hunt",
-        "sourceUrl": "https://raw.githubusercontent.com/santifer/career-ops/main/docs/press/producthunt.svg",
-        "promptHash": null
-      },
-      "classification": {
-        "primaryCategoryId": "ai",
-        "secondaryCategoryIds": [],
-        "confidence": 0.7,
-        "method": "rules",
-        "reasons": [
-          "Matched ai"
-        ],
-        "signals": [
-          "ai"
-        ]
-      },
-      "rank": {
-        "globalRank": 7,
-        "categoryRank": 7,
-        "score": 106
-      }
-    },
-    {
-      "id": "phuryn-pm-skills",
-      "owner": "phuryn",
-      "name": "pm-skills",
-      "url": "https://github.com/phuryn/pm-skills",
-      "avatarUrl": "https://github.com/phuryn.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 8,
-        "starsGained": 164
-      },
-      "metadata": {
-        "description": "产品经理技能市场：100+ 智能体技能、命令和插件——涵盖从发现、策略、执行、发布到增长的全流程。",
-        "language": "",
-        "topics": [],
-        "stars": 12817,
-        "forks": 1504,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": []
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/phuryn/pm-skills/main/README.md"
-      },
-      "readmeSignals": {
-        "title": "PM Skills Marketplace: The AI Operating System for Better Product Decisions",
-        "summary": "PM Skills Marketplace 是为更好产品决策打造的 AI 操作系统。包含 68 个 PM 技能和 42 个链式工作流，跨越 9 个插件。专为 Claude Code 和 Cowork 设计，但也兼容其他 AI 助手。提供从创意发现 (/discover)、战略清晰度 (/strategy)、撰写 PRD (/write-prd) 到发布规划 (/plan-launch) 的结构化指导。每个技能编码了经过验证的 PM 框架，逐步引导用户完成发现、假设映射、优先级排序和战略制定。",
-        "headings": [
-          "PM Skills Marketplace: The AI Operating System for Better Product Decisions",
-          "Start Here",
-          "Why PM Skills Marketplace?",
-          "How It Works (Skills, Commands, Plugins)",
-          "Installation",
-          "Claude Cowork (recommended for non-developers)",
-          "Claude Code (CLI)",
-          "Step 1: Add the marketplace"
-        ],
-        "commands": [],
-        "keywords": [
-          "agent",
-          "pm skills marketplace: the ai operating system for better product decisions",
-          "start here",
-          "why pm skills marketplace?",
-          "how it works (skills, commands, plugins)"
-        ],
-        "score": 100
-      },
-      "visual": {
-        "kind": "readme_image",
-        "url": "https://raw.githubusercontent.com/phuryn/pm-skills/main/.docs/images/plugins.png",
-        "thumbUrl": "https://raw.githubusercontent.com/phuryn/pm-skills/main/.docs/images/plugins.png",
-        "alt": "PM Skills marketplace: skills, commands, and all 9 plugins at a glance",
-        "sourceUrl": "https://raw.githubusercontent.com/phuryn/pm-skills/main/.docs/images/plugins.png",
-        "promptHash": null
-      },
-      "classification": {
-        "primaryCategoryId": "ai",
-        "secondaryCategoryIds": [],
-        "confidence": 0.7,
-        "method": "rules",
-        "reasons": [
-          "Matched agent"
-        ],
-        "signals": [
-          "agent"
-        ]
-      },
-      "rank": {
-        "globalRank": 8,
-        "categoryRank": 8,
-        "score": 100.4
-      }
-    },
-    {
-      "id": "openai-plugins",
-      "owner": "openai",
-      "name": "plugins",
-      "url": "https://github.com/openai/plugins",
-      "avatarUrl": "https://github.com/openai.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 9,
-        "starsGained": 296
-      },
-      "metadata": {
-        "description": "OpenAI 插件示例集合",
-        "language": "JavaScript",
-        "topics": [],
-        "stars": 2355,
-        "forks": 291,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "JavaScript"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/openai/plugins/main/README.md"
-      },
-      "readmeSignals": {
-        "title": "Plugins",
-        "summary": "此仓库包含精选的 Codex 插件示例集合。每个插件位于 plugins/ 目录下，包含必需的 .codex-plugin/plugin.json 清单文件，以及可选的配套表面如 skills/、.app.json、.mcp.json、插件级智能体/、commands/、hooks.json、assets/ 等支持文件。亮点示例包括：plugins/figma（用于 Figma 设计系统）、plugins/notion（用于规划、研究和知识捕获）、plugins/build-ios-apps（用于 SwiftUI 实现和调试）、plugins/build-macos-apps（用于 macOS 工作流）。",
-        "headings": [
-          "Plugins"
-        ],
-        "commands": [],
-        "keywords": [
-          "ai",
-          "plugins"
-        ],
-        "score": 65
-      },
-      "visual": {
-        "kind": "agnes_generated",
-        "url": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/78ecf0e9c61a47f7b99c34ea2cef63e5.png",
-        "thumbUrl": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/78ecf0e9c61a47f7b99c34ea2cef63e5.png",
-        "alt": "Generated cover for openai/plugins",
-        "sourceUrl": null,
-        "promptHash": "sha256:9c6fcc3b71a3"
-      },
-      "classification": {
-        "primaryCategoryId": "ai",
-        "secondaryCategoryIds": [],
-        "confidence": 0.7,
-        "method": "rules",
-        "reasons": [
-          "Matched ai"
-        ],
-        "signals": [
-          "ai"
-        ]
-      },
-      "rank": {
-        "globalRank": 9,
-        "categoryRank": 9,
-        "score": 102
-      }
-    },
-    {
-      "id": "andyyyy64-whichllm",
-      "owner": "Andyyyy64",
-      "name": "whichllm",
-      "url": "https://github.com/Andyyyy64/whichllm",
-      "avatarUrl": "https://github.com/Andyyyy64.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 10,
-        "starsGained": 143
-      },
-      "metadata": {
-        "description": "找到在你的硬件上实际运行且表现最佳的本地 LLM。根据真实、近期感知的基准测试进行排名，而非参数量。一条命令，即时运行。",
-        "language": "Python",
-        "topics": [],
-        "stars": 3558,
-        "forks": 204,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "Python"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/Andyyyy64/whichllm/main/README.md"
-      },
-      "readmeSignals": {
-        "title": "whichllm",
-        "summary": "找到最适合你硬件的本地 LLM。自动检测你的 GPU/CPU/RAM，并从 HuggingFace 中排名适合你系统的顶级模型。安装后直接运行 whichllm，或一次性运行 uvx whichllm@latest。该工具不仅考虑模型大小，还考虑真实基准测试得分和代际差异，确保推荐的是性能最优而非仅体积最小的模型。",
-        "headings": [
-          "whichllm",
-          "Quick start",
-          "Common workflows",
-          "Best models for this machine",
-          "Pretend you have a specific GPU",
-          "Compare upgrade candidates",
-          "Find the GPU needed for a model",
-          "Start a chat with a model"
-        ],
-        "commands": [
-          "pip install whichllm"
-        ],
-        "keywords": [
-          "llm",
-          "whichllm",
-          "quick start",
-          "common workflows",
-          "best models for this machine"
-        ],
-        "score": 100
-      },
-      "visual": {
-        "kind": "readme_image",
-        "url": "https://raw.githubusercontent.com/Andyyyy64/whichllm/main/assets/demo.gif",
-        "thumbUrl": "https://raw.githubusercontent.com/Andyyyy64/whichllm/main/assets/demo.gif",
-        "alt": "demo",
-        "sourceUrl": "https://raw.githubusercontent.com/Andyyyy64/whichllm/main/assets/demo.gif",
-        "promptHash": null
-      },
-      "classification": {
-        "primaryCategoryId": "ai",
-        "secondaryCategoryIds": [],
-        "confidence": 0.7,
-        "method": "rules",
-        "reasons": [
-          "Matched llm"
-        ],
-        "signals": [
-          "llm"
-        ]
-      },
-      "rank": {
-        "globalRank": 10,
-        "categoryRank": 10,
-        "score": 94.3
-      }
-    },
-    {
-      "id": "mempalace-mempalace",
-      "owner": "MemPalace",
-      "name": "mempalace",
-      "url": "https://github.com/MemPalace/mempalace",
-      "avatarUrl": "https://github.com/MemPalace.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 11,
-        "starsGained": 170
-      },
-      "metadata": {
-        "description": "基准测试最佳的开源 AI 记忆系统。且免费。",
-        "language": "Python",
-        "topics": [],
-        "stars": 55007,
-        "forks": 7160,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "Python"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/MemPalace/mempalace/main/README.md"
-      },
-      "readmeSignals": {
-        "title": "MemPalace",
-        "summary": "本地优先的 AI 记忆系统。以原文存储，支持可插拔后端，在 LongMemEval 上原始检索率 R@5 达 96.6%，零 API 调用。MemPalace 将对话历史存储为原文文本，并通过语义搜索检索。它不总结、提取或改写。索引结构化为：人和项目成为‘翼’，主题成为‘房间’，原始内容位于‘抽屉’中，以便范围化搜索而非针对扁平语料库搜索。检索层可插拔，默认后端为 ChromaDB，可通过 mempalace/backends/base.py 定义接口并替换。",
-        "headings": [
-          "MemPalace",
-          "What it is",
-          "Install",
-          "Docker",
-          "Build the image (CPU; bundles the `extract` + `spellcheck` extras)",
-          "MCP server over stdio — note the `-i` flag (JSON-RPC needs stdin)",
-          "Run any CLI command instead (mount the host directory you want to mine)",
-          "Storage backends"
-        ],
-        "commands": [
-          "pip install mempalace",
-          "pip install mempalace[pgvector]",
-          "pip install -e \".[dev]\""
-        ],
-        "keywords": [
-          "ai",
-          "mempalace",
-          "what it is",
-          "install",
-          "docker"
-        ],
-        "score": 100
-      },
-      "visual": {
-        "kind": "agnes_generated",
-        "url": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/dc8cf75e98e74442847dbda4609430b5.png",
-        "thumbUrl": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/dc8cf75e98e74442847dbda4609430b5.png",
-        "alt": "Generated cover for MemPalace/mempalace",
-        "sourceUrl": null,
-        "promptHash": "sha256:a0eb7430204a"
-      },
-      "classification": {
-        "primaryCategoryId": "ai",
-        "secondaryCategoryIds": [],
-        "confidence": 0.7,
-        "method": "rules",
-        "reasons": [
-          "Matched ai"
-        ],
-        "signals": [
-          "ai"
-        ]
-      },
-      "rank": {
-        "globalRank": 11,
-        "categoryRank": 11,
-        "score": 95
-      }
-    },
-    {
       "id": "roboflow-supervision",
       "owner": "roboflow",
       "name": "supervision",
@@ -959,15 +241,15 @@
       "homepageUrl": null,
       "source": {
         "primary": "github_trending_html",
-        "sourceRank": 12,
+        "sourceRank": 3,
         "starsGained": 1288
       },
       "metadata": {
         "description": "我们编写可复用的计算机视觉工具。💜",
         "language": "Python",
         "topics": [],
-        "stars": 42431,
-        "forks": 3790,
+        "stars": 42652,
+        "forks": 3806,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -983,7 +265,7 @@
       },
       "readmeSignals": {
         "title": "5",
-        "summary": "我们提供可复用的计算机视觉工具。无论你需要从硬盘加载数据集、在图像或视频上绘制检测结果，还是计算区域内的检测数量，都可以信赖我们！Supervision 设计为模型无关，只需接入任何分类、检测或分割模型。为方便起见，提供了针对 Ultralytics、Transformers 或 MMDetection 等流行库的 https://supervision.roboflow.com/latest/detection/core/detections 支持。",
+        "summary": "我们编写可复用的计算机视觉工具。无论您需要从硬盘加载数据集、在图像或视频上绘制检测结果，还是计算区域内的检测数量，都可以信赖我们！🤝 在 https://www.python.org/ 环境中 pip install supervision 包。有关 conda、mamba 和从源代码安装的更多信息，请参阅我们的 https://roboflow.github.io/supervision/。Supervision 设计为模型无关。只需接入任何分类、检测或分割模型。为方便起见，我们创建了 https://supervision.roboflow.com/latest/detection/core/detections，适用于 Ultralytics、Transformers 或 MMDetection 等最流行的库。",
         "headings": [
           "👋 hello",
           "💻 install",
@@ -998,11 +280,13 @@
           "pip install supervision"
         ],
         "keywords": [
-          "tool",
-          "👋 hello",
-          "💻 install",
-          "🔥 quickstart",
-          "models"
+          "计算机视觉",
+          "数据集加载",
+          "结果可视化",
+          "区域计数",
+          "模型无关",
+          "Ultralytics",
+          "MMDetection"
         ],
         "score": 100
       },
@@ -1027,29 +311,105 @@
         ]
       },
       "rank": {
-        "globalRank": 12,
-        "categoryRank": 12,
-        "score": 96
+        "globalRank": 3,
+        "categoryRank": 3,
+        "score": 114
       }
     },
     {
-      "id": "copilotkit-copilotkit",
-      "owner": "CopilotKit",
-      "name": "CopilotKit",
-      "url": "https://github.com/CopilotKit/CopilotKit",
-      "avatarUrl": "https://github.com/CopilotKit.png",
+      "id": "opencv-opencv",
+      "owner": "opencv",
+      "name": "opencv",
+      "url": "https://github.com/opencv/opencv",
+      "avatarUrl": "https://github.com/opencv.png",
       "homepageUrl": null,
       "source": {
         "primary": "github_trending_html",
-        "sourceRank": 13,
-        "starsGained": 378
+        "sourceRank": 4,
+        "starsGained": 395
       },
       "metadata": {
-        "description": "智能体与生成式 UI 的前端栈。支持 React、Angular、移动端、Slack 等。AG-UI 协议的缔造者。",
+        "description": "开源计算机视觉库",
+        "language": "C++",
+        "topics": [],
+        "stars": 88410,
+        "forks": 56613,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "C++"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/opencv/opencv/master/README.md"
+      },
+      "readmeSignals": {
+        "title": null,
+        "summary": "OpenCV：开源计算机视觉库。主页：课程：文档：Q&A 论坛：只读旧论坛：问题跟踪：其他 OpenCV 功能：捐赠给 OpenCV：在开始提交拉取请求之前，请阅读 https://github.com/opencv/opencv/wiki/Howtocontribute。每个问题一个拉取请求；选择正确的基分支；包含测试和文档；提交前清理“oops”提交；遵循 https://github.com/opencv/opencv/wiki/CodingStyleGuide。",
+        "headings": [
+          "OpenCV: Open Source Computer Vision Library",
+          "Resources",
+          "Contributing",
+          "Additional Resources"
+        ],
+        "commands": [],
+        "keywords": [
+          "OpenCV",
+          "计算机视觉",
+          "开源",
+          "图像处理",
+          "贡献指南",
+          "文档",
+          "问题跟踪"
+        ],
+        "score": 80
+      },
+      "visual": {
+        "kind": "agnes_generated",
+        "url": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/c0c12c276b2d40ebba28f4da6d92964c.png",
+        "thumbUrl": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/c0c12c276b2d40ebba28f4da6d92964c.png",
+        "alt": "Generated cover for opencv/opencv",
+        "sourceUrl": null,
+        "promptHash": "sha256:8a2fdf0f9ee7"
+      },
+      "classification": {
+        "primaryCategoryId": "unclassified",
+        "secondaryCategoryIds": [],
+        "confidence": 0.4,
+        "method": "rules",
+        "reasons": [
+          "No taxonomy rule matched with enough confidence"
+        ],
+        "signals": []
+      },
+      "rank": {
+        "globalRank": 4,
+        "categoryRank": 4,
+        "score": 112
+      }
+    },
+    {
+      "id": "refactoringhq-tolaria",
+      "owner": "refactoringhq",
+      "name": "tolaria",
+      "url": "https://github.com/refactoringhq/tolaria",
+      "avatarUrl": "https://github.com/refactoringhq.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 5,
+        "starsGained": 651
+      },
+      "metadata": {
+        "description": "用于管理 Markdown 知识库的桌面应用程序",
         "language": "TypeScript",
         "topics": [],
-        "stars": 34208,
-        "forks": 4309,
+        "stars": 14018,
+        "forks": 975,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -1061,37 +421,205 @@
         "status": "available",
         "path": "README.md",
         "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/CopilotKit/CopilotKit/main/README.md"
+        "rawUrl": "https://raw.githubusercontent.com/refactoringhq/tolaria/main/README.md"
       },
       "readmeSignals": {
-        "title": "CopilotKit",
-        "summary": "Generative UI, shared state, and human-in-the-loop workflows for React, Angular, Vue, React Native — and beyond the browser. CopilotKit is a best-in-class SDK for building full-stack agentic applications, Generative UI, and chat applications. What started as a React library is now a multi-platform agentic framework: the same agent can power your web app, your mobile app, and your team's Slack workspace. We are the company behind the https://github.com/ag-ui-protocol/ag-ui - adopted by Google, LangChain, AWS, Microsoft, Mastra, PydanticAI, and more! Chat UI – A fully customizable chat interface that supports message streaming, tool calls, and agent responses. Backend Tool Rendering – Enables ",
+        "title": "💧 Tolaria",
+        "summary": "Tolaria 是一款适用于 macOS、Windows 和 Linux 的桌面应用程序，用于管理 Markdown 知识库。人们将其用于多种用途：运营第二大脑和个人知识管理；将公司文档组织为 AI 的上下文；存储 OpenClaw/助手记忆和程序。 personally，我使用它来管理我的生活。hey 👋 http://x.com/lucaronin。我拥有一个包含 10,000 多条笔记的大型工作区，这些笔记是我 https://refactoring.fm/ 工作 + 大量个人日记和第二大脑思考的结果。您可以在下方找到一些 Loom  walkthroughs——它们简短明了：https://www.loom.com/share/bb3aaffa238b4be0bd62e4464bca2528 https://www.loom.com/share/dffda263317b4fa8b47b59cdf9330571 https://www.lo",
         "headings": [
-          "CopilotKit",
-          "What is CopilotKit",
-          "🧩 Works With Your Stack",
-          "💬 Beyond the Browser: Slack & Microsoft Teams (Discord, Google Chat coming soon...)",
-          "🧠 Self-Learning Agents",
-          "Quick Start",
-          "New projects:",
-          "Existing projects:"
+          "💧 Tolaria",
+          "Walkthroughs",
+          "Principles",
+          "Installation",
+          "Homebrew",
+          "Download from releases",
+          "Getting started",
+          "Open source and local setup"
         ],
         "commands": [],
         "keywords": [
-          "agent",
-          "copilotkit",
-          "what is copilotkit",
-          "🧩 works with your stack",
-          "💬 beyond the browser: slack & microsoft teams (discord, google chat coming soon...)"
+          "Markdown",
+          "知识库",
+          "第二大脑",
+          "个人知识管理",
+          "桌面应用",
+          "macOS",
+          "Windows"
         ],
         "score": 100
       },
       "visual": {
         "kind": "readme_image",
-        "url": "https://github.com/user-attachments/assets/aeb56c28-c766-44a5-810c-5d999bb6a32a",
-        "thumbUrl": "https://github.com/user-attachments/assets/aeb56c28-c766-44a5-810c-5d999bb6a32a",
-        "alt": "CopilotKit",
-        "sourceUrl": "https://github.com/user-attachments/assets/aeb56c28-c766-44a5-810c-5d999bb6a32a",
+        "url": "https://github.com/user-attachments/assets/8aeafb0a-b236-43c2-a083-ec111f903c38",
+        "thumbUrl": "https://github.com/user-attachments/assets/8aeafb0a-b236-43c2-a083-ec111f903c38",
+        "alt": "1776506856823-CleanShot_2026-04-18_at_12 06 57_2x",
+        "sourceUrl": "https://github.com/user-attachments/assets/8aeafb0a-b236-43c2-a083-ec111f903c38",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "unclassified",
+        "secondaryCategoryIds": [],
+        "confidence": 0.4,
+        "method": "rules",
+        "reasons": [
+          "No taxonomy rule matched with enough confidence"
+        ],
+        "signals": []
+      },
+      "rank": {
+        "globalRank": 5,
+        "categoryRank": 5,
+        "score": 110
+      }
+    },
+    {
+      "id": "aaif-goose-goose",
+      "owner": "aaif-goose",
+      "name": "goose",
+      "url": "https://github.com/aaif-goose/goose",
+      "avatarUrl": "https://github.com/aaif-goose.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 6,
+        "starsGained": 699
+      },
+      "metadata": {
+        "description": "一个开源、可扩展的 AI 智能体，超越代码建议——安装、执行、编辑和测试，支持任何 LLM",
+        "language": "Rust",
+        "topics": [],
+        "stars": 48300,
+        "forks": 5084,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Rust"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/aaif-goose/goose/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "goose",
+        "summary": "您的原生开源 AI 智能体——桌面应用、CLI 和 API——用于代码、工作流及一切。goose 是一款运行在您机器上的通用 AI 智能体。不仅限于代码——可用于研究、写作、自动化、数据分析或任何您需要完成的任务。适用于 macOS、Linux 和 Windows 的原生桌面应用。用于终端工作流的完整 CLI。可嵌入任何地方的 API。使用 Rust 构建，兼顾性能和可移植性。goose 支持 15+ 提供商——Anthropic、OpenAI、Google、Ollama、OpenRouter、Azure、Bedrock 等。使用 API 密钥或通过 https://goose-docs.ai/docs/guides/acp-providers 使用现有的 Claude、ChatGPT 或 Gemini 订阅。连接 70+ 扩展",
+        "headings": [
+          "goose",
+          "Get started",
+          "Quick links",
+          "Need help?",
+          "a little goose humor 🪿",
+          "goose around with us"
+        ],
+        "commands": [],
+        "keywords": [
+          "AI 智能体",
+          "开源",
+          "代码助手",
+          "工作流自动化",
+          "多 LLM 支持",
+          "Rust",
+          "桌面应用"
+        ],
+        "score": 90
+      },
+      "visual": {
+        "kind": "agnes_generated",
+        "url": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/7cfb014725da4fe281ffb33aab46d818.png",
+        "thumbUrl": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/7cfb014725da4fe281ffb33aab46d818.png",
+        "alt": "Generated cover for aaif-goose/goose",
+        "sourceUrl": null,
+        "promptHash": "sha256:6f03df0a0ee9"
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.9,
+        "method": "rules",
+        "reasons": [
+          "Matched ai",
+          "Matched agent",
+          "Matched llm"
+        ],
+        "signals": [
+          "ai",
+          "agent",
+          "llm"
+        ]
+      },
+      "rank": {
+        "globalRank": 6,
+        "categoryRank": 6,
+        "score": 108
+      }
+    },
+    {
+      "id": "andyyyy64-whichllm",
+      "owner": "Andyyyy64",
+      "name": "whichllm",
+      "url": "https://github.com/Andyyyy64/whichllm",
+      "avatarUrl": "https://github.com/Andyyyy64.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 7,
+        "starsGained": 143
+      },
+      "metadata": {
+        "description": "找到在您的硬件上实际运行且表现最佳的本地 LLM。按真实、近期感知的基准测试排名，而非参数量。一条命令，即时运行。",
+        "language": "Python",
+        "topics": [],
+        "stars": 3777,
+        "forks": 213,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Python"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/Andyyyy64/whichllm/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "whichllm",
+        "summary": "找到在您的硬件上实际运行的最佳本地 LLM。自动检测您的 GPU/CPU/RAM，并对 HuggingFace 上适合您系统的顶级模型进行排名。运行推荐命令一次，无需项目设置。安装后，直接运行 whichllm。对于一次性运行，将 whichllm 替换为 uvx whichllm@latest。32B 模型可能适合您的显卡——但 whichllm 仍排名 27B 第一，因为它在真实基准测试中得分更高，且是更新一代。仅基于大小的“什么能装下？”工具会给您更大的那个。这个差距正是 whichllm 的要点。注意 3：MoE 模型在 102 t/s——速度按激活参数排名，质量按总参数排名。",
+        "headings": [
+          "whichllm",
+          "Quick start",
+          "Common workflows",
+          "Best models for this machine",
+          "Pretend you have a specific GPU",
+          "Compare upgrade candidates",
+          "Find the GPU needed for a model",
+          "Start a chat with a model"
+        ],
+        "commands": [
+          "pip install whichllm"
+        ],
+        "keywords": [
+          "本地 LLM",
+          "硬件适配",
+          "基准测试",
+          "HuggingFace",
+          "GPU 检测",
+          "模型推荐",
+          "性能优化"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/Andyyyy64/whichllm/main/assets/demo.gif",
+        "thumbUrl": "https://raw.githubusercontent.com/Andyyyy64/whichllm/main/assets/demo.gif",
+        "alt": "demo",
+        "sourceUrl": "https://raw.githubusercontent.com/Andyyyy64/whichllm/main/assets/demo.gif",
         "promptHash": null
       },
       "classification": {
@@ -1100,16 +628,16 @@
         "confidence": 0.7,
         "method": "rules",
         "reasons": [
-          "Matched agent"
+          "Matched llm"
         ],
         "signals": [
-          "agent"
+          "llm"
         ]
       },
       "rank": {
-        "globalRank": 13,
-        "categoryRank": 13,
-        "score": 94
+        "globalRank": 7,
+        "categoryRank": 7,
+        "score": 100.3
       }
     },
     {
@@ -1121,15 +649,15 @@
       "homepageUrl": null,
       "source": {
         "primary": "github_trending_html",
-        "sourceRank": 14,
+        "sourceRank": 8,
         "starsGained": 592
       },
       "metadata": {
         "description": "所有小初高、大学 PDF 教材。",
         "language": "Roff",
         "topics": [],
-        "stars": 73081,
-        "forks": 16354,
+        "stars": 73332,
+        "forks": 16418,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -1145,7 +673,7 @@
       },
       "readmeSignals": {
         "title": null,
-        "summary": "项目由来：虽然国内教育网站已提供免费资源，但大多数普通人获取信息的途径依然受限，部分人利用此点销售带有私人水印的资源。为应对这种情况，作者计划将这些资源集中并开源，以促进义务教育普及和消除地区间教育贫困。涵盖大学数学（高等数学、线性代数、离散数学、概率论等）及其他学科教材。",
+        "summary": "项目由来：虽然国内教育网站已提供免费资源，但大多数普通人获取信息的途径依然受限。有些人利用这一点，在某站上销售这些带有私人水印的资源。为了应对这种情况，我计划将这些资源集中并开源，以促进义务教育的普及和消除地区间的教育贫困。大学数学 https://github.com/TapXWorld/ChinaTextbook/tree/master/%E5%A4%A7%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%90%8C%E6%B5%A9%E5%A4%A7%E5%AD%A6%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%E7%AC%AC%E4%B8%83%E7%89%88 https://github.com/TapXWorld/ChinaTextbook/tree/master/%E5%A4%A7%E5%AD%A6/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0 https://github.com/TapXWorld/ChinaTextbook/tree/master/%E5%A4%A7%E5%AD%A6/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6 https://github.com/TapXWorld/ChinaTextbook/tree/master/%E5%A4%A7%E5%AD%A6/%E6%A6%82%E7%8E%87%E8%AE%BA",
         "headings": [
           "项目的由来",
           "学习数学",
@@ -1158,10 +686,13 @@
         ],
         "commands": [],
         "keywords": [
-          "项目的由来",
-          "学习数学",
-          "小学数学",
-          "初中数学"
+          "教育",
+          "教材",
+          "PDF",
+          "开源",
+          "数学",
+          "中小学",
+          "大学"
         ],
         "score": 100
       },
@@ -1184,75 +715,239 @@
         "signals": []
       },
       "rank": {
-        "globalRank": 14,
-        "categoryRank": 14,
-        "score": 92
+        "globalRank": 8,
+        "categoryRank": 8,
+        "score": 104
       }
     },
     {
-      "id": "luongnv89-claude-howto",
-      "owner": "luongnv89",
-      "name": "claude-howto",
-      "url": "https://github.com/luongnv89/claude-howto",
-      "avatarUrl": "https://github.com/luongnv89.png",
+      "id": "x1xhlol-system-prompts-and-models-of-ai-tools",
+      "owner": "x1xhlol",
+      "name": "system-prompts-and-models-of-ai-tools",
+      "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+      "avatarUrl": "https://github.com/x1xhlol.png",
       "homepageUrl": null,
       "source": {
         "primary": "github_trending_html",
-        "sourceRank": 15,
-        "starsGained": 312
+        "sourceRank": 9,
+        "starsGained": 66
       },
       "metadata": {
-        "description": "Claude Code 的可视化、示例驱动指南——从基本概念到高级智能体，附带即贴即用的模板，带来即时价值。",
-        "language": "Python",
+        "description": "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (以及其他开源) 系统提示词、内部工具和 AI 模型",
+        "language": "",
         "topics": [],
-        "stars": 35885,
-        "forks": 4353,
+        "stars": 138993,
+        "forks": 34543,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": []
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/x1xhlol/system-prompts-and-models-of-ai-tools/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Sponsors",
+        "summary": "如果您认为此集合有价值并欣赏获取和分享这些见解所付出的努力，请考虑支持该项目。加密货币：BTC: bc1q7zldmzjwspnaa48udvelwe6k3fef7xrrhg5625 LTC: LRWgqwEYDwqau1WeiTs6Mjg85NJ7m3fsdQ ETH: 0x3f844B2cc3c4b7242964373fB0A41C4fdffB192A Patreon: https://patreon.com/lucknite Ko-fi: https://ko-fi.com/lucknite 警告：如果您是 AI 初创公司，请确保数据安全。暴露的提示词或 AI 模型容易成为黑客攻击的目标。重要提示：对保护 AI 系统感兴趣？查看 https://zeroleaks.ai/，这是一项旨在帮助初创公司识别和保护提示词注入和系统提示词提取风险的服务。",
+        "headings": [
+          "[Issue Tracking for AI Agents](https://github.com/latitude-dev/latitude-llm)",
+          "Support the Project",
+          "Security Notice for AI Startups",
+          "Sponsors",
+          "Roadmap & Feedback",
+          "Connect With Me",
+          "Star History"
+        ],
+        "commands": [],
+        "keywords": [
+          "系统提示词",
+          "AI 模型",
+          "Cursor",
+          "Claude Code",
+          "代码助手",
+          "安全",
+          "开源"
+        ],
+        "score": 95
+      },
+      "visual": {
+        "kind": "agnes_generated",
+        "url": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/99acbc0091e1420ead2a508104ae76f3.png",
+        "thumbUrl": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/99acbc0091e1420ead2a508104ae76f3.png",
+        "alt": "Generated cover for x1xhlol/system-prompts-and-models-of-ai-tools",
+        "sourceUrl": null,
+        "promptHash": "sha256:e73abc8d6035"
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.9,
+        "method": "rules",
+        "reasons": [
+          "Matched ai",
+          "Matched agent",
+          "Matched model"
+        ],
+        "signals": [
+          "ai",
+          "agent",
+          "model"
+        ]
+      },
+      "rank": {
+        "globalRank": 9,
+        "categoryRank": 9,
+        "score": 88.6
+      }
+    },
+    {
+      "id": "yikart-aitoearn",
+      "owner": "yikart",
+      "name": "AiToEarn",
+      "url": "https://github.com/yikart/AiToEarn",
+      "avatarUrl": "https://github.com/yikart.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 10,
+        "starsGained": 786
+      },
+      "metadata": {
+        "description": "让我们用 AI 赚钱！",
+        "language": "TypeScript",
+        "topics": [],
+        "stars": 19644,
+        "forks": 3002,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
         "topLanguages": [
-          "Python"
+          "TypeScript"
         ]
       },
       "readmeRef": {
         "status": "available",
         "path": "README.md",
         "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/luongnv89/claude-howto/main/README.md"
+        "rawUrl": "https://raw.githubusercontent.com/yikart/AiToEarn/main/README.md"
       },
       "readmeSignals": {
-        "title": "Master Claude Code in a Weekend",
-        "summary": "从输入 claude 命令到编排智能体、钩子、技能和 MCP 服务器，通过可视化教程、即贴即用的模板和引导式学习路径掌握 Claude Code。解决官方文档仅描述功能而不展示如何组合的问题。提供 15 分钟入门指南、问题排查、功能目录和常见问题解答，帮助用户将斜杠命令与钩子、记忆和智能体链式连接。",
+        "title": "[Aitoearn：OPC（一人公司）的AI内容营销智能体](https://aitoearn.ai)",
+        "summary": "变现 · 发布 · 互动 · 创建 —— 一站式平台。AiToEarn 通过 AI Agent 自动化，帮助 OPC（一人公司）、创作者、品牌与企业在全球主流平台上构建、分发并变现内容。支持渠道：抖音、小红书（Rednote）、快手、哔哩哔哩、视频号、TikTok、YouTube、Facebook、Instagram、Threads、Twitter（X）、Pinterest、LinkedIn | 方式 | 适合谁 | 需要部署吗 | | use-web | 所有用户 | ❌ 不需要 | | use-in-openclaw | 龙虾用户 | ❌ 不需要 | | use-in-claude | AI 工具用户 | ❌ 不需要 | | use-docker | 想私有化部署的团队 | ✅ 需要服务器 | | use-source | 开发者 | ✅ 需要开发环境 | 💡 方式 ②③④ 都需要先获取 API Key，请先看 get-api-key。 2026-05-21: https://github.com/yikart/AiToEarn/releases/tag/v2.4.0 — 草稿生成新增支持 HappyHorse 1.0 和 Seedance 2.0，增强视频/图文草稿批量生成、多模型选择、参考图片/视频、目标平台限制与文案提示词；带来全新界面风格，并增强 Twitter/X 探索与互动能力。 2026-04-20: OpenClaw（龙虾）新增 AiToEarn 赚钱支持，可在龙虾中直接接收并执行内容变现任务。 2026-03-2",
         "headings": [
-          "Master Claude Code in a Weekend",
-          "Table of Contents",
-          "The Problem",
-          "How Claude How To Fixes This",
-          "What you get:",
-          "How It Works",
-          "1. Find your level",
-          "2. Follow the guided path"
+          "[Aitoearn：OPC（一人公司）的AI内容营销智能体](https://aitoearn.ai)",
+          "🚀 快速使用 AiToEarn（5 种方式）",
+          "最新动态",
+          "核心功能",
+          "💰 Monetize —— 内容赚钱",
+          "📢 Publish —— 内容发布 Agent",
+          "💬 Engage —— 内容互动 Agent",
+          "🎨 Create —— 内容创作 Agent"
         ],
         "commands": [
-          "npm install -g @anthropic-ai/claude-code",
-          "pip install -r requirements-dev.txt"
+          "npm install\n\n# 编译 sqlite（better-sqlite3 需要 node-gyp 和本地 Python）"
         ],
         "keywords": [
-          "agent",
-          "master claude code in a weekend",
-          "table of contents",
-          "the problem",
-          "how claude how to fixes this"
+          "AI 变现",
+          "内容营销",
+          "一人公司",
+          "自动化",
+          "多平台",
+          "小红书",
+          "TikTok"
         ],
         "score": 100
       },
       "visual": {
-        "kind": "agnes_generated",
-        "url": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/6831e94eae544d4a9e9d357e6e661ad5.png",
-        "thumbUrl": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/6831e94eae544d4a9e9d357e6e661ad5.png",
-        "alt": "Generated cover for luongnv89/claude-howto",
-        "sourceUrl": null,
-        "promptHash": "sha256:2e7537c72fb3"
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/yikart/AiToEarn/main/presentation/monetize-cn.png",
+        "thumbUrl": "https://raw.githubusercontent.com/yikart/AiToEarn/main/presentation/monetize-cn.png",
+        "alt": "yikart/AiToEarn",
+        "sourceUrl": "https://raw.githubusercontent.com/yikart/AiToEarn/main/presentation/monetize-cn.png",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched ai"
+        ],
+        "signals": [
+          "ai"
+        ]
+      },
+      "rank": {
+        "globalRank": 10,
+        "categoryRank": 10,
+        "score": 100
+      }
+    },
+    {
+      "id": "phuryn-pm-skills",
+      "owner": "phuryn",
+      "name": "pm-skills",
+      "url": "https://github.com/phuryn/pm-skills",
+      "avatarUrl": "https://github.com/phuryn.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 11,
+        "starsGained": 164
+      },
+      "metadata": {
+        "description": "PM 技能市场：100+ 智能体技能、命令和插件——从发现到战略、执行、发布和增长。",
+        "language": "",
+        "topics": [],
+        "stars": 13132,
+        "forks": 1511,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": []
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/phuryn/pm-skills/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "PM Skills Marketplace: The AI Operating System for Better Product Decisions",
+        "summary": "PM 技能市场：用于更好产品决策的 AI 操作系统。68 个 PM 技能和 42 个链式工作流，涵盖 9 个插件。适用于 Claude Code、Cowork 等。从发现到战略、执行、发布、增长和交付 AI 构建的代码。专为 Claude Code 和 Cowork 设计。技能与其他 AI 助手兼容。新想法？→ /discover 需要战略清晰度？→ /strategy 撰写 PRD？→ /write-prd 规划发布？→ /plan-launch 定义指标？→ /north-star 通用 AI 给您文本。PM 技能市场给您结构。每个技能编码了一个经过验证的 PM 框架——发现、假设映射、优先级排序、战略——并逐步引导您完成。您获得",
+        "headings": [
+          "PM Skills Marketplace: The AI Operating System for Better Product Decisions",
+          "Start Here",
+          "Why PM Skills Marketplace?",
+          "How It Works (Skills, Commands, Plugins)",
+          "Installation",
+          "Claude Cowork (recommended for non-developers)",
+          "Claude Code (CLI)",
+          "Step 1: Add the marketplace"
+        ],
+        "commands": [],
+        "keywords": [
+          "产品经理",
+          "AI 智能体",
+          "工作流",
+          "PRD",
+          "战略规划",
+          "技能市场",
+          "Claude Code"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/phuryn/pm-skills/main/.docs/images/plugins.png",
+        "thumbUrl": "https://raw.githubusercontent.com/phuryn/pm-skills/main/.docs/images/plugins.png",
+        "alt": "PM Skills marketplace: skills, commands, and all 9 plugins at a glance",
+        "sourceUrl": "https://raw.githubusercontent.com/phuryn/pm-skills/main/.docs/images/plugins.png",
+        "promptHash": null
       },
       "classification": {
         "primaryCategoryId": "ai",
@@ -1267,87 +962,416 @@
         ]
       },
       "rank": {
-        "globalRank": 15,
-        "categoryRank": 15,
-        "score": 90
+        "globalRank": 11,
+        "categoryRank": 11,
+        "score": 94.4
       }
     },
     {
-      "id": "aaif-goose-goose",
-      "owner": "aaif-goose",
-      "name": "goose",
-      "url": "https://github.com/aaif-goose/goose",
-      "avatarUrl": "https://github.com/aaif-goose.png",
+      "id": "santifer-career-ops",
+      "owner": "santifer",
+      "name": "career-ops",
+      "url": "https://github.com/santifer/career-ops",
+      "avatarUrl": "https://github.com/santifer.png",
       "homepageUrl": null,
       "source": {
         "primary": "github_trending_html",
-        "sourceRank": 16,
-        "starsGained": 699
+        "sourceRank": 12,
+        "starsGained": 308
       },
       "metadata": {
-        "description": "一个开源、可扩展的 AI 智能体，超越代码建议——安装、执行、编辑和测试，支持任何 LLM。",
-        "language": "Rust",
+        "description": "基于 Claude Code 构建的 AI 驱动求职系统。14 种技能模式、Go 仪表板、PDF 生成、批量处理。",
+        "language": "JavaScript",
         "topics": [],
-        "stars": 48162,
-        "forks": 5072,
+        "stars": 51056,
+        "forks": 10368,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
         "topLanguages": [
-          "Rust"
+          "JavaScript"
         ]
       },
       "readmeRef": {
         "status": "available",
         "path": "README.md",
         "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/aaif-goose/goose/main/README.md"
+        "rawUrl": "https://raw.githubusercontent.com/santifer/career-ops/main/README.md"
       },
       "readmeSignals": {
-        "title": "goose",
-        "summary": "Goose 是你的原生开源 AI 智能体，提供桌面应用、CLI 和 API，适用于代码、工作流及一切。它不仅用于代码，还可用于研究、写作、自动化、数据分析等。基于 Rust 构建，支持 macOS、Linux 和 Windows。兼容 15+ 提供商（Anthropic、OpenAI、Google、Ollama 等），支持 API 密钥或现有订阅。可连接 70+ 扩展，实现高性能和可移植性。",
+        "title": "Career-Ops",
+        "summary": "README.md | README.es.md | README.pt-BR.md | README.ko-KR.md | README.ja.md | README.cn.md | README.zh-TW.md | README.ua.md | README.ru.md 我花了几个月时间艰难地申请工作。所以我构建了我希望拥有的系统。公司使用 AI 筛选候选人。我只是给候选人 AI 来选择公司。现在它开源了。740+ 职位列表评估 · 100+ 个性化简历 · 1 个梦想角色 Career-Ops https://career-ops.org，也称为 careerops 将任何 AI 编码 CLI 转变为完整的求职指挥中心。而不是在电子表格中手动跟踪申请，您将获得一个 AI 驱动的管道，该管道：",
         "headings": [
-          "goose",
-          "Get started",
-          "Quick links",
-          "Need help?",
-          "a little goose humor 🪿",
-          "goose around with us"
+          "Career-Ops",
+          "What Is This",
+          "Features",
+          "Quick Start",
+          "1. Clone and install",
+          "2. Check setup",
+          "3. Configure",
+          "4. Add your CV"
         ],
-        "commands": [],
+        "commands": [
+          "npm install\nnpx playwright install chromium   # Required for PDF generation",
+          "npm install -g @google/gemini-cli",
+          "npm install\n\n# 3. Evaluate a job description"
+        ],
         "keywords": [
-          "ai",
-          "agent",
-          "llm",
-          "goose",
-          "get started",
-          "quick links",
-          "need help?"
+          "求职",
+          "AI 助手",
+          "简历生成",
+          "职位追踪",
+          "自动化",
+          "Claude Code",
+          "职业发展"
         ],
-        "score": 90
+        "score": 100
       },
       "visual": {
-        "kind": "agnes_generated",
-        "url": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/3caccdd38357429ca1ab38be4a0c7791.png",
-        "thumbUrl": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/3caccdd38357429ca1ab38be4a0c7791.png",
-        "alt": "Generated cover for aaif-goose/goose",
-        "sourceUrl": null,
-        "promptHash": "sha256:6f03df0a0ee9"
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/santifer/career-ops/main/docs/press/producthunt.svg",
+        "thumbUrl": "https://raw.githubusercontent.com/santifer/career-ops/main/docs/press/producthunt.svg",
+        "alt": "Career-Ops on Claude | Product Hunt",
+        "sourceUrl": "https://raw.githubusercontent.com/santifer/career-ops/main/docs/press/producthunt.svg",
+        "promptHash": null
       },
       "classification": {
         "primaryCategoryId": "ai",
         "secondaryCategoryIds": [],
-        "confidence": 0.9,
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched ai"
+        ],
+        "signals": [
+          "ai"
+        ]
+      },
+      "rank": {
+        "globalRank": 12,
+        "categoryRank": 12,
+        "score": 96
+      }
+    },
+    {
+      "id": "openai-plugins",
+      "owner": "openai",
+      "name": "plugins",
+      "url": "https://github.com/openai/plugins",
+      "avatarUrl": "https://github.com/openai.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 13,
+        "starsGained": 296
+      },
+      "metadata": {
+        "description": "OpenAI 插件",
+        "language": "JavaScript",
+        "topics": [],
+        "stars": 2460,
+        "forks": 296,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "JavaScript"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/openai/plugins/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Plugins",
+        "summary": "此仓库包含精选的 Codex 插件示例集合。每个插件位于 plugins/ 下，带有必需的 .codex-plugin/plugin.json 清单和可选的配套表面，如 skills/、.app.json、.mcp.json、插件级 agents/、commands/、hooks.json、assets/ 和其他支持文件。此仓库中突出的更丰富示例包括：plugins/figma 用于 usefigma、Code to Canvas、Code Connect 和设计系统规则 plugins/notion 用于规划、研究、会议和知识捕获 plugins/build-ios-apps 用于 SwiftUI 实现、重构、性能和调试 plugins/build-macos-apps 用于 macOS SwiftUI/AppKit 工作流、构建/运行/调试循环和打包",
+        "headings": [
+          "Plugins"
+        ],
+        "commands": [],
+        "keywords": [
+          "OpenAI",
+          "插件",
+          "Codex",
+          "Figma",
+          "Notion",
+          "iOS 开发",
+          "macOS 开发"
+        ],
+        "score": 65
+      },
+      "visual": {
+        "kind": "agnes_generated",
+        "url": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/9265afe0678a457aa9beb5d7da6354eb.png",
+        "thumbUrl": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/9265afe0678a457aa9beb5d7da6354eb.png",
+        "alt": "Generated cover for openai/plugins",
+        "sourceUrl": null,
+        "promptHash": "sha256:9c6fcc3b71a3"
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched ai"
+        ],
+        "signals": [
+          "ai"
+        ]
+      },
+      "rank": {
+        "globalRank": 13,
+        "categoryRank": 13,
+        "score": 94
+      }
+    },
+    {
+      "id": "maziyarpanahi-openmed",
+      "owner": "maziyarpanahi",
+      "name": "openmed",
+      "url": "https://github.com/maziyarpanahi/openmed",
+      "avatarUrl": "https://github.com/maziyarpanahi.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 14,
+        "starsGained": 165
+      },
+      "metadata": {
+        "description": "开源医疗 AI",
+        "language": "Python",
+        "topics": [],
+        "stars": 1548,
+        "forks": 193,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Python"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/maziyarpanahi/openmed/master/README.md"
+      },
+      "readmeSignals": {
+        "title": "DISEASE      chronic myeloid leukemia     0.98",
+        "summary": "本地优先的医疗 AI，数据永不离开设备。用一行代码将临床文本转化为结构化洞察。实体提取、PII 去标识化和 1000+ 专用医疗模型，完全在您的硬件上运行——从 Python 中的一行代码到 iPhone 上的原生 Swift 应用，由 Apple MLX 驱动。无云。无供应商锁定。无患者数据离开您的网络。1000+ 模型 · 12 种语言 · 247 个 PII 检查点 · 100% 设备端 · Apache-2.0 英语 · 简体中文 · Español · Français · Deutsch · Italiano · Português · Nederlands · العربية · हिन्दీ · తెలుగు · 日本語 · Türkçe · فارسی",
+        "headings": [
+          "See it in action",
+          "30-second example",
+          "DISEASE      chronic myeloid leukemia     0.98",
+          "DRUG         imatinib                     0.95",
+          "Why OpenMed?",
+          "On-device on Apple — Swift, MLX & iOS",
+          "How it works",
+          "Quick start"
+        ],
+        "commands": [
+          "pip install \"openmed[mlx]\"",
+          "pip install \"openmed[hf]\"",
+          "pip install \"openmed[hf,service]\"",
+          "pip install \"openmed[mlx]\"",
+          "pip install \"openmed[hf,service]\""
+        ],
+        "keywords": [
+          "医疗 AI",
+          "本地部署",
+          "数据隐私",
+          "实体提取",
+          "PII 去标识化",
+          "Apple MLX",
+          "开源"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/maziyarpanahi/openmed/master/docs/brand/openmed-mascot-lockup.png",
+        "thumbUrl": "https://raw.githubusercontent.com/maziyarpanahi/openmed/master/docs/brand/openmed-mascot-lockup.png",
+        "alt": "OpenMed — local-first healthcare AI",
+        "sourceUrl": "https://raw.githubusercontent.com/maziyarpanahi/openmed/master/docs/brand/openmed-mascot-lockup.png",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
+          "Matched ai"
+        ],
+        "signals": [
+          "ai"
+        ]
+      },
+      "rank": {
+        "globalRank": 14,
+        "categoryRank": 14,
+        "score": 88.5
+      }
+    },
+    {
+      "id": "francescopace-espectre",
+      "owner": "francescopace",
+      "name": "espectre",
+      "url": "https://github.com/francescopace/espectre",
+      "avatarUrl": "https://github.com/francescopace.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 15,
+        "starsGained": 112
+      },
+      "metadata": {
+        "description": "🛜 ESPectre 👻 - 基于 Wi-Fi 频谱分析（CSI）的运动检测系统，具有 Home Assistant 集成。",
+        "language": "Python",
+        "topics": [],
+        "stars": 7980,
+        "forks": 623,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Python"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/francescopace/espectre/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "🛜 ESPectre 👻",
+        "summary": "基于 Wi-Fi 频谱分析 CSI 的运动检测系统，通过 ESPHome 原生集成 Home Assistant。3 点概述 您需要什么 快速开始 工作原理（简化版） 您可以用它做什么 传感器放置位置 系统架构 初学者常见问题解答 安全与隐私 技术深入探讨 双平台策略 未来演进 文档 媒体 相关项目 致谢 许可证 作者 1. 它做什么：使用 Wi-Fi 检测运动，无需摄像头，无需麦克风 2. 您需要什么：约 €10 的 ESP32 设备 推荐 S3 和 C6，支持其他变体 3. 设置时间：10-15 分钟",
+        "headings": [
+          "🛜 ESPectre 👻",
+          "Table of Contents",
+          "In 3 Points",
+          "What You Need",
+          "Hardware",
+          "Software (All Free)",
+          "Required Skills",
+          "Quick Start"
+        ],
+        "commands": [],
+        "keywords": [
+          "运动检测",
+          "Wi-Fi CSI",
+          "Home Assistant",
+          "ESP32",
+          "智能家居",
+          "隐私保护",
+          "无摄像头"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/francescopace/espectre/main/images/home_lab.jpg",
+        "thumbUrl": "https://raw.githubusercontent.com/francescopace/espectre/main/images/home_lab.jpg",
+        "alt": "3 x ESP32-S3 DevKit bundle with external antennas",
+        "sourceUrl": "https://raw.githubusercontent.com/francescopace/espectre/main/images/home_lab.jpg",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "unclassified",
+        "secondaryCategoryIds": [],
+        "confidence": 0.4,
+        "method": "rules",
+        "reasons": [
+          "No taxonomy rule matched with enough confidence"
+        ],
+        "signals": []
+      },
+      "rank": {
+        "globalRank": 15,
+        "categoryRank": 15,
+        "score": 81.2
+      }
+    },
+    {
+      "id": "addyosmani-agent-skills",
+      "owner": "addyosmani",
+      "name": "agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "avatarUrl": "https://github.com/addyosmani.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 16,
+        "starsGained": 348
+      },
+      "metadata": {
+        "description": "面向 AI 编码智能体的生产级工程技能。",
+        "language": "Shell",
+        "topics": [],
+        "stars": 49473,
+        "forks": 5525,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Shell"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/addyosmani/agent-skills/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Agent Skills",
+        "summary": "面向 AI 编码智能体的生产级工程技能。技能编码了高级工程师在构建软件时使用的流程、质量门禁和最佳实践。这些技能经过打包，以便 AI 智能体在开发的每个阶段一致地遵循它们。7 个斜杠命令映射到开发生命周期。每个命令自动激活正确的技能。| 您正在做什么 | 命令 | 关键原则 | | 定义构建什么 | /spec | 先规范后代码 | | 规划如何构建 | /plan | 小型、原子任务 | | 增量构建 | /build | 一次一片 | | 证明其有效 | /test | 测试即证明 | | 合并前审查 | /review | 改善代码健康 | | 简化",
+        "headings": [
+          "Agent Skills",
+          "Commands",
+          "Quick Start",
+          "All 23 Skills",
+          "Meta - Discover which skill applies",
+          "Define - Clarify what to build",
+          "Plan - Break it down",
+          "Build - Write the code"
+        ],
+        "commands": [],
+        "keywords": [
+          "AI 编码",
+          "工程技能",
+          "最佳实践",
+          "代码审查",
+          "测试",
+          "工作流",
+          "智能体"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://addyosmani.com/assets/images/addys-agent-skills.jpg",
+        "thumbUrl": "https://addyosmani.com/assets/images/addys-agent-skills.jpg",
+        "alt": "Addy's Agent Skills",
+        "sourceUrl": "https://addyosmani.com/assets/images/addys-agent-skills.jpg",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.8,
         "method": "rules",
         "reasons": [
           "Matched ai",
-          "Matched agent",
-          "Matched llm"
+          "Matched agent"
         ],
         "signals": [
           "ai",
-          "agent",
-          "llm"
+          "agent"
         ]
       },
       "rank": {
@@ -1365,17 +1389,15 @@
       "categoryId": "ai",
       "repoIds": [
         "mvanhorn-last30days-skill",
-        "google-skills",
-        "panniantong-agent-reach",
-        "santifer-career-ops",
-        "openai-plugins",
-        "phuryn-pm-skills",
-        "mempalace-mempalace",
+        "aaif-goose-goose",
         "andyyyy64-whichllm",
-        "danielmiessler-personal-ai-infrastructure",
-        "copilotkit-copilotkit",
-        "luongnv89-claude-howto",
-        "aaif-goose-goose"
+        "yikart-aitoearn",
+        "santifer-career-ops",
+        "phuryn-pm-skills",
+        "openai-plugins",
+        "x1xhlol-system-prompts-and-models-of-ai-tools",
+        "maziyarpanahi-openmed",
+        "addyosmani-agent-skills"
       ],
       "sort": "score"
     },
@@ -1405,8 +1427,10 @@
       "label": "Needs Review",
       "categoryId": "unclassified",
       "repoIds": [
+        "opencv-opencv",
         "refactoringhq-tolaria",
-        "tapxworld-chinatextbook"
+        "tapxworld-chinatextbook",
+        "francescopace-espectre"
       ],
       "sort": "score"
     }
@@ -1415,7 +1439,7 @@
     "status": "ok",
     "candidateCount": 16,
     "enrichedRepoCount": 16,
-    "unclassifiedRepoCount": 2,
+    "unclassifiedRepoCount": 4,
     "warnings": []
   }
 }

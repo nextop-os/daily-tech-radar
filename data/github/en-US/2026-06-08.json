@@ -2,8 +2,8 @@
   "schemaVersion": "trendreader.daily.v1",
   "packageId": "github-daily-All-2026-06-08",
   "locale": "en-US",
-  "generatedAt": "2026-06-09T03:36:48.193Z",
-  "expiresAt": "2026-06-10T03:36:48.193Z",
+  "generatedAt": "2026-06-09T11:33:10.209Z",
+  "expiresAt": "2026-06-10T11:33:10.209Z",
   "sourceWindow": {
     "since": "daily",
     "language": "All",
@@ -19,7 +19,7 @@
   ],
   "taxonomy": {
     "version": "2026-06-08",
-    "generatedAt": "2026-06-09T03:36:48.193Z",
+    "generatedAt": "2026-06-09T11:33:10.209Z",
     "categories": [
       {
         "id": "ai",
@@ -75,8 +75,8 @@
         "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
         "language": "Python",
         "topics": [],
-        "stars": 34964,
-        "forks": 2856,
+        "stars": 36056,
+        "forks": 2939,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -116,8 +116,8 @@
       },
       "visual": {
         "kind": "agnes_generated",
-        "url": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/a3d4065f1ca54a15bae636b992aafe6f.png",
-        "thumbUrl": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/a3d4065f1ca54a15bae636b992aafe6f.png",
+        "url": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/2f0814cc162b4fc68cb47c688f92f56e.png",
+        "thumbUrl": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/2f0814cc162b4fc68cb47c688f92f56e.png",
         "alt": "Generated cover for mvanhorn/last30days-skill",
         "sourceUrl": null,
         "promptHash": "sha256:810b5e5e76a9"
@@ -158,8 +158,8 @@
         "description": "A vector index built on TurboQuant, written in Rust with Python bindings",
         "language": "Python",
         "topics": [],
-        "stars": 9095,
-        "forks": 820,
+        "stars": 9704,
+        "forks": 839,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -230,23 +230,23 @@
       }
     },
     {
-      "id": "google-skills",
-      "owner": "google",
-      "name": "skills",
-      "url": "https://github.com/google/skills",
-      "avatarUrl": "https://github.com/google.png",
+      "id": "roboflow-supervision",
+      "owner": "roboflow",
+      "name": "supervision",
+      "url": "https://github.com/roboflow/supervision",
+      "avatarUrl": "https://github.com/roboflow.png",
       "homepageUrl": null,
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 3,
-        "starsGained": 461
+        "starsGained": 1288
       },
       "metadata": {
-        "description": "Agent Skills for Google products and technologies",
+        "description": "We write your reusable computer vision tools. 💜",
         "language": "Python",
         "topics": [],
-        "stars": 12532,
-        "forks": 971,
+        "stars": 42652,
+        "forks": 3806,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -258,53 +258,130 @@
         "status": "available",
         "path": "README.md",
         "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/google/skills/main/README.md"
+        "rawUrl": "https://raw.githubusercontent.com/roboflow/supervision/main/README.md"
       },
       "readmeSignals": {
-        "title": "Agent Skills",
-        "summary": "This repository contains https://agentskills.io/home for Google products and technologies, including https://cloud.google.com. From the npx install command, you can select the specific skills from this repo to install. ./skills/cloud/gemini-api ./skills/cloud/gemini-api ./skills/cloud/gemini-agents-api ./skills/cloud/agent-platform-skill-registry ./skills/cloud/alloydb-basics ./skills/cloud/bigquery-basics ./skills/cloud/cloud-run-basics ./skills/cloud/cloud-sql-basics ./skills/cloud/firebase-basics ./skills/cloud/gke-basics ./skills/cloud/google-cloud-recipe-onboarding ./skills/cloud/google-cloud-recipe-auth ./skills/cloud/google-cloud-networking-observability Google Cloud Well-Architected ",
+        "title": "5",
+        "summary": "We write your reusable computer vision tools. Whether you need to load your dataset from your hard drive, draw detections on an image or video, or count how many detections are in a zone. You can count on us! 🤝 Pip install the supervision package in a https://www.python.org/ environment. Read more about conda, mamba, and installing from source in our https://roboflow.github.io/supervision/. Supervision was designed to be model agnostic. Just plug in any classification, detection, or segmentation model. For your convenience, we have created https://supervision.roboflow.com/latest/detection/core/detections for the most popular libraries like Ultralytics, Transformers, or MMDetection.",
         "headings": [
-          "Agent Skills",
-          "Installation",
-          "Available Skills",
-          "Support",
-          "Contributing",
-          "License"
+          "👋 hello",
+          "💻 install",
+          "🔥 quickstart",
+          "models",
+          "5",
+          "annotators",
+          "datasets",
+          "🎬 tutorials"
         ],
-        "commands": [],
+        "commands": [
+          "pip install supervision"
+        ],
         "keywords": [
-          "agent",
-          "agent skills",
-          "installation",
-          "available skills",
-          "support"
+          "tool",
+          "👋 hello",
+          "💻 install",
+          "🔥 quickstart",
+          "models"
         ],
-        "score": 90
+        "score": 100
       },
       "visual": {
-        "kind": "agnes_generated",
-        "url": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/040deb0c5acc4324894c1c715c779f77.png",
-        "thumbUrl": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/040deb0c5acc4324894c1c715c779f77.png",
-        "alt": "Generated cover for google/skills",
-        "sourceUrl": null,
-        "promptHash": "sha256:0d9d955cb053"
+        "kind": "readme_image",
+        "url": "https://github.com/SkalskiP/SkalskiP/assets/26109316/a742823d-c158-407d-b30f-063a5d11b4e1",
+        "thumbUrl": "https://github.com/SkalskiP/SkalskiP/assets/26109316/a742823d-c158-407d-b30f-063a5d11b4e1",
+        "alt": "Dwell Time Analysis with Computer Vision | Real-Time Stream Processing",
+        "sourceUrl": "https://github.com/SkalskiP/SkalskiP/assets/26109316/a742823d-c158-407d-b30f-063a5d11b4e1",
+        "promptHash": null
       },
       "classification": {
-        "primaryCategoryId": "ai",
+        "primaryCategoryId": "tools",
         "secondaryCategoryIds": [],
         "confidence": 0.7,
         "method": "rules",
         "reasons": [
-          "Matched agent"
+          "Matched tool"
         ],
         "signals": [
-          "agent"
+          "tool"
         ]
       },
       "rank": {
         "globalRank": 3,
         "categoryRank": 3,
         "score": 114
+      }
+    },
+    {
+      "id": "opencv-opencv",
+      "owner": "opencv",
+      "name": "opencv",
+      "url": "https://github.com/opencv/opencv",
+      "avatarUrl": "https://github.com/opencv.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 4,
+        "starsGained": 395
+      },
+      "metadata": {
+        "description": "Open Source Computer Vision Library",
+        "language": "C++",
+        "topics": [],
+        "stars": 88410,
+        "forks": 56613,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "C++"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/opencv/opencv/master/README.md"
+      },
+      "readmeSignals": {
+        "title": null,
+        "summary": "OpenCV: Open Source Computer Vision Library Homepage: Courses: Docs: Q&A forum: previous forum read only: Issue tracking: Additional OpenCV functionality: Donate to OpenCV: Please read the https://github.com/opencv/opencv/wiki/Howtocontribute before starting work on a pull request. One pull request per issue; Choose the right base branch; Include tests and documentation; Clean up \"oops\" commits before submitting; Follow the https://github.com/opencv/opencv/wiki/CodingStyleGuide.",
+        "headings": [
+          "OpenCV: Open Source Computer Vision Library",
+          "Resources",
+          "Contributing",
+          "Additional Resources"
+        ],
+        "commands": [],
+        "keywords": [
+          "opencv: open source computer vision library",
+          "resources",
+          "contributing",
+          "additional resources"
+        ],
+        "score": 80
+      },
+      "visual": {
+        "kind": "agnes_generated",
+        "url": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/b8044bc917c1487a9ff255c1c5eadb41.png",
+        "thumbUrl": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/b8044bc917c1487a9ff255c1c5eadb41.png",
+        "alt": "Generated cover for opencv/opencv",
+        "sourceUrl": null,
+        "promptHash": "sha256:8a2fdf0f9ee7"
+      },
+      "classification": {
+        "primaryCategoryId": "unclassified",
+        "secondaryCategoryIds": [],
+        "confidence": 0.4,
+        "method": "rules",
+        "reasons": [
+          "No taxonomy rule matched with enough confidence"
+        ],
+        "signals": []
+      },
+      "rank": {
+        "globalRank": 4,
+        "categoryRank": 4,
+        "score": 112
       }
     },
     {
@@ -316,15 +393,15 @@
       "homepageUrl": null,
       "source": {
         "primary": "github_trending_html",
-        "sourceRank": 4,
+        "sourceRank": 5,
         "starsGained": 651
       },
       "metadata": {
         "description": "Desktop app to manage markdown knowledge bases",
         "language": "TypeScript",
         "topics": [],
-        "stars": 13684,
-        "forks": 959,
+        "stars": 14018,
+        "forks": 975,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -379,29 +456,113 @@
         "signals": []
       },
       "rank": {
-        "globalRank": 4,
-        "categoryRank": 4,
-        "score": 112
+        "globalRank": 5,
+        "categoryRank": 5,
+        "score": 110
       }
     },
     {
-      "id": "panniantong-agent-reach",
-      "owner": "Panniantong",
-      "name": "Agent-Reach",
-      "url": "https://github.com/Panniantong/Agent-Reach",
-      "avatarUrl": "https://github.com/Panniantong.png",
+      "id": "aaif-goose-goose",
+      "owner": "aaif-goose",
+      "name": "goose",
+      "url": "https://github.com/aaif-goose/goose",
+      "avatarUrl": "https://github.com/aaif-goose.png",
       "homepageUrl": null,
       "source": {
         "primary": "github_trending_html",
-        "sourceRank": 5,
-        "starsGained": 679
+        "sourceRank": 6,
+        "starsGained": 699
       },
       "metadata": {
-        "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+        "description": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM",
+        "language": "Rust",
+        "topics": [],
+        "stars": 48300,
+        "forks": 5084,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Rust"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/aaif-goose/goose/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "goose",
+        "summary": "your native open source AI agent — desktop app, CLI, and API — for code, workflows, and everything in between goose is a general-purpose AI agent that runs on your machine. Not just for code — use it for research, writing, automation, data analysis, or anything you need to get done. A native desktop app for macOS, Linux, and Windows. A full CLI for terminal workflows. An API to embed it anywhere. Built in Rust for performance and portability. goose works with 15+ providers — Anthropic, OpenAI, Google, Ollama, OpenRouter, Azure, Bedrock, and more. Use API keys or your existing Claude, ChatGPT, or Gemini subscriptions via https://goose-docs.ai/docs/guides/acp-providers. Connect to 70+ extensio",
+        "headings": [
+          "goose",
+          "Get started",
+          "Quick links",
+          "Need help?",
+          "a little goose humor 🪿",
+          "goose around with us"
+        ],
+        "commands": [],
+        "keywords": [
+          "ai",
+          "agent",
+          "llm",
+          "goose",
+          "get started",
+          "quick links",
+          "need help?"
+        ],
+        "score": 90
+      },
+      "visual": {
+        "kind": "agnes_generated",
+        "url": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/4c60e2a3692a4a4ba2061abc3770a41a.png",
+        "thumbUrl": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/4c60e2a3692a4a4ba2061abc3770a41a.png",
+        "alt": "Generated cover for aaif-goose/goose",
+        "sourceUrl": null,
+        "promptHash": "sha256:6f03df0a0ee9"
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.9,
+        "method": "rules",
+        "reasons": [
+          "Matched ai",
+          "Matched agent",
+          "Matched llm"
+        ],
+        "signals": [
+          "ai",
+          "agent",
+          "llm"
+        ]
+      },
+      "rank": {
+        "globalRank": 6,
+        "categoryRank": 6,
+        "score": 108
+      }
+    },
+    {
+      "id": "andyyyy64-whichllm",
+      "owner": "Andyyyy64",
+      "name": "whichllm",
+      "url": "https://github.com/Andyyyy64/whichllm",
+      "avatarUrl": "https://github.com/Andyyyy64.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 7,
+        "starsGained": 143
+      },
+      "metadata": {
+        "description": "Find the local LLM that actually runs and performs best on your hardware. Ranked by real, recency-aware benchmarks, not parameter count. One command, run it instantly.",
         "language": "Python",
         "topics": [],
-        "stars": 24438,
-        "forks": 2047,
+        "stars": 3777,
+        "forks": 213,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -413,80 +574,237 @@
         "status": "available",
         "path": "README.md",
         "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/Panniantong/Agent-Reach/main/README.md"
+        "rawUrl": "https://raw.githubusercontent.com/Andyyyy64/whichllm/main/README.md"
       },
       "readmeSignals": {
-        "title": "只预览，不实际删除",
-        "summary": "AI Agent 已经能帮你写代码、改文档、管项目——但你让它去网上找点东西，它就抓瞎了： 📺 \"帮我看看这个 YouTube 教程讲了什么\" → 看不了，拿不到字幕 🐦 \"帮我搜一下推特上大家怎么评价这个产品\" → 搜不了，Twitter API 要付费 📖 \"去 Reddit 上看看有没有人遇到过同样的 bug\" → 403 被封，服务器 IP 被拒 📕 \"帮我看看小红书上这个品的口碑\" → 打不开，必须登录才能看 📺 \"B站上有个技术视频，帮我总结一下\" → 连不上，海外/服务器 IP 被屏蔽 🔍 \"帮我在网上搜一下最新的 LLM 框架对比\" → 没有好用的搜索，要么付费要么质量差 🌐 \"帮我看看这个网页写了啥\" → 抓回来一堆 HTML 标签，根本没法读 📦 \"这个 GitHub 仓库是干嘛的？Issue 里说了什么？\" → 能用，但认证配置很麻烦 📡 \"帮我订阅这几个 RSS 源，有更新告诉我\" → 要自己装库写代码 每个平台都有自己的门槛——要付费的 API、要绕过的封锁、要登录的账号、要清洗的数据。你要一个一个去踩坑、装工具、调配置，光是让 Agent 能读个推特就得折腾半天。 复制给你的 Agent，几分钟后它就能读推特、搜 Reddit、看 YouTube、刷小红书了。",
+        "title": "whichllm",
+        "summary": "Find the best local LLM that actually runs on your hardware. Auto-detects your GPU/CPU/RAM and ranks the top models from HuggingFace that fit your system. Run the recommendation command once, with no project setup. After install, run whichllm directly. For one-off runs, replace whichllm with uvx whichllm@latest. The 32B model fits your card fine — whichllm still ranks the 27B 1, because it scores higher on real benchmarks and is a newer generation. A size-only \"what fits?\" tool would hand you the bigger one. That gap is the whole point of whichllm. Note 3: a MoE model at 102 t/s — speed is ranked on active params, quality on total.",
         "headings": [
-          "为什么需要 Agent Reach？",
-          "✅ 在你用之前，你可能想知道",
-          "支持的平台",
-          "快速上手",
-          "装好就能用",
-          "设计理念",
-          "🔌 每个渠道都是可插拔的",
-          "当前选型"
+          "whichllm",
+          "Quick start",
+          "Common workflows",
+          "Best models for this machine",
+          "Pretend you have a specific GPU",
+          "Compare upgrade candidates",
+          "Find the GPU needed for a model",
+          "Start a chat with a model"
         ],
         "commands": [
-          "pip install agent-reach"
+          "pip install whichllm"
         ],
         "keywords": [
-          "ai",
-          "agent",
-          "为什么需要 agent reach？",
-          "✅ 在你用之前，你可能想知道",
-          "支持的平台",
-          "快速上手"
+          "llm",
+          "whichllm",
+          "quick start",
+          "common workflows",
+          "best models for this machine"
         ],
         "score": 100
       },
       "visual": {
         "kind": "readme_image",
-        "url": "https://raw.githubusercontent.com/Panniantong/Agent-Reach/main/docs/wechat-group-qr.jpg",
-        "thumbUrl": "https://raw.githubusercontent.com/Panniantong/Agent-Reach/main/docs/wechat-group-qr.jpg",
-        "alt": "WeChat QR",
-        "sourceUrl": "https://raw.githubusercontent.com/Panniantong/Agent-Reach/main/docs/wechat-group-qr.jpg",
+        "url": "https://raw.githubusercontent.com/Andyyyy64/whichllm/main/assets/demo.gif",
+        "thumbUrl": "https://raw.githubusercontent.com/Andyyyy64/whichllm/main/assets/demo.gif",
+        "alt": "demo",
+        "sourceUrl": "https://raw.githubusercontent.com/Andyyyy64/whichllm/main/assets/demo.gif",
         "promptHash": null
       },
       "classification": {
         "primaryCategoryId": "ai",
         "secondaryCategoryIds": [],
-        "confidence": 0.8,
+        "confidence": 0.7,
         "method": "rules",
         "reasons": [
-          "Matched ai",
-          "Matched agent"
+          "Matched llm"
         ],
         "signals": [
-          "ai",
-          "agent"
+          "llm"
         ]
       },
       "rank": {
-        "globalRank": 5,
-        "categoryRank": 5,
-        "score": 110
+        "globalRank": 7,
+        "categoryRank": 7,
+        "score": 100.3
       }
     },
     {
-      "id": "danielmiessler-personal-ai-infrastructure",
-      "owner": "danielmiessler",
-      "name": "Personal_AI_Infrastructure",
-      "url": "https://github.com/danielmiessler/Personal_AI_Infrastructure",
-      "avatarUrl": "https://github.com/danielmiessler.png",
+      "id": "tapxworld-chinatextbook",
+      "owner": "TapXWorld",
+      "name": "ChinaTextbook",
+      "url": "https://github.com/TapXWorld/ChinaTextbook",
+      "avatarUrl": "https://github.com/TapXWorld.png",
       "homepageUrl": null,
       "source": {
         "primary": "github_trending_html",
-        "sourceRank": 6,
-        "starsGained": 62
+        "sourceRank": 8,
+        "starsGained": 592
       },
       "metadata": {
-        "description": "Agentic AI Infrastructure for magnifying HUMAN capabilities.",
+        "description": "所有小初高、大学PDF教材。",
+        "language": "Roff",
+        "topics": [],
+        "stars": 73332,
+        "forks": 16418,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": [
+          "Roff"
+        ]
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/TapXWorld/ChinaTextbook/master/README.md"
+      },
+      "readmeSignals": {
+        "title": null,
+        "summary": "项目的由来 虽然国内教育网站已提供免费资源，但大多数普通人获取信息的途径依然受限。有些人利用这一点，在某站上销售这些带有私人水印的资源。为了应对这种情况，我计划将这些资源集中并开源，以促进义务教育的普及和消除地区间的教育贫困。 大学数学 https://github.com/TapXWorld/ChinaTextbook/tree/master/%E5%A4%A7%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%90%8C%E6%B5%8E%E5%A4%A7%E5%AD%A6%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%E7%AC%AC%E4%B8%83%E7%89%88 https://github.com/TapXWorld/ChinaTextbook/tree/master/%E5%A4%A7%E5%AD%A6/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0 https://github.com/TapXWorld/ChinaTextbook/tree/master/%E5%A4%A7%E5%AD%A6/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6 https://github.com/TapXWorld/ChinaTextbook/tree/master/%E5%A4%A7%E5%AD%A6/%E6%A6%82%E7%8E%87%E8%AE%BA",
+        "headings": [
+          "项目的由来",
+          "学习数学",
+          "小学数学",
+          "初中数学",
+          "高中数学",
+          "大学数学",
+          "## 问题：如何合并被拆分的文件？",
+          "示例"
+        ],
+        "commands": [],
+        "keywords": [
+          "项目的由来",
+          "学习数学",
+          "小学数学",
+          "初中数学"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/TapXWorld/ChinaTextbook/master/.cache/support-alipay.png",
+        "thumbUrl": "https://raw.githubusercontent.com/TapXWorld/ChinaTextbook/master/.cache/support-alipay.png",
+        "alt": "TapXWorld/ChinaTextbook",
+        "sourceUrl": "https://raw.githubusercontent.com/TapXWorld/ChinaTextbook/master/.cache/support-alipay.png",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "unclassified",
+        "secondaryCategoryIds": [],
+        "confidence": 0.4,
+        "method": "rules",
+        "reasons": [
+          "No taxonomy rule matched with enough confidence"
+        ],
+        "signals": []
+      },
+      "rank": {
+        "globalRank": 8,
+        "categoryRank": 8,
+        "score": 104
+      }
+    },
+    {
+      "id": "x1xhlol-system-prompts-and-models-of-ai-tools",
+      "owner": "x1xhlol",
+      "name": "system-prompts-and-models-of-ai-tools",
+      "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+      "avatarUrl": "https://github.com/x1xhlol.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 9,
+        "starsGained": 66
+      },
+      "metadata": {
+        "description": "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models",
+        "language": "",
+        "topics": [],
+        "stars": 138993,
+        "forks": 34543,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": []
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/x1xhlol/system-prompts-and-models-of-ai-tools/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "Sponsors",
+        "summary": "If you find this collection valuable and appreciate the effort involved in obtaining and sharing these insights, please consider supporting the project. Cryptocurrency: BTC: bc1q7zldmzjwspnaa48udvelwe6k3fef7xrrhg5625 LTC: LRWgqwEYDwqau1WeiTs6Mjg85NJ7m3fsdQ ETH: 0x3f844B2cc3c4b7242964373fB0A41C4fdffB192A Patreon: https://patreon.com/lucknite Ko-fi: https://ko-fi.com/lucknite Warning: If you're an AI startup, make sure your data is secure. Exposed prompts or AI models can easily become a target for hackers. Important: Interested in securing your AI systems? Check out https://zeroleaks.ai/, a service designed to help startups identify and secure prompt injection and system prompt extraction ris",
+        "headings": [
+          "[Issue Tracking for AI Agents](https://github.com/latitude-dev/latitude-llm)",
+          "Support the Project",
+          "Security Notice for AI Startups",
+          "Sponsors",
+          "Roadmap & Feedback",
+          "Connect With Me",
+          "Star History"
+        ],
+        "commands": [],
+        "keywords": [
+          "ai",
+          "agent",
+          "model",
+          "[issue tracking for ai agents](https://github.com/latitude-dev/latitude-llm)",
+          "support the project",
+          "security notice for ai startups",
+          "sponsors"
+        ],
+        "score": 95
+      },
+      "visual": {
+        "kind": "agnes_generated",
+        "url": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/6d0482b5981d4e1a80418e082f089404.png",
+        "thumbUrl": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/6d0482b5981d4e1a80418e082f089404.png",
+        "alt": "Generated cover for x1xhlol/system-prompts-and-models-of-ai-tools",
+        "sourceUrl": null,
+        "promptHash": "sha256:e73abc8d6035"
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.9,
+        "method": "rules",
+        "reasons": [
+          "Matched ai",
+          "Matched agent",
+          "Matched model"
+        ],
+        "signals": [
+          "ai",
+          "agent",
+          "model"
+        ]
+      },
+      "rank": {
+        "globalRank": 9,
+        "categoryRank": 9,
+        "score": 88.6
+      }
+    },
+    {
+      "id": "yikart-aitoearn",
+      "owner": "yikart",
+      "name": "AiToEarn",
+      "url": "https://github.com/yikart/AiToEarn",
+      "avatarUrl": "https://github.com/yikart.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 10,
+        "starsGained": 786
+      },
+      "metadata": {
+        "description": "Let's use AI to Earn!",
         "language": "TypeScript",
         "topics": [],
-        "stars": 15498,
-        "forks": 2162,
+        "stars": 19644,
+        "forks": 3002,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -498,58 +816,135 @@
         "status": "available",
         "path": "README.md",
         "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/danielmiessler/Personal_AI_Infrastructure/main/README.md"
+        "rawUrl": "https://raw.githubusercontent.com/yikart/AiToEarn/main/README.md"
       },
       "readmeSignals": {
-        "title": "Personal AI Infrastructure",
-        "summary": "-installation Releases/v5.0.0/ Releases/v5.0.0/.claude/PAI/ALGORITHM/v6.3.0.md Releases/v5.0.0/.claude/PAI/PULSE/ https://github.com/danielmiessler/PersonalAIInfrastructure/graphs/contributors Overview: what-pai-is · principles · features Get Started: -installation · Releases/ · Packs/ Resources: -faq · -roadmap · -community · -contributing AI should magnify everyone—not just the top 1%. PAI is a Life Operating System. It captures who you are, what you care about, and where you're trying to go — and then helps you get there using AI that knows you. Three layers stack on top of each other:",
+        "title": "[Aitoearn：OPC（一人公司）的AI内容营销智能体](https://aitoearn.ai)",
+        "summary": "Monetize · Publish · Engage · Create —— 一站式平台。 AiToEarn 通过 AI Agent自动化，帮助 OPC（一人公司）、创作者、品牌与企业在全球主流平台上构建、分发并变现内容。 支持渠道： 抖音、小红书（Rednote）、快手、哔哩哔哩、视频号、TikTok、YouTube、Facebook、Instagram、Threads、Twitter（X）、Pinterest、LinkedIn | 方式 | 适合谁 | 需要部署吗 | | use-web | 所有用户 | ❌ 不需要 | | use-in-openclaw | 龙虾用户 | ❌ 不需要 | | use-in-claude | AI 工具用户 | ❌ 不需要 | | use-docker | 想私有化部署的团队 | ✅ 需要服务器 | | use-source | 开发者 | ✅ 需要开发环境 | 💡 方式 ②③④ 都需要先获取 API Key，请先看 get-api-key。 2026-05-21: https://github.com/yikart/AiToEarn/releases/tag/v2.4.0 — 草稿生成新增支持 HappyHorse 1.0 和 Seedance 2.0，增强视频/图文草稿批量生成、多模型选择、参考图片/视频、目标平台限制与文案提示词；带来全新界面风格，并增强 Twitter/X 探索与互动能力。 2026-04-20: OpenClaw（龙虾）新增 AiToEarn 赚钱支持，可在龙虾中直接接收并执行内容变现任务。 2026-03-2",
         "headings": [
-          "Personal AI Infrastructure",
-          "AI should magnify everyone—not just the top 1%.",
-          "What PAI Is",
-          "Principles",
-          "Humans first, tech second",
-          "A Life OS, not an agent harness",
-          "Ideal State drives everything",
-          "A single Digital Assistant will be everyone's interface to AI"
+          "[Aitoearn：OPC（一人公司）的AI内容营销智能体](https://aitoearn.ai)",
+          "🚀 快速使用 AiToEarn（5 种方式）",
+          "最新动态",
+          "核心功能",
+          "💰 Monetize —— 内容赚钱",
+          "📢 Publish —— 内容发布 Agent",
+          "💬 Engage —— 内容互动 Agent",
+          "🎨 Create —— 内容创作 Agent"
         ],
-        "commands": [],
+        "commands": [
+          "npm install\n\n# 编译 sqlite（better-sqlite3 需要 node-gyp 和本地 Python）"
+        ],
         "keywords": [
           "ai",
-          "agent",
-          "personal ai infrastructure",
-          "ai should magnify everyone—not just the top 1%.",
-          "what pai is",
-          "principles"
+          "[aitoearn：opc（一人公司）的ai内容营销智能体](https://aitoearn.ai)",
+          "🚀 快速使用 aitoearn（5 种方式）",
+          "最新动态",
+          "核心功能"
         ],
         "score": 100
       },
       "visual": {
         "kind": "readme_image",
-        "url": "https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=24&pause=1000&color=60A5FA&center=true&vCenter=true&width=600&lines=Everyone+needs+access+to+the+best+AI.;AI+should+magnify+everyone.;Your+Life+Operating+System.",
-        "thumbUrl": "https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=24&pause=1000&color=60A5FA&center=true&vCenter=true&width=600&lines=Everyone+needs+access+to+the+best+AI.;AI+should+magnify+everyone.;Your+Life+Operating+System.",
-        "alt": "Typing SVG",
-        "sourceUrl": "https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=24&pause=1000&color=60A5FA&center=true&vCenter=true&width=600&lines=Everyone+needs+access+to+the+best+AI.;AI+should+magnify+everyone.;Your+Life+Operating+System.",
+        "url": "https://raw.githubusercontent.com/yikart/AiToEarn/main/presentation/monetize-cn.png",
+        "thumbUrl": "https://raw.githubusercontent.com/yikart/AiToEarn/main/presentation/monetize-cn.png",
+        "alt": "yikart/AiToEarn",
+        "sourceUrl": "https://raw.githubusercontent.com/yikart/AiToEarn/main/presentation/monetize-cn.png",
         "promptHash": null
       },
       "classification": {
         "primaryCategoryId": "ai",
         "secondaryCategoryIds": [],
-        "confidence": 0.8,
+        "confidence": 0.7,
         "method": "rules",
         "reasons": [
-          "Matched ai",
+          "Matched ai"
+        ],
+        "signals": [
+          "ai"
+        ]
+      },
+      "rank": {
+        "globalRank": 10,
+        "categoryRank": 10,
+        "score": 100
+      }
+    },
+    {
+      "id": "phuryn-pm-skills",
+      "owner": "phuryn",
+      "name": "pm-skills",
+      "url": "https://github.com/phuryn/pm-skills",
+      "avatarUrl": "https://github.com/phuryn.png",
+      "homepageUrl": null,
+      "source": {
+        "primary": "github_trending_html",
+        "sourceRank": 11,
+        "starsGained": 164
+      },
+      "metadata": {
+        "description": "PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.",
+        "language": "",
+        "topics": [],
+        "stars": 13132,
+        "forks": 1511,
+        "license": null,
+        "defaultBranch": null,
+        "pushedAt": null,
+        "topLanguages": []
+      },
+      "readmeRef": {
+        "status": "available",
+        "path": "README.md",
+        "sha": null,
+        "rawUrl": "https://raw.githubusercontent.com/phuryn/pm-skills/main/README.md"
+      },
+      "readmeSignals": {
+        "title": "PM Skills Marketplace: The AI Operating System for Better Product Decisions",
+        "summary": "PM Skills Marketplace: The AI Operating System for Better Product Decisions 68 PM skills and 42 chained workflows across 9 plugins. Claude Code, Cowork, and more. From discovery to strategy, execution, launch, growth, and shipping AI-built code. Designed for Claude Code and Cowork. Skills compatible with other AI assistants. New idea? → /discover Need strategic clarity? → /strategy Writing a PRD? → /write-prd Planning a launch? → /plan-launch Defining metrics? → /north-star Generic AI gives you text. PM Skills Marketplace gives you structure. Each skill encodes a proven PM framework — discovery, assumption mapping, prioritization, strategy — and walks you through it step by step. You get the",
+        "headings": [
+          "PM Skills Marketplace: The AI Operating System for Better Product Decisions",
+          "Start Here",
+          "Why PM Skills Marketplace?",
+          "How It Works (Skills, Commands, Plugins)",
+          "Installation",
+          "Claude Cowork (recommended for non-developers)",
+          "Claude Code (CLI)",
+          "Step 1: Add the marketplace"
+        ],
+        "commands": [],
+        "keywords": [
+          "agent",
+          "pm skills marketplace: the ai operating system for better product decisions",
+          "start here",
+          "why pm skills marketplace?",
+          "how it works (skills, commands, plugins)"
+        ],
+        "score": 100
+      },
+      "visual": {
+        "kind": "readme_image",
+        "url": "https://raw.githubusercontent.com/phuryn/pm-skills/main/.docs/images/plugins.png",
+        "thumbUrl": "https://raw.githubusercontent.com/phuryn/pm-skills/main/.docs/images/plugins.png",
+        "alt": "PM Skills marketplace: skills, commands, and all 9 plugins at a glance",
+        "sourceUrl": "https://raw.githubusercontent.com/phuryn/pm-skills/main/.docs/images/plugins.png",
+        "promptHash": null
+      },
+      "classification": {
+        "primaryCategoryId": "ai",
+        "secondaryCategoryIds": [],
+        "confidence": 0.7,
+        "method": "rules",
+        "reasons": [
           "Matched agent"
         ],
         "signals": [
-          "ai",
           "agent"
         ]
       },
       "rank": {
-        "globalRank": 6,
-        "categoryRank": 6,
-        "score": 94.2
+        "globalRank": 11,
+        "categoryRank": 11,
+        "score": 94.4
       }
     },
     {
@@ -561,15 +956,15 @@
       "homepageUrl": null,
       "source": {
         "primary": "github_trending_html",
-        "sourceRank": 7,
+        "sourceRank": 12,
         "starsGained": 308
       },
       "metadata": {
         "description": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing.",
         "language": "JavaScript",
         "topics": [],
-        "stars": 50669,
-        "forks": 10345,
+        "stars": 51056,
+        "forks": 10368,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -631,87 +1026,9 @@
         ]
       },
       "rank": {
-        "globalRank": 7,
-        "categoryRank": 7,
-        "score": 106
-      }
-    },
-    {
-      "id": "phuryn-pm-skills",
-      "owner": "phuryn",
-      "name": "pm-skills",
-      "url": "https://github.com/phuryn/pm-skills",
-      "avatarUrl": "https://github.com/phuryn.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 8,
-        "starsGained": 164
-      },
-      "metadata": {
-        "description": "PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.",
-        "language": "",
-        "topics": [],
-        "stars": 12817,
-        "forks": 1504,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": []
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/phuryn/pm-skills/main/README.md"
-      },
-      "readmeSignals": {
-        "title": "PM Skills Marketplace: The AI Operating System for Better Product Decisions",
-        "summary": "PM Skills Marketplace: The AI Operating System for Better Product Decisions 68 PM skills and 42 chained workflows across 9 plugins. Claude Code, Cowork, and more. From discovery to strategy, execution, launch, growth, and shipping AI-built code. Designed for Claude Code and Cowork. Skills compatible with other AI assistants. New idea? → /discover Need strategic clarity? → /strategy Writing a PRD? → /write-prd Planning a launch? → /plan-launch Defining metrics? → /north-star Generic AI gives you text. PM Skills Marketplace gives you structure. Each skill encodes a proven PM framework — discovery, assumption mapping, prioritization, strategy — and walks you through it step by step. You get the",
-        "headings": [
-          "PM Skills Marketplace: The AI Operating System for Better Product Decisions",
-          "Start Here",
-          "Why PM Skills Marketplace?",
-          "How It Works (Skills, Commands, Plugins)",
-          "Installation",
-          "Claude Cowork (recommended for non-developers)",
-          "Claude Code (CLI)",
-          "Step 1: Add the marketplace"
-        ],
-        "commands": [],
-        "keywords": [
-          "agent",
-          "pm skills marketplace: the ai operating system for better product decisions",
-          "start here",
-          "why pm skills marketplace?",
-          "how it works (skills, commands, plugins)"
-        ],
-        "score": 100
-      },
-      "visual": {
-        "kind": "readme_image",
-        "url": "https://raw.githubusercontent.com/phuryn/pm-skills/main/.docs/images/plugins.png",
-        "thumbUrl": "https://raw.githubusercontent.com/phuryn/pm-skills/main/.docs/images/plugins.png",
-        "alt": "PM Skills marketplace: skills, commands, and all 9 plugins at a glance",
-        "sourceUrl": "https://raw.githubusercontent.com/phuryn/pm-skills/main/.docs/images/plugins.png",
-        "promptHash": null
-      },
-      "classification": {
-        "primaryCategoryId": "ai",
-        "secondaryCategoryIds": [],
-        "confidence": 0.7,
-        "method": "rules",
-        "reasons": [
-          "Matched agent"
-        ],
-        "signals": [
-          "agent"
-        ]
-      },
-      "rank": {
-        "globalRank": 8,
-        "categoryRank": 8,
-        "score": 100.4
+        "globalRank": 12,
+        "categoryRank": 12,
+        "score": 96
       }
     },
     {
@@ -723,15 +1040,15 @@
       "homepageUrl": null,
       "source": {
         "primary": "github_trending_html",
-        "sourceRank": 9,
+        "sourceRank": 13,
         "starsGained": 296
       },
       "metadata": {
         "description": "OpenAI Plugins",
         "language": "JavaScript",
         "topics": [],
-        "stars": 2355,
-        "forks": 291,
+        "stars": 2460,
+        "forks": 296,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -760,8 +1077,8 @@
       },
       "visual": {
         "kind": "agnes_generated",
-        "url": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/7aa38b423a684c8691eaa0e480e5cc17.png",
-        "thumbUrl": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/7aa38b423a684c8691eaa0e480e5cc17.png",
+        "url": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/b67a30bd510c409ca3e63098c66e4da3.png",
+        "thumbUrl": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/b67a30bd510c409ca3e63098c66e4da3.png",
         "alt": "Generated cover for openai/plugins",
         "sourceUrl": null,
         "promptHash": "sha256:9c6fcc3b71a3"
@@ -779,29 +1096,29 @@
         ]
       },
       "rank": {
-        "globalRank": 9,
-        "categoryRank": 9,
-        "score": 102
+        "globalRank": 13,
+        "categoryRank": 13,
+        "score": 94
       }
     },
     {
-      "id": "andyyyy64-whichllm",
-      "owner": "Andyyyy64",
-      "name": "whichllm",
-      "url": "https://github.com/Andyyyy64/whichllm",
-      "avatarUrl": "https://github.com/Andyyyy64.png",
+      "id": "maziyarpanahi-openmed",
+      "owner": "maziyarpanahi",
+      "name": "openmed",
+      "url": "https://github.com/maziyarpanahi/openmed",
+      "avatarUrl": "https://github.com/maziyarpanahi.png",
       "homepageUrl": null,
       "source": {
         "primary": "github_trending_html",
-        "sourceRank": 10,
-        "starsGained": 143
+        "sourceRank": 14,
+        "starsGained": 165
       },
       "metadata": {
-        "description": "Find the local LLM that actually runs and performs best on your hardware. Ranked by real, recency-aware benchmarks, not parameter count. One command, run it instantly.",
+        "description": "open-source healthcare ai",
         "language": "Python",
         "topics": [],
-        "stars": 3558,
-        "forks": 204,
+        "stars": 1548,
+        "forks": 193,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -813,124 +1130,44 @@
         "status": "available",
         "path": "README.md",
         "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/Andyyyy64/whichllm/main/README.md"
+        "rawUrl": "https://raw.githubusercontent.com/maziyarpanahi/openmed/master/README.md"
       },
       "readmeSignals": {
-        "title": "whichllm",
-        "summary": "Find the best local LLM that actually runs on your hardware. Auto-detects your GPU/CPU/RAM and ranks the top models from HuggingFace that fit your system. Run the recommendation command once, with no project setup. After install, run whichllm directly. For one-off runs, replace whichllm with uvx whichllm@latest. The 32B model fits your card fine — whichllm still ranks the 27B 1, because it scores higher on real benchmarks and is a newer generation. A size-only \"what fits?\" tool would hand you the bigger one. That gap is the whole point of whichllm. Note 3: a MoE model at 102 t/s — speed is ranked on active params, quality on total.",
+        "title": "DISEASE      chronic myeloid leukemia     0.98",
+        "summary": "Local-first healthcare AI that never leaves the device Turn clinical text into structured insight with one line of code. Entity extraction, PII de-identification, and 1,000+ specialized medical models that run entirely on your own hardware — from a one-liner in Python to a native Swift app on iPhone, powered by Apple MLX. No cloud. No vendor lock-in. No patient data leaving your network. 1,000+ models &nbsp;·&nbsp; 12 languages &nbsp;·&nbsp; 247 PII checkpoints &nbsp;·&nbsp; 100% on-device &nbsp;·&nbsp; Apache-2.0 English · 简体中文 · Español · Français · Deutsch · Italiano · Português · Nederlands · العربية · हिन्दी · తెలుగు · 日本語 · Türkçe · فارسی",
         "headings": [
-          "whichllm",
-          "Quick start",
-          "Common workflows",
-          "Best models for this machine",
-          "Pretend you have a specific GPU",
-          "Compare upgrade candidates",
-          "Find the GPU needed for a model",
-          "Start a chat with a model"
+          "See it in action",
+          "30-second example",
+          "DISEASE      chronic myeloid leukemia     0.98",
+          "DRUG         imatinib                     0.95",
+          "Why OpenMed?",
+          "On-device on Apple — Swift, MLX & iOS",
+          "How it works",
+          "Quick start"
         ],
         "commands": [
-          "pip install whichllm"
+          "pip install \"openmed[mlx]\"",
+          "pip install \"openmed[hf]\"",
+          "pip install \"openmed[hf,service]\"",
+          "pip install \"openmed[mlx]\"",
+          "pip install \"openmed[hf,service]\""
         ],
         "keywords": [
-          "llm",
-          "whichllm",
-          "quick start",
-          "common workflows",
-          "best models for this machine"
+          "ai",
+          "see it in action",
+          "30-second example",
+          "disease      chronic myeloid leukemia     0.98",
+          "drug         imatinib                     0.95"
         ],
         "score": 100
       },
       "visual": {
         "kind": "readme_image",
-        "url": "https://raw.githubusercontent.com/Andyyyy64/whichllm/main/assets/demo.gif",
-        "thumbUrl": "https://raw.githubusercontent.com/Andyyyy64/whichllm/main/assets/demo.gif",
-        "alt": "demo",
-        "sourceUrl": "https://raw.githubusercontent.com/Andyyyy64/whichllm/main/assets/demo.gif",
+        "url": "https://raw.githubusercontent.com/maziyarpanahi/openmed/master/docs/brand/openmed-mascot-lockup.png",
+        "thumbUrl": "https://raw.githubusercontent.com/maziyarpanahi/openmed/master/docs/brand/openmed-mascot-lockup.png",
+        "alt": "OpenMed — local-first healthcare AI",
+        "sourceUrl": "https://raw.githubusercontent.com/maziyarpanahi/openmed/master/docs/brand/openmed-mascot-lockup.png",
         "promptHash": null
-      },
-      "classification": {
-        "primaryCategoryId": "ai",
-        "secondaryCategoryIds": [],
-        "confidence": 0.7,
-        "method": "rules",
-        "reasons": [
-          "Matched llm"
-        ],
-        "signals": [
-          "llm"
-        ]
-      },
-      "rank": {
-        "globalRank": 10,
-        "categoryRank": 10,
-        "score": 94.3
-      }
-    },
-    {
-      "id": "mempalace-mempalace",
-      "owner": "MemPalace",
-      "name": "mempalace",
-      "url": "https://github.com/MemPalace/mempalace",
-      "avatarUrl": "https://github.com/MemPalace.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 11,
-        "starsGained": 170
-      },
-      "metadata": {
-        "description": "The best-benchmarked open-source AI memory system. And it's free.",
-        "language": "Python",
-        "topics": [],
-        "stars": 55007,
-        "forks": 7160,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "Python"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/MemPalace/mempalace/main/README.md"
-      },
-      "readmeSignals": {
-        "title": "MemPalace",
-        "summary": "Local-first AI memory. Verbatim storage, pluggable backend, 96.6% R@5 raw on LongMemEval — zero API calls. MemPalace stores your conversation history as verbatim text and retrieves it with semantic search. It does not summarize, extract, or paraphrase. The index is structured — people and projects become wings, topics become rooms, and original content lives in drawers — so searches can be scoped rather than run against a flat corpus. The retrieval layer is pluggable. The current default is ChromaDB; the interface is defined in mempalace/backends/base.py and alternative backends can be dropped in without touching the rest of the system.",
-        "headings": [
-          "MemPalace",
-          "What it is",
-          "Install",
-          "Docker",
-          "Build the image (CPU; bundles the `extract` + `spellcheck` extras)",
-          "MCP server over stdio — note the `-i` flag (JSON-RPC needs stdin)",
-          "Run any CLI command instead (mount the host directory you want to mine)",
-          "Storage backends"
-        ],
-        "commands": [
-          "pip install mempalace",
-          "pip install mempalace[pgvector]",
-          "pip install -e \".[dev]\""
-        ],
-        "keywords": [
-          "ai",
-          "mempalace",
-          "what it is",
-          "install",
-          "docker"
-        ],
-        "score": 100
-      },
-      "visual": {
-        "kind": "agnes_generated",
-        "url": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/5f9f72dd910b4ab68f51dbaa544765a9.png",
-        "thumbUrl": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/5f9f72dd910b4ab68f51dbaa544765a9.png",
-        "alt": "Generated cover for MemPalace/mempalace",
-        "sourceUrl": null,
-        "promptHash": "sha256:a0eb7430204a"
       },
       "classification": {
         "primaryCategoryId": "ai",
@@ -945,29 +1182,29 @@
         ]
       },
       "rank": {
-        "globalRank": 11,
-        "categoryRank": 11,
-        "score": 95
+        "globalRank": 14,
+        "categoryRank": 14,
+        "score": 88.5
       }
     },
     {
-      "id": "roboflow-supervision",
-      "owner": "roboflow",
-      "name": "supervision",
-      "url": "https://github.com/roboflow/supervision",
-      "avatarUrl": "https://github.com/roboflow.png",
+      "id": "francescopace-espectre",
+      "owner": "francescopace",
+      "name": "espectre",
+      "url": "https://github.com/francescopace/espectre",
+      "avatarUrl": "https://github.com/francescopace.png",
       "homepageUrl": null,
       "source": {
         "primary": "github_trending_html",
-        "sourceRank": 12,
-        "starsGained": 1288
+        "sourceRank": 15,
+        "starsGained": 112
       },
       "metadata": {
-        "description": "We write your reusable computer vision tools. 💜",
+        "description": "🛜 ESPectre 👻 - Motion detection system based on Wi-Fi spectre analysis (CSI), with Home Assistant integration.",
         "language": "Python",
         "topics": [],
-        "stars": 42431,
-        "forks": 3790,
+        "stars": 7980,
+        "forks": 623,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
@@ -979,198 +1216,36 @@
         "status": "available",
         "path": "README.md",
         "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/roboflow/supervision/main/README.md"
+        "rawUrl": "https://raw.githubusercontent.com/francescopace/espectre/main/README.md"
       },
       "readmeSignals": {
-        "title": "5",
-        "summary": "We write your reusable computer vision tools. Whether you need to load your dataset from your hard drive, draw detections on an image or video, or count how many detections are in a zone. You can count on us! 🤝 Pip install the supervision package in a https://www.python.org/ environment. Read more about conda, mamba, and installing from source in our https://roboflow.github.io/supervision/. Supervision was designed to be model agnostic. Just plug in any classification, detection, or segmentation model. For your convenience, we have created https://supervision.roboflow.com/latest/detection/core/detections for the most popular libraries like Ultralytics, Transformers, or MMDetection.",
+        "title": "🛜 ESPectre 👻",
+        "summary": "Motion detection system based on Wi-Fi spectre analysis CSI, with native Home Assistant integration via ESPHome. in-3-points what-you-need quick-start how-it-works-simple-version what-you-can-do-with-it where-to-place-the-sensor system-architecture faq-for-beginners security-and-privacy technical-deep-dive two-platform-strategy future-evolution documentation media related-projects acknowledgments license author 1. What it does: Detects movement using Wi-Fi no cameras, no microphones 2. What you need: A ~€10 ESP32 device S3 and C6 recommended, other variants supported 3. Setup time: 10-15 minutes",
         "headings": [
-          "👋 hello",
-          "💻 install",
-          "🔥 quickstart",
-          "models",
-          "5",
-          "annotators",
-          "datasets",
-          "🎬 tutorials"
-        ],
-        "commands": [
-          "pip install supervision"
-        ],
-        "keywords": [
-          "tool",
-          "👋 hello",
-          "💻 install",
-          "🔥 quickstart",
-          "models"
-        ],
-        "score": 100
-      },
-      "visual": {
-        "kind": "readme_image",
-        "url": "https://github.com/SkalskiP/SkalskiP/assets/26109316/a742823d-c158-407d-b30f-063a5d11b4e1",
-        "thumbUrl": "https://github.com/SkalskiP/SkalskiP/assets/26109316/a742823d-c158-407d-b30f-063a5d11b4e1",
-        "alt": "Dwell Time Analysis with Computer Vision | Real-Time Stream Processing",
-        "sourceUrl": "https://github.com/SkalskiP/SkalskiP/assets/26109316/a742823d-c158-407d-b30f-063a5d11b4e1",
-        "promptHash": null
-      },
-      "classification": {
-        "primaryCategoryId": "tools",
-        "secondaryCategoryIds": [],
-        "confidence": 0.7,
-        "method": "rules",
-        "reasons": [
-          "Matched tool"
-        ],
-        "signals": [
-          "tool"
-        ]
-      },
-      "rank": {
-        "globalRank": 12,
-        "categoryRank": 12,
-        "score": 96
-      }
-    },
-    {
-      "id": "copilotkit-copilotkit",
-      "owner": "CopilotKit",
-      "name": "CopilotKit",
-      "url": "https://github.com/CopilotKit/CopilotKit",
-      "avatarUrl": "https://github.com/CopilotKit.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 13,
-        "starsGained": 378
-      },
-      "metadata": {
-        "description": "The Frontend Stack for Agents & Generative UI. React, Angular, Mobile, Slack, and more. Makers of the AG-UI Protocol",
-        "language": "TypeScript",
-        "topics": [],
-        "stars": 34208,
-        "forks": 4309,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "TypeScript"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/CopilotKit/CopilotKit/main/README.md"
-      },
-      "readmeSignals": {
-        "title": "CopilotKit",
-        "summary": "Generative UI, shared state, and human-in-the-loop workflows for React, Angular, Vue, React Native — and beyond the browser. CopilotKit is a best-in-class SDK for building full-stack agentic applications, Generative UI, and chat applications. What started as a React library is now a multi-platform agentic framework: the same agent can power your web app, your mobile app, and your team's Slack workspace. We are the company behind the https://github.com/ag-ui-protocol/ag-ui - adopted by Google, LangChain, AWS, Microsoft, Mastra, PydanticAI, and more! Chat UI – A fully customizable chat interface that supports message streaming, tool calls, and agent responses. Backend Tool Rendering – Enables ",
-        "headings": [
-          "CopilotKit",
-          "What is CopilotKit",
-          "🧩 Works With Your Stack",
-          "💬 Beyond the Browser: Slack & Microsoft Teams (Discord, Google Chat coming soon...)",
-          "🧠 Self-Learning Agents",
-          "Quick Start",
-          "New projects:",
-          "Existing projects:"
+          "🛜 ESPectre 👻",
+          "Table of Contents",
+          "In 3 Points",
+          "What You Need",
+          "Hardware",
+          "Software (All Free)",
+          "Required Skills",
+          "Quick Start"
         ],
         "commands": [],
         "keywords": [
-          "agent",
-          "copilotkit",
-          "what is copilotkit",
-          "🧩 works with your stack",
-          "💬 beyond the browser: slack & microsoft teams (discord, google chat coming soon...)"
+          "🛜 espectre 👻",
+          "table of contents",
+          "in 3 points",
+          "what you need"
         ],
         "score": 100
       },
       "visual": {
         "kind": "readme_image",
-        "url": "https://github.com/user-attachments/assets/aeb56c28-c766-44a5-810c-5d999bb6a32a",
-        "thumbUrl": "https://github.com/user-attachments/assets/aeb56c28-c766-44a5-810c-5d999bb6a32a",
-        "alt": "CopilotKit",
-        "sourceUrl": "https://github.com/user-attachments/assets/aeb56c28-c766-44a5-810c-5d999bb6a32a",
-        "promptHash": null
-      },
-      "classification": {
-        "primaryCategoryId": "ai",
-        "secondaryCategoryIds": [],
-        "confidence": 0.7,
-        "method": "rules",
-        "reasons": [
-          "Matched agent"
-        ],
-        "signals": [
-          "agent"
-        ]
-      },
-      "rank": {
-        "globalRank": 13,
-        "categoryRank": 13,
-        "score": 94
-      }
-    },
-    {
-      "id": "tapxworld-chinatextbook",
-      "owner": "TapXWorld",
-      "name": "ChinaTextbook",
-      "url": "https://github.com/TapXWorld/ChinaTextbook",
-      "avatarUrl": "https://github.com/TapXWorld.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 14,
-        "starsGained": 592
-      },
-      "metadata": {
-        "description": "所有小初高、大学PDF教材。",
-        "language": "Roff",
-        "topics": [],
-        "stars": 73081,
-        "forks": 16354,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "Roff"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/TapXWorld/ChinaTextbook/master/README.md"
-      },
-      "readmeSignals": {
-        "title": null,
-        "summary": "项目的由来 虽然国内教育网站已提供免费资源，但大多数普通人获取信息的途径依然受限。有些人利用这一点，在某站上销售这些带有私人水印的资源。为了应对这种情况，我计划将这些资源集中并开源，以促进义务教育的普及和消除地区间的教育贫困。 大学数学 https://github.com/TapXWorld/ChinaTextbook/tree/master/%E5%A4%A7%E5%AD%A6/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/%E5%90%8C%E6%B5%8E%E5%A4%A7%E5%AD%A6%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%E7%AC%AC%E4%B8%83%E7%89%88 https://github.com/TapXWorld/ChinaTextbook/tree/master/%E5%A4%A7%E5%AD%A6/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0 https://github.com/TapXWorld/ChinaTextbook/tree/master/%E5%A4%A7%E5%AD%A6/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6 https://github.com/TapXWorld/ChinaTextbook/tree/master/%E5%A4%A7%E5%AD%A6/%E6%A6%82%E7%8E%87%E8%AE%BA",
-        "headings": [
-          "项目的由来",
-          "学习数学",
-          "小学数学",
-          "初中数学",
-          "高中数学",
-          "大学数学",
-          "## 问题：如何合并被拆分的文件？",
-          "示例"
-        ],
-        "commands": [],
-        "keywords": [
-          "项目的由来",
-          "学习数学",
-          "小学数学",
-          "初中数学"
-        ],
-        "score": 100
-      },
-      "visual": {
-        "kind": "readme_image",
-        "url": "https://raw.githubusercontent.com/TapXWorld/ChinaTextbook/master/.cache/support-alipay.png",
-        "thumbUrl": "https://raw.githubusercontent.com/TapXWorld/ChinaTextbook/master/.cache/support-alipay.png",
-        "alt": "TapXWorld/ChinaTextbook",
-        "sourceUrl": "https://raw.githubusercontent.com/TapXWorld/ChinaTextbook/master/.cache/support-alipay.png",
+        "url": "https://raw.githubusercontent.com/francescopace/espectre/main/images/home_lab.jpg",
+        "thumbUrl": "https://raw.githubusercontent.com/francescopace/espectre/main/images/home_lab.jpg",
+        "alt": "3 x ESP32-S3 DevKit bundle with external antennas",
+        "sourceUrl": "https://raw.githubusercontent.com/francescopace/espectre/main/images/home_lab.jpg",
         "promptHash": null
       },
       "classification": {
@@ -1184,170 +1259,86 @@
         "signals": []
       },
       "rank": {
-        "globalRank": 14,
-        "categoryRank": 14,
-        "score": 92
-      }
-    },
-    {
-      "id": "luongnv89-claude-howto",
-      "owner": "luongnv89",
-      "name": "claude-howto",
-      "url": "https://github.com/luongnv89/claude-howto",
-      "avatarUrl": "https://github.com/luongnv89.png",
-      "homepageUrl": null,
-      "source": {
-        "primary": "github_trending_html",
-        "sourceRank": 15,
-        "starsGained": 312
-      },
-      "metadata": {
-        "description": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
-        "language": "Python",
-        "topics": [],
-        "stars": 35885,
-        "forks": 4353,
-        "license": null,
-        "defaultBranch": null,
-        "pushedAt": null,
-        "topLanguages": [
-          "Python"
-        ]
-      },
-      "readmeRef": {
-        "status": "available",
-        "path": "README.md",
-        "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/luongnv89/claude-howto/main/README.md"
-      },
-      "readmeSignals": {
-        "title": "Master Claude Code in a Weekend",
-        "summary": "🌐 Language / Ngôn ngữ / 语言 / Мова: README.md | vi/README.md | zh/README.md | uk/README.md | ja/README.md Go from typing claude to orchestrating agents, hooks, skills, and MCP servers — with visual tutorials, copy-paste templates, and a guided learning path. get-started-in-15-minutes | not-sure-where-to-start | CATALOG.md the-problem how-claude-how-to-fixes-this how-it-works not-sure-where-to-start get-started-in-15-minutes what-can-you-build-with-this faq contributing license You installed Claude Code. You ran a few prompts. Now what? The official docs describe features — but don't show you how to combine them. You know slash commands exist, but not how to chain them with hooks, memory, and",
-        "headings": [
-          "Master Claude Code in a Weekend",
-          "Table of Contents",
-          "The Problem",
-          "How Claude How To Fixes This",
-          "What you get:",
-          "How It Works",
-          "1. Find your level",
-          "2. Follow the guided path"
-        ],
-        "commands": [
-          "npm install -g @anthropic-ai/claude-code",
-          "pip install -r requirements-dev.txt"
-        ],
-        "keywords": [
-          "agent",
-          "master claude code in a weekend",
-          "table of contents",
-          "the problem",
-          "how claude how to fixes this"
-        ],
-        "score": 100
-      },
-      "visual": {
-        "kind": "agnes_generated",
-        "url": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/84b2cbf12c1b4f03aef41e1c30d5db02.png",
-        "thumbUrl": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/84b2cbf12c1b4f03aef41e1c30d5db02.png",
-        "alt": "Generated cover for luongnv89/claude-howto",
-        "sourceUrl": null,
-        "promptHash": "sha256:2e7537c72fb3"
-      },
-      "classification": {
-        "primaryCategoryId": "ai",
-        "secondaryCategoryIds": [],
-        "confidence": 0.7,
-        "method": "rules",
-        "reasons": [
-          "Matched agent"
-        ],
-        "signals": [
-          "agent"
-        ]
-      },
-      "rank": {
         "globalRank": 15,
         "categoryRank": 15,
-        "score": 90
+        "score": 81.2
       }
     },
     {
-      "id": "aaif-goose-goose",
-      "owner": "aaif-goose",
-      "name": "goose",
-      "url": "https://github.com/aaif-goose/goose",
-      "avatarUrl": "https://github.com/aaif-goose.png",
+      "id": "addyosmani-agent-skills",
+      "owner": "addyosmani",
+      "name": "agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "avatarUrl": "https://github.com/addyosmani.png",
       "homepageUrl": null,
       "source": {
         "primary": "github_trending_html",
         "sourceRank": 16,
-        "starsGained": 699
+        "starsGained": 348
       },
       "metadata": {
-        "description": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM",
-        "language": "Rust",
+        "description": "Production-grade engineering skills for AI coding agents.",
+        "language": "Shell",
         "topics": [],
-        "stars": 48162,
-        "forks": 5072,
+        "stars": 49473,
+        "forks": 5525,
         "license": null,
         "defaultBranch": null,
         "pushedAt": null,
         "topLanguages": [
-          "Rust"
+          "Shell"
         ]
       },
       "readmeRef": {
         "status": "available",
         "path": "README.md",
         "sha": null,
-        "rawUrl": "https://raw.githubusercontent.com/aaif-goose/goose/main/README.md"
+        "rawUrl": "https://raw.githubusercontent.com/addyosmani/agent-skills/main/README.md"
       },
       "readmeSignals": {
-        "title": "goose",
-        "summary": "your native open source AI agent — desktop app, CLI, and API — for code, workflows, and everything in between goose is a general-purpose AI agent that runs on your machine. Not just for code — use it for research, writing, automation, data analysis, or anything you need to get done. A native desktop app for macOS, Linux, and Windows. A full CLI for terminal workflows. An API to embed it anywhere. Built in Rust for performance and portability. goose works with 15+ providers — Anthropic, OpenAI, Google, Ollama, OpenRouter, Azure, Bedrock, and more. Use API keys or your existing Claude, ChatGPT, or Gemini subscriptions via https://goose-docs.ai/docs/guides/acp-providers. Connect to 70+ extensio",
+        "title": "Agent Skills",
+        "summary": "Production-grade engineering skills for AI coding agents. Skills encode the workflows, quality gates, and best practices that senior engineers use when building software. These ones are packaged so AI agents follow them consistently across every phase of development. 7 slash commands that map to the development lifecycle. Each one activates the right skills automatically. | What you're doing | Command | Key principle | | Define what to build | /spec | Spec before code | | Plan how to build it | /plan | Small, atomic tasks | | Build incrementally | /build | One slice at a time | | Prove it works | /test | Tests are proof | | Review before merge | /review | Improve code health | | Simplify the",
         "headings": [
-          "goose",
-          "Get started",
-          "Quick links",
-          "Need help?",
-          "a little goose humor 🪿",
-          "goose around with us"
+          "Agent Skills",
+          "Commands",
+          "Quick Start",
+          "All 23 Skills",
+          "Meta - Discover which skill applies",
+          "Define - Clarify what to build",
+          "Plan - Break it down",
+          "Build - Write the code"
         ],
         "commands": [],
         "keywords": [
           "ai",
           "agent",
-          "llm",
-          "goose",
-          "get started",
-          "quick links",
-          "need help?"
+          "agent skills",
+          "commands",
+          "quick start",
+          "all 23 skills"
         ],
-        "score": 90
+        "score": 100
       },
       "visual": {
-        "kind": "agnes_generated",
-        "url": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/8cdd76d2832c499abced279567ea23ea.png",
-        "thumbUrl": "https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/8cdd76d2832c499abced279567ea23ea.png",
-        "alt": "Generated cover for aaif-goose/goose",
-        "sourceUrl": null,
-        "promptHash": "sha256:6f03df0a0ee9"
+        "kind": "readme_image",
+        "url": "https://addyosmani.com/assets/images/addys-agent-skills.jpg",
+        "thumbUrl": "https://addyosmani.com/assets/images/addys-agent-skills.jpg",
+        "alt": "Addy's Agent Skills",
+        "sourceUrl": "https://addyosmani.com/assets/images/addys-agent-skills.jpg",
+        "promptHash": null
       },
       "classification": {
         "primaryCategoryId": "ai",
         "secondaryCategoryIds": [],
-        "confidence": 0.9,
+        "confidence": 0.8,
         "method": "rules",
         "reasons": [
           "Matched ai",
-          "Matched agent",
-          "Matched llm"
+          "Matched agent"
         ],
         "signals": [
           "ai",
-          "agent",
-          "llm"
+          "agent"
         ]
       },
       "rank": {
@@ -1365,17 +1356,15 @@
       "categoryId": "ai",
       "repoIds": [
         "mvanhorn-last30days-skill",
-        "google-skills",
-        "panniantong-agent-reach",
-        "santifer-career-ops",
-        "openai-plugins",
-        "phuryn-pm-skills",
-        "mempalace-mempalace",
+        "aaif-goose-goose",
         "andyyyy64-whichllm",
-        "danielmiessler-personal-ai-infrastructure",
-        "copilotkit-copilotkit",
-        "luongnv89-claude-howto",
-        "aaif-goose-goose"
+        "yikart-aitoearn",
+        "santifer-career-ops",
+        "phuryn-pm-skills",
+        "openai-plugins",
+        "x1xhlol-system-prompts-and-models-of-ai-tools",
+        "maziyarpanahi-openmed",
+        "addyosmani-agent-skills"
       ],
       "sort": "score"
     },
@@ -1405,8 +1394,10 @@
       "label": "Needs Review",
       "categoryId": "unclassified",
       "repoIds": [
+        "opencv-opencv",
         "refactoringhq-tolaria",
-        "tapxworld-chinatextbook"
+        "tapxworld-chinatextbook",
+        "francescopace-espectre"
       ],
       "sort": "score"
     }
@@ -1415,7 +1406,7 @@
     "status": "ok",
     "candidateCount": 16,
     "enrichedRepoCount": 16,
-    "unclassifiedRepoCount": 2,
+    "unclassifiedRepoCount": 4,
     "warnings": []
   }
 }
