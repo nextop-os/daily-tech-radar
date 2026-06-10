@@ -2,7 +2,7 @@
   "schemaVersion": "daily-tech-radar.index.v1",
   "source": "producthunt",
   "locale": "en-US",
-  "latestDate": "2026-06-08",
+  "latestDate": "2026-06-09",
   "dates": [
     "2026-05-31",
     "2026-06-01",
@@ -12,7 +12,8 @@
     "2026-06-05",
     "2026-06-06",
     "2026-06-07",
-    "2026-06-08"
+    "2026-06-08",
+    "2026-06-09"
   ],
-  "generatedAt": "2026-06-09T11:32:52.131Z"
+  "generatedAt": "2026-06-10T04:17:01.270Z"
 }
